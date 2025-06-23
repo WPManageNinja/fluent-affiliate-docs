@@ -1,0 +1,6 @@
+/.vitepress/cache
+*.py
+*.sh
+guide/.DS_Store
+/node_modules
+fluentaffiliate.WordPress.2025-06-23.xml
