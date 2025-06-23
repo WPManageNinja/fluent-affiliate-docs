@@ -2,27 +2,32 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'FluentAffiliate Documentation',
+  title: ' ',
   description: 'Complete documentation for FluentAffiliate WordPress plugin',
   lang: 'en-US',
   lastUpdated: true,
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/../guide/public/images/brand/FluentAffiliate-Logo.webp' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+  
 
   themeConfig: {
-    logo: '/logo.png',
-    
+    logo: {
+      dark: '/../guide/public/images/brand/FluentAffiliate-Logo.webp',
+      light: '/../guide/public/images/brand/FluentAffiliate-Logo.webp',
+    },
+  
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/getting-started/what-is-fluentaffiliate' },
       { text: 'Changelog', link: '/guide/changelog/changelog' }
     ],
+    outline: [2, 3],
 
     sidebar: {
       '/guide/': [
@@ -85,10 +90,10 @@ export default defineConfig({
         },
         {
           text: 'Changelog',
-          items: [
+        items: [
             { text: 'Release Notes', link: '/guide/changelog/changelog' }
-          ]
-        }
+        ]
+      }
       ]
     },
 
@@ -98,7 +103,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GPL License.',
-      copyright: 'Copyright © 2023-present FluentAffiliate'
+      copyright: 'Copyright © 2025-present FluentAffiliate'
     },
 
     search: {

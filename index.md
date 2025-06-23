@@ -7,8 +7,11 @@ hero:
   text: "WordPress Affiliate Management Plugin"
   tagline: Powerful, flexible, and easy-to-use affiliate management solution for WordPress
   image:
-    src: /logo.png
+    src: /guide/public/images/brand/FluentAffiliate-Plugin-Dashboard.webp
     alt: FluentAffiliate
+    style:
+      width: '100%'
+      max-width: '800px'
   actions:
     - theme: brand
       text: Get Started
