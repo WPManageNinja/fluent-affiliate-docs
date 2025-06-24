@@ -91,4 +91,4 @@ Double-check the main domain URL, make sure both sites use HTTPS, and REST API i
 **Affiliate Data Missing from Connected Domains**  
 Verify the connection status, test a referral, and make sure affiliate links use the correct domain format.
 
-If you have any more questions, need assistance, or have any issues, feel free to contact our [support team](https://wpmanageninja.com/support-tickets/).
+

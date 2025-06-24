@@ -21,4 +21,4 @@ All referrals are listed in a table format, making it super simple to scroll thr
 
 Knowing which promotions are bringing in referrals helps affiliates fine tune their strategy. They can see what's working, track progress, and plan their next steps to increase conversions.
 
-If you have any questions, concerns, or suggestions about the Referrals page or anything else, please don't hesitate to reach out to our [Support Team](https://wpmanageninja.com/support-tickets/). We're always here to help!
+

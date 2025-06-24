@@ -51,4 +51,4 @@ Here are solutions to common issues you might encounter:
 
 And that's it! This is an easy process how to integrate EasyCart with FluentAffiliate and start earning commissions.
 
-If you have any more questions, need assistance, or run into any issues, please feel free to contact our [**support team**](https://wpmanageninja.com/support-tickets/).
+

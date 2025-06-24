@@ -26,5 +26,3 @@ If you prefer not to receive these updates, just uncheck the box.
 ![User Portal Settings](/guide/public/images/affiliate-portal/profile-settings/profile-settings-page.webp)
 
 Once you're done, hit the **Save** button to apply your updates.
-
-If you ever need help, feel free to reach out to the [support team](https://wpmanageninja.com/support-tickets/).

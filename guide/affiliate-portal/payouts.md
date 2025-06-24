@@ -15,4 +15,3 @@ This section shows the list of all payouts that have been made to your account. 
 
 All of this helps you quickly understand how much you've earned, what's been paid out, and what's still pending.
 
-That's how you can keep track of your affiliate income using the FluentAffiliate user portal. If you ever have questions or run into any confusion, feel free to contact the [support team](https://wpmanageninja.com/support-tickets/).

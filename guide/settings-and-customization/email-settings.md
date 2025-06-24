@@ -68,5 +68,3 @@ To customize affiliate notifications:
 - Personalize emails using available shortcodes
 - Test notifications after making changes
 - Keep the content professional and informative
-
-Need help setting up your email notifications? Contact our [support team](https://wpmanageninja.com/support-tickets/) for assistance.

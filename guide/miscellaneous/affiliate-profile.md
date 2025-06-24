@@ -37,4 +37,3 @@ In the **Transactions** section, you can view all transactions related to the af
 
 Choose **Edit** to update any transaction details, or click **Delete** to remove the transaction.
 
-That’s how you can manage everything from the affiliate profile. If you have any questions about using the affiliate profile, feel free to reach out to our **support team**.

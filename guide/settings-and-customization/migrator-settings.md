@@ -45,5 +45,3 @@ Here are solutions to common issues you might encounter:
 - **Migration Not Starting**: Ensure you have sufficient permissions and all prerequisites are met.
 - **Process Stuck**: Try refreshing the page and starting the process again.
 - **Data Not Appearing**: Verify that the migration completed successfully and check your source data.
-
-If you have any questions or need assistance, feel free to contact our [**support team**](https://wpmanageninja.com/support-tickets/). Thank you!

@@ -18,4 +18,4 @@ This section gives affiliates a complete overview of their link activity and hel
 
 ![Visits User Portal](/guide/public/images/affiliate-portal/visits/visits-tracking-overview.webp)
 
-If you have any questions about tracking visits or need help, feel free to reach out to our [support team](https://wpmanageninja.com/support-tickets/).
+

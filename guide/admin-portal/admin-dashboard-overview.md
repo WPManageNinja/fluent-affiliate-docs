@@ -37,5 +37,4 @@ At all times, you will see the total affiliate earnings amount and the total amo
 
 That's a quick overview of your Admin Dashboard in FluentAffiliate. Want to customize how everything works? Check out our [General Settings](/guide/settings-and-customization/general-settings) and [Email Settings](/guide/settings-and-customization/email-settings) guides.
 
-If you have any questions, feel free to reach out to our [support team](https://wpmanageninja.com/support-tickets). We're always here to help!
 

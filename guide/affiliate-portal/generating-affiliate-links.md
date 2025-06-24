@@ -26,4 +26,4 @@ Once your referral link appears, just click on the **link** or the **Copy** butt
 
 And that's it! You've successfully created a referral link.
 
-If you have any questions or need help, don't hesitate to reach out to our [support team](https://wpmanageninja.com/support-tickets/). We're always here to help!
+

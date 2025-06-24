@@ -79,4 +79,3 @@ Here are solutions to common issues you might encounter:
 * **Commissions Not Tracking:** Check that the **Enable Product-Based Commission** is activated if you are trying to track specific products. Also, make sure the **Disable Referral** option is not checked for that product.
 * **Conflicting Rates:** If a product-specific rate isn't being applied, ensure you have set the product-specific rate and that your integration with WooCommerce is enabled.
 
-If you have any more questions, face any issues, or need help, please don't hesitate to reach out to our [support team](https://wpmanageninja.com/support-tickets/). We're always here to help you.

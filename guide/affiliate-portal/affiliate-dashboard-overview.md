@@ -79,5 +79,3 @@ Here are solutions to common dashboard issues:
 - **Stats Not Updating**: Try refreshing the page or clearing your browser cache
 - **Missing Data**: Ensure all your tracking links are properly formatted
 - **Access Problems**: Verify your affiliate account is active and approved
-
-If you have any questions or need assistance, feel free to contact our [**support team**](https://wpmanageninja.com/support-tickets/). Thank you!

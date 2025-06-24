@@ -61,4 +61,4 @@ Hit the **Submit** button to create a new affiliate.
 
 That's it! Your new affiliate will now appear in the list.
 
-You now know how to manage, filter, and add affiliates from the Affiliates tab. If you have any questions, don't hesitate to reach out to our [support team](https://wpmanageninja.com/support-tickets). We're happy to help!
+

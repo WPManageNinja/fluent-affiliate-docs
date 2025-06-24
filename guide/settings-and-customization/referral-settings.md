@@ -47,4 +47,3 @@ Fine-tune how referral commissions are calculated with these options:
 
 ![Cost and Tax Settings](/guide/public/images/settings-and-customization/referral/cost-tax-settings.webp)
 
-Need help configuring your referral settings? Contact our [support team](https://wpmanageninja.com/support-tickets/) for assistance.

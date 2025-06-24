@@ -41,4 +41,4 @@ To learn more about the Affiliate Dashboard, check out this [article](#).
 
 That's how easy it is to register as an affiliate using FluentAffiliate. The entire process takes just a couple of minutes and sets your users up with everything they need to start promoting your products.
 
-If you have any further questions, concerns, or suggestions, please don't hesitate to contact our [support team](https://wpmanageninja.com/support-tickets/).
+

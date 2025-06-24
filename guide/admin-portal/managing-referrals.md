@@ -40,4 +40,3 @@ The Referral Dashboard in FluentAffiliate gives you all the tools you need to ma
 
 This layout makes it simple to review, sort, and take action on all your affiliate referrals.
 
-If you have any questions about the referrals dashboard, don't hesitate to reach out to our [support team](https://wpmanageninja.com/support-tickets).

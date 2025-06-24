@@ -82,4 +82,4 @@ Here are solutions to common issues you might encounter:
 
 And that's it. This is an easy process to integrate FluentForms with FluentAffiliate.
 
-If you have any more questions, need assistance, or run into any issues, feel free to contact our [**support team**](https://wpmanageninja.com/support-tickets/). Thank you!
+

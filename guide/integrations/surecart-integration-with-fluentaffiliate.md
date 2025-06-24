@@ -36,4 +36,4 @@ Here are some solutions to common issues you might encounter:
 
 And that's it! This is how easily you can connect SureCart with FluentAffiliate and start earning commissions by promoting SureCart products.
 
-If you have any more questions, need assistance, or run into any issues, please feel free to contact our [**support team**](https://wpmanageninja.com/support-tickets/).
+

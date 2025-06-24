@@ -62,4 +62,4 @@ Once you're done with the onboarding configuration, don't forget to hit **Finish
 
 That's it, you're all set with the onboarding setup for Fluent Affiliate! 
 
-If you have any further questions, concerns, or suggestions, please do not hesitate to contact our [support team](https://wpmanageninja.com/support-tickets).
+

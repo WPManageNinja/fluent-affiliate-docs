@@ -41,4 +41,4 @@ For example, if you set it to "Affiliate Rules", new affiliates will see "I agre
 
 After configuring your settings, click the **Save Settings** button to apply your changes.
 
-Need help with setting up your affiliate portal? Feel free to contact our [support team](https://wpmanageninja.com/support-tickets/) for assistance.
+

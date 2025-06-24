@@ -51,5 +51,3 @@ When creating a new affiliate or editing an existing one:
 1. Look for the **Affiliate Type** field in their profile
 2. Select the desired group from the dropdown
 3. The selected group's commission rate will automatically apply to that affiliate
-
-Need help with affiliate groups? Contact our [support team](https://wpmanageninja.com/support-tickets/) for assistance.
