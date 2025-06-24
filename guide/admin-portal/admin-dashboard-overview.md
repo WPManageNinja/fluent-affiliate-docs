@@ -2,7 +2,7 @@
 
 FluentAffiliate makes it easy to manage all your affiliate activity right from your WordPress dashboard. As the admin, you'll get a clear and simple view of how your affiliate program is performing in your FluentAffiliate Admin dashboard.
 
-From this dashboard, you'll see key stats like payouts, earnings, referrals, visits, and more, all in one place. It helps you stay on top of what your affiliates are doing and how they're performing.
+From this dashboard, you'll see key stats like [payouts](/guide/admin-portal/payout-management), earnings, [referrals](/guide/admin-portal/managing-referrals), visits, and more, all in one place. It helps you stay on top of what your [affiliates](/guide/admin-portal/managing-affiliates) are doing and how they're performing.
 
 ### What You'll See on the Dashboard
 
@@ -10,12 +10,12 @@ From this dashboard, you'll see key stats like payouts, earnings, referrals, vis
 
 #### Analytics
 
-* **Total Paid:** The amount they've already received in payouts.
+* **Total Paid:** The amount they've already received in [payouts](/guide/admin-portal/payout-management).
 * **Total Unpaid:** Earnings that are still pending payment.
 * **Total Rejected:** Any commissions that were rejected or not approved.
-* **Total Visits:** The number of visits their affiliate links have received.
-* **Registered Affiliates:** The total number of affiliates registered on the site.
-* **Total Referrals:** How many referrals they've successfully brought in.
+* **Total Visits:** The number of visits their [affiliate links](/guide/affiliate-portal/generating-affiliate-links) have received.
+* **Registered Affiliates:** The total number of [affiliates](/guide/admin-portal/managing-affiliates) registered on the site.
+* **Total Referrals:** How many [referrals](/guide/admin-portal/managing-referrals) they've successfully brought in.
 
 #### Statistics
 
@@ -23,18 +23,19 @@ The Statistics section displays a date-wise bar chart of your referral, affiliat
 
 #### Most Valuable Affiliate
 
-This section highlights your top-performing affiliates, showing their total earnings and the number of referrals they've made.
+This section highlights your top-performing [affiliates](/guide/admin-portal/managing-affiliates), showing their total earnings and the number of referrals they've made. You can click on any affiliate to view their detailed [profile](/guide/miscellaneous/affiliate-profile).
 
 #### Recent Referrals
 
-This section displays the most recent referrals made through your products.
+This section displays the most recent [referrals](/guide/admin-portal/managing-referrals) made through your products. For detailed referral tracking and management, visit the [Managing Referrals](/guide/admin-portal/managing-referrals) section.
 
 #### All Times
 
-At all times, you will see the total affiliate earnings amount and the total amount you have paid to them.
+At all times, you will see the total affiliate earnings amount and the total amount you have paid to them. You can manage all payment-related settings in the [Referral Settings](/guide/settings-and-customization/referral-settings) section.
 
 ![Admin Dashboard Overview in FluentAffiliate](/guide/public/images/admin-portal/dashboard/admin-dashboard-overview.webp)
 
-That's a quick overview of your Admin Dashboard in FluentAffiliate. It's designed to keep everything clear and easy to manage, so you can focus on growing your affiliate program.
+That's a quick overview of your Admin Dashboard in FluentAffiliate. Want to customize how everything works? Check out our [General Settings](/guide/settings-and-customization/general-settings) and [Email Settings](/guide/settings-and-customization/email-settings) guides.
 
 If you have any questions, feel free to reach out to our [support team](https://wpmanageninja.com/support-tickets). We're always here to help!
+

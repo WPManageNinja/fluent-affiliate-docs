@@ -7,48 +7,42 @@ FluentAffiliate seamlessly integrates with many popular WordPress plugins to hel
 FluentAffiliate offers plug-and-play integration with the following platforms:
 
 ### E-Commerce
-* **WooCommerce** - Track affiliate referrals for your WooCommerce store purchases
-* **Easy Digital Downloads** - Monitor affiliate sales for your digital products
-* **SureCart** - Handle affiliate marketing for your SureCart store
-* **EasyCart** - Manage affiliate referrals for your EasyCart products
+Running an online store? FluentAffiliate integrates perfectly with popular e-commerce platforms:
+
+* **[WooCommerce Integration](/guide/integrations/woocommerce-integration-with-fluentaffiliate)** - Track affiliate referrals for your WooCommerce store purchases. Perfect for physical and digital products alike.
+* **[Easy Digital Downloads](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate)** - Monitor affiliate sales for your digital products with detailed commission tracking.
+* **[SureCart](/guide/integrations/surecart-integration-with-fluentaffiliate)** - Handle affiliate marketing for your SureCart store with automated commission calculations.
+* **[EasyCart](/guide/integrations/easycart-integration-with-fluentaffiliate)** - Manage affiliate referrals for your EasyCart products seamlessly.
 
 ### Learning Management Systems (LMS)
-* **LearnDash** - Track affiliate referrals for course sales
-* **MemberPress** - Monitor affiliate commissions for membership signups
+Selling courses or memberships? Our LMS integrations have you covered:
+
+* **[LearnDash](/guide/integrations/learndash-integration-with-fluentaffiliate)** - Track affiliate referrals for course sales with customizable commission structures.
+* **[MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate)** - Monitor affiliate commissions for membership signups and recurring payments.
 
 ### Forms and CRM
-* **Fluent Forms** - Generate commissions from form submissions
-* **FluentCRM** - Integrate affiliate management with your CRM workflows
+Need to track form submissions or manage your affiliate relationships?
+
+* **[Fluent Forms](/guide/integrations/fluentforms-integration-with-fluentaffiliate)** - Generate commissions from form submissions and track conversion rates.
+* **[FluentCRM](/guide/integrations/fluentcrm-integration-with-fluenaffiliate)** - Integrate affiliate management with your CRM workflows for better relationship management.
 
 ### Booking and Appointments
-* **Fluent Booking** - Track affiliate referrals for booking services
+* **[Fluent Booking](/guide/integrations/fluentbooking-integration-with-fluentaffiliate)** - Track affiliate referrals for booking services and appointments.
 
-Each integration is designed to work seamlessly with FluentAffiliate, allowing you to:
-* Track referrals automatically
-* Set specific commission rates per product or service
-* Monitor affiliate performance across different platforms
-* Generate accurate payouts based on verified sales
+Each integration works seamlessly with FluentAffiliate, allowing you to:
+* Track referrals automatically through our [referral tracking system](/guide/admin-portal/managing-referrals)
+* Set specific commission rates per product or service in [referral settings](/guide/settings-and-customization/referral-settings)
+* Monitor affiliate performance across different platforms in your [admin dashboard](/guide/admin-portal/admin-dashboard-overview)
+* Generate accurate [payouts](/guide/admin-portal/payout-management) based on verified sales
 
 ## Setting Up Integrations
 
 To enable any integration:
-1. Navigate to **Settings** in your FluentAffiliate dashboard
+1. Navigate to [General Settings](/guide/settings-and-customization/general-settings) in your FluentAffiliate dashboard
 2. Click on **Integration Settings**
 3. Find the integration you want to enable
 4. Toggle it on and configure any specific settings
 
-For detailed setup instructions, click on the specific integration guide from the list below.
+Each integration can be customized with its own commission rates, rules, and settings. You can also set up [affiliate groups](/guide/settings-and-customization/group-settings) to manage different commission structures for different types of affiliates.
 
-## Integration-Specific Guides
-
-* [WooCommerce Integration](woocommerce-integration-with-fluentaffiliate.md)
-* [Easy Digital Downloads Integration](easy-digital-downloads-integration-with-fluentaffiliate.md)
-* [SureCart Integration](surecart-integration-with-fluentaffiliate.md)
-* [EasyCart Integration](easycart-integration-with-fluentaffiliate.md)
-* [LearnDash Integration](learndash-integration-with-fluentaffiliate.md)
-* [MemberPress Integration](memberpress-integration-with-fluentaffiliate.md)
-* [Fluent Forms Integration](fluentforms-integration-with-fluentaffiliate.md)
-* [FluentCRM Integration](fluentcrm-integration-with-fluenaffiliate.md)
-* [Fluent Booking Integration](fluentbooking-integration-with-fluentaffiliate.md)
-
-Each integration guide provides step-by-step instructions for setup, configuration, and best practices specific to that platform.
+Need to manage affiliates across multiple sites? Check out our [multi-domain management](/guide/settings-and-customization/multi-domain-management) feature.
