@@ -3,7 +3,7 @@
 WooCommerce is one of the most popular plugins in WordPress that helps you sell products and manage your online store. With **FluentAffiliate**, you can easily track affiliate commissions and handle affiliate payments.
 
 In this guide, we'll walk you through how to integrate WooCommerce with FluentAffiliate step by step.
-
+> [!Note]
 > To get started, you first need to install and activate the WooCommerce plugin on your WordPress website.
 
 ## Enable WooCommerce in FluentAffiliate

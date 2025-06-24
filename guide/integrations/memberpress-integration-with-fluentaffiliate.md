@@ -4,8 +4,6 @@ MemberPress is a powerful membership plugin for WordPress. With FluentAffiliate,
 
 In this guide, we'll walk you through how to connect MemberPress with FluentAffiliate step by step.
 
-> Make sure both plugin MemberPress and FluentAffiliate are installed and activated on your website.
-
 ## Enable MemberPress in FluentAffiliate
 
 Once MemberPress is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.

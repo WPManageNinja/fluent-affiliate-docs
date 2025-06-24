@@ -4,6 +4,7 @@ FluentCRM is a powerful email marketing automation plugin for WordPress. With Fl
 
 In this guide, we'll walk you through how to connect FluentCRM with FluentAffiliate step by step.
 
+>[!Note]
 > Make sure both plugin FluentCRM and FluentAffiliate are installed and activated on your website.
 
 ## Enable FluentCRM in FluentAffiliate

@@ -4,8 +4,6 @@ LearnDash is a popular learning management system (LMS) plugin for WordPress. Wi
 
 In this guide, we'll walk you through how to connect LearnDash with FluentAffiliate step by step.
 
-> Make sure both plugin LearnDash and FluentAffiliate are installed and activated on your website.
-
 ## Enable LearnDash in FluentAffiliate
 
 Once LearnDash is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.

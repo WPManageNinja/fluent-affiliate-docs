@@ -4,6 +4,7 @@ FluentBooking is a powerful booking and scheduling plugin for WordPress. With Fl
 
 In this guide, we'll walk you through how to connect FluentBooking with FluentAffiliate step by step.
 
+>[!Note]
 > Make sure both plugin FluentBooking and FluentAffiliate are installed and activated on your website.
 
 ## Enable FluentBooking in FluentAffiliate

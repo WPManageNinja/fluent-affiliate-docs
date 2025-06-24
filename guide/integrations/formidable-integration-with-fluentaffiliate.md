@@ -4,8 +4,6 @@ Formidable is a powerful form builder plugin for WordPress. With FluentAffiliate
 
 In this guide, we'll walk you through how to connect Formidable with FluentAffiliate step by step.
 
-> Make sure both plugin Formidable and FluentAffiliate are installed and activated on your website.
-
 ## Enable Formidable in FluentAffiliate
 
 Once Formidable is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.

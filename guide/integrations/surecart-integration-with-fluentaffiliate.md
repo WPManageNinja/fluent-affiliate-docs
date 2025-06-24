@@ -4,6 +4,7 @@ SureCart is a WordPress e-commerce plugin that is designed for selling products 
 
 In this guide, we'll walk you through how to connect SureCart with FluentAffiliate step by step.
 
+>[!NOTE]
 > To get started, you first need to install and activate the SureCart plugin on your WordPress website.
 
 ## Enable SureCart in FluentAffiliate

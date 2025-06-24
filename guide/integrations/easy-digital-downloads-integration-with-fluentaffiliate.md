@@ -4,8 +4,6 @@ Easy Digital Downloads (EDD) is a powerful e-commerce plugin for selling digital
 
 In this guide, we'll walk you through how to connect Easy Digital Downloads with FluentAffiliate step by step.
 
-> Make sure both plugin Easy Digital Downloads and FluentAffiliate are installed and activated on your website.
-
 ## Enable EDD in FluentAffiliate
 
 Once Easy Digital Downloads is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.

@@ -4,6 +4,7 @@ FluentForms is a powerful form builder plugin for WordPress. With FluentAffiliat
 
 In this guide, we'll walk you through how to connect FluentForms with FluentAffiliate step by step.
 
+>[!Note]
 > Make sure both plugin FluentForms and FluentAffiliate are installed and activated on your website.
 
 ## Enable FluentForms in FluentAffiliate

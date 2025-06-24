@@ -4,6 +4,7 @@ Move the existing images to their correct subdirectories and rename them appropr
 
 This guide will walk you through the process of integrating EasyCart with FluentAffiliate step by step.
 
+>[!NOTE]
 > First, **install and activate** the EasyCart plugin on your WordPress website. This will set up your online store and shopping cart functionality.
 
 ## Connecting EasyCart with FluentAffiliate
