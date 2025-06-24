@@ -17,7 +17,6 @@ export default {
           items: [
             { text: 'What is FluentAffiliate?', link: '/guide/getting-started/what-is-fluentaffiliate' },
             { text: 'Installation & Activation', link: '/guide/getting-started/installation-activation-licensing' },
-            { text: 'Key Features', link: '/guide/getting-started/key-features-overview' },
             { text: 'Initial Setup', link: '/guide/getting-started/onboarding-setup' }
           ]
         },
