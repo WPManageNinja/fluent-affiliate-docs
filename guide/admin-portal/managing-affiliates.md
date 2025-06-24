@@ -60,5 +60,3 @@ Hit the **Submit** button to create a new affiliate.
 ![Add Affiliate Form](/guide/public/images/admin-portal/managing-affiliates/add-affiliate-form.webp)
 
 That's it! Your new affiliate will now appear in the list.
-
-

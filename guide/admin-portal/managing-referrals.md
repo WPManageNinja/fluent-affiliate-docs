@@ -39,4 +39,3 @@ The Referral Dashboard in FluentAffiliate gives you all the tools you need to ma
 ![Referral Dashboard Overview](/guide/public/images/admin-portal/managing-referrals/referrals-list-overview.webp)
 
 This layout makes it simple to review, sort, and take action on all your affiliate referrals.
-

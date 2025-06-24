@@ -56,5 +56,3 @@ The **CSV** file will include the following details:
 * currency
 
 ![CSV Export Example](/guide/public/images/admin-portal/payout-management/csv-export-example.webp)
-
-If you have any questions or suggestions about this documentation, feel free to contact [us](https://wpmanageninja.com/support-tickets).
