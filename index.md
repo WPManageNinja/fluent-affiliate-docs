@@ -53,36 +53,66 @@ features:
   </p>
 </div>
 
-## Why Choose FluentAffiliate?
+# FluentAffiliate Documentation
 
-FluentAffiliate is the most comprehensive affiliate management solution for WordPress, designed to help you grow your business through affiliate marketing. Whether you're running an e-commerce store, digital products platform, or membership site, FluentAffiliate provides all the tools you need to manage your affiliate program effectively.
+Welcome to the FluentAffiliate documentation! This comprehensive guide will help you understand and make the most of your affiliate program.
 
-### Key Benefits
+## Quick Start Guide
 
-- **Easy to Use**: Intuitive interface for both administrators and affiliates
-- **Flexible Commissions**: Support for percentage and fixed-rate commissions
-- **Multiple Integration Options**: Works with popular WordPress plugins
-- **Detailed Reporting**: Comprehensive analytics and performance tracking
-- **Secure & Reliable**: Built with security and scalability in mind
-- **Regular Updates**: Continuous improvements and new features
+- [What is FluentAffiliate?](/guide/getting-started/what-is-fluentaffiliate)
+- [Installation & Activation](/guide/getting-started/installation-activation-licensing)
+- [Key Features Overview](/guide/getting-started/key-features-overview)
+- [Initial Setup Guide](/guide/getting-started/onboarding-setup)
 
-### Getting Started
+## For Administrators
 
-1. [What is FluentAffiliate?](/guide/getting-started/what-is-fluentaffiliate)
-2. [Installation & Activation](/guide/getting-started/installation-activation-licensing)
-3. [Onboarding & Setup](/guide/getting-started/onboarding-setup)
-4. [Key Features Overview](/guide/getting-started/key-features-overview)
+Learn how to manage your affiliate program:
 
-### Popular Documentation
-
+- [Admin Dashboard Overview](/guide/admin-portal/admin-dashboard-overview)
 - [Managing Affiliates](/guide/admin-portal/managing-affiliates)
 - [Managing Referrals](/guide/admin-portal/managing-referrals)
 - [Payout Management](/guide/admin-portal/payout-management)
-- [WooCommerce Integration](/guide/integrations/woocommerce-integration-with-fluentaffiliate)
 
-<div class="custom-block warning">
-  <p>
-    <strong>Need Help?</strong> If you can't find what you're looking for in the documentation, feel free to reach out to our support team.
-  </p>
-</div>
+## For Affiliates
+
+Get started as an affiliate:
+
+- [How to Register](/guide/affiliate-portal/how-to-register-as-an-affiliate)
+- [Affiliate Dashboard Overview](/guide/affiliate-portal/affiliate-dashboard-overview)
+- [Generating Affiliate Links](/guide/affiliate-portal/generating-affiliate-links)
+- [Tracking Referrals](/guide/affiliate-portal/tracking-referrals)
+- [Managing Payouts](/guide/affiliate-portal/payouts)
+
+## Popular Integrations
+
+FluentAffiliate works seamlessly with:
+
+### E-Commerce
+- [WooCommerce Integration](/guide/integrations/woocommerce-integration-with-fluentaffiliate)
+- [Easy Digital Downloads Integration](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate)
+- [SureCart Integration](/guide/integrations/surecart-integration-with-fluentaffiliate)
+
+### Learning Management
+- [LearnDash Integration](/guide/integrations/learndash-integration-with-fluentaffiliate)
+- [MemberPress Integration](/guide/integrations/memberpress-integration-with-fluentaffiliate)
+
+### Forms & CRM
+- [Fluent Forms Integration](/guide/integrations/fluentforms-integration-with-fluentaffiliate)
+- [FluentCRM Integration](/guide/integrations/fluentcrm-integration-with-fluenaffiliate)
+
+[View All Integrations →](/guide/integrations/integrations)
+
+## Configuration & Settings
+
+Essential settings to customize your affiliate program:
+
+- [General Settings](/guide/settings-and-customization/general-settings)
+- [Email Settings](/guide/settings-and-customization/email-settings)
+- [Referral Settings](/guide/settings-and-customization/referral-settings)
+- [Group Settings](/guide/settings-and-customization/group-settings)
+- [Multi-Domain Management](/guide/settings-and-customization/multi-domain-management)
+
+## Need Help?
+
+If you need assistance, please contact our [support team](https://wpmanageninja.com/support-tickets/).
 
