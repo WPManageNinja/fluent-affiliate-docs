@@ -10,7 +10,9 @@ When a user visits your site's **Affiliate Page** usually linked in the menu or 
 
 Click the **Register** button to start the sign-up process.
 
-> Only the site admin can decide where the **Affiliate Page** appears on the site. To learn how to set this up, check out this article.
+>[!NOTE]
+>Only the site admin can decide where the **Affiliate Page** appears on the site. To learn how to set this up, check out this article.
+
 
 ![Affiliate Registration Page](/guide/public/images/affiliate-portal/registration/registration-page.webp)
 
