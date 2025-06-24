@@ -103,7 +103,14 @@ export default {
           items: [
             { text: 'Affiliate Profile', link: '/guide/miscellaneous/affiliate-profile' }
           ]
-        }
+        },
+        {
+          text: 'Troubleshooting & Support',
+          collapsed: true,
+          items: [
+            { text: 'How to Get Support', link: '/guide/troubleshooting-and-support/how-to-get-support' }
+          ]
+        },
       ]
     }
   }
