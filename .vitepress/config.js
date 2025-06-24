@@ -1,7 +1,31 @@
 export default {
-  title: 'FluentAffiliate Docs',
+  title: ' ',
   description: 'Documentation for FluentAffiliate WordPress Plugin',
   themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Search Documentation',
+            buttonAriaLabel: 'Search Documentation'
+          },
+          modal: {
+            noResultsText: 'No results for',
+            resetButtonTitle: 'Reset search',
+            footer: {
+              selectText: 'to select',
+              navigateText: 'to navigate',
+              closeText: 'to close'
+            }
+          }
+        }
+      }
+    },
+    logo: {
+      dark: '/../guide/public/images/brand/main_logo_inverted.png',
+      light: '/../guide/public/images/brand/main_logo.png',
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },

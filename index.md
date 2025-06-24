@@ -17,35 +17,11 @@ hero:
       text: Get Started
       link: /guide/getting-started/what-is-fluentaffiliate
     - theme: alt
-      text: View on GitHub
+      text: Developer Docs
       link: https://github.com/fluentcrm/fluent-affiliate
 
-features:
-  - icon: 🚀
-    title: Easy Setup
-    details: Get your affiliate program up and running in minutes with our intuitive setup wizard and user-friendly interface.
-    
-  - icon: 💰
-    title: Flexible Commission Rules
-    details: Create custom commission structures, set different rates for products, and manage affiliate groups effectively.
-    
-  - icon: 🔄
-    title: Seamless Integration
-    details: Works perfectly with WooCommerce, Easy Digital Downloads, and other popular WordPress plugins.
-    
-  - icon: 📊
-    title: Detailed Analytics
-    details: Track affiliate performance, monitor clicks, conversions, and payouts with comprehensive reporting tools.
-    
-  - icon: 🛡️
-    title: Fraud Protection
-    details: Built-in security features to prevent fraud and ensure legitimate affiliate activities.
-    
-  - icon: 🌐
-    title: Multi-Domain Support
-    details: Manage affiliate programs across multiple domains from a single dashboard.
-
 ---
+
 
 <div class="custom-block tip">
   <p>
@@ -53,66 +29,124 @@ features:
   </p>
 </div>
 
-# FluentAffiliate Documentation
+<div class="features">
+  <div class="feature-item">
+    <div class="feature-icon">🚀</div>
+    <div class="feature-content">
+      <h3>Getting Started</h3>
+      <p>Learn the basics and set up your affiliate program</p>
+      <a href="/guide/getting-started/what-is-fluentaffiliate" class="feature-link">Get Started →</a>
+    </div>
+  </div>
 
-Welcome to the FluentAffiliate documentation! This comprehensive guide will help you understand and make the most of your affiliate program.
+  <div class="feature-item">
+    <div class="feature-icon">⚙️</div>
+    <div class="feature-content">
+      <h3>Admin Guide</h3>
+      <p>Manage affiliates, referrals, and payouts</p>
+      <a href="/guide/admin-portal/admin-dashboard-overview" class="feature-link">Learn More →</a>
+    </div>
+  </div>
 
-## Quick Start Guide
+  <div class="feature-item">
+    <div class="feature-icon">💼</div>
+    <div class="feature-content">
+      <h3>Affiliate Guide</h3>
+      <p>Everything affiliates need to know</p>
+      <a href="/guide/affiliate-portal/how-to-register-as-an-affiliate" class="feature-link">Start Earning →</a>
+    </div>
+  </div>
 
-- [What is FluentAffiliate?](/guide/getting-started/what-is-fluentaffiliate)
-- [Installation & Activation](/guide/getting-started/installation-activation-licensing)
-- [Key Features Overview](/guide/getting-started/key-features-overview)
-- [Initial Setup Guide](/guide/getting-started/onboarding-setup)
+  <div class="feature-item">
+    <div class="feature-icon">🔌</div>
+    <div class="feature-content">
+      <h3>Integrations</h3>
+      <p>Connect with your favorite plugins</p>
+      <a href="/guide/integrations/integrations" class="feature-link">Explore →</a>
+    </div>
+  </div>
 
-## For Administrators
+  <div class="feature-item">
+    <div class="feature-icon">🎛️</div>
+    <div class="feature-content">
+      <h3>Settings</h3>
+      <p>Configure your affiliate program</p>
+      <a href="/guide/settings-and-customization/general-settings" class="feature-link">Configure →</a>
+    </div>
+  </div>
 
-Learn how to manage your affiliate program:
+  <div class="feature-item">
+    <div class="feature-icon">❓</div>
+    <div class="feature-content">
+      <h3>Need Help?</h3>
+      <p>Get support and find answers</p>
+      <a href="https://wpmanageninja.com/support-tickets/" class="feature-link">Get Support →</a>
+    </div>
+  </div>
+</div>
 
-- [Admin Dashboard Overview](/guide/admin-portal/admin-dashboard-overview)
-- [Managing Affiliates](/guide/admin-portal/managing-affiliates)
-- [Managing Referrals](/guide/admin-portal/managing-referrals)
-- [Payout Management](/guide/admin-portal/payout-management)
+<style>
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
 
-## For Affiliates
+.feature-item {
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
 
-Get started as an affiliate:
+.feature-item:hover {
+  transform: translateY(-2px);
+  background-color: var(--vp-c-bg-soft-up);
+}
 
-- [How to Register](/guide/affiliate-portal/how-to-register-as-an-affiliate)
-- [Affiliate Dashboard Overview](/guide/affiliate-portal/affiliate-dashboard-overview)
-- [Generating Affiliate Links](/guide/affiliate-portal/generating-affiliate-links)
-- [Tracking Referrals](/guide/affiliate-portal/tracking-referrals)
-- [Managing Payouts](/guide/affiliate-portal/payouts)
+.feature-icon {
+  display: inline-block;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
 
-## Popular Integrations
+.feature-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--vp-c-text-1);
+  line-height: 1.4;
+}
 
-FluentAffiliate works seamlessly with:
+.feature-content p {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
 
-### E-Commerce
-- [WooCommerce Integration](/guide/integrations/woocommerce-integration-with-fluentaffiliate)
-- [Easy Digital Downloads Integration](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate)
-- [SureCart Integration](/guide/integrations/surecart-integration-with-fluentaffiliate)
+.feature-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  transition: color 0.25s;
+}
 
-### Learning Management
-- [LearnDash Integration](/guide/integrations/learndash-integration-with-fluentaffiliate)
-- [MemberPress Integration](/guide/integrations/memberpress-integration-with-fluentaffiliate)
+.feature-link:hover {
+  color: var(--vp-c-brand-dark);
+}
 
-### Forms & CRM
-- [Fluent Forms Integration](/guide/integrations/fluentforms-integration-with-fluentaffiliate)
-- [FluentCRM Integration](/guide/integrations/fluentcrm-integration-with-fluenaffiliate)
+@media (max-width: 768px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
-[View All Integrations →](/guide/integrations/integrations)
-
-## Configuration & Settings
-
-Essential settings to customize your affiliate program:
-
-- [General Settings](/guide/settings-and-customization/general-settings)
-- [Email Settings](/guide/settings-and-customization/email-settings)
-- [Referral Settings](/guide/settings-and-customization/referral-settings)
-- [Group Settings](/guide/settings-and-customization/group-settings)
-- [Multi-Domain Management](/guide/settings-and-customization/multi-domain-management)
-
-## Need Help?
-
-If you need assistance, please contact our [support team](https://wpmanageninja.com/support-tickets/).
-
+@media (max-width: 480px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
