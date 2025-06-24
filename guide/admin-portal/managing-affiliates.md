@@ -2,7 +2,7 @@
 
 In FluentAffiliate, managing your affiliates is easy and organized. From the **Affiliates** section, you'll be able to see an overview of all your affiliates, manage their status, and even add new ones.
 
-In this guide, we'll walk you through what you can do on the Affiliates page.
+In this guide, we'll walk you through what you can do on the Affiliates page. 
 
 ### Affiliate Dashboard Overview
 
@@ -14,10 +14,10 @@ Here's what you'll find in the **Affiliates** section:
 Easily filter affiliates by their status using four options: **All**, **Active**, **Pending**, and **Inactive**.
 
 **b. Affiliates Details Table**  
-This table lists every affiliate along with useful details such as their **Name**, **Email**, **Rate**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, and **Status**—giving you a clear picture of each affiliate's performance.
+This table lists every affiliate along with useful details such as their **Name**, **Email**, **Rate**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, and **Status**—giving you a clear picture of each affiliate's performance. 
 
 **c. Add New**  
-Click the **Add New** button to manually add an affiliate to your site. (We'll show you how to do that later in this guide.)
+Click the **Add New** button to manually add an affiliate to your site. (We'll show you how to do that later in this guide.) If you want affiliates to register themselves, see [How to Register as an Affiliate](../affiliate-portal/how-to-register-as-an-affiliate.md).
 
 **d. Search Bar**  
 Quickly locate affiliates by typing their name or email address.
@@ -52,7 +52,7 @@ Fill in the following fields:
 * **User** – Select the user you want to turn into an affiliate.
 * **Rate Type** – Choose how they'll earn (fixed or percentage).
 * **Status** – Set the affiliate status (approved, pending, or rejected).
-* **Payment Email** – Enter their PayPal or preferred payment email.
+* **Payment Email** – Enter their PayPal or preferred payment email. 
 * **Note** – (Optional) Add any notes for internal use.
 
 Hit the **Submit** button to create a new affiliate. 
