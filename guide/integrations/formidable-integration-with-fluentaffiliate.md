@@ -14,7 +14,7 @@ Your **Formidable** integration with **FluentAffiliate** is now active, allowing
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Configure Formidable Settings
 
@@ -24,7 +24,7 @@ A pop-up will arrive where you'll find important settings to manage how the inte
 
 **Enable Form Tracking**: By enabling this checkbox, you can track form submissions through affiliate links.
 
-![Formidable Settings](/guide/public/images/integrations/formidable/form-settings-configuration.webp)
+![Formidable Settings](@images/integrations/formidable/form-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
@@ -32,7 +32,7 @@ After you've completed configuring the Formidable affiliate settings, the next s
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link Generation](/guide/public/images/integrations/affiliate-link-generation.webp)
+![Affiliate Link Generation](@images/integrations/affiliate-link-generation.webp)
 
 ### Troubleshooting Common Issues
 

@@ -17,7 +17,7 @@ Your **FluentBooking** integration with **FluentAffiliate** is now active, allow
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your bookings.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Configure FluentBooking Settings
 
@@ -27,7 +27,7 @@ A pop-up will arrive where you'll find important settings to manage how affiliat
 
 **Disable Commission on Upgrade**: By enabling this checkbox, all booking upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade their bookings.
 
-![FluentBooking Settings](/guide/public/images/integrations/fluentbooking/booking-settings-configuration.webp)
+![FluentBooking Settings](@images/integrations/fluentbooking/booking-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
@@ -35,19 +35,19 @@ After you've completed configuring the FluentBooking affiliate settings, the nex
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](/guide/public/images/integrations/copy-affiliate-link.webp)
+![Copy Affiliate Link](@images/integrations/copy-affiliate-link.webp)
 
 ## Booking Page Setup
 
 Configure your booking pages to work seamlessly with affiliate tracking.
 
-![Booking Page Setup](/guide/public/images/integrations/booking-page-setup.webp)
+![Booking Page Setup](@images/integrations/booking-page-setup.webp)
 
 ## Track Referrals
 
 Monitor your booking referrals and commissions in the referral dashboard.
 
-![Referral Overview](/guide/public/images/integrations/referral-overview.webp)
+![Referral Overview](@images/integrations/referral-overview.webp)
 
 ### Troubleshooting Common Issues
 

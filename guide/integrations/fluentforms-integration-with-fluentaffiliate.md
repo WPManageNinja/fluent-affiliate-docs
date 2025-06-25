@@ -17,7 +17,7 @@ Your **FluentForms** integration with **FluentAffiliate** is now active, allowin
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Configure FluentForms Settings
 
@@ -27,43 +27,43 @@ A pop-up will arrive where you'll find important settings to manage how the inte
 
 **Enable Form Tracking**: By enabling this checkbox, you can track form submissions through affiliate links.
 
-![FluentForms Settings](/guide/public/images/integrations/fluentforms/form-settings-configuration.webp)
+![FluentForms Settings](@images/integrations/fluentforms/form-settings-configuration.webp)
 
 ## Affiliate Registration Form
 
 Create a dedicated form for affiliate registration:
 
-![Affiliate Registration](/guide/public/images/integrations/affiliate-registration-settings.webp)
+![Affiliate Registration](@images/integrations/affiliate-registration-settings.webp)
 
 ### Integration Templates
 
 Use pre-built templates for common affiliate scenarios:
 
-![Integration Templates](/guide/public/images/integrations/integration-template-settings.webp)
+![Integration Templates](@images/integrations/integration-template-settings.webp)
 
 ### Integration Settings
 
 Configure form-specific integration settings:
 
-![Integration Settings](/guide/public/images/integrations/integration-general-settings.webp)
+![Integration Settings](@images/integrations/integration-general-settings.webp)
 
 ### Affiliate Feed
 
 Set up affiliate feed settings:
 
-![Affiliate Feed](/guide/public/images/integrations/affiliate-feed-settings.webp)
+![Affiliate Feed](@images/integrations/affiliate-feed-settings.webp)
 
 ### Form Integrations
 
 Manage form integrations:
 
-![Form Integrations](/guide/public/images/integrations/form-integration-settings.webp)
+![Form Integrations](@images/integrations/form-integration-settings.webp)
 
 ### Embedded Form
 
 Configure embedded form settings:
 
-![Embedded Form](/guide/public/images/integrations/embedded-form-settings.webp)
+![Embedded Form](@images/integrations/embedded-form-settings.webp)
 
 ## Generate an Affiliate Link
 
@@ -71,7 +71,7 @@ After you've completed configuring the FluentForms affiliate settings, the next 
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](/guide/public/images/integrations/copy-affiliate-link.webp)
+![Copy Affiliate Link](@images/integrations/copy-affiliate-link.webp)
 
 ### Troubleshooting Common Issues
 
