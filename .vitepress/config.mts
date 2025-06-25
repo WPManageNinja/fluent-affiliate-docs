@@ -69,7 +69,6 @@ export default defineConfig({
         },
         {
           text: 'Integrations',
-          collapsed: true,
           items: [
             { text: 'Overview', link: '/guide/integrations/integrations' },
             {
