@@ -63,7 +63,6 @@ export default {
 }
 
 .image-container img {
-  width: 500px;
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: block;
