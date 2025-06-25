@@ -43,7 +43,6 @@ export default defineConfig({
             { text: 'What is FluentAffiliate?', link: '/guide/getting-started/what-is-fluentaffiliate' },
             { text: 'Installation & Activation', link: '/guide/getting-started/installation-activation-licensing' },
             { text: 'Onboarding & Setup', link: '/guide/getting-started/onboarding-setup' },
-            { text: 'Key Features Overview', link: '/guide/getting-started/key-features-overview' }
           ]
         },
         {
@@ -116,6 +115,20 @@ export default defineConfig({
             { text: 'Email Settings', link: '/guide/settings-and-customization/email-settings' },
             { text: 'Migrator Settings', link: '/guide/settings-and-customization/migrator-settings' },
             { text: 'Multi-Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
+          ]
+        },
+        {
+          text: 'Miscellaneous',
+          collapsed: true,
+          items: [
+            { text: 'Affiliate Profile', link: '/guide/miscellaneous/affiliate-profile' }
+          ]
+        },
+        {
+          text: 'Troubleshooting & Support',
+          collapsed: true,
+          items: [
+            { text: 'How to Get Support', link: '/guide/troubleshooting-and-support/how-to-get-support' }
           ]
         },
         {
