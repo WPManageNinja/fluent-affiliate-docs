@@ -1,6 +1,6 @@
 import type { MarkdownRenderer } from 'vitepress'
 
-export function imagePlugin(md: MarkdownRenderer) {
+export function zoomablePlugin(md: MarkdownRenderer) {
   const defaultRender = md.renderer.rules.image || ((tokens, idx, options, env, self) => {
     return self.renderToken(tokens, idx, options)
   })

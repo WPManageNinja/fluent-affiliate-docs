@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { imagePlugin } from './theme/markdown-image-plugin'
+import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,7 +18,7 @@ export default defineConfig({
   
   markdown: {
     config: (md) => {
-      md.use(imagePlugin)
+      md.use(zoomablePlugin)
     }
   },
 
@@ -51,9 +51,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },
-      { text: 'Admin Guide', link: '/guide/admin-portal/admin-dashboard-overview' },
-      { text: 'Affiliate Guide', link: '/guide/affiliate-portal/affiliate-dashboard-overview' },
-      { text: 'Integrations', link: '/guide/integrations/integrations' }
+      { text: 'Dev Docs', link: '/' },
+      { text: 'Website', link: 'https://fluentaffiliate.com/' },
     ],
     outline: [2, 3],
 
