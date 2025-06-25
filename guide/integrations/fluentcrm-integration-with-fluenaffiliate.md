@@ -17,7 +17,7 @@ Your **FluentCRM** integration with **FluentAffiliate** is now active, allowing 
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](@images/integrations/integration-setup-options.webp)
+![Integration Settings](guide/public/images/integrations/fluentcrm/fluentcrm-integration-setup.webp)
 
 ## Configure FluentCRM Settings
 
