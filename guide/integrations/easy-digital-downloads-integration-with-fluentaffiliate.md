@@ -68,7 +68,7 @@ After you've completed configuring the EDD affiliate settings, the next step is 
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](/guide/public/images/integrations/copy-affiliate-link.webp)
+![Copy Affiliate Link](/guide/public/images/integrations/edd/copy-affiliate-link.webp)
 
 ### Troubleshooting Common Issues
 
