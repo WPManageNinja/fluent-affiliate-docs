@@ -23,15 +23,37 @@ export default defineConfig({
   },
 
   themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: 'Search Documentation',
+            buttonAriaLabel: 'Search Documentation'
+          },
+          modal: {
+            noResultsText: 'No results for',
+            resetButtonTitle: 'Reset search',
+            footer: {
+              selectText: 'to select',
+              navigateText: 'to navigate',
+              closeText: 'to close'
+            }
+          }
+        }
+      }
+    },
     logo: {
-      dark: '/../guide/public/images/brand/FluentAffiliate-Logo.webp',
-      light: '/../guide/public/images/brand/FluentAffiliate-Logo.webp',
+      dark: '/../guide/public/images/brand/main_logo_inverted.png',
+      light: '/../guide/public/images/brand/main_logo.png',
     },
   
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/getting-started/what-is-fluentaffiliate' },
-      { text: 'Changelog', link: '/guide/changelog/changelog' }
+      { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },
+      { text: 'Admin Guide', link: '/guide/admin-portal/admin-dashboard-overview' },
+      { text: 'Affiliate Guide', link: '/guide/affiliate-portal/affiliate-dashboard-overview' },
+      { text: 'Integrations', link: '/guide/integrations/integrations' }
     ],
     outline: [2, 3],
 
