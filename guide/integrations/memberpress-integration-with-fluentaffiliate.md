@@ -16,7 +16,7 @@ In the **Manage** section, you'll find additional settings to customize how affi
 
 Here, you can adjust how FluentAffiliate will handle **course renewals** and **upgrades** for your affiliates.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Configure MemberPress Settings
 
@@ -26,7 +26,7 @@ A pop-up will arrive where you'll find **two** important **settings** to manage 
 
 **Disable Commission on Upgrade**: By enabling this checkbox, all membership or course **upgrade commissions** will be turned off for affiliates. This means no commissions will be given when customers upgrade their membership or courses.
 
-![MemberPress Settings](/guide/public/images/integrations/memberpress/memberpress-settings-configuration.webp)
+![MemberPress Settings](@images/integrations/memberpress/memberpress-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
@@ -34,7 +34,7 @@ After you've completed configuring the MemberPress affiliate settings, the next 
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](/guide/public/images/integrations/copy-affiliate-link.webp)
+![Copy Affiliate Link](@images/integrations/copy-affiliate-link.webp)
 
 If someone purchases the Course using your affiliate link, you'll earn a commission based on the settings you've configured.
 

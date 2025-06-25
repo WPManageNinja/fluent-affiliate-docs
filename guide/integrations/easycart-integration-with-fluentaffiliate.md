@@ -1,6 +1,6 @@
 # EasyCart Integration with FluentAffiliate
 
-Move the existing images to their correct subdirectories and rename them appropriately,EasyCart is a powerful e-commerce store and shopping cart builder plugin for WordPress. With FluentAffiliate, you can easily manage affiliate commissions based on product sales, discounts, renewals, and upgrades.
+EasyCart is a powerful e-commerce store and shopping cart builder plugin for WordPress. With FluentAffiliate, you can easily manage affiliate commissions based on product sales, discounts, renewals, and upgrades.
 
 This guide will walk you through the process of integrating EasyCart with FluentAffiliate step by step.
 
@@ -17,7 +17,7 @@ Your **EasyCart** integration with **FluentAffiliate** is now active, allowing a
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your EasyCart products.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](/guide/public/images/integrations/easycart/easycart-setup-options.webp)
 
 ## Configure the EasyCart Settings in FluentAffiliate
 
@@ -29,7 +29,7 @@ A pop-up will appear where you'll find **two** important **settings** to manage 
 
 Once you've selected the settings, click the **Update** button to save your changes.
 
-![Configure EasyCart Settings](/guide/public/images/integrations/easycart/easycart-settings-configuration.webp)
+![Configure EasyCart Settings](@images/integrations/easycart/easycart-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
@@ -37,11 +37,11 @@ After you've finished configuring the EasyCart product settings, the next step i
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link](/guide/public/images/integrations/affiliate-link-generation.webp)
+![Affiliate Link](@images/integrations/affiliate-link-generation.webp)
 
 If someone purchases the product using your affiliate link, you'll earn a **commission** based on the settings you've configured.
 
-![Referral](/guide/public/images/integrations/referral-overview.webp)
+![Referral](@images/integrations/referral-overview.webp)
 
 ### Troubleshooting Common Issues
 

@@ -17,7 +17,7 @@ Your **FluentCRM** integration with **FluentAffiliate** is now active, allowing 
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Configure FluentCRM Settings
 
@@ -27,43 +27,43 @@ A pop-up will arrive where you'll find important settings to manage how the inte
 
 **Enable Tag Management**: By enabling this checkbox, you can automatically add or remove tags based on affiliate actions.
 
-![FluentCRM Settings](/guide/public/images/integrations/fluentcrm/fluentcrm-settings-configuration.webp)
+![FluentCRM Settings](@images/integrations/fluentcrm/fluentcrm-settings-configuration.webp)
 
 ## Set Up Automation
 
 After configuring the basic settings, you can set up automated workflows to manage your affiliate communications.
 
-![New Automation](/guide/public/images/integrations/automation-setup.webp)
+![New Automation](@images/integrations/automation-setup.webp)
 
 ### Using Pre-built Templates
 
 FluentCRM comes with several pre-built templates for common affiliate scenarios.
 
-![Pre-built Templates](/guide/public/images/integrations/prebuilt-templates.webp)
+![Pre-built Templates](@images/integrations/prebuilt-templates.webp)
 
 ### Creating Custom Triggers
 
 You can create custom triggers based on specific affiliate actions.
 
-![Select Trigger](/guide/public/images/integrations/select-trigger-action.webp)
+![Select Trigger](@images/integrations/select-trigger-action.webp)
 
 ### Setting Up Campaigns
 
 Create targeted campaigns for your affiliates.
 
-![Create Campaign](/guide/public/images/integrations/create-campaign.webp)
+![Create Campaign](@images/integrations/create-campaign.webp)
 
 ### Advanced Filtering
 
 Use advanced filters to segment your affiliates.
 
-![Advanced Filters](/guide/public/images/integrations/advanced-filter-settings.webp)
+![Advanced Filters](@images/integrations/advanced-filter-settings.webp)
 
 ### Contact Management
 
 Manage your affiliate contacts effectively.
 
-![Contact Filtering](/guide/public/images/integrations/contact-filtering-options.webp)
+![Contact Filtering](@images/integrations/contact-filtering-options.webp)
 
 ### Troubleshooting Common Issues
 

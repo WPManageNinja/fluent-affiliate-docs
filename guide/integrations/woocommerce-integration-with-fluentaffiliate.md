@@ -16,7 +16,7 @@ Your **WooCommerce** integration with **FluentAffiliate** is now active, allowin
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your WooCommerce products.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Configure WooCommerce Settings in FluentAffiliate
 
@@ -32,7 +32,7 @@ By checking this option, you can set commissions based on individual products. T
 
 Once you've selected the options you need, simply click the **Update** button to save your settings.
 
-![WooCommerce Settings](/guide/public/images/integrations/woocommerce/woo-settings-configuration.webp)
+![WooCommerce Settings](@images/integrations/woocommerce/woo-settings-configuration.webp)
 
 ## Configure Affiliate for WooCommerce Product
 
@@ -56,7 +56,7 @@ Depending on the **Affiliate Rate Type** you select, you'll have different ways 
 
 If you check this box, it will **prevent this product from generating any referral commissions** for affiliates. This is useful for products where you don't want affiliates to earn commissions.
 
-![Affiliate Type](/guide/public/images/integrations/affiliate-commission-types.webp)
+![Affiliate Type](@images/integrations/affiliate-commission-types.webp)
 
 ## Generate an Affiliate Link
 
@@ -66,7 +66,7 @@ To do this, log in to your **Affiliate Area** provided by FluentAffiliate. Insid
 
 When your link is ready, just **copy it** and share it anywhere you like — whether it's on **social media, in emails, blog posts**, or directly with your audience.
 
-![Affiliate Link Generate](/guide/public/images/integrations/generate-affiliate-link.webp)
+![Affiliate Link Generate](@images/integrations/generate-affiliate-link.webp)
 
 Now, whenever someone makes a purchase using your affiliate link, you'll earn a commission based on the rates you've set.
 

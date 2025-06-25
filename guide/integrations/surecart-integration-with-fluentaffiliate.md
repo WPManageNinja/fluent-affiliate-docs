@@ -15,7 +15,7 @@ Inside Integration Settings, you'll see a list of different integration options.
 
 Your **SureCart** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on SureCart product sales.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](@images/integrations/integration-setup-options.webp)
 
 ## Generate an Affiliate Link
 
@@ -23,11 +23,11 @@ In the **Affiliate Links** section, paste the **URL** of the SureCart product pa
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link](/guide/public/images/integrations/affiliate-link-generation.webp)
+![Affiliate Link](@images/integrations/affiliate-link-generation.webp)
 
 If someone purchases the product using your affiliate link, you'll earn a **commission** based on the settings you've configured.
 
-![Referral](/guide/public/images/integrations/referral-overview.webp)
+![Referral](@images/integrations/referral-overview.webp)
 
 ### Troubleshooting Common Issues
 
