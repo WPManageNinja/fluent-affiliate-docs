@@ -69,18 +69,43 @@ export default defineConfig({
         },
         {
           text: 'Integrations',
+          collapsed: true,
           items: [
             { text: 'Overview', link: '/guide/integrations/integrations' },
-            { text: 'WooCommerce', link: '/guide/integrations/woocommerce-integration-with-fluentaffiliate' },
-            { text: 'Easy Digital Downloads', link: '/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate' },
-            { text: 'EasyCart', link: '/guide/integrations/easycart-integration-with-fluentaffiliate' },
-            { text: 'FluentBooking', link: '/guide/integrations/fluentbooking-integration-with-fluentaffiliate' },
-            { text: 'FluentCRM', link: '/guide/integrations/fluentcrm-integration-with-fluenaffiliate' },
-            { text: 'Fluent Forms', link: '/guide/integrations/fluentforms-integration-with-fluentaffiliate' },
-            { text: 'Formidable Forms', link: '/guide/integrations/formidable-integration-with-fluentaffiliate' },
-            { text: 'LearnDash', link: '/guide/integrations/learndash-integration-with-fluentaffiliate' },
-            { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
-            { text: 'SureCart', link: '/guide/integrations/surecart-integration-with-fluentaffiliate' }
+            {
+              text: 'E-Commerce',
+              collapsed: true,
+              items: [
+                { text: 'WooCommerce', link: '/guide/integrations/woocommerce-integration-with-fluentaffiliate' },
+                { text: 'Easy Digital Downloads', link: '/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate' },
+                { text: 'SureCart', link: '/guide/integrations/surecart-integration-with-fluentaffiliate' },
+                { text: 'EasyCart', link: '/guide/integrations/easycart-integration-with-fluentaffiliate' }
+              ]
+            },
+            {
+              text: 'LMS & Membership',
+              collapsed: true,
+              items: [
+                { text: 'LearnDash', link: '/guide/integrations/learndash-integration-with-fluentaffiliate' },
+                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' }
+              ]
+            },
+            {
+              text: 'Forms & CRM',
+              collapsed: true,
+              items: [
+                { text: 'Fluent Forms', link: '/guide/integrations/fluentforms-integration-with-fluentaffiliate' },
+                { text: 'FluentCRM', link: '/guide/integrations/fluentcrm-integration-with-fluenaffiliate' },
+                { text: 'Formidable', link: '/guide/integrations/formidable-integration-with-fluentaffiliate' }
+              ]
+            },
+            {
+              text: 'Booking',
+              collapsed: true,
+              items: [
+                { text: 'Fluent Booking', link: '/guide/integrations/fluentbooking-integration-with-fluentaffiliate' }
+              ]
+            }
           ]
         },
         {
