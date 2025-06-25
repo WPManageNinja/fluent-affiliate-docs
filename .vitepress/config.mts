@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { imagePlugin } from './theme/markdown-image-plugin'
+import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -18,7 +18,7 @@ export default defineConfig({
   
   markdown: {
     config: (md) => {
-      md.use(imagePlugin)
+      md.use(zoomablePlugin)
     }
   },
 
