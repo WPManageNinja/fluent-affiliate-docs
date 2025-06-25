@@ -14,47 +14,53 @@ Your **Easy Digital Downloads** integration with **FluentAffiliate** is now acti
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your products.
 
-![Integration Settings](/guide/public/images/integrations/integration-setup-options.webp)
+![Integration Settings](/guide/public/images/integrations/edd/integration-setup-options.webp)
 
 ## Configure EDD Settings
 
 A pop-up will arrive where you'll find important settings to manage how affiliate commissions are handled. You can enable or disable these options based on your preferences.
 
-**Disable Commission on Renewal**: If you check this option, FluentAffiliate will disable affiliate commissions for subscription renewals. Affiliates will not earn commissions when customers renew their subscriptions.
+**Affiliate With Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
 
-**Disable Commission on Upgrade**: By enabling this checkbox, all subscription upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade their subscriptions.
+If disabled (unchecked), no commission will be paid on transactions where a coupon is used.
+
+**Custom Affiliate Rates**: Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates. 
 
 ![EDD Settings](/guide/public/images/integrations/edd/edd-settings-configuration.webp)
 
-## Product Commission Settings
+## Custom Affiliate Rate Configuration
 
-You can set up different commission rates for individual products:
+Once **Custom Affiliate Rate** is enabled, you can define specific commission structures based on products or categories. Click on the **+Add Rate** button for the next step.
 
-![Product Edit Commission](/guide/public/images/integrations/product-edit-commission.webp)
+**1. Select Type:** This option allows you to specify whether the custom rate applies to individual products or entire product categories.
 
-### Commission Rate Types
+  **Product:** Select this radio button to apply the custom rate to specific products.
 
-Choose between percentage or flat rate commissions:
+  **Category:** Select this radio button to apply the custom rate to an entire product category.
 
-![Commission Rate Types](/guide/public/images/integrations/commission-rate-types.webp)
+**2. Affiliate Products / Categories:** Depending on your *"Select Type"* choice, this field will allow you to search for and select the specific items.
 
-### Percentage Commission
+  **For Product Type:** Enter a keyword in the text field to search for and select the product(s) to which this custom rate will apply.
 
-Set up percentage-based commissions:
+  **For Category Type:** Here, you would typically find a similar search or dropdown field to select the desired product category/categories.
 
-![Percentage Commission](/guide/public/images/integrations/percentage-commission-setup.webp)
+**3. Affiliate Rate:** Set the commission rate for the selected products or categories.
 
-### Flat Rate Commission
+  **Rate Value Input:** Use the” - “and “+” buttons, or directly type a numerical value into the field, to set the commission amount.
 
-Set up flat rate commissions:
+  **Rate Type Selector:** Click the dropdown menu to choose the type of commission:
+     
+  **• Percentage:** The affiliate will receive a percentage of the sale price as commission.
 
-![Flat Rate Commission](/guide/public/images/integrations/flat-commission-setup.webp)
+  **• Fixed:** The affiliate will receive a fixed amount (e.g., currency value) as commission, regardless of the sale price.
 
-### Group Settings
+**Add More Rates:** After configuring the desired type, products/categories, and rate, click the *Add Rate* button to save this specific custom rate configuration. You can then repeat the process to add more custom rates. 
 
-Configure commission rates for different affiliate groups:
+Also, you can delete the affiliate rates by clicking the *delete* icon in the top right corner.
 
-![Group Settings](/guide/public/images/integrations/group-settings.webp)
+![EDD Settings](/guide/public/images/integrations/edd/custom-affiliate-rates.webp)
+
+Once all your custom rates are added, click **Save Settings** button to apply them.
 
 ## Generate an Affiliate Link
 
