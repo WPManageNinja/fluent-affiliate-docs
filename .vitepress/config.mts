@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { imagePlugin } from './theme/markdown-image-plugin'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,6 +16,11 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
   
+  markdown: {
+    config: (md) => {
+      md.use(imagePlugin)
+    }
+  },
 
   themeConfig: {
     logo: {
