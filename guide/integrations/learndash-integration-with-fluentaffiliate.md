@@ -1,6 +1,6 @@
 # LearnDash Integration with FluentAffiliate
 
-LearnDash is a popular learning management system (LMS) plugin for WordPress. With FluentAffiliate, you can manage your courses' affiliate commission easily.
+Want to boost your course sales with affiliate marketing? With FluentAffiliate, you can easily connect with LearnDash and track affiliate referrals for your online courses. 
 
 In this guide, we'll walk you through how to connect LearnDash with FluentAffiliate step by step.
 
@@ -14,7 +14,7 @@ Your **LearnDash** integration with **FluentAffiliate** is now active, allowing 
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your courses.
 
-![Integration Settings](@images/integrations/integration-setup-options.webp)
+![Integration Settings](/guide/public/images/integrations/learndash/integration-setup-options.webp)
 
 ## Configure LearnDash Settings
 
@@ -24,15 +24,15 @@ A pop-up will arrive where you'll find important settings to manage how affiliat
 
 **Disable Commission on Upgrade**: By enabling this checkbox, all course upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade their courses.
 
-![LearnDash Settings](@images/integrations/learndash/learndash-settings-configuration.webp)
+![LearnDash Settings](/guide/public/images/integrations/learndash/learndash-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
-After you've completed configuring the LearnDash affiliate settings, the next step is to log in to your **Affiliate Area** provided by FluentAffiliate. In the **Affiliate Links** section, paste the **URL** of the Course page you want to promote. FluentAffiliate will automatically generate a **unique affiliate link** for you.
+After you've completed configuring the LearnDash affiliate settings, the next step is to log in to your **Affiliate** area provided by FluentAffiliate. In the affiliate **Links** section, paste the **URL** of the Course page you want to promote. FluentAffiliate will automatically generate a unique **affiliate link** for you.
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](@images/integrations/copy-affiliate-link.webp)
+![Copy Affiliate Link](/guide/public/images/integrations/learndash/copy-affiliate-link.webp)
 
 If someone purchases the Course using your affiliate link, you'll earn a commission based on the settings you've configured.
 

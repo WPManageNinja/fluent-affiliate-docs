@@ -35,7 +35,7 @@ Now, let’s talk about how to set up an affiliate for specific events using Flu
 
 First, go to the **FluentBooking Dashboard** and navigate to the **Calendars** section. Here, you’ll see a list of your events. Select the event for which you want to set up a commission.
 
-Now, copy the URL of the page where the booking event is embedded and use it to generate the referral link.
+Now, **copy** the URL of the page where the booking event is embedded and use it to generate the referral link.
 
 >[!Note]
 > Make sure the event you choose has a **payment** option **enabled**. Without it, affiliate commissions won’t work for that booking.
