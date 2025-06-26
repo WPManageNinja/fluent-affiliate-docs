@@ -1,6 +1,6 @@
 # FluentForms Integration with FluentAffiliate
 
-FluentForms is a powerful form builder plugin for WordPress. With FluentAffiliate, you can manage your form submissions and affiliate registrations seamlessly.
+FluentForms is WordPress’s drag-and-drop, lightweight, and fastest AI form builder. With FluentAffiliate, you can manage your form submissions and affiliate registrations seamlessly.
 
 In this guide, we'll walk you through how to connect FluentForms with FluentAffiliate step by step.
 
@@ -17,53 +17,59 @@ Your **FluentForms** integration with **FluentAffiliate** is now active, allowin
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](@images/integrations/integration-setup-options.webp)
+![Integration Settings](/guide/public/images/integrations/fluentforms/fluentforms-integration-setup.webp)
 
 ## Configure FluentForms Settings
 
-A pop-up will arrive where you'll find important settings to manage how the integration works. You can enable or disable these options based on your preferences.
+A pop-up will appear where you need to check the **Allow Affiliate Registration** option. Once you enable this, two more options will appear below for further configuration.
 
-**Enable Form Integration**: If you check this option, FluentAffiliate will allow you to create affiliate registration forms.
+**Affiliate Registration Forms:** You can link registration forms by either typing the form **Names** or entering the form **ID** numbers. This allows you to control which forms are used for affiliate sign-ups.
 
-**Enable Form Tracking**: By enabling this checkbox, you can track form submissions through affiliate links.
+**Create a New WordPress User:** If you enable this by clicking the checkbox, a new WordPress user account will be created automatically when someone submits the affiliate registration form. This is helpful if you want affiliates to have user accounts on your site.
 
-![FluentForms Settings](@images/integrations/fluentforms/form-settings-configuration.webp)
+After selecting the options you want, simply click the **Save Settings** button to save your settings.
 
-## Affiliate Registration Form
+![FluentForms Settings](/guide/public/images/integrations/fluentforms/form-settings-configuration.webp)
 
-Create a dedicated form for affiliate registration:
+## Configure the Specific Form with FluentAffiliate
 
-![Affiliate Registration](@images/integrations/affiliate-registration-settings.webp)
+To configure a specific form with FluentAffiliate, you’ll first need to *create a form*. Once the form is created, go to the **Edit** section of that payment form.
 
-### Integration Templates
+![Configure Forms](/guide/public/images/integrations/fluentforms/edit-form.webp)
 
-Use pre-built templates for common affiliate scenarios:
+Next, navigate to the Form **Settings & Integration** section. From here, choose the **Configure Integration** option from the dropdown menu on the left sidebar.
 
-![Integration Templates](@images/integrations/integration-template-settings.webp)
+On the right side, you’ll see an option called **Add New Integration**. Click on it, and then select **FluentAffiliate Integration** from the available options.
 
-### Integration Settings
+This will connect your payment form with FluentAffiliate, allowing you to track affiliate referrals and commissions for form submissions.
 
-Configure form-specific integration settings:
+![Settings & Integrations](/guide/public/images/integrations/fluentforms/fluentaffiliate-integrastions.webp)
 
-![Integration Settings](@images/integrations/integration-general-settings.webp)
+### FluentAffiliate Integration Feed
 
-### Affiliate Feed
+In this section, you’ll configure the FluentAffiliate Integration Feed for your form. Start by entering a name in the **FluentAffiliate Integration Feed Name** field. This helps you identify the integration easily.
 
-Set up affiliate feed settings:
+Next, set the **Affiliate Amount**. You can enter the desired commission amount here. To adjust the value, simply click the **plus (+)** or **minus (-)** icons to increase or decrease the amount as needed. If you prefer, you can also type the exact amount directly into the box. 
 
-![Affiliate Feed](@images/integrations/affiliate-feed-settings.webp)
+Once you’ve filled in the required details, click the **Save Feed** button to save your integration feed. 
 
-### Form Integrations
+![Integrations Feed](/guide/public/images/integrations/fluentforms/form-integration-feed.webp)
 
-Manage form integrations:
+After saving, a success message will appear confirming that the feed has been created.
 
-![Form Integrations](@images/integrations/form-integration-settings.webp)
+If you need to make changes later, you can click the **Settings** icon to edit the feed configuration. To remove the integration completely, click the **Delete** icon.
 
-### Embedded Form
+Additionally, you can easily **enable** or **disable** the form integration at any time by clicking the toggle button next to the feed.
 
-Configure embedded form settings:
+### Embed the Form into the Front
 
-![Embedded Form](@images/integrations/embedded-form-settings.webp)
+Once you complete the customizations, click the **Preview & Design** button in the middle of the screen. This will allow you to see a live preview of how your form will look on the front end.
+
+To display the form on a specific page or post, simply **copy** the **Shortcode** from the top right corner of the screen. Then, paste this shortcode into the content area of your desired **Page** or **Post**.
+
+This will embed the form on your website, making it visible and ready for users to interact with.
+
+![Embedded Form](/guide/public/images/integrations/fluentforms/embedded-form-settings.webp)
 
 ## Generate an Affiliate Link
 
@@ -71,7 +77,12 @@ After you've completed configuring the FluentForms affiliate settings, the next 
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](@images/integrations/copy-affiliate-link.webp)
+![Copy Affiliate Link](/guide//public/images/integrations/fluentforms/copy-affiliate-link.webp)
+
+If someone clicks the link, you will get the affiliate commission.
+
+![Referral](/guide//public/images/integrations/fluentforms/referral.webp)
+
 
 ### Troubleshooting Common Issues
 
