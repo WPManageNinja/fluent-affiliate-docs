@@ -3,6 +3,7 @@
 WooCommerce is one of the most popular plugins in WordPress that helps you sell products and manage your online store. With **FluentAffiliate**, you can easily track affiliate commissions and handle affiliate payments.
 
 In this guide, we'll walk you through how to integrate WooCommerce with FluentAffiliate step by step.
+
 > [!Note]
 > To get started, you first need to install and activate the WooCommerce plugin on your WordPress website.
 
@@ -16,57 +17,64 @@ Your **WooCommerce** integration with **FluentAffiliate** is now active, allowin
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your WooCommerce products.
 
-![Integration Settings](@images/integrations/integration-setup-options.webp)
+![Integration Settings](/guide/public/images/integrations/woocommerce/integration-setup-options.webp)
 
-## Configure WooCommerce Settings in FluentAffiliate
+## Configure WooCommerce Settings 
 
-A pop-up will appear. Here, you'll find **two** important settings that you can enable, depending on how you want to manage your affiliate commissions.
+A pop-up will arrive where you'll find important settings to manage how affiliate commissions are handled. You can enable or disable these options based on your preferences.
 
-#### Affiliate on Discount Product
+**Affiliate on Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
 
-If you enable this option (by checking the box), it allows affiliates to earn commissions even when a WooCommerce product is sold with a discount. This is useful if you want your affiliates to still get rewarded for promoting discounted products.
+If disabled (unchecked), no commission will be paid on transactions where a coupon is used.
 
-#### Enable Product-Based Commission
+**Custom Affiliate Rates**: Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates. 
 
-By checking this option, you can set commissions based on individual products. This gives you more control, so you can offer different commission rates for specific products instead of using a global rate.
+![WooCommerce Settings](/guide/public/images/integrations/woocommerce/woo-settings-configuration.webp)
 
-Once you've selected the options you need, simply click the **Update** button to save your settings.
 
-![WooCommerce Settings](@images/integrations/woocommerce/woo-settings-configuration.webp)
+## Custom Affiliate Rate Configuration
 
-## Configure Affiliate for WooCommerce Product
+Once **Custom Affiliate Rate** is enabled, you can define specific commission structures based on products or categories. Click on the **+Add Rate** button for the next step.
 
-To set up affiliate commissions for individual products or product groups in WooCommerce, you'll need to configure a few simple settings.
+**1. Select Type:** This option allows you to specify whether the custom rate applies to individual products or entire product categories.
 
-Now, go to the **WooCommerce Product** section and select specific products in your WordPress dashboard. Here, you'll find the **FluentAffiliate options** available for each product.
+  **Product:** Select this radio button to apply the custom rate to specific products.
 
-#### Affiliate Rate Type
+  **Category:** Select this radio button to apply the custom rate to an entire product category.
 
-This option lets you choose the commission **Rate Type** for the selected product. You will get four different rate types in the dropdown menu. By default, it is set to **Default**, but you can change it according to your needs.
+**2. Affiliate Products / Categories:** Depending on your *"Select Type"* choice, this field will allow you to search for and select the specific items.
 
-Depending on the **Affiliate Rate Type** you select, you'll have different ways to set commission values:
+  **For Product Type:** Enter a keyword in the text field to search for and select the product(s) to which this custom rate will apply.
 
-**Percentage Rate Type**: If you select this option, you can enter a specific **percentage** in the **Affiliate Rate** box for the product. This will define how much commission an affiliate earns per sale based on the product price.
+  **For Category Type:** Here, you would typically find a similar search or dropdown field to select the desired product category/categories.
 
-**Flat Rate Type**: If you choose the **Flat Rate** Type, you can enter a **fixed** amount in the **Affiliate Rate box**. Affiliates will earn this flat commission for each sale of the selected product.
+**3. Affiliate Rate:** Set the commission rate for the selected products or categories.
 
-**Group Rate Type**: When selecting the **Group Rate** Type, you'll be able to choose a **commission group** from the dropdown menu. These groups are predefined in your FluentAffiliate settings and allow you to apply group-based commission rates.
+  **Rate Value Input:** Use the” - “and “+” buttons, or directly type a numerical value into the field, to set the commission amount.
 
-#### Disable Referral
+  **Rate Type Selector:** Click the dropdown menu to choose the type of commission:
+     
+  **• Percentage:** The affiliate will receive a percentage of the sale price as commission.
 
-If you check this box, it will **prevent this product from generating any referral commissions** for affiliates. This is useful for products where you don't want affiliates to earn commissions.
+  **• Fixed:** The affiliate will receive a fixed amount (e.g., currency value) as commission, regardless of the sale price.
 
-![Affiliate Type](@images/integrations/affiliate-commission-types.webp)
+**Add More Rates:** After configuring the desired type, products/categories, and rate, click the *Add Rate* button to save this specific custom rate configuration. You can then repeat the process to add more custom rates. 
+
+Also, you can delete the affiliate rates by clicking the *delete* icon in the top right corner.
+
+![Woocommerce Settings](/guide/public/images/integrations/woocommerce/custom-affiliate-rates.webp)
+
+Once all your custom rates are added, click **Save Settings** button to apply them.
 
 ## Generate an Affiliate Link
 
 Once you've finished setting up your WooCommerce product settings, it's time to create your **affiliate link**.
 
-To do this, log in to your **Affiliate Area** provided by FluentAffiliate. Inside, go to the **Affiliate Links** section. Here, paste the **URL** of the product page you want to promote. FluentAffiliate will instantly generate a **unique affiliate link** for you.
+To do this, log in to your **Affiliate Area** provided by FluentAffiliate. Inside, go to the affiliate **Links** section. Here, paste the **URL** of the product page you want to promote. Click on the **Generate** button. FluentAffiliate will instantly generate a unique **affiliate link** for you.
 
-When your link is ready, just **copy it** and share it anywhere you like — whether it's on **social media, in emails, blog posts**, or directly with your audience.
+When your link is ready, just **copy** it and share it anywhere you like — whether it's on **social media, in emails, blog posts**, or directly with your audience.
 
-![Affiliate Link Generate](@images/integrations/generate-affiliate-link.webp)
+![Affiliate Link Generate](/guide/public/images/integrations/woocommerce/affiliate-link-generation.webp)
 
 Now, whenever someone makes a purchase using your affiliate link, you'll earn a commission based on the rates you've set.
 

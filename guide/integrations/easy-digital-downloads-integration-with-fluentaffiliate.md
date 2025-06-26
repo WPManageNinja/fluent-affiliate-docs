@@ -20,7 +20,7 @@ In the **Manage** section, you'll find additional settings to customize how affi
 
 A pop-up will arrive where you'll find important settings to manage how affiliate commissions are handled. You can enable or disable these options based on your preferences.
 
-**Affiliate With Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
+**Affiliate on Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
 
 If disabled (unchecked), no commission will be paid on transactions where a coupon is used.
 
@@ -64,7 +64,7 @@ Once all your custom rates are added, click **Save Settings** button to apply th
 
 ## Generate an Affiliate Link
 
-After you've completed configuring the EDD affiliate settings, the next step is to log in to your **Affiliate Area** provided by FluentAffiliate. In the **Affiliate Links** section, paste the **URL** of the product page you want to promote. FluentAffiliate will automatically generate a **unique affiliate link** for you.
+After you've completed configuring the EDD affiliate settings, the next step is to log in to your **Affiliate Area** provided by FluentAffiliate. In the **Affiliate Links** section, paste the **URL** of the product page you want to promote. Click on the **Generate** button. FluentAffiliate will automatically generate a unique **affiliate link** for you.
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
