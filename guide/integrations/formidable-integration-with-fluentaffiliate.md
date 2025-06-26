@@ -1,8 +1,11 @@
 # Formidable Integration with FluentAffiliate
 
-Formidable is a powerful form builder plugin for WordPress. With FluentAffiliate, you can manage your form submissions and affiliate registrations seamlessly.
+Formidable is a powerful drag-and-drop form builder for WordPress. It makes creating forms quick and easy. Integrating Formidable with the FluentAffiliate plugin allows you to create affiliate registration forms, track subscriptions, and manage other payments without hassle.
 
-In this guide, we'll walk you through how to connect Formidable with FluentAffiliate step by step.
+In this guide, we’ll show you step by step how to connect Formidable Forms with FluentAffiliate.
+
+>[!Note]
+> Make sure both plugin Formidable and FluentAffiliate are installed and activated on your WordPress website.
 
 ## Enable Formidable in FluentAffiliate
 
@@ -14,17 +17,15 @@ Your **Formidable** integration with **FluentAffiliate** is now active, allowing
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](@images/integrations/integration-setup-options.webp)
+![Formidable Settings](/guide/public/images/integrations/formidable/formidable-integration-setup.webp)
 
-## Configure Formidable Settings
+## Configure the Specific Form 
 
-A pop-up will arrive where you'll find important settings to manage how the integration works. You can enable or disable these options based on your preferences.
+To configure a specific form with FluentAffiliate, start by creating a form in **Formidable Forms**. Once your form is ready, embed it on the desired page or post and save the form.
 
-**Enable Form Integration**: If you check this option, FluentAffiliate will allow you to create affiliate registration forms.
+Next, **copy** the URL of the page or post where the form is embedded.
 
-**Enable Form Tracking**: By enabling this checkbox, you can track form submissions through affiliate links.
-
-![Formidable Settings](@images/integrations/formidable/form-settings-configuration.webp)
+![Formidable Form](/guide/public/images/integrations/formidable/configure-the-specific-form.webp)
 
 ## Generate an Affiliate Link
 
@@ -32,7 +33,7 @@ After you've completed configuring the Formidable affiliate settings, the next s
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link Generation](@images/integrations/affiliate-link-generation.webp)
+![Affiliate Link Generation](/guide/public/images/integrations/formidable/affiliate-link-generation.webp)
 
 ### Troubleshooting Common Issues
 
