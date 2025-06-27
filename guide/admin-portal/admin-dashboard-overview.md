@@ -1,6 +1,8 @@
 ---
-title: Admin Dashboard Overview
-description: Master your affiliate program with the FluentAffiliate Admin Dashboard. Learn to track key stats like earnings, referrals, visits, and top performers easily..
+head:
+  - - meta
+    - name: description
+      content: Master your affiliate program with the FluentAffiliate Admin Dashboard. Learn to track key stats like earnings, referrals, visits, and top performers easily.
 ---
 
 # Admin Dashboard Overview
