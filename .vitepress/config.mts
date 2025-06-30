@@ -106,7 +106,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'LearnDash', link: '/guide/integrations/learndash-integration-with-fluentaffiliate' },
-                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' }
+                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
+                { text: 'LifterLMS', link: '/guide/integrations/lifterlms-integration-with-fluentaffiliate' }
               ]
             },
             {
