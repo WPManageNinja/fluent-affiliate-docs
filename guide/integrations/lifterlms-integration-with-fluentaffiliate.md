@@ -7,7 +7,7 @@ In this guide, we'll walk you through how to connect LifterLMS with FluentAffili
 >[!Note]
 > Make sure both plugins are installed and activated on your site.
 
-### Enable LifterLMS Integration
+## Enable LifterLMS Integration
 
 1.  Go to your **WordPress Dashboard**, navigate to **FluentAffiliate Dashboards**, and click on the **Settings** tab top right corner.
 2.  Then, click on **Integration Settings** from the left sidebar.
@@ -27,7 +27,7 @@ Here appears a pop-up. You’ll find a couple of settings options.
 
 ![LifterLMS Settings](/guide/public/images/integrations/lifterlms/lifterlms-settings-configuration.webp)
 
-## Generate an Affiliate Link
+### Generate an Affiliate Link
 
 After you've completed configuring the LifterLMS affiliate settings, the next step is to log in to your **Affiliate** area provided by FluentAffiliate. In the affiliate **Links** section, paste the **URL** of the Course page you want to promote. FluentAffiliate will automatically generate a unique **Affiliate link** for you.
 
