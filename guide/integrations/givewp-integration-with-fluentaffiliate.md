@@ -50,5 +50,3 @@ Here are solutions to common issues you might encounter:
 * **Commissions Not Tracking:** Verify that the integration toggle is enabled. You can also test your affiliate link to ensure it’s working correctly.
 
 And that’s it! This is the easy process to integrate GiveWP with FluentAffiliate and start earning commissions.
-
-If you have any more questions, need assistance, or run into any issues, please feel free to contact our **support team**.
