@@ -120,6 +120,13 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Payment',
+              collapsed: true,
+              items: [
+                { text: 'GiveWP', link: '/guide/integrations/givewp-integration-with-fluentaffiliate' }
+              ]
+            },
+            {
               text: 'Booking',
               collapsed: true,
               items: [
