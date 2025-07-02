@@ -69,7 +69,7 @@ Once you've finished setting up your **Easy Digital Downloads** product settings
 
 1. Log in to the **Affiliate** area provided by FluentAffiliate and go to the affiliate **Links** section. 
 2. **Paste** the URL of the product page you want to promote and click the **Generate** button.
-3. FluentAffiliate will create a unique **affiliate link**. **Copy** this link and share it on social media, blogs, emails, or directly with your audience.
+3. FluentAffiliate will create a unique **Affiliate Link**. **Copy** this link and share it on social media, blogs, emails, or directly with your audience.
 
 Now, when someone makes a purchase using this link, you'll earn a commission based on your *settings*.
 
