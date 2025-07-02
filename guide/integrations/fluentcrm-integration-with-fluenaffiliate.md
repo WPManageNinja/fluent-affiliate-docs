@@ -5,13 +5,14 @@ FluentCRM is a powerful email marketing automation plugin for WordPress. With Fl
 In this guide, we'll walk you through how to connect FluentCRM with FluentAffiliate step by step.
 
 >[!Note]
-> Make sure both plugin FluentCRM and FluentAffiliate are installed and activated on your website.
+> Make sure both the FluentCRM and FluentAffiliate plugins are installed and activated on your website.
 
 ## Enable FluentCRM in FluentAffiliate
 
-Once FluentCRM is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.
-
-Inside the Integration Settings, you'll see a list of available integrations. Look for **FluentCRM** in this list. To enable the integration, click on the **toggle** button next to FluentCRM.
+First, let's enable the integration to get the two plugins working together.
+1. Once FluentCRM is active, go to the **FluentAffiliate Dashboard**. 
+2. From the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option. 
+3. You will see a list of available integrations. Find **FluentCRM** in this list and click the **toggle** button next to it to turn it on.
 
 Your **FluentCRM** integration with **FluentAffiliate** is now active, allowing you to automate affiliate-related email marketing tasks.
 
@@ -21,11 +22,11 @@ In the **Manage** section, you'll find additional settings to customize how the 
 
 ## Configure FluentCRM Settings
 
-A pop-up will appear where you need to check the **Add Affiliates to FluentCRM Contact List** option. 
+After enabling the integration, a pop-up will appear where you can configure the **settings**. 
 
-After that, search the contact list in the box and choose the specific contact list option to add the affiliate to the CRM contact list.
-
-After selecting the options, simply click the **Save Settings** button to save your settings.
+1. Check the box for **Add Affiliates to FluentCRM Contact List**.
+2. In the box that appears, search for and select the specific contact list where you want your new affiliates to be added. 
+3. After selecting the options, simply click the **Save Settings** button to save your settings.
 
 ![FluentCRM Settings](/guide/public/images/integrations/fluentcrm/fluentcrm-settings-configuration.webp)
 
@@ -39,13 +40,13 @@ To get all the **Triggers**, go to the **Automations** section from the FluentCR
 
 To learn the detailed process of creating a new automation funnel, read this [Documentation](https://fluentcrm.com/docs/introduction-to-fluentcrm-automation/).
 
-![New Automation](/guide/public/images/integrations/automation-setup.webp)
+![New Automation](/guide/public/images/integrations/fluentcrm/automation-setup.webp)
 
 Now, a pop-up page will appear with all the **Popular pre-built funnel templates** for creating automation, where the full funnel diagram will be ready automatically. 
 
 If you want to create your automation funnel from scratch, simply click on the **Create from Scratch** tab (e.g., here, I have created a new automation from scratch).
 
-![Pre-built Templates](/guide/public/images/integrations/prebuilt-templates.webp)
+![Pre-built Templates](/guide/public/images/integrations/fluentcrm/prebuilt-templates.webp)
 
 ## Triggers for FluentAffiliate
 
@@ -53,11 +54,11 @@ Go to **FluentAffiliate** from the left sidebar, and all the Triggers for Fluent
 
 Now, choose your desired trigger. Here, you can give a **Title** to your Automation in the **Internal Label** field for easy referencing later. But if you leave it blank, the title will be automatically set based on your chosen trigger. All the triggers are:
 
-**New Affiliate Created:** If you select this trigger, the automation will start when a new affiliate is created in FluentAffiliate.
+* **New Affiliate Created:** If you select this trigger, the automation will start when a new affiliate is created in FluentAffiliate.
 
-**New referral created:** If you select this trigger, the automation will start when a new referral is created in FluentAffiliate.
+* **New referral created:** If you select this trigger, the automation will start when a new referral is created in FluentAffiliate.
 
-**New Payout Created:** If you select this trigger, this will start when a new payout is created in FluentAffiliate.
+* **New Payout Created:** If you select this trigger, this will start when a new payout is created in FluentAffiliate.
 Create targeted campaigns for your affiliates.
 
 ![FluentAffiliate Trigger](/guide/public/images/integrations/fluentcrm/fluentaffiliate-trigger.webp)
@@ -69,7 +70,6 @@ FluentCRM allows you to run Email campaigns, particularly for FluentAffiliate co
 First, go to **All Campaigns** under the Emails section from the FluentCRM navbar, and click the **+ Create New Campaign** button.
 
 To learn the detailed process of creating a new Email Campaign, read this [Documentation](https://fluentcrm.com/docs/setting-up-campaign/#create-a-new-campaign).
-
 
 ![Advanced Filters](/guide/public/images/integrations/fluentcrm/create-campaigns.webp)
 
@@ -84,7 +84,7 @@ Now, click on the **+Add** button to start the filtering, where you will get man
 
 You can add more filters by clicking the **+Add** button, add filters against the existing filter by clicking the **+ OR** button, and delete any existing filter by clicking the **Trash** Icon.
 
-![Advanced Filters](/guide/public/images/integrations/advanced-filter-settings.webp)
+![Advanced Filters](/guide/public/images/integrations/fluentcrm/advanced-filter-settings.webp)
 
 ### Contact Management
 
@@ -92,7 +92,7 @@ If you want to filter out your FluentAffiliate contacts, go to the FluentCRM **C
 
 Next, click the **+Add** icon and select the FluentAffiliate option. Here you will find a filter condition. After that, set the condition filter and click the **Filter** button.
 
-![Contact Filtering](/guide/public/images/integrations/contact-filtering-options.webp)
+![Contact Filtering](/guide/public/images/integrations/fluentcrm/contact-filtering-options.webp)
 
 ### Troubleshooting Common Issues
 
