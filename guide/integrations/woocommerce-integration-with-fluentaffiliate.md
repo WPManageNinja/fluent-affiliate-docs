@@ -25,11 +25,11 @@ In the **Manage** section, you'll find additional settings to customize how affi
 
 After you enable the integration, a pop-up window will appear with more settings to control how affiliate commissions are handled.
 
-**Affiliate on Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
+* **Affiliate on Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
 
-If disabled (unchecked), no commission will be paid on transactions where a coupon is used.
+  If disabled (unchecked), no commission will be paid on transactions where a coupon is used.
 
-**Custom Affiliate Rates**: Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates. 
+* **Custom Affiliate Rates**: Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates. 
 
 ![WooCommerce Settings](/guide/public/images/integrations/woocommerce/woo-settings-configuration.webp)
 
@@ -73,7 +73,7 @@ Once all your custom rates are added, click **Save Settings** button to apply th
 Once you've finished setting up your WooCommerce product settings, it's time to create your **affiliate link**.
 
 1. Log in to the **Affiliate** area provided by FluentAffiliate and go to the affiliate **Links** section. 
-2. Paste the URL of the product page you want to promote and click the **Generate** button.
+2. **Paste** the URL of the product page you want to promote and click the **Generate** button.
 3. FluentAffiliate will create a unique **affiliate link**. **Copy** this link and share it on social media, blogs, emails, or directly with your audience.
 
 Now, when someone makes a purchase using this link, you'll earn a commission based on your *settings*.
