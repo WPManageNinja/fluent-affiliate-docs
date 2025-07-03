@@ -1,38 +1,40 @@
 # Formidable Integration with FluentAffiliate
 
-Formidable is a powerful form builder plugin for WordPress. With FluentAffiliate, you can manage your form submissions and affiliate registrations seamlessly.
+Formidable is a powerful drag-and-drop form builder for WordPress. It makes creating forms quick and easy. Integrating Formidable with the FluentAffiliate plugin allows you to create affiliate registration forms, track subscriptions, and manage other payments without hassle.
 
-In this guide, we'll walk you through how to connect Formidable with FluentAffiliate step by step.
+In this guide, we’ll show you step by step how to connect Formidable Forms with FluentAffiliate.
+
+>[!Note]
+> Make sure both plugin Formidable and FluentAffiliate are installed and activated on your WordPress website.
 
 ## Enable Formidable in FluentAffiliate
 
-Once Formidable is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.
-
-Inside the Integration Settings, you'll see a list of available integrations. Look for **Formidable** in this list. To enable the integration, click on the **toggle** button next to Formidable.
+1. Once Formidable is active, go to the **FluentAffiliate Dashboard**.
+2. From the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option. 
+3. ou will see a list of available integrations. Look for **Formidable** in this list. To enable the integration, click on the **toggle** button next to Formidable.
 
 Your **Formidable** integration with **FluentAffiliate** is now active, allowing you to create affiliate registration forms and track form submissions.
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](@images/integrations/integration-setup-options.webp)
+![Formidable Settings](/guide/public/images/integrations/formidable/formidable-integration-setup.webp)
 
-## Configure Formidable Settings
+## Configure the Specific Form 
 
-A pop-up will arrive where you'll find important settings to manage how the integration works. You can enable or disable these options based on your preferences.
+To configure a specific form with FluentAffiliate, you need to create a form in **Formidable Forms**. 
 
-**Enable Form Integration**: If you check this option, FluentAffiliate will allow you to create affiliate registration forms.
+1. Once your form is ready, embed it on the desired page or post and save the form.
+2. Next, **copy** the URL of the page or post where you have embedded the form.  This **URL** will be used by your affiliates to generate their unique links.
 
-**Enable Form Tracking**: By enabling this checkbox, you can track form submissions through affiliate links.
-
-![Formidable Settings](@images/integrations/formidable/form-settings-configuration.webp)
+![Formidable Form](/guide/public/images/integrations/formidable/configure-the-specific-form.webp)
 
 ## Generate an Affiliate Link
 
-After you've completed configuring the Formidable affiliate settings, the next step is to log in to your **Affiliate Area** provided by FluentAffiliate. In the **Affiliate Links** section, paste the **URL** of the form page you want to promote. FluentAffiliate will automatically generate a **unique affiliate link** for you.
+After you've completed configuring the Formidable affiliate settings, the next step is to log in to your **Affiliate** area provided by FluentAffiliate. In the affiliate **Links** section, paste the **URL** of the form page you want to promote. FluentAffiliate will automatically generate a unique **affiliate link** for you.
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link Generation](@images/integrations/affiliate-link-generation.webp)
+![Affiliate Link Generation](/guide/public/images/integrations/formidable/affiliate-link-generation.webp)
 
 ### Troubleshooting Common Issues
 

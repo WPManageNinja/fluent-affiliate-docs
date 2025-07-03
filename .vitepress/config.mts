@@ -106,7 +106,8 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'LearnDash', link: '/guide/integrations/learndash-integration-with-fluentaffiliate' },
-                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' }
+                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
+                { text: 'LifterLMS', link: '/guide/integrations/lifterlms-integration-with-fluentaffiliate' }
               ]
             },
             {
@@ -116,6 +117,13 @@ export default defineConfig({
                 { text: 'Fluent Forms', link: '/guide/integrations/fluentforms-integration-with-fluentaffiliate' },
                 { text: 'FluentCRM', link: '/guide/integrations/fluentcrm-integration-with-fluenaffiliate' },
                 { text: 'Formidable', link: '/guide/integrations/formidable-integration-with-fluentaffiliate' }
+              ]
+            },
+            {
+              text: 'Payment',
+              collapsed: true,
+              items: [
+                { text: 'GiveWP', link: '/guide/integrations/givewp-integration-with-fluentaffiliate' }
               ]
             },
             {
