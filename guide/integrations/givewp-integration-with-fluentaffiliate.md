@@ -4,7 +4,7 @@ Integrating GiveWP with the FluentAffiliate plugin helps you to manage affiliate
 In this guide, we’ll walk you through the steps to connect GiveWP with FluentAffiliate and set up affiliate commission for your campaign.
 
 >[!Note]
-> Make sure both plugins are installed and activated on your site.
+> To get started, you must first install and activate the GiveWP plugin on your WordPress website.
 
 ## Enable GiveWP in FluentAffiliate
 Once you have both plugins activated, follow these steps to connect GiveWP with FluentAffiliate:

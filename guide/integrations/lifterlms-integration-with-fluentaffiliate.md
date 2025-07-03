@@ -25,6 +25,8 @@ Here appears a pop-up. You’ll find a couple of settings options.
 * **Disable Commission on Renewal:** If you check this option, FluentAffiliate will disable affiliate commissions for all course renewals. Affiliates will not earn commissions when customers renew their purchases.
 * **Disable Commission on Upgrades:** If you enable this option, all course upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade from one course plan to another.
 
+Once you’ve chosen the settings that match your needs, just click the **Save Setting** button to save your changes.
+
 ![LifterLMS Settings](/guide/public/images/integrations/lifterlms/lifterlms-settings-configuration.webp)
 
 ### Generate an Affiliate Link
