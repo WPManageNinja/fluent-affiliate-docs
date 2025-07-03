@@ -4,11 +4,16 @@ MemberPress is a powerful membership plugin for WordPress. With FluentAffiliate,
 
 In this guide, we'll walk you through how to connect MemberPress with FluentAffiliate step by step.
 
+> [!NOTE]
+>To get started, you must first install and activate the MemberPress plugin on your WordPress website.
+
 ## Enable MemberPress in FluentAffiliate
 
-Once MemberPress is active, go to the **FluentAffiliate Dashboard**. In the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.
+First, you need to enable the integration to let the two plugins communicate.
 
-Inside the Integration Settings, you'll see a list of available integrations. Look for **MemberPress** in this list. To enable the integration, click on the **toggle** button next to MemberPress.
+1. Once MemberPress is active, go to the **FluentAffiliate Dashboard**. 
+2. From the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.
+3. You will see a list of available integrations. Look for **MemberPress** in this list. To enable the integration, click on the **toggle** button next to MemberPress.
 
 Your **MemberPress** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on MemberPress course or membership sales.
 
@@ -20,19 +25,25 @@ Here, you can adjust how FluentAffiliate will handle **course renewals** and **u
 
 ## Configure MemberPress Settings
 
-A pop-up will arrive where you'll find **two** important **settings** to manage how affiliate commissions are handled. You can enable or disable these options based on your preferences.
+When you manage the settings, a pop-up will appear where you can adjust how affiliate commissions are handled.
+
+Here are the options you can configure: 
 
 **Disable Commission on Renewal**: If you check this option, FluentAffiliate will disable affiliate commissions for membership or Courses. Affiliates will not earn commissions when customers renew their purchases.
 
 **Disable Commission on Upgrade**: By enabling this checkbox, all membership or course **upgrade commissions** will be turned off for affiliates. This means no commissions will be given when customers upgrade their membership or courses.
 
+After that, click on the Save Setting button to save this configure setting.
+
 ![MemberPress Settings](/guide/public/images/integrations/memberpress/memberpress-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
-After you've completed configuring the MemberPress affiliate settings, the next step is to log in to your **Affiliate** area provided by FluentAffiliate. In the affiliate **Links** section, paste the **URL** of the Course page you want to promote. FluentAffiliate will automatically generate a unique **Affiliate link** for you.
-
-Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
+After you have configured the settings, your affiliates can begin creating your promotional links.
+1. Affiliates should log in to their **Affiliate** area provided by FluentAffiliate. 
+2. In the **Links** section, you need to paste the **URL** of the course or membership page you want to promote.
+3. FluentAffiliate will generate a unique **Affiliate Link** for you. 
+4. Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
 ![Copy Affiliate Link](/guide/public/images/integrations/memberpress/affiliate-link-generation.webp)
 
@@ -42,8 +53,8 @@ If someone purchases the Course using your affiliate link, you'll earn a commiss
 
 Here are solutions to common issues you might encounter:
 
-- **Integration Toggle Not Visible:** Ensure both MemberPress and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
-- **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it working.
+* ***Integration Toggle Not Visible:** Ensure both MemberPress and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
+* **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it working.
 
 And that's it. This is an easy process to integrate MemberPress with FluentAffiliate.
 

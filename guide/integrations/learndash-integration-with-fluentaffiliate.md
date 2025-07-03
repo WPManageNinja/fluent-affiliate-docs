@@ -30,7 +30,7 @@ Here are the options you can configure:
 
 * **Disable Commission on Upgrade**: By enabling this checkbox, all course upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade their courses.
 
-After that, click the Save **Settings** button to save this settings.
+Once you’ve chosen the settings that match your needs, just click the **Save Setting** button to save your changes.
 
 ![LearnDash Settings](/guide/public/images/integrations/learndash/learndash-settings-configuration.webp)
 
