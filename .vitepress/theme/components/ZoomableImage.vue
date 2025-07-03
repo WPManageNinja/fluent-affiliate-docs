@@ -65,9 +65,21 @@ export default {
       const viewportHeight = window.innerHeight;
       const viewportWidth = window.innerWidth;
       
-      // Use different scale factors for mobile and desktop
-      const isMobile = viewportWidth <= 767;
-      const scaleFactor = isMobile ? 2.05 : 2.1;
+      // Calculate scale to make image fill most of the screen
+      const padding = 20; // Smaller padding for more screen space
+      const targetWidth = viewportWidth - padding;
+      const targetHeight = viewportHeight - padding;
+      
+      // Use CURRENT rendered image dimensions (not natural dimensions)
+      const currentWidth = imgRect.width;
+      const currentHeight = imgRect.height;
+      
+      // Calculate scale based on current rendered size
+      const scaleX = targetWidth / currentWidth;
+      const scaleY = targetHeight / currentHeight;
+      
+      // Use the smaller scale to ensure it fits
+      const scaleFactor = Math.min(scaleX, scaleY);
       
       // Calculate the center of the viewport
       const viewportCenterY = viewportHeight / 2;
@@ -91,6 +103,11 @@ export default {
         this.closeZoom();
       }
     },
+    handleKeydown(e) {
+      if (e.key === 'Escape' && this.isZoomed) {
+        this.closeZoom();
+      }
+    },
     handleResize() {
       if (this.isZoomed) {
         this.centerImageInViewport();
@@ -100,11 +117,13 @@ export default {
   mounted() {
     window.addEventListener('scroll', this.handleScroll);
     window.addEventListener('resize', this.handleResize);
+    window.addEventListener('keydown', this.handleKeydown);
     document.addEventListener('click', this.handleClickOutside);
   },
   beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
     window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener('keydown', this.handleKeydown);
     document.removeEventListener('click', this.handleClickOutside);
   }
 }
@@ -146,7 +165,7 @@ export default {
 }
 
 .image-container.clicked img {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   cursor: zoom-out;
 }
 
@@ -156,7 +175,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 999998;
   transition: opacity 0.3s ease;
 }
