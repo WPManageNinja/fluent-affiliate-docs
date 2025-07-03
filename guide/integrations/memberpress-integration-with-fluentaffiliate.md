@@ -33,7 +33,7 @@ Here are the options you can configure:
 
 **Disable Commission on Upgrade**: By enabling this checkbox, all membership or course **upgrade commissions** will be turned off for affiliates. This means no commissions will be given when customers upgrade their membership or courses.
 
-After that, click on the Save Setting button to save this configure setting.
+Once you’ve chosen the settings that match your needs, just click the **Save Setting** button to save your changes.
 
 ![MemberPress Settings](/guide/public/images/integrations/memberpress/memberpress-settings-configuration.webp)
 
