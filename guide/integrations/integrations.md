@@ -30,8 +30,8 @@ Need to track form submissions or manage your affiliate relationships?
 ### Payment
 Need to track donation or payment? Our Payment integrations have you covered:
 
-* **[GiveWP](/guide/integrations/givewp-integration-with-fluentaffiliate)** - Generate commissions from donation form submission and track conversion rates.
-* **[Paymattic](/guide/integrations/givewppaymattic-integration-with-fluentaffiliate)** - Generate commissions from donation form submissions and track conversion rates.
+* **[GiveWP](/guide/integrations/givewp-integration-with-fluentaffiliate)** - Allow affiliates to earn commissions by promoting your donation campaigns. 
+* **[Paymattic](/guide/integrations/givewppaymattic-integration-with-fluentaffiliate)** - Track affiliate commissions for payments and donations made through Paymattic forms.
 
 ### Booking and Appointments
 * **[Fluent Booking](/guide/integrations/fluentbooking-integration-with-fluentaffiliate)** - Track affiliate referrals for booking services and appointments.
