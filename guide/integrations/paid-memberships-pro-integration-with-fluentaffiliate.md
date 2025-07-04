@@ -1,0 +1,67 @@
+# Paid Memberships Pro Integration with FluentAffiliate
+
+Paid Memberships Pro is a powerful membership plugin for WordPress, designed to help you create and manage your membership site with ease. By integrating it with FluentAffiliate, you can seamlessly manage affiliate commissions for your membership sales, track referrals, and grow your affiliate program.
+
+In this guide, we'll walk you through how to connect Paid Memberships Pro with FluentAffiliate step by step.
+
+> [!NOTE]
+> To get started, you first need to install and activate both the Paid Memberships Pro and FluentAffiliate plugins on your WordPress website.
+
+## Enable Paid Memberships Pro in FluentAffiliate
+
+Once both plugins are active, you need to enable the integration from the FluentAffiliate dashboard.
+
+1.  Go to the **FluentAffiliate Dashboard**.
+2.  From there, click on the **Settings** tab in the top menu.
+3.  On the left sidebar, you'll find an option called **Integration Settings**. Simply click on that.
+4.  Inside Integration Settings, you'll see a list of different integration options. Find **Paid Memberships Pro** in this list.
+5.  Now, simply click on the **toggle** button to enable the Paid Memberships Pro integration with FluentAffiliate.
+
+Your Paid Memberships Pro integration is now active, allowing affiliates to earn referral commissions on membership sales. 
+
+In the **Manage** section, you'll find additional settings to customize how affiliate commissions work.
+
+![Integration Settings](/guide/public/images/integrations/paid-memberships-pro/integration-setup-options.webp)
+
+## Configure Paid Memberships Pro Settings
+
+After clicking the **Manage** button, a pop-up will appear where you'll find important settings to manage how affiliate commissions are handled. You can enable or disable these options based on your preferences.
+
+* **Enable Affiliate Integration for Paid Memberships Pro:** If this option is enabled (checked), affiliates will be able to earn commissions on sales from your Paid Memberships Pro levels.
+* **Enable custom rate for specific membership or categories:** Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates based on different membership levels.
+
+![Paid Memberships Pro Settings](/guide/public/images/integrations/paid-memberships-pro/paid-memberships-pro-settings-configuration.webp)
+
+### Custom Affiliate Rate Configuration
+
+Once **Custom Affiliate Rate** is enabled, you can define specific commission structures for different membership levels.
+
+1.  Click on the **+Add New Group** button to create your first custom rate.
+    * **Selected Products:** This option allows you to apply the custom rate to specific membership levels. Enter a keyword in the text field to search for and select the membership(s) to which this custom rate will apply.
+    * **Select Rate:** Set the commission rate for the selected membership levels.
+    * **Rate Value Input:** Use the text field to directly type a numerical value to set the commission amount.
+    * **Rate Type Selector:** Click the dropdown menu to choose the type of commission:
+        * **Percentage:** The affiliate will receive a percentage of the sale price as commission.
+        * **Fixed:** The affiliate will receive a fixed amount as commission, regardless of the sale price.
+2.  **Add More Rates:** After configuring the rate, you can click the **+Add New Group** button again to add more custom rates for other membership levels. You can also delete a rate by clicking the delete icon on the right side.
+3.  Once all your custom rates are added, click the **Save Settings** button to apply them.
+
+## Generate an Affiliate Link
+
+After you've completed configuring the Paid Memberships Pro affiliate settings, the next step is for your affiliates to log in to their **Affiliate Area** provided by FluentAffiliate.
+
+1.  In the **Affiliate Links** section, they will paste the URL of the membership page they want to promote.
+2.  Next, click on the **Generate** button and FluentAffiliate will generate a unique **Affiliate link** for them.
+3.  Once the link is ready, they can copy the affiliate link and share it wherever they like—on social media, emails, blogs, or directly with their audience.
+
+![Copy Affiliate Link](/guide/public/images/integrations/paid-memberships-pro/copy-affiliate-link.webp)
+
+
+If someone purchases a membership using the affiliate link, the affiliate will earn a commission based on the settings you've configured.
+
+## Troubleshooting Common Issues
+
+Here are solutions to common issues you might encounter:
+
+* **Integration Toggle Not Visible:** Ensure both Paid Memberships Pro and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
+* **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it's working.
