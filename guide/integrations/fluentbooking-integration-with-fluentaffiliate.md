@@ -9,27 +9,43 @@ In this guide, we'll walk you through how to connect FluentBooking with FluentAf
 
 ## Enable FluentBooking in FluentAffiliate
 
-First, you need to enable the integration to let the two plugins work together.
+Once both plugins are active, the first step is to enable the integration from your FluentAffiliate dashboard.
 
-1. Once FluentBooking is active, go to the **FluentAffiliate Dashboard**. 
-2. From the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option. 
-3. You will see a list of available integrations. Look for **FluentBooking** in this list. To enable the integration, click on the **toggle** button next to FluentBooking.
+1. Go to the **FluentAffiliate Dashboard**.
 
-Your **FluentBooking** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on booking sales.
+2. From there, click on the **Settings** tab in the top menu.
 
-In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your bookings.
+3. On the left sidebar, select the **Integration Settings** option.
+
+4. Inside Integration Settings, find **FluentBooking** in the list of available integrations.
+
+5. Click on the **toggle** button to enable the integration.
+
+6. Your **FluentBooking** integration with **FluentAffiliate** is now active. To customize how commissions work, click the **Manage** button.
 
 ![Integration Settings](/guide/public/images/integrations/fluentbooking/integration-setup-options.webp)
 
 ## Configure FluentBooking Settings
 
-When you manage the settings, a pop-up will appear where you can adjust how affiliate commissions are handled for your bookings. 
+After clicking *Manage*, you can configure how affiliate commissions are handled for your booking events.
 
-* **Disable Commission on Renewal**: If you check this option, FluentAffiliate will disable affiliate commissions for booking renewals. Affiliates will not earn commissions when customers renew their bookings.
+* **Enable Affiliate integration for FluentBooking**: You must check this box to activate commission tracking for your booking sales.
 
-* **Disable Commission on Upgrade**: By enabling this checkbox, all booking upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade their bookings.
+* **Enable custom rate for specific booking events**: Check this box if you want to override the default commission rate and set special rates for different booking events.
 
-Once you’ve chosen the settings that match your needs, just click the **Save Setting** button to save your changes.
+## Custom Affiliate Rate Configuration
+
+Once the **Enable custom rate** option is checked, you can define specific commission structures for your individual booking events. This is ideal if you want to offer different commission rates for different services or events.
+
+Click on the **+Add New Group** button to get started.
+
+1. **Select Booking Events:** Use this field to search for and select the specific booking event to which the custom rate will apply.
+2. **Select Rate:** Set the commission rate for the selected event. Enter a numerical value to set the commission amount.
+ * **Rate Type Selector:** Click the dropdown menu to choose between a **Percentage (%)** of the sale or a **Fixed** amount.
+
+3. **Add More Rates:** You can click the **+Add New Group** button again to create more custom commission rules for other booking events. To remove a rule, click the **delete** icon on the right.
+
+After configuring your custom rates, click the **Save Settings** button.
 
 ![FluentBooking Settings](/guide/public/images/integrations/fluentbooking/booking-settings-configuration.webp)
 
@@ -48,9 +64,15 @@ You can set up affiliate commissions for specific events you've created in Fluen
 
 ## Generate an Affiliate Link
 
-After you've completed configuring the FluentBooking affiliate settings, the next step is to log in to your **Affiliate** area provided by FluentAffiliate. In the affiliate **Links** section, paste the **URL** of the booking page you want to promote. FluentAffiliate will automatically generate a unique **affiliate link** for you.
+After you've configured the settings, your affiliates can start promoting your booking pages.
 
-Once your link is ready, **copy** the affiliate link and share it wherever you like on social media, emails, blogs, or directly with your audience.
+1. Affiliates must log in to their **Affiliate Area**.
+
+2. In the **Affiliate Links** section, they will paste the URL of the booking page they wish to promote.
+
+3. Next, click on the **Generate** button and FluentAffiliate will generate a unique affiliate link for them.
+
+4. Once the link is ready, they can **copy** it and share it on social media, in emails, on their blog, or directly with their audience.
 
 ![Copy Affiliate Link](/guide/public/images/integrations/fluentbooking/copy-affiliate-link.webp)
 
