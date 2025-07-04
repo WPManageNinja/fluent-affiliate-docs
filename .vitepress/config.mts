@@ -123,7 +123,8 @@ export default defineConfig({
               text: 'Payment',
               collapsed: true,
               items: [
-                { text: 'GiveWP', link: '/guide/integrations/givewp-integration-with-fluentaffiliate' }
+                { text: 'GiveWP', link: '/guide/integrations/givewp-integration-with-fluentaffiliate' },
+                { text: 'Paymattic', link: '/guide/integrations/paymattic-integration-with-fluentaffiliate' }
               ]
             },
             {
