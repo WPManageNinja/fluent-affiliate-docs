@@ -39,7 +39,6 @@ Once **Custom Affiliate Rate** is enabled, you can define specific commission st
 1.  Click on the **+Add New Group** button to create your first custom rate.
     * **Selected Products:** This option allows you to apply the custom rate to specific membership levels. Enter a keyword in the text field to search for and select the membership(s) to which this custom rate will apply.
     * **Select Rate:** Set the commission rate for the selected membership levels.
-    * **Rate Value Input:** Use the text field to directly type a numerical value to set the commission amount.
     * **Rate Type Selector:** Click the dropdown menu to choose the type of commission:
         * **Percentage:** The affiliate will receive a percentage of the sale price as commission.
         * **Fixed:** The affiliate will receive a fixed amount as commission, regardless of the sale price.
