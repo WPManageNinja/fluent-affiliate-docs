@@ -1,8 +1,8 @@
 # MemberPress Integration with FluentAffiliate
 
-MemberPress is a powerful membership plugin for WordPress. With FluentAffiliate, you can manage your membership or courses' affiliate commission easily.
+MemberPress is one of the most popular and powerful membership plugins for WordPress, making it easy to sell access to your content, courses, and digital products. By connecting MemberPress with FluentAffiliate, you can launch a robust affiliate program and empower your members to promote your site while earning commissions.
 
-In this guide, we'll walk you through how to connect MemberPress with FluentAffiliate step by step.
+This guide will walk you through the simple steps to integrate MemberPress with FluentAffiliate.
 
 > [!NOTE]
 >To get started, you must first install and activate the MemberPress plugin on your WordPress website.
@@ -19,42 +19,59 @@ Your **MemberPress** integration with **FluentAffiliate** is now active, allowin
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your course or membership.
 
-Here, you can adjust how FluentAffiliate will handle **course renewals** and **upgrades** for your affiliates.
-
 ![Integration Settings](/guide/public/images/integrations/memberpress/integration-setup-options.webp)
 
 ## Configure MemberPress Settings
 
-When you manage the settings, a pop-up will appear where you can adjust how affiliate commissions are handled.
+Click the **Manage** link to open the settings panel. Here, you can set custom commission rates for your memberships that will override your global affiliate settings.
 
 Here are the options you can configure: 
 
-**Disable Commission on Renewal**: If you check this option, FluentAffiliate will disable affiliate commissions for membership or Courses. Affiliates will not earn commissions when customers renew their purchases.
+* **Enable Affiliate Integration for MemberPress:** You must check this box to activate commission tracking for all your MemberPress forms.
 
-**Disable Commission on Upgrade**: By enabling this checkbox, all membership or course **upgrade commissions** will be turned off for affiliates. This means no commissions will be given when customers upgrade their membership or courses.
-
-Once you’ve chosen the settings that match your needs, just click the **Save Setting** button to save your changes.
+* **Enable custom rate for specific membership or categories:** Check this box if you want to offer special commission rates for different membership levels or categories. For example, you could offer a higher commission for your premium membership plan to incentivize affiliates to promote it more.
 
 ![MemberPress Settings](/guide/public/images/integrations/memberpress/memberpress-settings-configuration.webp)
 
+## Custom Affiliate Rate Configuration
+
+After enabling custom rates, you can define your specific commission rules.
+
+First, choose whether the custom rate will apply **By Specific Products** (which refers to your individual membership levels) or **By Specific Categories**.
+
+Next, configure the rate:
+
+1. **Select Products:** In the Select field, start typing the name of the membership level you want to set a custom rate for, and choose it from the list that appears.
+
+2. **Select Rate:** Enter the commission value (e.g., 30 for 30% or $30). Then, use the dropdown menu to select if the rate is a **Percentage (%)** of the sale or a **Fixed** amount.
+
+3. **Add More Rates:** To create another custom rate for a different membership, click the **+Add New Group** button. This will add a new row for you to configure another rule. You can also remove a rule by clicking the red *delete* icon.
+
+4. **Save Settings:** Once you have finished setting up your custom rates, click the **Save Settings** button to apply the changes.
+
+![Custom Affiliate Rate](/guide/public/images/integrations/memberpress/custom-affiliate-rate-configure.webp)
+
 ## Generate an Affiliate Link
 
-After you have configured the settings, your affiliates can begin creating your promotional links.
+Now that your integration is configured, your affiliates can start generating their promotional links.
 1. Affiliates should log in to their **Affiliate** area provided by FluentAffiliate. 
 2. In the **Links** section, you need to paste the **URL** of the course or membership page you want to promote.
-3. FluentAffiliate will generate a unique **Affiliate Link** for you. 
-4. Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
+3. Click on the **Generate** button and FluentAffiliate will generate a unique affiliate **Link** for you. 
+4. Once your link is ready, **copy** the affiliate link and share it wherever you like on social media, emails, blogs, or directly with your audience.
 
-![Copy Affiliate Link](/guide/public/images/integrations/memberpress/affiliate-link-generation.webp)
+![Copy Affiliate Link](/guide/public/images/integrations/memberpress/affiliate-link.webp)
 
 If someone purchases the Course using your affiliate link, you'll earn a commission based on the settings you've configured.
 
 ### Troubleshooting Common Issues
 
-Here are solutions to common issues you might encounter:
+If you run into any problems, here are a few solutions:
 
-* ***Integration Toggle Not Visible:** Ensure both MemberPress and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
-* **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it working.
+* **Integration Toggle Not Visible:** Ensure that both the MemberPress and FluentAffiliate plugins are installed and activated. If the issue persists, try deactivating and reactivating both plugins.
+
+* **Commissions Not Tracking:** Verify that the integration toggle is enabled in FluentAffiliate's settings. If you're using custom rates, ensure they are configured correctly for the specific membership level being purchased.
+
+* **Custom Rate Not Applying:** Double-check your custom rate rules in the Manage section to ensure there are no conflicting rules and that the correct rate is applied to the intended membership.
 
 And that's it. This is an easy process to integrate MemberPress with FluentAffiliate.
 
