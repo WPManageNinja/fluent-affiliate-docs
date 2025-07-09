@@ -24,7 +24,7 @@ In this step, you'll set the default referral and commission structure for your 
 Here’s what to fill out:
 
 * **Referral Variable:** This is the keyword that will appear in your affiliate URLs. For example, if you set it as `ref`, a referral link will look like `yoursite.com/?ref=username`.
-* **Default Referral Format:** Choose whether your affiliate links will use the affiliate's numeric ID or their Username. Both options track perfectly; just pick the one you prefer.
+* **Default Referral Format:** Choose whether your affiliate links will use the affiliate's numeric ID or WordPress Username. Both options track perfectly; just pick the one you prefer.
 * **Rate:** Enter the default commission value your affiliates will earn. You can also choose if this rate is a **Percentage (%)** of the sale or a **Fixed** amount.
 * **Default Currency:** Select the currency you will use to pay your affiliate commissions from the dropdown menu.
 
