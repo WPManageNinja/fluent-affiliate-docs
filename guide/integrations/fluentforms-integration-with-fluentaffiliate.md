@@ -1,17 +1,17 @@
 # FluentForms Integration with FluentAffiliate
 
-FluentForms is WordPress’s drag-and-drop, lightweight, and fastest AI form builder. With FluentAffiliate, you can manage your form submissions and affiliate registrations seamlessly.
+FluentForms is a powerful, lightweight, and user-friendly form builder for WordPress. When you connect it with FluentAffiliate, you can unlock two powerful capabilities: tracking affiliate commissions on your paid form submissions and creating custom affiliate registration forms.
 
-In this guide, we'll walk you through how to connect FluentForms with FluentAffiliate step by step.
+This guide will show you how to set up both, starting with the simple way to track commissions.
 
 >[!Note]
 > Make sure both plugin FluentForms and FluentAffiliate are installed and activated on your website.
 
 ## Enable FluentForms in FluentAffiliate
 
-First, you need to enable the integration to let the two plugins communicate.
+First, you need to activate the integration module in FluentAffiliate.
 
-1. Once FluentForms is active, go to the **FluentAffiliate Dashboard**. 
+1. Go to the **FluentAffiliate Dashboard**. 
 2. From the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option. 
 3. You will see a list of available integrations. Look for **FluentForms** in this list. To enable the integration, click on the **toggle** button next to FluentForms.
 
@@ -21,47 +21,76 @@ In the **Manage** section, you'll find additional settings to customize how the 
 
 ![Integration Settings](/guide/public/images/integrations/fluentforms/fluentforms-integration-setup.webp)
 
-## Configure FluentForms Settings
+## Set Custom Commission Rates for Your Forms
 
-A pop-up will appear where you need to check the **Allow Affiliate Registration** option. Once you enable this, two more options will appear below for further configuration.
+Click the **Manage** link to tell FluentAffiliate how much to pay for referrals from specific forms. This is where you set the commission that overrides your global rate.
 
-* **Affiliate Registration Forms:** You can link registration forms by either typing the form **Names** or entering the form **ID** numbers. This allows you to control which forms are used for affiliate sign-ups.
+Check the box for **Enable custom rate for specific forms**. This will reveal the configuration options.
 
-* **Create a New WordPress User:** If you enable this by clicking the checkbox, a new WordPress user account will be created automatically when someone submits the affiliate registration form. This is helpful if you want affiliates to have user accounts on your site.
+* **Select Forms:** Click inside the "Select" box and choose the payment form you want to set a commission for.
 
-After selecting the options you want, simply click the **Save Settings** button to save your settings.
+* **Select Rate:** Enter the commission amount and choose whether it's a Percentage (%) of the payment or a Fixed amount.
 
-![FluentForms Settings](/guide/public/images/integrations/fluentforms/form-settings-configuration.webp)
+* **Add More Rates:** To set up commissions for another form, click the +Add New Group button. This will add a new row where you can select another form and set its rate.
 
-## Configure the Specific Form with FluentAffiliate
+**Save Settings:** Once you're done, click the **Save Settings** button.
 
-Next, you need to connect a specific form to FluentAffiliate.
+![FluentForms Settings](/guide/public/images/integrations/fluentforms/custom-rate-setup.webp)
 
-1. First, *create a form* in FluentForms or *edit* an existing one. 
+## Creating a Custom Affiliate Registration Form 
 
+You can also use FluentForms to create a beautiful, custom registration form for users who want to become your affiliates.
+
+### Step 1: Create Your Registration Form
+
+In FluentForms, create a new form with all the fields you need for registration, such as:
+
+* Name Fields
+
+* Email
+
+* Password
+
+* Payment Email 
+
+* Website URL (Optional)
 
 ![Configure Forms](/guide/public/images/integrations/fluentforms/edit-form.webp)
 
-2. Navigate to the Form **Settings & Integration** section. From here, choose the **Configure Integration** option from the dropdown menu on the left sidebar.
+### Step 2: Configure the Integration Feed
 
-3. Click on **Add New Integration** and select **FluentAffiliate Integration** from the list.
+Next, you need to connect this specific form to *FluentAffiliate's registration system.
 
-This will connect your payment form with FluentAffiliate, allowing you to track affiliate referrals and commissions for form submissions.
+1. Go into the settings for your registration form and click on **Settings & Integrations**.
 
-![Settings & Integrations](/guide/public/images/integrations/fluentforms/fluentaffiliate-integrastions.webp)
+2. From the left menu, select **Configure Integrations**.
 
-### FluentAffiliate Integration Feed
+3. Click the **Add New Integration** button and choose **Fluent Affiliate Registration Integration** from the dropdown list.
 
-Now, you need to configure the integration feed for your form.
-1. Give your feed a name in the **FluentAffiliate Integration Feed Name** field. This helps you identify the integration easily.
-2. Set the **Affiliate Amount**, which is the commission an affiliate will earn for a successful referral from this form. You can type in the amount or use the plus (+) and minus (-) icons to adjust it.
-3. Once you’ve filled in the required details, click the **Save Feed** button to save your settings. 
 
-![Integrations Feed](/guide/public/images/integrations/fluentforms/form-integration-feed.webp)
+![Settings & Integrations](/guide/public/images/integrations/fluentforms/fluentaffiliate-integrations.webp)
+
+### Step 3: Map Your Form Fields
+
+Now, you need to tell FluentAffiliate which form field corresponds to which piece of affiliate data.
+
+* **Integration Name:** Give your feed a recognizable name.
+
+* **Map Fields:** For each Affiliate Field (like Email Address, Full Name, Password), select the corresponding field from your form in the dropdown on the right.
+
+* **Auto Approve Affiliate:** Choose whether to use the global setting, automatically approve the affiliate, or keep their application pending for you to review manually.
+
+* **Conditional Logic:** You can enable this to process the registration feed only when certain conditions are met.  For example, you could set a condition to only register a user as an affiliate if they select a "Yes, I agree to the terms" checkbox on your form.
+
+* **Status:** Ensure the Enable this Integration checkbox is checked to make the feed active.  You can uncheck this at any time to temporarily disable new affiliate registrations through this form without deleting your settings.
+
+* Click **Save Feed** when you are done.
 
 After saving, a success message will appear confirming that the feed has been created.
 
 Now, you can easily **edit**, **delete**, or **disable** this feed at any time from the form's integration settings. 
+
+![Integrations Feed](/guide/public/images/integrations/fluentforms/form-integration-feed.webp)
 
 ### Embed your Form
 
@@ -79,9 +108,9 @@ Once your form is live, your affiliates can start promoting it.
 
 1. Affiliates should log in to their **Affiliate** area and go to the Affiliate **Links** section. 
 2. There, you can **paste** the URL of the page where you embedded the form. 
-3. FluentAffiliate will automatically generate a unique **affiliate link** for you.
+3. Click on the **Generate** button and FluentAffiliate will generate a unique **affiliate link** for you.
 
-Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
+Once your link is ready, **copy** the affiliate link and share it wherever you like on social media, emails, blogs, or directly with your audience.
 
 ![Copy Affiliate Link](/guide//public/images/integrations/fluentforms/copy-affiliate-link.webp)
 
@@ -94,9 +123,11 @@ If someone clicks the link, you will get the affiliate commission.
 
 Here are solutions to common issues you might encounter:
 
-* **Integration Toggle Not Visible:** Ensure both FluentForms and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
-* **Form Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it working.
-* **Registration Form Not Working:** Make sure the form is properly configured with the correct integration settings.
+* **Integration Toggle Not Visible:** Ensure both FluentForms and FluentAffiliate are activated. If you still don't see it, try deactivating and reactivating both plugins.
+
+* **Form Commission Not Tracking:** Make sure you have enabled and configured a custom rate for that specific form in the Manage section within FluentAffiliate's settings.
+
+* **Registration Form Not Working:** Double-check that you have correctly mapped all the required fields (like Email and Password) in the form's integration feed. An unmapped required field will cause the registration to fail.
 
 And that's it. This is an easy process to integrate FluentForms with FluentAffiliate.
 

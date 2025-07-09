@@ -1,17 +1,21 @@
 # Easy Digital Downloads Integration with FluentAffiliate
 
-Easy Digital Downloads (EDD) is a powerful e-commerce plugin for selling digital products on WordPress. With FluentAffiliate, you can manage your digital product commissions easily.
+Easy Digital Downloads (EDD) is a leading e-commerce plugin for WordPress, specifically designed to make selling digital products simple and efficient. By pairing EDD with FluentAffiliate, you can create a powerful affiliate program to promote your digital downloads, from eBooks to software, and manage your affiliate commissions effortlessly.
 
-In this guide, we'll walk you through how to connect Easy Digital Downloads with FluentAffiliate step by step.
+This guide will walk you through how to connect Easy Digital Downloads with FluentAffiliate step by step.
 
-## Enable EDD in FluentAffiliate
+> [!NOTE]
+> Before you begin, please ensure that both the Easy Digital Downloads and FluentAffiliate plugins are installed and activated on your WordPress site.
 
+## Enable the EDD Integration
+
+The first step is to activate the EDD module within your FluentAffiliate settings.
 Once Easy Digital Download is running on your site, you can connect it to **FluentAffiliate**. 
 1. Go to your **FluentAffiliate Dashboard** and click on the Settings tab in the top menu.
 2. From the menu on the left, select **Integration Settings**.
 3. You will see a list of available integrations. Find **Easy Digital Downloads** and click the **toggle** button next to it to turn it on.
 
-Your **Easy Digital Downloads** integration is now active, allowing affiliates to earn referral commissions on your digital sales. You can use the 
+Your **Easy Digital Downloads** integration is now active, allowing affiliates to earn referral commissions on your digital sales. 
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your products.
 
@@ -19,49 +23,36 @@ In the **Manage** section, you'll find additional settings to customize how affi
 
 ## Configure EDD Settings
 
-A pop-up will arrive where you'll find important settings to manage how affiliate commissions are handled. You can enable or disable these options based on your preferences.
+In the management panel, you can customize exactly how your affiliate program will work with EDD.
+Here are the options you can configure:
 
-* **Affiliate on Discount Coupon**: If this option is enabled (checked), affiliates will earn a commission on sales even when a discount coupon is applied and reduces the purchase price.
+* **Enable Branded Coupon Codes for affiliates:** Activate this to allow your affiliates to promote your products using unique discount codes. This is a great way to provide extra value and track sales.
 
-  If disabled (unchecked), no commission will be paid on transactions where a coupon is used.
+* **Disable Referrals on Upgrades:** If you sell products with multiple tiers or upgrades, you can check this box to prevent commissions from being generated on upgrade purchases. This ensures affiliates are only rewarded for the initial sale.
 
-* **Custom Affiliate Rates**: Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates. 
+* **Enable custom rate for specific product or categories:** Check this box to set special commission rates for certain digital products or categories, which will override your global default rate.
+
+After that, click on the **+Add New Group** button.
 
 ![EDD Settings](/guide/public/images/integrations/edd/edd-settings-configuration.webp)
 
 ## Custom Affiliate Rate Configuration
 
-Once **Custom Affiliate Rate** is enabled, you can define specific commission structures based on products or categories. Click on the **+Add Rate** button for the next step.
+This feature gives you the flexibility to offer different commission rates for different products. For example, you could offer a higher commission on a new product to encourage affiliates to promote it.
 
-**1. Select Type:** This option allows you to specify whether the custom rate applies to individual products or entire product categories.
+After checking the "**Enable custom rate**" box, a new section will appear.
 
-  **Product:** Select this radio button to apply the custom rate to specific products.
+* **Select Products:** In the Select field, begin typing the name of the digital product you want to set a custom rate for and choose it from the list.
 
-  **Category:** Select this radio button to apply the custom rate to an entire product category.
+* **Select Rate:** Enter the new commission value (e.g., 25 for 25% or $25). Next, use the dropdown menu to choose if the rate is a Percentage (%) of the sale or a Fixed dollar amount.
 
-**2. Affiliate Products / Categories:** Depending on your *"Select Type"* choice, this field will allow you to search for and select the specific items.
+* **Add More Rates:** To set another custom rate for a different product, click the **+Add New Group** button. This will add a new row for you to configure another rule. You can also remove a rule at any time by clicking the red delete icon.
 
-  **For Product Type:** Enter a keyword in the text field to search for and select the product(s) to which this custom rate will apply.
-
-  **For Category Type:** Here, you would typically find a similar search or dropdown field to select the desired product category/categories.
-
-**3. Affiliate Rate:** Set the commission rate for the selected products or categories.
-
-  **Rate Value Input:** Use the” - “and “+” buttons, or directly type a numerical value into the field, to set the commission amount.
-
-  **Rate Type Selector:** Click the dropdown menu to choose the type of commission:
-     
-  **• Percentage:** The affiliate will receive a percentage of the sale price as commission.
-
-  **• Fixed:** The affiliate will receive a fixed amount (e.g., currency value) as commission, regardless of the sale price.
-
-**Add More Rates:** After configuring the desired type, products/categories, and rate, click the *Add Rate* button to save this specific custom rate configuration. You can then repeat the process to add more custom rates. 
+* **Save Settings:** Once you have configured all your custom rates, click the **Save Settings** button to make them live.
 
 Also, you can delete the affiliate rates by clicking the *delete* icon in the top right corner.
 
 ![EDD Settings](/guide/public/images/integrations/edd/custom-affiliate-rates.webp)
-
-Once all your custom rates are added, click **Save Settings** button to apply them.
 
 ## Generate an Affiliate Link
 
