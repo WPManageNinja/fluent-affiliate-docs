@@ -1,64 +1,52 @@
 # Onboarding Setup
 
-So, you've just installed FluentAffiliate. Now it's time to take the very first step: setting up the **Onboarding** preferences that will help shape how your affiliate program runs.
+So, you've just installed FluentAffiliate. Welcome! The first thing you'll see is our quick **Onboarding** setup, designed to guide you through the core settings to get your affiliate program up and running in minutes.
 
-The onboarding setup is designed to guide you through the core settings you'll need to start managing your affiliate system. The best part? You're always in control. If you're not ready to configure everything right away, you can skip each step and revisit it later from the settings panel.
+The best part? You're always in control. If you're not ready to configure everything right away, you can skip steps and revisit them later from the main settings panel.
 
-Let's walk through the onboarding setup, step by step.
+Let's walk through the new onboarding setup, step by step.
 
-### Step 1: General Settings
 
-This is where you'll set up some basic but important options for your affiliate system.
+## Step 1: Connect Your Plugins
 
-**Affiliate Area**  
-After installing FluentAffiliate, a default page is created for your affiliates named **Affiliate**. This page is their Affiliate Portal. You can use this default page or choose any other page from your site. 
+The first step helps FluentAffiliate understand which platforms you use to sell products, courses, or services.
 
-Just click the **dropdown** field and select the page where you want the portal to live.
+* **Choose your plugin to get started:** In this list, simply check the boxes next to the plugins you have installed and plan to use with your affiliate programs, such as FluentForms, WooCommerce, or LearnDash etc.
 
-**Terms & Conditions Page**  
-Select the page that holds your Terms & Conditions for affiliates. Use the **Dropdown** field to pick the right page from your list of published pages.
+Click the **Next** button to proceed.
 
-**Terms & Conditions Label**  
-Here, you can customize the Label for the Terms & Conditions. Just write in the **Text field** what you want to show next to the agreement checkbox during affiliate signup.
+![Connecting integration plugins during FluentAffiliate onboarding](/guide/public/images/getting-started/onboarding/onboarding-connect-plugins.webp)
 
-Not ready to set these up right now? No worries! You can click on the **Skip** button to skip this step and set it up anytime from the General Settings tab.
+## Step 2: Set Your Default Commission
 
-![General Settings in FluentAffiliate Onboarding](/guide/public/images/getting-started/onboarding/initial-setup-wizard.webp)
+In this step, you'll set the default referral and commission structure for your entire affiliate program. These are the global settings that will apply unless you create custom rates for specific products.
 
-### Step 2: Referral Settings
+Here’s what to fill out:
 
-In this step, you'll set how affiliate referrals are tracked and how commissions are calculated.
+* **Referral Variable:** This is the keyword that will appear in your affiliate URLs. For example, if you set it as `ref`, a referral link will look like `yoursite.com/?ref=username`.
+* **Default Referral Format:** Choose whether your affiliate links will use the affiliate's numeric ID or their Username. Both options track perfectly; just pick the one you prefer.
+* **Rate:** Enter the default commission value your affiliates will earn. You can also choose if this rate is a **Percentage (%)** of the sale or a **Fixed** amount.
+* **Default Currency:** Select the currency you will use to pay your affiliate commissions from the dropdown menu.
 
-**Referral Variable**  
-Enter the referral value you want in the designated field. This is the keyword that will appear in your affiliate URLs. For example, if you set it as **ref**, a referral link might look like this: `yoursite.com/product?ref=username`.
+Once you've configured these settings, click **Next**.
 
-So type the referral value as you want in the dedicated field.
+![Commission Setup in FluentAffiliate](/guide/public/images/getting-started/onboarding/onboarding-commission-setup.webp)
 
-**Default Referral Format**
+## Step 3: Create Your Affiliate Portal
 
-In the **Default Referral Format**, you can choose whether to use the **ID** or **Username** in the referral link. Just pick the one you prefer, both work the same way for tracking.
+The final step is to create a dedicated page for your affiliates. This "Affiliate Portal" is where they will log in, track their performance, and generate their unique promotional links.
 
-**Rate Type**  
-Choose how you want to reward your affiliates from the dropdown field:
+* **Affiliate Area:** You need to select a page to serve as the portal. You can either choose an existing page from the dropdown menu or click the **plus (+)** icon to create a new page instantly.
 
-* **Flat** – A fixed amount per referral.
-* **Percentage** – A percentage of the product price.
+![Creating the Affiliate Portal page during onboarding](/guide/public/images/getting-started/onboarding/onboarding-affiliate-portal.webp)
 
-**Rate**  
-Enter the actual value based on the rate type you selected.
-For example:
+* If you create a new page, a pop-up will appear where you can enter the **Page Title** (e.g., "Affiliate Area") and click **Add** button.
 
-* If it's flat, enter something like 10 for a $10 commission.
-* If it's percentage, enter 10 for 10% commission.
+![Create a new page during onboarding](/guide/public/images/getting-started/onboarding/affiliate-page.webp)
 
-**Currency**  
-Pick the currency from the dropdown field in which your affiliate commissions will be paid.
+FluentAffiliate will automatically place the `[fluent_affiliate_portal]` shortcode on the page you select. This shortcode is what makes the affiliate dashboard appear.
 
-If you want to set it up later, click on **Skip**, and you'll be able to fine-tune it anytime from the Referrals Settings panel.
-
-![Referral Settings in FluentAffiliate](/guide/public/images/getting-started/onboarding/referral-configuration.webp)
-
-Once you're done with the onboarding configuration, don't forget to hit **Finish**. This ensures that all your customizations are stored and ready to go.
+When you're ready, click the **Finish** button to save your settings and complete the setup.
 
 That's it, you're all set with the onboarding setup for Fluent Affiliate! 
 
