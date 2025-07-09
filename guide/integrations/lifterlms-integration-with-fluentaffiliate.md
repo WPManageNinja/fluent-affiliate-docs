@@ -1,47 +1,65 @@
 # LifterLMS Integration with FluentAffiliate
 
-Want to grow your online course sales through affiliate marketing? With **FluentAffiliate**, you can now easily integrate with **LifterLMS** and start tracking affiliate referrals for your courses. This guide will show you how to set it up in just a few clicks!
-
-In this guide, we'll walk you through how to connect LifterLMS with FluentAffiliate step by step.
+Want to grow your online course sales through affiliate marketing? With FluentAffiliate, you can now easily integrate with LifterLMS and start tracking affiliate referrals for your courses. This guide will show you how to set it up in just a few clicks!
 
 >[!Note]
-> Make sure both plugins are installed and activated on your site.
+> Make sure both the LifterLMS and FluentAffiliate plugins are installed and activated on your site before you begin.
 
-## Enable LifterLMS Integration
+## Enable the LifterLMS Integration
+
+First, you need to activate the LifterLMS module within FluentAffiliate to allow them to communicate.
 
 1.  Go to your **WordPress Dashboard**, navigate to **FluentAffiliate Dashboards**, and click on the **Settings** tab top right corner.
 2.  Then, click on **Integration Settings** from the left sidebar.
-3.  Find **LifterLMS** in the list and toggle it **ON** to enable the integration.
-4.  Your **LifterLMS** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on LifterLMS course or LifterLMS sales.
-
-In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your course or lifterlms. Here, you can adjust how FluentAffiliate will handle **course renewals** and **upgrades** for your affiliates.
+3.  Find **LifterLMS** in the list and click the **toggle** button to switch it on. A **Manage** link will appear.
 
 ![Integration Settings](/guide/public/images/integrations/lifterlms/integration-setup-options.webp)
 
 ### Configure LifterLMS Settings
 
-Here appears a pop-up. You’ll find a couple of settings options.
+Click the **Manage** link to open the settings panel. Here, you can set custom commission rates for your LifterLMS courses, which will override your global affiliate settings.
 
-* **Disable Commission on Renewal:** If you check this option, FluentAffiliate will disable affiliate commissions for all course renewals. Affiliates will not earn commissions when customers renew their purchases.
-* **Disable Commission on Upgrades:** If you enable this option, all course upgrade commissions will be turned off for affiliates. This means no commissions will be given when customers upgrade from one course plan to another.
-
-Once you’ve chosen the settings that match your needs, just click the **Save Setting** button to save your changes.
+* **Enable Affiliate Integration for LifterLMS:** You must check this box to activate commission tracking for all your LifterLMS courses.
+* **Enable custom rate for specific courses or Course Categories:** Check this box if you want to offer different commission rates for different courses. This is perfect for running special promotions or offering a higher incentive for your signature courses.
 
 ![LifterLMS Settings](/guide/public/images/integrations/lifterlms/lifterlms-settings-configuration.webp)
 
+### Custom Affiliate Rate Configuration
+
+Once you enable custom rates, you can define your specific commission rules.
+
+First, you must choose if the custom rate will apply **By Specific Products** (which refers to your individual LifterLMS courses) or **By Specific Categories**.
+
+Next, configure the rate itself:
+
+1. **Select Courses:** In the Select field, start typing the name of the course you want to set a custom rate for and choose it from the list.
+
+2. **Select Rate:** Enter the commission value (e.g., 25 for 25% or $25) and use the dropdown menu to choose if the rate is a Percentage (%) or a Fixed amount.
+
+3. **Add More Rates:** If you want to set another custom rate for a different course, click the **+Add New Group** button. This adds a new row for you to create another rule. You can also remove a rule by clicking the red **Delete** icon.
+
+4. **Save Settings:** After configuring your custom rates, click the **Save Settings** button to make them live.
+
+![Custom Affiliate Rate Configuration](/guide/public/images/integrations/lifterlms/configure-custom-affiliate-rate.webp)
+
 ### Generate an Affiliate Link
 
-After you've completed configuring the LifterLMS affiliate settings, the next step is to log in to your **Affiliate** area provided by FluentAffiliate. In the affiliate **Links** section, paste the **URL** of the Course page you want to promote. FluentAffiliate will automatically generate a unique **Affiliate link** for you.
+With the integration configured, your affiliates can start promoting your courses.
 
-Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
+1. Affiliates must log in to their **Affiliate Area** on your website.
+
+2. In the **Links** section, you will **paste** the URL of the LifterLMS course page they want to promote.
+
+3. Click on the **Generate** button and FluentAffiliate will instantly generate a unique affiliate link for you to copy and share.
+
+When a student clicks the link and enrolls in the course, the affiliate earns a commission based on the rates you've set!
 
 ![Copy Affiliate Link](/guide/public/images/integrations/lifterlms/affiliate-link-generation.webp)
 
-When someone clicks the link and buys a course, the affiliate earns a commission!
-
 ### Troubleshooting Tips
 
-* **Affiliate sale not tracked:** Make sure the LifterLMS integration is enabled and the course purchase went through using the affiliate link.
-* **Affiliate not getting credit:** Ensure cookies aren’t blocked and the user completed checkout without clearing the session.
+* **Integration Toggle Not Visible:** Ensure both the LifterLMS and FluentAffiliate plugins are installed and activated. If the problem persists, try deactivating and reactivating both plugins.
 
-That’s it! Your **LifterLMS courses are now affiliate-ready**. Start promoting, tracking, and growing your online education business with ease.
+* **Affiliate Sale Not Tracked:** Verify that the integration toggle is enabled in FluentAffiliate's settings. If you're using custom rates, double-check that they are configured correctly for the specific course being purchased.
+
+* **Affiliate Not Getting Credit:** This can sometimes be a browser issue on the customer's end. Ensure they don't have cookies blocked and that they completed the checkout without clearing their session or switching browsers.
