@@ -142,9 +142,17 @@ export default defineConfig({
           text: 'Settings & Customization',
           items: [
             { text: 'General Settings', link: '/guide/settings-and-customization/general-settings' },
-            { text: 'Group Settings', link: '/guide/settings-and-customization/group-settings' },
             { text: 'Referral Settings', link: '/guide/settings-and-customization/referral-settings' },
-            { text: 'Email Settings', link: '/guide/settings-and-customization/email-settings' },
+            { text: 'Group Settings', link: '/guide/settings-and-customization/group-settings' },
+            { 
+              text: 'Email Settings',
+              collapsed: true,
+              items:[
+                 {text: 'Mail Settings', link: '/guide/settings-and-customization/email-settings' },
+                 {text: 'Notificationn Settings', link: '/guide/settings-and-customization/notification-settings' }
+              ]
+            },
+            { text: 'Registration Settings', link: '/guide/settings-and-customization/registration-settings' },
             { text: 'Migrator Settings', link: '/guide/settings-and-customization/migrator-settings' },
             { text: 'Multi-Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
           ]
