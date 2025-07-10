@@ -16,19 +16,17 @@ You'll now land on the payout creation page. This page only appears if there are
 
 Here's what to fill out:
 
-**Payout Method:** The payout method in FluentAffiliate is manual by default.
+* **Payout Title**: Add a title for the payout.
 
-**Payout Title**: Add a title for the payout.
+* **Payout Description**: Optionally, include a short note or description.
 
-**Payout Description**: Optionally, include a short note or description.
+* **Affiliates**: Select one or more affiliates to pay. Only affiliates with unpaid earnings will be listed here. If you leave this field blank, payment will be sent to all eligible affiliates.
 
-**Affiliates**: Select one or multiple affiliates to pay. Only affiliates with unpaid earnings will appear here.
+* **Start Date - End Date**: Choose the date range for which you want to process payouts. For example, select last month's range to pay commissions from that period.
 
-**From Date - To Date**: Choose the date range for which you want to process payouts. For example, select last month's range to pay commissions from that period.
+* **Minimum Payout Amount**: Set a minimum amount that affiliates must reach to be eligible for payout.
 
-**Minimum Payout**: Set a minimum amount that affiliates must reach to be eligible for payout.
-
-Once everything is filled out, click the **Next** button to proceed.
+Once everything is filled out, click the **Next (Review Payout)** button to proceed.
 
 ![Payout Creation Form](/guide/public/images/admin-portal/payout-management/create-new-payout.webp)
 
