@@ -46,9 +46,9 @@ At the end of each affiliate's row, you'll see a three-dot menu. Clicking this o
 
 To the top-right of the table, you'll find icons to help you organize your view:
 
-* **Search Bar** Quickly locate affiliates by typing their name or email address.
-* **Column Selector** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display.
-* **Sort Options** Sort affiliates by **ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Registration Date**. You can also choose between ascending or descending order, then click **Apply** to update.
+* **Search Bar:** Quickly locate affiliates by typing their name or email address.
+* **Column Selector:** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display.
+* **Sort Options:** Sort affiliates by **ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Registration Date**. You can also choose between ascending or descending order, then click **Apply** to update.
 
 ![Affiliate Search and Sort Tools](/guide/public/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)
 
