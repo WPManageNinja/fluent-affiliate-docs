@@ -20,7 +20,7 @@ Click the **Register** button to start the sign-up process.
 
 After clicking **Register**, users will land on the Affiliate Registration page. Here, they'll be asked to provide the necessary details to create their affiliate account, such as name, email, and preferred password.
 
-At the bottom of the form, they must check the **"I agree to the Terms & Conditions"** box to proceed.
+At the bottom of the form, they must check the **"I agree to the T&C"** box to proceed.
 
 Once all the fields are filled in, users can simply click on **"Create Account"**. That's it, their affiliate account is now created!
 

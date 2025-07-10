@@ -6,32 +6,36 @@ From this dashboard, you'll see key stats like [payouts](/guide/admin-portal/pay
 
 ### What You'll See on the Dashboard
 
-**Here's what your affiliate users will find on their dashboard:**
+Let's take a look at the different sections of the dashboard and what they tell you.
 
-#### Analytics
+## Key Performance Metrics
+
+At the top of the dashboard, you'll find a series of boxes showing your most important stats:
 
 * **Total Paid:** The amount they've already received in [payouts](/guide/admin-portal/payout-management).
-* **Total Unpaid:** Earnings that are still pending payment.
-* **Total Rejected:** Any commissions that were rejected or not approved.
+* **Total Unpaid:** The total amount of approved commissions that are waiting to be paid.
+* **Active Affiliates:** The number of approved affiliates in your program.
 * **Total Visits:** The number of visits their [affiliate links](/guide/affiliate-portal/generating-affiliate-links) have received.
-* **Registered Affiliates:** The total number of [affiliates](/guide/admin-portal/managing-affiliates) registered on the site.
 * **Total Referrals:** How many [referrals](/guide/admin-portal/managing-referrals) they've successfully brought in.
+* **Conversion Rate:** The percentage of visits that have turned into successful referrals.
+* **Pending Affiliates:** The number of new affiliate applications that are awaiting your approval.
+* **Total Order Value by Referrals:** The total revenue amount generated from all affiliate referrals.
 
-#### Statistics
+#### Growth Overview
 
-The Statistics section displays a date-wise bar chart of your referral, affiliate, and visits activity. You can filter the chart to view data based on **Referrals**, **Affiliates**, or **Visits**, making it easy to track performance over time. To do so, simply click the **Filter** option in the top right corner of the **Statistics** section.
+Below the main stats, the Growth Overview graph gives you a visual representation of your program's performance over time.
 
-#### Most Valuable Affiliate
+* You can filter the graph to show trends for **Referrals**, **Visits**, and new **Affiliates**. 
 
-This section highlights your top-performing [affiliates](/guide/admin-portal/managing-affiliates), showing their total earnings and the number of referrals they've made. You can click on any affiliate to view their detailed [profile](/guide/miscellaneous/affiliate-profile).
+* Use the **date range filter** at the top right of the graph to view data for specific periods, such as the last month or the current year.
 
-#### Recent Referrals
+#### Right Sidebar
 
-This section displays the most recent [referrals](/guide/admin-portal/managing-referrals) made through your products. For detailed referral tracking and management, visit the [Managing Referrals](/guide/admin-portal/managing-referrals) section.
+The sidebar on the right gives you a real-time snapshot of recent activity.
 
-#### All Times
+* **Recent Referrals:** This list shows the most recent sales made through your affiliate links.  You can quickly see the product, the commission amount, the affiliate responsible, and the referral's status (e.g., Unpaid, Pending, or Paid). For detailed referral tracking and management, visit the [Managing Referrals](/guide/admin-portal/managing-referrals) section
 
-At all times, you will see the total affiliate earnings amount and the total amount you have paid to them. You can manage all payment-related settings in the [Referral Settings](/guide/settings-and-customization/referral-settings) section.
+* **Top Affiliates:** This is your affiliate leaderboard. It highlights your top-performing affiliates, showing their total number of referrals and their total earnings, making it easy to see who your most valuable partners are. You can click on any affiliate to view their detailed [profile](/guide/miscellaneous/affiliate-profile).
 
 ![Admin Dashboard Overview in FluentAffiliate](/guide/public/images/admin-portal/dashboard/admin-dashboard-overview.webp)
 
