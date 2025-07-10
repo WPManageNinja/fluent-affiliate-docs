@@ -42,6 +42,7 @@ At the end of each affiliate's row, you'll see a three-dot menu. Clicking this o
 
 * **Edit:** Opens a panel where you can update the affiliate's details, such as their status or commission rate. 
 * **Delete:** Permanently removes the affiliate from your program.
+
 ### Search and Sort Tools
 
 To the top-right of the table, you'll find icons to help you organize your view:
@@ -59,7 +60,7 @@ If you have a large number of affiliates, the controls at the bottom of the page
 
 Want to manually add an affiliate to your site? Here's how:
 
-Click the **Add New** button. A form will slide in from the right side of your screen.
+Click the **New Affiliate** button. A form will slide in from the right side of your screen.
 
 ![Add New Affiliate Button](/guide/public/images/admin-portal/managing-affiliates/add-new-affiliate-button.webp)
 
