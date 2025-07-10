@@ -40,7 +40,7 @@ The right sidebar will show you additional payout details.
 
 ![Payout Details](/guide/public/images/admin-portal/payout-management/payout-details-view.webp)
 
-In the Transactions tab, you can generate a report for your transactions. Simply click the Export button to download a CSV file with your payout details.
+In the Transactions tab, you can generate a report for your transactions. Simply click the **Export** button to download a CSV file with your payout details.
 
 ![Transaction Export](/guide/public/images/admin-portal/payout-management/export-transaction-button.webp)
 
