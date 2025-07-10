@@ -1,70 +1,49 @@
 # Email Settings
 
-FluentAffiliate lets you send email notifications to both affiliates and admins. This powerful feature helps you keep everyone informed about important events and updates in your affiliate program.
+The Email Settings section allows you to configure the global settings for all emails sent by FluentAffiliate, including sender details, branding, and admin notifications.
 
-## Types of Notifications
+### Accessing Email Settings
 
-The system supports notifications for:
-- **Admins**: Receive alerts about affiliate registrations, payouts, and referrals
-- **Affiliates**: Get notified about transactions, account status changes, and referrals
+To access this section, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Email Settings**.
 
-## Accessing Email Settings
+### Default Sender Settings
 
-1. Go to your FluentAffiliate **Settings**
-2. Click on **Email Settings** in the left sidebar
+These settings control the default identity for all outgoing emails to ensure proper delivery and branding.
 
-You'll find two main sections:
-1. Default Email Settings
-2. Notification Settings
-
-## Default Email Settings
-
-Configure the basic email settings that apply to all notifications:
-
-* **From Name**: The sender name that appears in emails
-* **From Email**: The sender email address
-* **Reply-To Name**: The name shown when recipients click "Reply"
-* **Reply-To Email**: The email address where replies will be sent
+* **From Name:** Enter the name that will appear as the sender of outgoing emails.
+* **From Email Address:** Enter the email address that will be used as the sender of outgoing emails.
+* **Reply to Name:** Enter the name to be used when recipients reply to your emails.
+* **Reply to Email:** Enter the email address to be used for replies to your emails.
 
 ![Default Email Settings](/guide/public/images/settings-and-customization/email/email-settings-overview.webp)
 
-## Notification Settings
+### Email Branding and Content
 
-### Admin Email Notifications
+Customize the look and feel of your emails with a logo and a custom footer.
 
-As an admin, you can receive notifications for:
-* New Affiliate Registration
-* New Affiliate Created
-* New Payout Created
+* **Email Header Logo:** Upload an image to be displayed in the email header.
+* **Email Footer:** Customize the email footer text to include your brand or additional information using the rich text editor. To create a dynamic footer, you can use shortcodes like `{{site_name}}`. You can also disable the "powered by FluentAffiliate" text from the footer.
 
-To customize these emails:
-1. Click the **Pencil** icon next to any notification
-2. Edit the **Email Subject** and **Email Body**
-3. Use shortcodes to personalize the content
+![Email Customization](/guide/public/images/settings-and-customization/email/email-footer.webp)
 
-![Admin Notifications](/guide/public/images/settings-and-customization/email/admin-notification-settings.webp)
+
+### Admin Notification Settings
+
+Configure where and how often administrators receive email notifications and performance summaries.
+
+* **Admin Email Address:** Set the address where FluentAffiliate will send admin notifications. You can use commas to list multiple email addresses.
+* **Performance Summary Email Digest:** Select how often you want to receive the performance summary email. The option shown is "Daily".
+
+![Admin Notifications](/guide/public/images/settings-and-customization/email/admin-email.webp)
+
+After adjusting your settings, click the **Save Settings** button to apply the changes.
+
+
+
+
+
+
 
 The customization popup allows you to modify both the subject and content of each email:
 
-![Email Customization](/guide/public/images/settings-and-customization/email/email-template-customization.webp)
 
-### Affiliate Email Notifications
-
-Keep your affiliates informed with notifications for:
-* New Transaction Created
-* Account Registration
-* Account Approved
-* Account Rejected
-* Referral Created
-
-To customize affiliate notifications:
-1. Click the **Customize** button next to any notification
-2. Modify the **Email Subject** and **Email Body**
-3. Use shortcodes to personalize the content
-4. Click **Save** to apply your changes
-
-## Best Practices
-- Use clear and concise subject lines
-- Personalize emails using available shortcodes
-- Test notifications after making changes
-- Keep the content professional and informative

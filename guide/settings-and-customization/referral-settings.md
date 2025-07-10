@@ -1,49 +1,51 @@
 # Referral Settings
 
-Referral settings in FluentAffiliate let you define how your affiliates earn commissions. Here, you'll set the default commission structure that applies site-wide.
+The Referral Settings section allows you to configure the core rules and formats for your affiliate program, including how commissions are calculated, links are structured, and tracking is handled.
 
-## Accessing Referral Settings
+### Accessing Referral Settings
 
-1. Go to your **FluentAffiliate Dashboard**
-2. Click on **Settings** in the top menu
-3. Select **Referrals Settings** from the left sidebar
+To access this section, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Referral Settings**.
 
-## Global Settings
+### Link & Commission Settings
 
-Configure the following options to set up your referral system:
+These settings define the structure of your affiliate links and the default commission rates.
 
-* **Referrals Variable**: Choose how referrals are tracked (URL parameter or other methods)
-* **Rate Type**: Select between:
-  * Percentage-based commission
-  * Flat amount commission
-* **Rate**: Set the actual commission value based on your selected rate type
-* **Default Referral Format**: Choose how referrals will be displayed:
-  * By ID
-  * By Username
-* **Thousands Separator**: Pick how large numbers will be formatted (comma, space, etc.)
-* **Currency**: Select the currency for affiliate commissions
-* **Currency Symbol Position**: Choose whether the currency symbol appears before or after the amount
+* **Referral Variable:** Define the variable used in referral links. The example shown is `ref`.
+* **Default Referral Format:** Choose the default format for how referral links will be generated. The image shows "Affiliate ID" as the selected option.
+* **Rate:** Set the standard commission rate for referrals, which can be a percentage or a fixed amount. The example value is 20 percent.
 
 ![Referral Settings](/guide/public/images/settings-and-customization/referral/referral-settings-overview.webp)
 
-## Recurring Commission Settings
+### Financial Formatting
 
-Enable recurring commissions for your affiliates by checking the **"Enable referrals commission on recurring payment"** option.
+Configure how monetary values and numbers are displayed across the plugin.
+
+* **Currency:** Select the primary currency for your store's transactions and affiliate payouts. "United States Dollar" is the example shown.
+* **Number Format:** Choose the character style for separating thousands in numerical values. Options include US Style (1,000,00.00) and EU Style (1.000,00,00).
+* **Currency Symbol Position:** Choose whether the currency symbol appears Before ($10) or After (10$) the amount.
+
+### Tracking & Credit Rules
+
+Define the logic for how affiliates are credited for referrals and how long they are tracked.
+
+* **Credit:** Determine which affiliate receives credit for a referral. You can credit the **First Affiliate** or the **Last Affiliate**.
+* **Cookie Duration:** Set the duration of the cookie used to track referrals, specified in days. The example shows a duration of 30 days.
 
 ![Recurring Settings](/guide/public/images/settings-and-customization/referral/recurring-commission-settings.webp)
 
-## Cost and Tax Settings
 
-Fine-tune how referral commissions are calculated with these options:
+### Page, Cost, & Subscription Settings
 
-* **Exclude Shipping**: Remove shipping costs from commission calculations
-* **Exclude Tax**: Remove tax amounts from commission calculations
-* **Exclude Discount**: Remove applied discounts from commission calculations
+This section allows you to configure page assignments, cost exclusions, and rules for self-referrals and subscriptions.
 
-### Self-Referral Options
+* **Affiliate Area:** Select the page you want to use for your affiliate portal. You can use the `[fluent_affiliate_portal]` shortcode on this page. Clicking the plus icon will open an "Add Page" pop-up where you can enter a new "Page Title" and click "Add" to create it.
 
-* **Disable Self Referral**: Prevent affiliates from earning commissions on their own purchases
-* **Credit First/Last Affiliate**: Choose whether the commission goes to the first or last affiliate who referred the customer
+* **Exclude Shipping:** Enable this option to exclude shipping costs from the calculation of referral commissions.
+* **Exclude Tax:** Enable this to exclude tax amounts from the calculation of referral commissions.
+* **Disable Self Referral:** Enable this to prevent affiliates from earning commissions on their own purchases.
+* **Affiliate Commission on Subscription Renewal (Coming soon):** This is an upcoming feature that will enable you to credit the main affiliate on subscription renewals.
 
 ![Cost and Tax Settings](/guide/public/images/settings-and-customization/referral/cost-tax-settings.webp)
+
+After configuring all your settings, click the **Save Settings** button to apply the changes.
 
