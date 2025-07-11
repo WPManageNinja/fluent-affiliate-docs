@@ -141,7 +141,6 @@ export default defineConfig({
         {
           text: 'Settings & Customization',
           items: [
-            { text: 'General Settings', link: '/guide/settings-and-customization/general-settings' },
             { text: 'Referral Settings', link: '/guide/settings-and-customization/referral-settings' },
             { text: 'Group Settings', link: '/guide/settings-and-customization/group-settings' },
             { 

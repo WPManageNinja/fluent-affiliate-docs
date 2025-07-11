@@ -1,47 +1,33 @@
 # Migrator Settings
 
-The Migrator Settings in FluentAffiliate allow you to manage data migration and cleanup tasks. This guide will walk you through the available options and how to use them effectively.
+The Migrator Settings in FluentAffiliate allow you to easily import data from other affiliate plugins and perform cleanup tasks. Currently, FluentAffiliate supports migration from **AffiliateWP**. This guide will walk you through the available options.
 
-## Accessing Migrator Settings
+### Accessing Migrator Settings
 
-To access the Migrator Settings:
-
-1. Go to your FluentAffiliate Dashboard
-2. Click on **Settings** in the top menu
-3. Select **Migrator Settings** from the left sidebar
-
-You'll see the main Migrator Settings interface:
+To access the Migrator Settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Migrator Settings**.
 
 ![Migrator Settings Overview](/guide/public/images/settings-and-customization/migrator/migrator-settings-overview.webp)
 
-## Data Migration Process
+### Migrating from AffiliateWP
 
-When performing data migration:
+When performing a data migration from **AffiliateWP**, you will need to follow the on-screen prompts. The general process is to:
 
-1. Select the data you want to migrate
-2. Configure any specific migration settings
-3. Start the migration process
-4. Monitor the progress
+1.  Select the specific data you want to migrate (such as affiliates, referrals, payouts, etc.).
+2.  Configure any specific migration settings if prompted.
+3.  Start the migration process and monitor its progress until completion.
 
-![Migration Process](/guide/public/images/settings-and-customization/migrator/migration-process-overview.webp)
+### Data Cleanup
 
-## Data Cleanup
+This section also includes a **Wipe Data** tool to clean up your FluentAffiliate data. To use it, select the data you wish to remove, confirm your choice, and wait for the process to finish.
 
-If you need to clean up your FluentAffiliate data:
-
-1. Go to the **Wipe Data** section
-2. Select what data you want to remove
-3. Confirm your decision
-4. Wait for the cleanup process to complete
-
-> **Warning**: Data cleanup is irreversible. Make sure to backup your data before proceeding.
+> **Warning:** Data cleanup is irreversible. Always make sure to back up your data before proceeding.
 
 ![Wipe Data Confirmation](/guide/public/images/settings-and-customization/migrator/wipe-data-confirmation.gif)
 
-### Troubleshooting Common Issues
+### Troubleshooting
 
-Here are solutions to common issues you might encounter:
+Here are solutions to common issues you might encounter during migration:
 
-- **Migration Not Starting**: Ensure you have sufficient permissions and all prerequisites are met.
-- **Process Stuck**: Try refreshing the page and starting the process again.
-- **Data Not Appearing**: Verify that the migration completed successfully and check your source data.
+* **Migration Not Starting:** Ensure you have sufficient permissions and that all prerequisites are met.
+* **Process Stuck:** Try refreshing the page and starting the process again.
+* **Data Not Appearing:** Verify that the migration completed successfully and check your source data.
