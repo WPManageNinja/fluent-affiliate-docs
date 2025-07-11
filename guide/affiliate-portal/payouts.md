@@ -6,10 +6,10 @@ In FluentAffiliate, users can easily track their payouts right from the Affiliat
 
 This section shows the list of all payouts that have been made to your account. You'll find:
 
-* **Payment Date** – When the payout was processed.
+* **Date** – When the payout was processed.
 * **Amount** – The total amount you received in that payout.
-* **Payment Method** – The method used to pay you.
 * **Status** – Whether the payout is Paid, Unpaid, or Pending.
+* **Descrption** – This provides details about the payouts.
 
 ![Payout Affiliate User Portal](/guide/public/images/affiliate-portal/payouts/payout-history-view.webp)
 
