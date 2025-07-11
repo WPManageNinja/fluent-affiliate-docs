@@ -1,4 +1,4 @@
-# Updating Profile & Notification Settings
+# Update Your Settings
 
 The Settings page is where you manage your personal account information, including your payment details and notification preferences. Keeping this information up to date is crucial for receiving your commission payments on time.
 
