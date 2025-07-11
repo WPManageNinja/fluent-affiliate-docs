@@ -15,7 +15,7 @@ The first step helps FluentAffiliate understand which platforms you use to sell 
 
 Click the **Next** button to proceed.
 
-![Connecting integration plugins during FluentAffiliate onboarding](/guide/public/images/getting-started/onboarding/onboarding-connect-plugins.webp)
+![Connecting integration plugins during FluentAffiliate onboarding](/guide/public/images/getting-started/onboarding-setup/onboarding-fluentaffiliate-1.webp)
 
 ## Step 2: Set Your Default Commission
 
@@ -30,7 +30,7 @@ Here’s what to fill out:
 
 Once you've configured these settings, click **Next**.
 
-![Commission Setup in FluentAffiliate](/guide/public/images/getting-started/onboarding/onboarding-commission-setup.webp)
+![Commission Setup in FluentAffiliate](/guide/public/images/getting-started/onboarding-setup/onboarding-fluentaffiliate-2.webp)
 
 ## Step 3: Create Your Affiliate Portal
 
@@ -38,13 +38,11 @@ The final step is to create a dedicated page for your affiliates. This "Affiliat
 
 * **Affiliate Area:** You need to select a page to serve as the portal. You can either choose an existing page from the dropdown menu or click the **plus (+)** icon to create a new page instantly.
 
-![Creating the Affiliate Portal page during onboarding](/guide/public/images/getting-started/onboarding/onboarding-affiliate-portal.webp)
-
 * If you create a new page, a pop-up will appear where you can enter the **Page Title** (e.g., "Affiliate Area") and click **Add** button.
 
-![Create a new page during onboarding](/guide/public/images/getting-started/onboarding/affiliate-page.webp)
-
 FluentAffiliate will automatically place the `[fluent_affiliate_portal]` shortcode on the page you select. This shortcode is what makes the affiliate dashboard appear.
+
+![Creating the Affiliate Portal page during onboarding](/guide/public/images/getting-started/onboarding-setup/onboarding-fluentaffiliate-3.webp)
 
 When you're ready, click the **Finish** button to save your settings and complete the setup.
 
