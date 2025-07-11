@@ -21,6 +21,9 @@ At the top of the dashboard, you'll find a series of boxes showing your most imp
 * **Pending Affiliates:** The number of new affiliate applications that are awaiting your approval.
 * **Total Order Value by Referrals:** The total revenue amount generated from all affiliate referrals.
 
+### Dark Mode / Light Mode Toggle
+In the top-right corner of your dashboard, next to the **Settings** button, you'll find the display mode toggle. Simply click the **moon** icon to switch the entire interface to a **dark** theme, which can be easier on the eyes in low-light environments. To switch back, click the **sun** icon that appears in its place.
+
 #### Growth Overview
 
 Below the main stats, the Growth Overview graph gives you a visual representation of your program's performance over time.

@@ -14,9 +14,7 @@ Here's what your dashboard looks like:
 
 ![Affiliate Dashboard Overview](/guide/public/images/affiliate-portal/dashboard/affiliate-dashboard-overview.webp)
 
-## Dashboard Sections
-
-### 1. Performance Overview
+### Quick Overview
 
 At the top of your dashboard, you'll find key performance metrics:
 
