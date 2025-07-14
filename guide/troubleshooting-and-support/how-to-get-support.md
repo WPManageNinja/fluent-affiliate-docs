@@ -6,7 +6,7 @@ If you have reviewed our documentation and are still encountering a problem with
 
 To ensure you receive the quickest and most effective assistance, please follow these guidelines when contacting us:
 
-1.  **Visit the WPManageNinja Support Portal:** Go to the official [WPManageNinja support website](https'://wpmanageninja.com/support-tickets/). This is the primary channel for submitting support tickets.
+1.  **Visit the WPManageNinja Support Portal:** Go to the official [WPManageNinja support website](https://wpmanageninja.com/support-tickets/). This is the primary channel for submitting support tickets.
 
 2.  **Submit a Support Ticket:**
     * Log in to your WPManageNinja account.
