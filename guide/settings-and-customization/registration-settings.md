@@ -8,10 +8,15 @@ To configure these options, navigate from your WordPress dashboard to **FluentAf
 
 ### General Registration Options
 
-At the top of the page, you will find general settings for the registration process:
+At the top of the page, you will find the two primary settings that control your entire affiliate registration process.
 
-* **Enable Affiliate Registration:** Activate this checkbox to allow users to register as affiliates on your site.
-* **Disable Admin Approval for New Affiliates:** If this is enabled, new affiliates will be automatically approved without needing manual admin confirmation.
+* **Enable Affiliate Registration:** This acts as the master switch for your affiliate program's public registration.
+    * When this option is **enabled**, the affiliate registration form will be active and accessible, allowing new users to sign up.
+    * If you **disable** this option, it will prevent any new users from registering as affiliates.
+
+* **Require admin approval for new affiliates:** This setting gives you direct control over your affiliate vetting and approval workflow.
+    * **When Enabled (Manual Approval):** If you check this box, you have full control over who joins your program. New applicants will have their status set to "pending." You will then need to navigate to their individual affiliate profile to manually review their application and approve them. This is the recommended setting if you want to screen your affiliates before they can start promoting your site.
+    * **When Disabled (Automatic Approval):** If you leave this box unchecked, the approval process is hands-off. Any user who successfully completes the registration form will instantly become an active affiliate and can begin generating referral links immediately.
 
 ![Registration Settings](/guide/public/images/settings-and-customization/registration-settings/registration-settings.webp)
 
