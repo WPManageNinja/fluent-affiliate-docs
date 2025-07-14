@@ -3,92 +3,65 @@
 FluentAffiliate offers a powerful **Multi-Domain Management** feature that lets you track affiliate sales, referrals, and commissions across multiple websites—all from a single, centralized dashboard.
 
 Imagine you have three sites:
-
 * **siteX.com** (your main site)
 * **siteY.com** (your blog)
 * **siteZ.com** (your online store)
 
-With Multi-Domain Management, you can monitor all affiliate activity from **siteY** and **siteZ** right within the FluentAffiliate dashboard on **siteX**. It's a streamlined way to keep everything organized, efficient, and under one roof.
+With Multi-Domain Management, you can monitor all affiliate activity from siteY and siteZ right within the FluentAffiliate dashboard on siteX. It's a streamlined way to keep everything organized, efficient, and under one roof.
 
-In this guide, we'll show you exactly how to set up and manage multiple domains using FluentAffiliate.
+### How It Works
 
-## Enable Multi-Domain Management
+The entire system is built on a "hub and spoke" model. Your **Main Site** (where the full FluentAffiliate plugin is installed) acts as the central hub for all data. Your other websites, or **Child Sites**, act as spokes. To connect these spokes to the hub, you will use a simple, free helper plugin called the [**FluentConnect Addon**](https://github.com/WPManageNinja/fluent-affiliate-connector) on each child site.
 
-Go to the **FluentAffiliate Dashboard**. From the top menu, click on **Settings**. Then, look for **Domain Management** on the left-hand sidebar and click on it.
+### Step 1: Enable Multi-Domain on Your Main Site
 
-Here, you'll find an option called **Enable Multi-Domain Affiliate**. Simply click the **toggle** button to turn it on.
+Your first step is to enable the multi-domain functionality within your main FluentAffiliate dashboard and prepare it to accept a new connection.
 
-After that, click the **+Add Domain** button to add a domain.
+1.  To begin, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Domain Management**.
+2.  Find the **Enable Multi Domain Affiliate** option and click the toggle switch to activate the service. This tells your main site that it's ready to manage other domains.
+3.  Next, click the **+ Connect a new site** button to begin the process of linking a new child site.
 
-![Enable Multi-Domain Management](/guide/public/images/settings-and-customization/multi-domain/enable-multi-domain.webp)
+![Enable Multi Domain](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-1.webp)
 
-## Add Multiple Domains
+4.  A pop-up titled "Connect a new site" will appear. It will have a field asking for the child site's 'config JSON'. For now, simply keep this pop-up open on your main site. We need to go get this special code from your child site first.
 
-Once you've enabled Multi-Domain Affiliate, a popup will appear for you to add a new domain.
+![Cofig JSON popup](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-2.webp)
 
-Here's what you need to do:
+### Step 2: Install FluentConnect on Your Child Site
 
-**A. Title:** Type in the name of your website.
+Now, open a new browser tab and log in to the WordPress dashboard of the child site you wish to connect. The goal here is to install the helper plugin and generate the unique connection code.
 
-**B. URL:** Enter the full URL of your website.
+1.  On your child site's dashboard, you need to install the **FluentConnect Addon**. This lightweight plugin is designed specifically to create a secure bridge between your child site and your main FluentAffiliate dashboard. You can download this addon by clicking the "[Learn more about this module](https://github.com/WPManageNinja/fluent-affiliate-connector)" link on the main site's Domain Management page. Then, go to **Plugins > Add New**, upload the addon's .zip file, and activate it.
 
-**C. Description:** Write a short description about what your website is about.
+![Installing FluentConnect Addon](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-3.webp)
 
-**D. Choose Logo:** Click the **Choose Logo** button to upload your website's logo.
+2.  Once the addon is activated, a new menu item will appear. Navigate to **Settings → FluentAffiliate Connector** from the left sidebar.
+3.  This screen is dedicated to the connection process. You will see a large text box labeled **This site config (Copy this code and paste in your main site)**. This JSON code is a unique fingerprint for your child site. Highlight and copy this entire code.
 
-After filling in all the details, simply click the **Submit** button to add the domain.
+![Config JSON](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-4.webp)
 
-![Add Domain](/guide/public/images/settings-and-customization/multi-domain/add-new-domain.webp)
+### Step 3: Generate the Connection Token on the Main Site
 
-## Edit or Delete a Domain
+With the config JSON copied, return to the browser tab with your main site's dashboard, where the pop-up should still be open.
 
-Managing your added domains is super easy in FluentAffiliate.
+1.  Paste the JSON code you just copied from your child site into the text field labeled "Please provide the child site's config JSON".
+2.  Click the **Issue New Connect Config** button. Your main site will now securely communicate with your child site using the code you provided.
 
-If you ever need to edit or delete a domain, just look for the **three vertical dots** (found next to your domain listing). Click on it, and you'll see two options: **Edit** and **Delete**.
+![Issue New Connect](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-5.webp)
 
-* If you want to update or change domain details (like the title, URL, description, or logo), click on the **Edit** option.
-* If you want to **remove** the domain completely, just click **Delete**.
+3.  After a moment, you will see a **Success** message and a new field will appear containing a secure token. This token is a one-time key to authorize the connection. Click the **Copy** button to copy this server token.
 
-![Edit or Delete Domain](/guide/public/images/settings-and-customization/multi-domain/manage-domain-options.webp)
+![Server Token](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-6.webp)
 
-Before you start connecting all your domains to the main domain, you'll need to **copy** the **website URL**. You will use this URL later when setting up the connection in **FluentConnect**.
+### Step 4: Finalize the Connection on the Child Site
 
-![Copy Website URL](/guide/public/images/settings-and-customization/multi-domain/copy-site-url.webp)
+For the final step, go back to your child site's dashboard to complete the secure handshake.
 
-### Connect Multiple Domains with FluentConnect
+1.  Return to the **FluentAffiliate Connector** page (`Settings → FluentAffiliate Connector`). Paste the new token you copied from your main site into the field labeled **Connection Token from Main Website**.
+2.  Click the **Validate Token and Enable Connection** button. The addon will verify the token with your main site.
 
-Want to manage affiliate data from multiple websites all in one place? FluentConnect makes it easy! Simply install the **FluentConnect Addon** on any additional domains where you want to track referrals. Then, connect them to your main site by entering its URL.
+![Validate Token and Enable Connection](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-7.webp)
 
-Below, we'll walk you through the step-by-step process of installing FluentConnect and linking your domains effortlessly.
+3.  Once validated, the page will refresh to confirm the link is active, displaying the message: **Your site is connected with [Main Site Name]**. The connection is now complete!
 
-##### Install the FluentConnect Addon
-
-Go to **Plugins > Add New** on the site you want to connect. Upload the **FluentConnect Addon**, then click **Install** and **Activate** to get started.
-
-![Install FluentConnect Addon](/guide/public/images/settings-and-customization/multi-domain/install-fluent-connect.webp)
-
-After activating the plugin, go to your **WordPress Dashboard** and click on **FluentAffiliate**.
-You'll see an option labeled **"Connect your site with FluentAffiliate."**
-
-Paste the URL of your main **FluentAffiliate** site into the provided field and click **Submit**.
-Once connected, a confirmation message will appear.
-
-Need to remove the connection later, just click the **Disconnect** button anytime.
-
-![Connect Site with FluentAffiliate](/guide/public/images/settings-and-customization/multi-domain/connect-site-configuration.webp)
-
-## Troubleshooting Issues
-
-**Can't Edit or Delete a Domain**  
-Make sure you have admin permissions, refresh the page, or try a different browser.
-
-**Domains Not Syncing to Main Site**  
-Ensure Multi-Domain is enabled and the correct main site URL is entered. Check for caching or firewall blocks.
-
-**FluentConnect Fails to Connect**  
-Double-check the main domain URL, make sure both sites use HTTPS, and REST API isn't blocked by security plugins.
-
-**Affiliate Data Missing from Connected Domains**  
-Verify the connection status, test a referral, and make sure affiliate links use the correct domain format.
-
-
+With the connection finalized, you can return to your main site's **Domain Management** page. You will now see your newly connected child site listed in the **All Connected Sites** table. You can now add a description and logo for the site so that your affiliates can easily identify and promote this new site as well.
