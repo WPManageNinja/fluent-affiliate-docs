@@ -12,11 +12,11 @@ Let's take a look at the different sections of the dashboard and what they tell 
 
 At the top of the dashboard, you'll find a series of boxes showing your most important stats:
 
-* **Total Paid:** The amount they've already received in [payouts](/guide/admin-portal/payout-management).
+* **Total Paid:** The amount they've already received in payout.
 * **Total Unpaid:** The total amount of approved commissions that are waiting to be paid.
 * **Active Affiliates:** The number of approved affiliates in your program.
 * **Total Visits:** The number of visits their [affiliate links](/guide/affiliate-portal/generating-affiliate-links) have received.
-* **Total Referrals:** How many [referrals](/guide/admin-portal/managing-referrals) they've successfully brought in.
+* **Total Referrals:** How many referral they've successfully brought in.
 * **Conversion Rate:** The percentage of visits that have turned into successful referrals.
 * **Pending Affiliates:** The number of new affiliate applications that are awaiting your approval.
 * **Order Value by Referrals:** The total revenue amount generated from all affiliate referrals.
@@ -40,6 +40,6 @@ The sidebar on the right gives you a real-time snapshot of recent activity.
 
 ![Admin Dashboard Overview in FluentAffiliate](/guide/public/images/admin-portal/dashboard/admin-dashboard-overview.webp)
 
-That's a quick overview of your Admin Dashboard in FluentAffiliate. Want to customize how everything works? Check out our [General Settings](/guide/settings-and-customization/general-settings) and [Email Settings](/guide/settings-and-customization/email-settings) guides.
+That's a quick overview of your Admin Dashboard in FluentAffiliate. 
 
 
