@@ -36,7 +36,7 @@ Now, open a new browser tab and log in to the WordPress dashboard of the child s
 ![Installing FluentConnect Addon](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-3.webp)
 
 2.  Once the addon is activated, a new menu item will appear. Navigate to **Settings → FluentAffiliate Connector** from the left sidebar.
-3.  This screen is dedicated to the connection process. You will see a large text box labeled **This site config (Copy this code and paste in your main site)**. This JSON code is a unique fingerprint for your child site. Highlight and copy this entire code.
+3.  This screen is dedicated to the connection process. You will see a large text box labeled **This site config (Copy this code and paste in your main site)**. This JSON code is a unique fingerprint for your child site. Copy this entire code.
 
 ![Config JSON](/guide/public/images/settings-and-customization/multi-domain/multi-domain-manage-4.webp)
 
