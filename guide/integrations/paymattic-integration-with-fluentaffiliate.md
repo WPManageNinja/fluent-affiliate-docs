@@ -58,8 +58,8 @@ Your affiliate can now **copy** this link and share it on their blog, social med
 
 Here are solutions to common issues you might encounter:
 
-* **Integration Toggle Not Visible:** Ensure both the Paymattic and FluentAffiliate plugins are installed and activated. If the issue continues, try deactivating and reactivating both plugins.
+
 * **Commissions Not Tracking:** Double-check that the integration toggle is enabled in the settings. You can also test an affiliate link in an incognito browser window to ensure it's working correctly.
-* **Custom Rate Not Applying:** Make sure the "Enable custom rate for specific forms" checkbox is checked and that you have saved the settings for the correct form.
+
 
 And that's it! You have successfully connected Paymattic with FluentAffiliate, creating another great way to boost your sales.

@@ -70,7 +70,7 @@ Whenever a customer makes a purchase through this link, the affiliate will earn 
 
 If you encounter any issues, here are some solutions to common problems:
 
-* **Integration Toggle Not Visible:** Ensure both the WooCommerce and FluentAffiliate plugins are activated. If the issue persists, try deactivating and reactivating both plugins.
+
 * **Affiliate Links Not Generating:** Verify that the product URL you are using is correct and the page is publicly accessible.
 * **Commissions Not Tracking:** Double-check that the "Enable Affiliate Integration for WooCommerce" option is checked in the settings. If you're using custom rates, ensure they are configured correctly for the specific product or category.
 * **Conflicting Rates:** If a product-specific rate isn't being applied as expected, review your rules to ensure there isn't an overlap with a category-wide rate that might be taking precedence.

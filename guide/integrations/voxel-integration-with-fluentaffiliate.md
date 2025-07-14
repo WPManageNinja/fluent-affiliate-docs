@@ -22,7 +22,7 @@ First, you’ll need to enable the integration from your FluentAffiliate dashboa
 
 ## Configure Voxel Settings
 
-After enabling the integration, click on the **Manage** link to configure how commissions are handled for your Voxel products. This is where you can set custom commission rates that are different from your default settings.
+After enabling the integration, click on the **Manage** link to configure how commissions are handled for your **Voxel** products. This is where you can set custom commission rates that are different from your default settings.
 
 A settings panel will appear with the following options:
 
@@ -58,6 +58,4 @@ You can copy this link and share it on their social media, blog, emails, or with
 
 If you run into any problems, here are a few common solutions:
 
-* **Integration Toggle Not Visible:** Make sure both the Voxel theme and the FluentAffiliate plugin are installed and activated on your site. If the problem continues, try deactivating and reactivating both.
 * **Commissions Not Tracking:** Double-check that the integration toggle is enabled in the settings. You can also place a test order using an affiliate link to ensure it's working correctly.
-* **Custom Rate Isn't Applying:** Ensure that the **Enable custom rate for specific products** checkbox is checked and that you have correctly configured and saved the rate for that specific Voxel product.
