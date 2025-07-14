@@ -18,7 +18,7 @@ Here's what to fill out:
 
 * **Payout Title**: Add a title for the payout.
 
-* **Payout Description**: Optionally, include a short note or description.
+* **Payout Description**: Enter a short note or description.
 
 * **Affiliates**: Select one or more affiliates to pay. Only affiliates with unpaid earnings will be listed here. If you leave this field blank, payment will be sent to all eligible affiliates.
 
