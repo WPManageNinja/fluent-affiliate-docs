@@ -168,7 +168,7 @@ export default defineConfig({
         {
           text: 'Changelog',
         items: [
-            { text: 'Release Notes', link: '/guide/changelog/changelog' }
+            { text: 'Changelogs', link: '/guide/changelog/changelog' }
         ]
       }
       ]
