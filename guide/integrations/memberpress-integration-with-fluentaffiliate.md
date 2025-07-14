@@ -63,15 +63,6 @@ Now that your integration is configured, your affiliates can start generating th
 
 If someone purchases the Course using your affiliate link, you'll earn a commission based on the settings you've configured.
 
-### Troubleshooting Common Issues
-
-If you run into any problems, here are a few solutions:
-
-* **Integration Toggle Not Visible:** Ensure that both the MemberPress and FluentAffiliate plugins are installed and activated. If the issue persists, try deactivating and reactivating both plugins.
-
-* **Commissions Not Tracking:** Verify that the integration toggle is enabled in FluentAffiliate's settings. If you're using custom rates, ensure they are configured correctly for the specific membership level being purchased.
-
-* **Custom Rate Not Applying:** Double-check your custom rate rules in the Manage section to ensure there are no conflicting rules and that the correct rate is applied to the intended membership.
 
 And that's it. This is an easy process to integrate MemberPress with FluentAffiliate.
 

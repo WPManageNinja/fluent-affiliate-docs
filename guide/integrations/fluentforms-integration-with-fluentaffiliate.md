@@ -59,7 +59,7 @@ In FluentForms, create a new form with all the fields you need for registration,
 
 ### Step 2: Configure the Integration Feed
 
-Next, you need to connect this specific form to *FluentAffiliate's registration system.
+Next, you need to connect this specific form to ***FluentAffiliate's** registration system.
 
 1. Go into the settings for your registration form and click on **Settings & Integrations**.
 
@@ -123,9 +123,6 @@ If someone clicks the link, you will get the affiliate commission.
 
 Here are solutions to common issues you might encounter:
 
-* **Integration Toggle Not Visible:** Ensure both FluentForms and FluentAffiliate are activated. If you still don't see it, try deactivating and reactivating both plugins.
-
-* **Form Commission Not Tracking:** Make sure you have enabled and configured a custom rate for that specific form in the Manage section within FluentAffiliate's settings.
 
 * **Registration Form Not Working:** Double-check that you have correctly mapped all the required fields (like Email and Password) in the form's integration feed. An unmapped required field will cause the registration to fail.
 

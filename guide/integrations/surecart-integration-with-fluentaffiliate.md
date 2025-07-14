@@ -34,14 +34,6 @@ When a customer clicks the link and completes a purchase, a commission will be a
 
 ![Referral](/guide/public/images/integrations/surecart/referral-overview.webp)
 
-### Troubleshooting Common Issues
-
-If you run into any problems, here are a few solutions to common issues:
-
-* **Integration Toggle Not Visible:** Ensure both the SureCart and FluentAffiliate plugins are installed and activated. If the issue persists, try deactivating and reactivating both plugins to reset the connection.
-
-* **Commissions Not Tracking:** Verify that the integration toggle for SureCart is enabled in FluentAffiliate's settings. Also, confirm that any test purchase was made using the complete and correct affiliate link without interruption.
-
 And that's it! This is how easily you can connect SureCart with FluentAffiliate and start earning commissions by promoting SureCart products.
 
 

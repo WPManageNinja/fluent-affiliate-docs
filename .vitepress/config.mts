@@ -98,27 +98,24 @@ export default defineConfig({
                 { text: 'WooCommerce', link: '/guide/integrations/woocommerce-integration-with-fluentaffiliate' },
                 { text: 'Easy Digital Downloads', link: '/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate' },
                 { text: 'SureCart', link: '/guide/integrations/surecart-integration-with-fluentaffiliate' },
-                { text: 'Voxel', link: '/guide/integrations/voxel-integration-with-fluentaffiliate' },
-                { text: 'EasyCart', link: '/guide/integrations/easycart-integration-with-fluentaffiliate' }
+                { text: 'Voxel', link: '/guide/integrations/voxel-integration-with-fluentaffiliate' }
+            
               ]
             },
             {
               text: 'LMS & Membership',
               collapsed: true,
               items: [
-                { text: 'LearnDash', link: '/guide/integrations/learndash-integration-with-fluentaffiliate' },
                 { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
                 { text: 'LifterLMS', link: '/guide/integrations/lifterlms-integration-with-fluentaffiliate' },
                 { text: 'Paid Membership Pro', link: '/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate' }
               ]
             },
             {
-              text: 'Forms & CRM',
+              text: 'Forms',
               collapsed: true,
               items: [
-                { text: 'Fluent Forms', link: '/guide/integrations/fluentforms-integration-with-fluentaffiliate' },
-                { text: 'FluentCRM', link: '/guide/integrations/fluentcrm-integration-with-fluenaffiliate' },
-                { text: 'Formidable', link: '/guide/integrations/formidable-integration-with-fluentaffiliate' }
+                { text: 'Fluent Forms', link: '/guide/integrations/fluentforms-integration-with-fluentaffiliate' }
               ]
             },
             {

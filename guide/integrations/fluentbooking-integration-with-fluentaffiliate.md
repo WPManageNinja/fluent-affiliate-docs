@@ -90,8 +90,6 @@ When a user books the event through your affiliate link, your Referral commissio
 
 Here are solutions to common issues you might encounter:
 
-* **Integration Toggle Not Visible:** Ensure both FluentBooking and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
-* **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it working.
 * **Booking Page Not Tracking:** Make sure the booking page URL is correctly set up in the affiliate link generator.
 
 And that's it. This is an easy process to integrate FluentBooking with FluentAffiliate.

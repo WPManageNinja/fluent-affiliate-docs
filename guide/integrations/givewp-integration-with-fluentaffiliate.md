@@ -55,10 +55,5 @@ If someone purchases the campaign or courses using your affiliate link, you’ll
 
 ![Copy Affiliate Link](/guide/public/images/integrations/givewp/affiliate-link-generation.webp)
 
-### Troubleshooting Common Issues
-Here are solutions to common issues you might encounter:
-
-* **Integration Toggle Not Visible:** Ensure both GiveWP and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, then check again.
-* **Commissions Not Tracking:** Verify that the integration toggle is enabled. You can also test your affiliate link to ensure it’s working correctly.
 
 And that’s it! This is the easy process to integrate GiveWP with FluentAffiliate and start earning commissions.

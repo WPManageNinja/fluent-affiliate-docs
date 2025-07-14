@@ -58,8 +58,6 @@ When a student clicks the link and enrolls in the course, the affiliate earns a 
 
 ### Troubleshooting Tips
 
-* **Integration Toggle Not Visible:** Ensure both the LifterLMS and FluentAffiliate plugins are installed and activated. If the problem persists, try deactivating and reactivating both plugins.
-
 * **Affiliate Sale Not Tracked:** Verify that the integration toggle is enabled in FluentAffiliate's settings. If you're using custom rates, double-check that they are configured correctly for the specific course being purchased.
 
 * **Affiliate Not Getting Credit:** This can sometimes be a browser issue on the customer's end. Ensure they don't have cookies blocked and that they completed the checkout without clearing their session or switching browsers.

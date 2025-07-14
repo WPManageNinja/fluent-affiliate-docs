@@ -70,7 +70,6 @@ Now, when someone makes a purchase using this link, you'll earn a commission bas
 
 Here are solutions to common issues you might encounter:
 
-- **Integration Toggle Not Visible:** Ensure both Easy Digital Downloads and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
 - **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it working.
 - **Product Page Not Tracking:** Make sure the product page URL is correctly set up in the affiliate link generator.
 

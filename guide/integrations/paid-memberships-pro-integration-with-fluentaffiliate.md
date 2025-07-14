@@ -51,16 +51,10 @@ After you've completed configuring the Paid Memberships Pro affiliate settings, 
 
 1.  In the **Affiliate Links** section, they will paste the URL of the membership page they want to promote.
 2.  Next, click on the **Generate** button and FluentAffiliate will generate a unique **Affiliate link** for them.
-3.  Once the link is ready, they can copy the affiliate link and share it wherever they like—on social media, emails, blogs, or directly with their audience.
+3.  Once the link is ready, they can **copy** the affiliate link and share it wherever they like—on social media, emails, blogs, or directly with their audience.
 
 ![Copy Affiliate Link](/guide/public/images/integrations/paid-memberships-pro/copy-affiliate-link.webp)
 
 
 If someone purchases a membership using the affiliate link, the affiliate will earn a commission based on the settings you've configured.
 
-## Troubleshooting Common Issues
-
-Here are solutions to common issues you might encounter:
-
-* **Integration Toggle Not Visible:** Ensure both Paid Memberships Pro and FluentAffiliate are activated. If the issue continues, deactivate and reactivate both plugins, and then check again.
-* **Commissions Not Tracking:** Verify that the integration toggle is enabled. Also, you can test your affiliate link to ensure it's working.
