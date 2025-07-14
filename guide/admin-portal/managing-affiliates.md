@@ -4,7 +4,7 @@ In FluentAffiliate, managing your affiliates is easy and organized. The Affiliat
 
 In this guide, we'll walk you through what you can do on the Affiliates page. 
 
-## Affiliate Dashboard Overview
+## Affiliates Dashboard Overview
 
 First, go to the **Affiliates** tab from the FluentAffiliate menu. There, you'll see the affiliate dashboard with all your site's affiliate details. 
 
