@@ -84,7 +84,7 @@ export default defineConfig({
             { text: 'Checking Visits', link: '/guide/affiliate-portal/checking-visits' },
             { text: 'Tracking Referrals', link: '/guide/affiliate-portal/tracking-referrals' },
             { text: 'Payouts', link: '/guide/affiliate-portal/payouts' },
-            { text: 'Profile & Settings', link: '/guide/affiliate-portal/update-your-settings' }
+            { text: 'Update your Settings', link: '/guide/affiliate-portal/update-your-settings' }
           ]
         },
         {
