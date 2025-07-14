@@ -11,7 +11,7 @@ When a user visits your site's **Affiliate Page** usually linked in the menu or 
 Click the **Register Now** button to start the sign-up process.
 
 >[!NOTE]
->Only the site admin can decide where the **Affiliate Page** appears on the site. To learn how to set this up, check out this [article](/guide/admin-portal/admin-dashboard-overview).
+>Only the site admin can decide where the **Affiliate Page** appears on the site. To learn how to set this up, check out this [article](/guide/settings-and-customization/referral-settings.md).
 
 
 ![Affiliate Registration Page](/guide/public/images/affiliate-portal/registration/registration-page.webp)
@@ -41,7 +41,7 @@ This part of the form helps the site owner understand more about their potential
 
 To complete the process, the user must:
 
-1. Check the box to confirm they "**agree to the terms and conditions.**" 
+1. Check the box to confirm they "**I agree to the terms and conditions.**" 
 
 2. Click the **Register** button to submit their application for review.
 
@@ -62,7 +62,7 @@ This dashboard is their central hub to:
 
 * Update their account settings.
 
-To learn more about the Affiliate Dashboard, check out this [article](#).
+To learn more about the Affiliate Dashboard, check out this [article](/guide/affiliate-portal/affiliate-dashboard-overview.md).
 
 ![Affiliate Dashboard](/guide/public/images/affiliate-portal/registration/registration-success.webp)
 
