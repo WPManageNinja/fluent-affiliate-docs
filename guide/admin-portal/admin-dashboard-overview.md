@@ -19,14 +19,12 @@ At the top of the dashboard, you'll find a series of boxes showing your most imp
 * **Total Referrals:** How many referral they've successfully brought in.
 * **Conversion Rate:** The percentage of visits that have turned into successful referrals.
 * **Pending Affiliates:** The number of new affiliate applications that are awaiting your approval.
-* **Total Order Value by Referrals:** The total revenue amount generated from all affiliate referrals.
+* **Order Value by Referrals:** The total revenue amount generated from all affiliate referrals.
 
-### Dark Mode / Light Mode Toggle
-In the top-right corner of your dashboard, next to the **Settings** button, you'll find the display mode toggle. Simply click the **moon** icon to switch the entire interface to a **dark** theme, which can be easier on the eyes in low-light environments. To switch back, click the **sun** icon that appears in its place.
 
-#### Growth Overview
+#### Affiliate Performance
 
-Below the main stats, the Growth Overview graph gives you a visual representation of your program's performance over time.
+Below the main stats, the Affiliate Performance graph gives you a visual representation of your program's performance over time.
 
 * You can filter the graph to show trends for **Referrals**, **Visits**, and new **Affiliates**. 
 
