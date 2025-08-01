@@ -8,5 +8,8 @@ fluentaffiliate.WordPress.2025-06-23.xml
 .DS_Store
 /.idea
 
+# Symlinks
+fluent-affiliate
+
 # DO NOT ignore the images folder!
 # (No line like /guide/public/images)

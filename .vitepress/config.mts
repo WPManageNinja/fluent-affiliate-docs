@@ -15,7 +15,7 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-  
+
   markdown: {
     config: (md) => {
       md.use(zoomablePlugin)
@@ -47,7 +47,7 @@ export default defineConfig({
       dark: '/../guide/public/images/brand/main_logo_inverted.png',
       light: '/../guide/public/images/brand/main_logo.png',
     },
-  
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },
@@ -99,7 +99,7 @@ export default defineConfig({
                 { text: 'Easy Digital Downloads', link: '/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate' },
                 { text: 'SureCart', link: '/guide/integrations/surecart-integration-with-fluentaffiliate' },
                 { text: 'Voxel', link: '/guide/integrations/voxel-integration-with-fluentaffiliate' }
-            
+
               ]
             },
             {
@@ -140,7 +140,7 @@ export default defineConfig({
           items: [
             { text: 'Referral Settings', link: '/guide/settings-and-customization/referral-settings' },
             { text: 'Group Settings', link: '/guide/settings-and-customization/group-settings' },
-            { 
+            {
               text: 'Email Settings',
               collapsed: true,
               items:[
@@ -170,7 +170,13 @@ export default defineConfig({
         items: [
             { text: 'Changelogs', link: '/guide/changelog/changelog' }
         ]
-      }
+      },
+        {
+          text: 'Developer Docs',
+          items: [
+            { text: 'Actions', link: 'guide/developer/hooks/actions/' }
+          ]
+        }
       ]
     },
 

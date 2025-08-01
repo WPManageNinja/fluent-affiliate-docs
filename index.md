@@ -18,7 +18,7 @@ hero:
       link: /guide/getting-started/what-is-fluentaffiliate
     - theme: alt
       text: Developer Docs
-      link: https://github.com/fluentcrm/fluent-affiliate
+      link: /guide/developer/hooks/actions
 
 ---
 
