@@ -50,8 +50,8 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },
-      { text: 'Dev Docs', link: '/' },
+      { text: 'Guide', link: '/guide/getting-started/what-is-fluentaffiliate' },
+      { text: 'Developers', link: '/developers/' },
       { text: 'Website', link: 'https://fluentaffiliate.com/' },
     ],
     outline: [2, 3],
@@ -171,10 +171,80 @@ export default defineConfig({
             { text: 'Changelogs', link: '/guide/changelog/changelog' }
         ]
       },
+
+      ],
+
+      '/developers/': [
         {
-          text: 'Developer Docs',
+          text: 'Getting Started',
           items: [
-            { text: 'Actions', link: 'guide/developer/hooks/actions/' }
+            { text: 'Overview', link: '/developers/' },
+            { text: 'Developer Guide', link: '/developers/getting-started/' },
+            { text: 'Quick Start', link: '/developers/quick-start' }
+          ]
+        },
+        {
+          text: 'Database',
+          items: [
+            { text: 'Database Schema', link: '/developers/database/' },
+            { text: 'Database Models', link: '/developers/database/models/' }
+          ]
+        },
+        {
+          text: 'Developer Tools',
+          items: [
+            { text: 'Global Functions', link: '/developers/global-functions/' },
+            { text: 'Helper Classes', link: '/developers/helpers/' }
+          ]
+        },
+        {
+          text: 'Hooks System',
+          items: [
+            { text: 'Overview', link: '/developers/hooks/' },
+            { text: 'Action Hooks', link: '/developers/hooks/actions/' },
+            { text: 'Filter Hooks', link: '/developers/hooks/filters/' }
+          ]
+        },
+        {
+          text: 'API',
+          items: [
+            { text: 'REST API', link: '/developers/api/' },
+            { text: 'Authentication', link: '/developers/api/authentication/' },
+            { text: 'Endpoints', link: '/developers/api/endpoints/' }
+          ]
+        },
+        {
+          text: 'Code Examples',
+          items: [
+            { text: 'Overview', link: '/developers/examples/' },
+            { text: 'Integration Examples', link: '/developers/examples/integrations/' },
+            { text: 'Portal Customization', link: '/developers/examples/portal/' },
+            { text: 'Workflow Examples', link: '/developers/examples/workflows/' }
+          ]
+        },
+        {
+          text: 'Action Hooks',
+          collapsed: true,
+          items: [
+            { text: 'Affiliate', link: '/developers/hooks/actions/affiliate/' },
+            { text: 'Referrals', link: '/developers/hooks/actions/referrals/' },
+            { text: 'Transactions', link: '/developers/hooks/actions/transactions/' },
+            { text: 'Payouts', link: '/developers/hooks/actions/payouts/' },
+            { text: 'Groups', link: '/developers/hooks/actions/groups/' },
+            { text: 'Integrations', link: '/developers/hooks/actions/integrations/' },
+            { text: 'Authentication', link: '/developers/hooks/actions/auth/' },
+            { text: 'Portal', link: '/developers/hooks/actions/portal/' },
+            { text: 'Admin', link: '/developers/hooks/actions/admin/' }
+          ]
+        },
+        {
+          text: 'Filter Hooks',
+          collapsed: true,
+          items: [
+            { text: 'Configuration', link: '/developers/hooks/filters/configuration/' },
+            { text: 'Portal & UI', link: '/developers/hooks/filters/portal/' },
+            { text: 'Authentication', link: '/developers/hooks/filters/authentication/' },
+            { text: 'Tracking', link: '/developers/hooks/filters/tracking/' }
           ]
         }
       ]
@@ -189,9 +259,7 @@ export default defineConfig({
       copyright: 'Copyright © 2025-present FluentAffiliate'
     },
 
-    search: {
-      provider: 'local'
-    },
+
 
     editLink: {
       pattern: 'https://github.com/fluentcrm/fluent-affiliate/edit/main/docs/:path',
