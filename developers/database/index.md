@@ -6,7 +6,7 @@ Understanding FluentAffiliate's database structure is essential for effective de
 
 ## Overview
 
-FluentAffiliate uses a normalized database structure with 5 core tables that handle all affiliate marketing operations. The schema is designed for performance, scalability, and data integrity.
+FluentAffiliate uses a normalized database structure with 7 core tables that handle all affiliate marketing operations. The schema is designed for performance, scalability, and data integrity.
 
 ### 🗄️ **Core Tables**
 
@@ -14,9 +14,11 @@ FluentAffiliate uses a normalized database structure with 5 core tables that han
 |-------|---------|---------|
 | `fa_affiliates` | Affiliate profiles and settings | Affiliate data |
 | `fa_referrals` | Referral tracking and commissions | Conversion events |
-| `fa_transactions` | Financial transactions and payouts | Payment records |
-| `fa_groups` | Affiliate groups and tiers | Organization data |
-| `fa_url_metrics` | URL tracking and analytics | Performance data |
+| `fa_customers` | Customer information and tracking | Customer data |
+| `fa_visits` | Visit tracking and analytics | Visit logs |
+| `fa_payouts` | Payout batch management | Payout batches |
+| `fa_payout_transactions` | Individual payout transactions | Payment records |
+| `fa_meta` | Metadata storage for all objects | Meta data |
 
 ## Table Structures
 
@@ -24,220 +26,169 @@ FluentAffiliate uses a normalized database structure with 5 core tables that han
 
 The central table storing all affiliate information and settings.
 
-```sql
-CREATE TABLE `fa_affiliates` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `user_id` bigint(20) unsigned NOT NULL,
-  `first_name` varchar(255) DEFAULT NULL,
-  `last_name` varchar(255) DEFAULT NULL,
-  `email` varchar(255) NOT NULL,
-  `payment_email` varchar(255) DEFAULT NULL,
-  `status` varchar(50) DEFAULT 'pending',
-  `commission_rate` decimal(8,2) DEFAULT NULL,
-  `commission_type` varchar(50) DEFAULT 'percentage',
-  `earnings` decimal(15,2) DEFAULT '0.00',
-  `paid_earnings` decimal(15,2) DEFAULT '0.00',
-  `unpaid_earnings` decimal(15,2) DEFAULT '0.00',
-  `total_referrals` int(11) DEFAULT '0',
-  `total_visits` int(11) DEFAULT '0',
-  `conversion_rate` decimal(5,2) DEFAULT '0.00',
-  `settings` longtext,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `fa_affiliates_user_id_unique` (`user_id`),
-  UNIQUE KEY `fa_affiliates_email_unique` (`email`),
-  KEY `fa_affiliates_status_index` (`status`)
-);
-```
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint(20) unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique affiliate identifier |
+| `contact_id` | `bigint(20) unsigned DEFAULT NULL` | Links to contact/user information |
+| `group_id` | `bigint(20) unsigned DEFAULT NULL` | Links to affiliate group for tier management |
+| `rate` | `double DEFAULT NULL` | Individual commission rate (overrides global settings) |
+| `rate_type` | `varchar(100) DEFAULT 'percent'` | Commission type: percent, fixed, or group |
+| `status` | `varchar(100) DEFAULT 'pending'` | Affiliate status: pending, active, inactive, suspended |
+| `custom_param` | `varchar(100) DEFAULT NULL` | Custom tracking parameter for URL generation |
+| `settings` | `longtext DEFAULT NULL` | JSON configuration data for affiliate-specific settings |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Record creation timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
 
-**Key Fields:**
-- `user_id` - Links to WordPress users table
-- `status` - pending, active, inactive, suspended
-- `commission_rate` - Individual commission rate (overrides global)
-- `commission_type` - percentage, fixed
-- `earnings` - Total lifetime earnings
-- `settings` - JSON data for custom configurations
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_aff_contact_id_idx (contact_id)` - Contact lookup optimization
+- `KEY fa_aff_status_idx (status)` - Status filtering optimization
 
 ### 💰 **fa_referrals**
 
 Tracks all referral events and commission calculations.
 
-```sql
-CREATE TABLE `fa_referrals` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `affiliate_id` bigint(20) unsigned NOT NULL,
-  `customer_email` varchar(255) DEFAULT NULL,
-  `order_id` varchar(255) DEFAULT NULL,
-  `order_total` decimal(15,2) DEFAULT '0.00',
-  `commission_amount` decimal(15,2) DEFAULT '0.00',
-  `commission_rate` decimal(8,2) DEFAULT NULL,
-  `commission_type` varchar(50) DEFAULT 'percentage',
-  `currency` varchar(10) DEFAULT 'USD',
-  `status` varchar(50) DEFAULT 'pending',
-  `type` varchar(100) DEFAULT 'sale',
-  `origin` varchar(100) DEFAULT NULL,
-  `reference` varchar(255) DEFAULT NULL,
-  `description` text,
-  `meta` longtext,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `fa_referrals_affiliate_id_index` (`affiliate_id`),
-  KEY `fa_referrals_status_index` (`status`),
-  KEY `fa_referrals_type_index` (`type`),
-  KEY `fa_referrals_origin_index` (`origin`)
-);
-```
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint(20) unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique referral identifier |
+| `affiliate_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_affiliates table |
+| `parent_id` | `bigint(20) unsigned DEFAULT NULL` | Parent referral for multi-tier commission structures |
+| `customer_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_customers table |
+| `visit_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_visits table for tracking source |
+| `description` | `longtext DEFAULT NULL` | Human-readable referral description |
+| `status` | `varchar(100) DEFAULT 'pending'` | Referral status: pending, unpaid, paid, rejected |
+| `amount` | `double DEFAULT NULL` | Commission amount earned by affiliate |
+| `order_total` | `double DEFAULT NULL` | Total order value that generated the referral |
+| `currency` | `char(3) DEFAULT NULL` | Currency code (USD, EUR, etc.) |
+| `utm_campaign` | `varchar(100) DEFAULT NULL` | UTM campaign tracking parameter |
+| `provider` | `varchar(100) DEFAULT NULL` | Source system: woocommerce, edd, fluentforms, etc. |
+| `provider_id` | `bigint(20) unsigned DEFAULT NULL` | External system's order/transaction ID |
+| `provider_sub_id` | `varchar(192) DEFAULT NULL` | External system's sub-identifier (order number, etc.) |
+| `products` | `longtext DEFAULT NULL` | Serialized product data related to referral |
+| `payout_transaction_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_payout_transactions when paid |
+| `payout_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_payouts batch when paid |
+| `type` | `varchar(100) DEFAULT 'sale'` | Referral type: sale, lead, click, custom |
+| `settings` | `longtext DEFAULT NULL` | Serialized additional settings and metadata |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Record creation timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
 
-**Key Fields:**
-- `affiliate_id` - Links to fa_affiliates table
-- `order_id` - External order/transaction reference
-- `commission_amount` - Calculated commission value
-- `status` - pending, approved, rejected, paid
-- `type` - sale, lead, click, custom
-- `origin` - woocommerce, edd, fluentforms, etc.
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_aff_idx (affiliate_id)` - Affiliate lookup optimization
+- `KEY fa_aff_status_idx (status)` - Status filtering optimization
+- `KEY fa_aff_type (type)` - Type filtering optimization
+- `KEY fa_aff_provider (provider)` - Provider filtering optimization
+- `KEY fa_aff_provider_sub (provider_sub_id)` - External ID lookup optimization
 
-### 🏦 **fa_transactions**
+### 👥 **fa_customers**
 
-Financial transaction records for payouts and adjustments.
+Customer information and tracking data.
 
-```sql
-CREATE TABLE `fa_transactions` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `affiliate_id` bigint(20) unsigned NOT NULL,
-  `referral_id` bigint(20) unsigned DEFAULT NULL,
-  `amount` decimal(15,2) NOT NULL,
-  `currency` varchar(10) DEFAULT 'USD',
-  `type` varchar(50) NOT NULL,
-  `status` varchar(50) DEFAULT 'pending',
-  `method` varchar(100) DEFAULT NULL,
-  `reference` varchar(255) DEFAULT NULL,
-  `description` text,
-  `meta` longtext,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `fa_transactions_affiliate_id_index` (`affiliate_id`),
-  KEY `fa_transactions_referral_id_index` (`referral_id`),
-  KEY `fa_transactions_type_index` (`type`),
-  KEY `fa_transactions_status_index` (`status`)
-);
-```
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint(20) unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique customer identifier |
+| `user_id` | `bigint(20) unsigned DEFAULT NULL` | Links to WordPress users table |
+| `by_affiliate_id` | `bigint(20) unsigned DEFAULT NULL` | Referring affiliate who brought this customer |
+| `email` | `varchar(192) DEFAULT NULL` | Customer email address |
+| `first_name` | `varchar(192) DEFAULT NULL` | Customer first name |
+| `last_name` | `varchar(192) DEFAULT NULL` | Customer last name |
+| `ip` | `varchar(100) DEFAULT NULL` | Customer IP address for tracking |
+| `settings` | `longtext DEFAULT NULL` | Serialized customer settings and metadata |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Record creation timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
 
-**Key Fields:**
-- `affiliate_id` - Links to fa_affiliates table
-- `referral_id` - Links to fa_referrals table (optional)
-- `type` - payout, adjustment, bonus, deduction
-- `status` - pending, processing, paid, failed
-- `method` - paypal, bank_transfer, manual, etc.
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_cust_idx (email)` - Email lookup optimization
+- `KEY fa_cust_user_id (user_id)` - User ID lookup optimization
 
-### 👥 **fa_groups**
+### 🔍 **fa_visits**
 
-Organize affiliates into groups with different settings.
+Visit tracking and analytics data.
 
-```sql
-CREATE TABLE `fa_groups` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `title` varchar(255) NOT NULL,
-  `slug` varchar(255) NOT NULL,
-  `description` text,
-  `commission_rate` decimal(8,2) DEFAULT NULL,
-  `commission_type` varchar(50) DEFAULT 'percentage',
-  `settings` longtext,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `fa_groups_slug_unique` (`slug`)
-);
-```
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint(20) unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique visit identifier |
+| `affiliate_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_affiliates table |
+| `user_id` | `bigint(20) unsigned DEFAULT NULL` | Links to WordPress users table (if logged in) |
+| `referral_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_referrals if visit converted |
+| `url` | `mediumtext DEFAULT NULL` | Visited URL/landing page |
+| `referrer` | `mediumtext DEFAULT NULL` | Referring URL (where visitor came from) |
+| `utm_campaign` | `varchar(100) DEFAULT NULL` | UTM campaign tracking parameter |
+| `utm_medium` | `varchar(100) DEFAULT NULL` | UTM medium tracking parameter |
+| `utm_source` | `varchar(100) DEFAULT NULL` | UTM source tracking parameter |
+| `ip` | `varchar(100) DEFAULT NULL` | Visitor IP address |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Visit timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
 
-### 📈 **fa_url_metrics**
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_visit_idx (affiliate_id)` - Affiliate lookup optimization
+- `KEY fa_visit_utm_campaign (utm_campaign)` - Campaign tracking optimization
 
-Track URL performance and click analytics.
+### 💰 **fa_payouts**
 
-```sql
-CREATE TABLE `fa_url_metrics` (
-  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `affiliate_id` bigint(20) unsigned NOT NULL,
-  `url` text NOT NULL,
-  `clicks` int(11) DEFAULT '0',
-  `conversions` int(11) DEFAULT '0',
-  `conversion_rate` decimal(5,2) DEFAULT '0.00',
-  `last_clicked` timestamp NULL DEFAULT NULL,
-  `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `fa_url_metrics_affiliate_id_index` (`affiliate_id`)
-);
-```
+Payout batch management and tracking.
 
-## Relationships
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint(20) unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique payout batch identifier |
+| `created_by` | `bigint(20) unsigned DEFAULT NULL` | User ID who created the payout batch |
+| `total_amount` | `double DEFAULT NULL` | Total amount for the entire payout batch |
+| `payout_method` | `varchar(100) DEFAULT 'manual'` | Payment method: manual, paypal, bank_transfer, etc. |
+| `status` | `varchar(100) DEFAULT 'draft'` | Batch status: draft, pending, processing, completed, failed |
+| `currency` | `char(3) DEFAULT NULL` | Currency code (USD, EUR, etc.) |
+| `title` | `varchar(192) DEFAULT NULL` | Human-readable payout batch title |
+| `description` | `longtext DEFAULT NULL` | Detailed description of the payout batch |
+| `settings` | `longtext DEFAULT NULL` | Serialized payout settings and configuration |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Batch creation timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
 
-### 🔗 **Table Relationships**
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_pay_status_idx (status)` - Status filtering optimization
 
-```mermaid
-erDiagram
-    fa_affiliates ||--o{ fa_referrals : "has many"
-    fa_affiliates ||--o{ fa_transactions : "has many"
-    fa_affiliates ||--o{ fa_url_metrics : "has many"
-    fa_affiliates }o--o{ fa_groups : "belongs to many"
-    fa_referrals ||--o| fa_transactions : "may have"
-    
-    fa_affiliates {
-        bigint id PK
-        bigint user_id FK
-        string email
-        string status
-        decimal commission_rate
-        decimal earnings
-    }
-    
-    fa_referrals {
-        bigint id PK
-        bigint affiliate_id FK
-        string order_id
-        decimal commission_amount
-        string status
-        string type
-    }
-    
-    fa_transactions {
-        bigint id PK
-        bigint affiliate_id FK
-        bigint referral_id FK
-        decimal amount
-        string type
-        string status
-    }
-    
-    fa_groups {
-        bigint id PK
-        string title
-        decimal commission_rate
-    }
-    
-    fa_url_metrics {
-        bigint id PK
-        bigint affiliate_id FK
-        text url
-        int clicks
-        int conversions
-    }
-```
+### 🏦 **fa_payout_transactions**
 
-### 📋 **Relationship Details**
+Individual payout transaction records.
 
-**One-to-Many Relationships:**
-- `fa_affiliates` → `fa_referrals` (One affiliate has many referrals)
-- `fa_affiliates` → `fa_transactions` (One affiliate has many transactions)
-- `fa_affiliates` → `fa_url_metrics` (One affiliate has many URL metrics)
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint(20) unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique transaction identifier |
+| `created_by` | `bigint(20) unsigned DEFAULT NULL` | User ID who created the transaction |
+| `affiliate_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_affiliates table |
+| `payout_id` | `bigint(20) unsigned DEFAULT NULL` | Links to fa_payouts batch |
+| `total_amount` | `double DEFAULT 0` | Individual transaction amount |
+| `payout_method` | `varchar(100) DEFAULT 'manual'` | Payment method: manual, paypal, bank_transfer, etc. |
+| `status` | `varchar(100) DEFAULT 'paid'` | Transaction status: paid, pending, failed, cancelled |
+| `currency` | `char(3) DEFAULT NULL` | Currency code (USD, EUR, etc.) |
+| `settings` | `longtext DEFAULT NULL` | Serialized transaction settings and metadata |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Transaction creation timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
 
-**Optional Relationships:**
-- `fa_referrals` → `fa_transactions` (Referral may have associated transaction)
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_pay_status_idx (status)` - Status filtering optimization
 
-**Many-to-Many Relationships:**
-- `fa_affiliates` ↔ `fa_groups` (Affiliates can belong to multiple groups)
+### 🗃️ **fa_meta**
+
+Metadata storage for all objects.
+
+| Column | Definition | Comment |
+|--------|------------|---------|
+| `id` | `bigint unsigned NOT NULL AUTO_INCREMENT` | Primary key, unique meta record identifier |
+| `object_type` | `varchar(50) NOT NULL` | Type of object: affiliate, referral, customer, visit, etc. |
+| `object_id` | `bigint DEFAULT NULL` | ID of the related object |
+| `meta_key` | `varchar(192) NOT NULL` | Metadata key name |
+| `value` | `longtext DEFAULT NULL` | Metadata value (JSON, text, or serialized data) |
+| `created_at` | `timestamp NULL DEFAULT NULL` | Record creation timestamp |
+| `updated_at` | `timestamp NULL DEFAULT NULL` | Last modification timestamp |
+
+**Indexes:**
+- `PRIMARY KEY (id)` - Primary key index
+- `KEY fa_mt_idx (object_type)` - Object type filtering optimization
+- `KEY fa_mto_id_idx (object_id)` - Object ID lookup optimization
+- `KEY fa_mto_id_meta_key (meta_key)` - Meta key lookup optimization
 
 ## Data Flow
 
@@ -245,40 +196,28 @@ erDiagram
 
 1. **Affiliate Registration**
    ```
-   WordPress User → fa_affiliates (pending status)
+   Contact/User → fa_affiliates (pending status)
    ```
 
-2. **Referral Tracking**
+2. **Visit Tracking**
    ```
-   Click Tracking → fa_url_metrics (increment clicks)
-   Conversion → fa_referrals (create referral record)
-   Commission Calculation → fa_affiliates (update earnings)
-   ```
-
-3. **Payout Processing**
-   ```
-   Approved Referrals → fa_transactions (create payout)
-   Payment Processing → fa_transactions (update status)
-   Earnings Update → fa_affiliates (update paid_earnings)
+   Click Tracking → fa_visits (record visit data)
+   Customer Identification → fa_customers (create/update customer)
    ```
 
-## Indexes and Performance
+3. **Referral Processing**
+   ```
+   Conversion Event → fa_referrals (create referral record)
+   Link to Visit → fa_referrals.visit_id
+   Link to Customer → fa_referrals.customer_id
+   ```
 
-### 🚀 **Key Indexes**
-
-**Primary Indexes:**
-- All tables have auto-increment primary keys
-- Unique constraints on critical fields (email, user_id)
-
-**Performance Indexes:**
-- `status` fields for filtering active/pending records
-- `affiliate_id` for relationship queries
-- `type` and `origin` for categorization queries
-
-**Query Optimization:**
-- Use status indexes for filtering
-- Join on indexed foreign keys
-- Limit large result sets with pagination
+4. **Payout Processing**
+   ```
+   Create Payout Batch → fa_payouts
+   Process Individual Payouts → fa_payout_transactions
+   Link Referrals → fa_referrals.payout_transaction_id
+   ```
 
 ## Next Steps
 
