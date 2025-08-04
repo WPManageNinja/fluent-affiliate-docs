@@ -69,41 +69,7 @@ $customers = FluentAffiliate\App\Models\Customer::whereHas('affiliate', function
 })->get();
 ```
 
-### referrals
 
-Access all referrals made by this customer
-
-- **Returns:** `FluentAffiliate\App\Models\Referral` Model Collections
-
-#### Example:
-
-```php
-// Accessing Customer Referrals
-$referrals = $customer->referrals;
-
-// For Filtering by referrals relationship
-$customers = FluentAffiliate\App\Models\Customer::whereHas('referrals', function($query) {
-    $query->where('status', 'paid');
-})->get();
-```
-
-### visits
-
-Access all visits made by this customer
-
-- **Returns:** `FluentAffiliate\App\Models\Visit` Model Collections
-
-#### Example:
-
-```php
-// Accessing Customer Visits
-$visits = $customer->visits;
-
-// For Filtering by visits relationship
-$customers = FluentAffiliate\App\Models\Customer::whereHas('visits', function($query) {
-    $query->whereDate('created_at', today());
-})->get();
-```
 
 ---
 
@@ -143,13 +109,13 @@ $photo = $customer->getPhotoAttribute();
 $photo = $customer->photo;
 ```
 
-### getSettingsAttribute()
+### getSettingsAttribute($value)
 
 Access serialized settings data (auto-unserialized)
 
 - **Parameters**
-  - none
-- **Returns** `array`
+  - $value `mixed` - Raw value from database
+- **Returns** `mixed`
 
 #### Usage
 
@@ -162,8 +128,11 @@ $settings = $customer->settings; // Auto-unserialized array
 Set settings data (auto-serialized)
 
 - **Parameters**
-  - $value `array` - Settings data
+  - $value `mixed` - Settings data to serialize
 - **Returns** `void`
+
+> [!NOTE]
+> The current implementation has a bug where it sets `$this->attributes['value']` instead of `$this->attributes['settings']`.
 
 #### Usage
 

@@ -75,10 +75,10 @@ $referrals = FluentAffiliate\App\Models\Referral::searchBy('status=paid')->get()
 
 ### byStatus($status)
 
-Filter referrals by status
+Filter referrals by status (single status only)
 
 - **Parameters**
-  - $status - string or array
+  - $status - string (paid, unpaid, pending, rejected, cancelled)
 
 #### Usage:
 
@@ -86,22 +86,54 @@ Filter referrals by status
 // Get paid referrals
 $referrals = FluentAffiliate\App\Models\Referral::byStatus('paid')->get();
 
-// Get multiple statuses
-$referrals = FluentAffiliate\App\Models\Referral::byStatus(['paid', 'unpaid'])->get();
+// Get unpaid referrals
+$referrals = FluentAffiliate\App\Models\Referral::byStatus('unpaid')->get();
 ```
 
-### byProvider($provider)
+### applyCustomFilters($filters)
 
-Filter referrals by provider
+Apply custom filters to referral queries
 
 - **Parameters**
-  - $provider - string
+  - $filters - array
 
 #### Usage:
 
 ```php
-// Get WooCommerce referrals
-$referrals = FluentAffiliate\App\Models\Referral::byProvider('woocommerce')->get();
+// Apply custom filters
+$filters = [
+    'amount' => ['operator' => 'gt', 'value' => 10],
+    'status' => ['operator' => '=', 'value' => 'paid']
+];
+$referrals = FluentAffiliate\App\Models\Referral::applyCustomFilters($filters)->get();
+```
+
+### paid()
+
+Filter referrals with paid status
+
+- **Parameters**
+  - none
+
+#### Usage:
+
+```php
+// Get paid referrals
+$referrals = FluentAffiliate\App\Models\Referral::paid()->get();
+```
+
+### unPaid()
+
+Filter referrals with unpaid status
+
+- **Parameters**
+  - none
+
+#### Usage:
+
+```php
+// Get unpaid referrals
+$referrals = FluentAffiliate\App\Models\Referral::unPaid()->get();
 ```
 
 ## Relations
@@ -162,59 +194,48 @@ $referrals = FluentAffiliate\App\Models\Referral::whereHas('visit', function($qu
 })->get();
 ```
 
-### parent
+### payout
 
-Access the parent referral (for multi-tier commissions)
+Access the payout batch this referral belongs to
 
-- **Returns:** `FluentAffiliate\App\Models\Referral` Model
-
-#### Example:
-
-```php
-// Accessing Parent Referral
-$parentReferral = $referral->parent;
-
-// For Filtering by parent relationship
-$referrals = FluentAffiliate\App\Models\Referral::whereHas('parent', function($query) {
-    $query->where('type', 'sale');
-})->get();
-```
-
-### children
-
-Access child referrals (for multi-tier commissions)
-
-- **Returns:** `FluentAffiliate\App\Models\Referral` Model Collections
+- **Returns:** `FluentAffiliate\App\Models\Payout` Model
 
 #### Example:
 
 ```php
-// Accessing Child Referrals
-$childReferrals = $referral->children;
+// Accessing Payout Batch
+$payout = $referral->payout;
 
-// For Filtering by children relationship
-$referrals = FluentAffiliate\App\Models\Referral::whereHas('children', function($query) {
-    $query->where('status', 'paid');
+// For Filtering by payout relationship
+$referrals = FluentAffiliate\App\Models\Referral::whereHas('payout', function($query) {
+    $query->where('status', 'completed');
 })->get();
 ```
 
-### payoutTransaction
+### transaction
 
-Access the associated payout transaction
+Access the specific transaction that paid this referral
 
 - **Returns:** `FluentAffiliate\App\Models\Transaction` Model
 
 #### Example:
 
 ```php
-// Accessing Payout Transaction
-$transaction = $referral->payoutTransaction;
+// Accessing Payment Transaction
+$transaction = $referral->transaction;
 
-// For Filtering by payout transaction relationship
-$referrals = FluentAffiliate\App\Models\Referral::whereHas('payoutTransaction', function($query) {
+// For Filtering by transaction relationship
+$referrals = FluentAffiliate\App\Models\Referral::whereHas('transaction', function($query) {
     $query->where('status', 'completed');
 })->get();
 ```
+
+> [!NOTE]
+> **Payment Hierarchy:** Payout → Transaction → Referral
+> - **Payout** = Batch payment (e.g., "January 2024 Payouts")
+> - **Transaction** = Individual affiliate payment within the batch
+> - **Referral** = Individual commission paid through the transaction
+> - Referrals link to transactions via `payout_transaction_id`
 
 ---
 
@@ -290,4 +311,18 @@ Set settings data (auto-serialized)
 
 ```php
 $referral->settings = ['key' => 'value']; // Auto-serialized
+```
+
+### getProviderReferenceUrl()
+
+Get the provider-specific reference URL for this referral
+
+- **Parameters**
+  - none
+- **Returns** `string`
+
+#### Usage
+
+```php
+$providerReferenceUrl = $referral->getProviderReferenceUrl();
 ```

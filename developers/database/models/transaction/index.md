@@ -40,6 +40,75 @@ $transaction->total_amount; // returns transaction amount
 $transaction->status; // returns transaction status
 ```
 
+## Searchable Attributes
+
+The following attributes can be searched using the `searchBy()` scope:
+
+| Attribute | Comment |
+|-----------|---------|
+| total_amount | Transaction amount |
+| created_at | Creation timestamp |
+| id | Transaction ID |
+
+## Scopes
+
+This model has the following scopes that you can use
+
+### searchBy($search)
+
+Search transactions by various fields
+
+- **Parameters**
+  - $search - string
+
+#### Usage:
+
+```php
+// Search transactions by amount, date, or ID
+$transactions = FluentAffiliate\App\Models\Transaction::searchBy('100')->get();
+
+// Column-specific search
+$transactions = FluentAffiliate\App\Models\Transaction::searchBy('total_amount:100')->get();
+
+// Exact match search
+$transactions = FluentAffiliate\App\Models\Transaction::searchBy('status=paid')->get();
+```
+
+### byStatus($status)
+
+Filter transactions by status
+
+- **Parameters**
+  - $status - string (paid, pending, failed, cancelled, or 'all')
+
+#### Usage:
+
+```php
+// Get paid transactions
+$transactions = FluentAffiliate\App\Models\Transaction::byStatus('paid')->get();
+
+// Get all transactions (ignores filter)
+$transactions = FluentAffiliate\App\Models\Transaction::byStatus('all')->get();
+```
+
+### applyCustomFilters($filters)
+
+Apply custom filters to transaction queries
+
+- **Parameters**
+  - $filters - array
+
+#### Usage:
+
+```php
+// Apply custom filters
+$filters = [
+    'total_amount' => ['operator' => 'gt', 'value' => 100],
+    'status' => ['operator' => '=', 'value' => 'paid']
+];
+$transactions = FluentAffiliate\App\Models\Transaction::applyCustomFilters($filters)->get();
+```
+
 ## Relations
 
 This model has the following relationships that you can use
@@ -64,14 +133,14 @@ $transactions = FluentAffiliate\App\Models\Transaction::whereHas('affiliate', fu
 
 ### payout
 
-Access the associated payout batch
+Access the parent payout batch that contains this transaction
 
 - **Returns:** `FluentAffiliate\App\Models\Payout` Model
 
 #### Example:
 
 ```php
-// Accessing Payout Batch
+// Accessing Parent Payout Batch
 $payout = $transaction->payout;
 
 // For Filtering by payout relationship
@@ -82,14 +151,14 @@ $transactions = FluentAffiliate\App\Models\Transaction::whereHas('payout', funct
 
 ### referrals
 
-Access referrals associated with this transaction
+Access referrals that are paid through this specific transaction
 
 - **Returns:** `FluentAffiliate\App\Models\Referral` Model Collections
 
 #### Example:
 
 ```php
-// Accessing Related Referrals
+// Accessing Referrals Paid by This Transaction
 $referrals = $transaction->referrals;
 
 // For Filtering by referrals relationship
@@ -97,6 +166,12 @@ $transactions = FluentAffiliate\App\Models\Transaction::whereHas('referrals', fu
     $query->where('provider', 'woocommerce');
 })->get();
 ```
+
+> [!NOTE]
+> **Relationship Hierarchy:** Payout → Transaction → Referrals
+> - A **Payout** contains multiple **Transactions** (one per affiliate)
+> - Each **Transaction** pays out multiple **Referrals** for that affiliate
+> - Referrals link to transactions via `payout_transaction_id` foreign key
 
 ---
 
@@ -130,4 +205,19 @@ Set settings data (auto-serialized)
 
 ```php
 $transaction->settings = ['paypal_email' => 'affiliate@example.com']; // Auto-serialized
+```
+
+### getCounts()
+
+Get counts of affiliates and referrals for this transaction
+
+- **Parameters**
+  - none
+- **Returns** `array`
+
+#### Usage
+
+```php
+$counts = $transaction->getCounts();
+// Returns: ['affiliates' => 5, 'referrals' => 25]
 ```

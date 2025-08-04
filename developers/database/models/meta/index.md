@@ -41,72 +41,79 @@ $meta->value; // returns meta value
 
 This model has the following scopes that you can use
 
-### forObject($objectType, $objectId)
+### ref($objectId)
 
-Filter meta records for a specific object
+Filter meta records for referral references
 
 - **Parameters**
-  - $objectType - string (affiliate, referral, customer, etc.)
   - $objectId - integer
 
 #### Usage:
 
 ```php
-// Get all meta for affiliate ID 1
-$meta = FluentAffiliate\App\Models\Meta::forObject('affiliate', 1)->get();
+// Get referral reference meta for specific object
+$meta = FluentAffiliate\App\Models\Meta::ref(123)->get();
 ```
 
-### byKey($metaKey)
+### referralSetting()
 
-Filter meta records by meta key
+Filter meta records for referral settings
 
 - **Parameters**
-  - $metaKey - string
+  - none
 
 #### Usage:
 
 ```php
-// Get all meta with specific key
-$meta = FluentAffiliate\App\Models\Meta::byKey('custom_field')->get();
+// Get referral settings meta
+$meta = FluentAffiliate\App\Models\Meta::referralSetting()->get();
 ```
 
-### byType($objectType)
+## Relations
 
-Filter meta records by object type
+This model has the following relationships that you can use
 
-- **Parameters**
-  - $objectType - string
+### meta
 
-#### Usage:
+Access the related object (polymorphic relationship)
+
+- **Returns:** Mixed Model (depends on object_type)
+
+#### Example:
 
 ```php
-// Get all affiliate meta
-$meta = FluentAffiliate\App\Models\Meta::byType('affiliate')->get();
+// Accessing Related Object
+$relatedObject = $meta->meta;
+
+// The actual model depends on object_type:
+// - 'affiliate' -> Affiliate model
+// - 'referral' -> Referral model
+// - etc.
 ```
 
 ---
 
 ## Methods
 
-Along with Global Model methods, this model has few helper methods.
+Along with Global Model methods, this model has the following accessor/mutator methods.
 
-### getValue()
+### getValueAttribute($value)
 
-Get the meta value (handles JSON decoding if needed)
+Get the meta value (handles unserialization)
 
 - **Parameters**
-  - none
+  - $value `mixed` - Raw value from database
 - **Returns** `mixed`
 
 #### Usage
 
 ```php
-$value = $meta->getValue();
+$value = $meta->value; // Auto-unserialized value
 ```
 
-### setValue($value)
+### setValueAttribute($value)
 
-Set the meta value (handles JSON encoding if needed)
+Set the meta value (handles serialization)
 
 - **Parameters**
   - $value `mixed` - Value to store
@@ -115,68 +122,9 @@ Set the meta value (handles JSON encoding if needed)
 #### Usage
 
 ```php
-$meta->setValue(['key' => 'value']);
+$meta->value = ['key' => 'value']; // Auto-serialized
+$meta->save();
 ```
 
-### updateOrCreate($objectType, $objectId, $metaKey, $value)
-
-Update or create a meta record
-
-- **Parameters**
-  - $objectType `string` - Object type
-  - $objectId `int` - Object ID
-  - $metaKey `string` - Meta key
-  - $value `mixed` - Meta value
-- **Returns** `FluentAffiliate\App\Models\Meta`
-
-#### Usage
-
-```php
-$meta = FluentAffiliate\App\Models\Meta::updateOrCreate(
-    'affiliate', 
-    123, 
-    'custom_field', 
-    'custom_value'
-);
-```
-
-### getForObject($objectType, $objectId, $metaKey = null, $default = null)
-
-Get meta value(s) for an object
-
-- **Parameters**
-  - $objectType `string` - Object type
-  - $objectId `int` - Object ID
-  - $metaKey `string|null` - Specific meta key (optional)
-  - $default `mixed` - Default value if not found
-- **Returns** `mixed`
-
-#### Usage
-
-```php
-// Get specific meta
-$value = FluentAffiliate\App\Models\Meta::getForObject('affiliate', 123, 'custom_field', 'default');
-
-// Get all meta for object
-$allMeta = FluentAffiliate\App\Models\Meta::getForObject('affiliate', 123);
-```
-
-### deleteForObject($objectType, $objectId, $metaKey = null)
-
-Delete meta for an object
-
-- **Parameters**
-  - $objectType `string` - Object type
-  - $objectId `int` - Object ID
-  - $metaKey `string|null` - Specific meta key (optional, deletes all if null)
-- **Returns** `bool`
-
-#### Usage
-
-```php
-// Delete specific meta
-FluentAffiliate\App\Models\Meta::deleteForObject('affiliate', 123, 'custom_field');
-
-// Delete all meta for object
-FluentAffiliate\App\Models\Meta::deleteForObject('affiliate', 123);
-```
+> [!NOTE]
+> This model uses WordPress `maybe_serialize()` and `maybe_unserialize()` functions for automatic serialization/unserialization of the value field.

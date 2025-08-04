@@ -91,6 +91,24 @@ Filter affiliates by multiple statuses
 $affiliates = FluentAffiliate\App\Models\Affiliate::byStatus(['active', 'pending'])->get();
 ```
 
+### applyCustomFilters($filters)
+
+Apply custom filters to affiliate queries
+
+- **Parameters**
+  - $filters - array
+
+#### Usage:
+
+```php
+// Apply custom filters
+$filters = [
+    'total_earnings' => ['operator' => 'gt', 'value' => 100],
+    'status' => ['operator' => 'IN', 'value' => ['active', 'pending']]
+];
+$affiliates = FluentAffiliate\App\Models\Affiliate::applyCustomFilters($filters)->get();
+```
+
 ## Relations
 
 This model has the following relationships that you can use
@@ -203,24 +221,57 @@ $affiliates = FluentAffiliate\App\Models\Affiliate::whereHas('customers', functi
 })->get();
 ```
 
+### payouts
+
+Access the associated payout of an affiliate
+
+- **Returns:** `FluentAffiliate\App\Models\Payout` Model
+
+#### Example:
+
+```php
+// Accessing Payout
+$payout = $affiliate->payouts;
+
+// For Filtering by payout relationship
+$affiliates = FluentAffiliate\App\Models\Affiliate::whereHas('payouts', function($query) {
+    $query->where('status', 'completed');
+})->get();
+```
+
+### website
+
+Access the website meta information of an affiliate
+
+- **Returns:** `FluentAffiliate\App\Models\Meta` Model
+
+#### Example:
+
+```php
+// Accessing Website Meta
+$website = $affiliate->website;
+```
+
 ---
 
 ## Methods
 
 Along with Global Model methods, this model has few helper methods.
 
-### getCommission($amount)
+### getCommission($amount, $scope = 'sale')
 
 Calculate commission for a given amount
 
 - **Parameters**
   - $amount `float` - The amount to calculate commission for
+  - $scope `string` - The scope of commission (default: 'sale')
 - **Returns** `float`
 
 #### Usage
 
 ```php
 $commission = $affiliate->getCommission(100.00);
+$commission = $affiliate->getCommission(100.00, 'sale');
 ```
 
 ### getRateDetails()
@@ -251,36 +302,34 @@ Recount and update affiliate earnings and referral counts
 $affiliate->recountEarnings();
 ```
 
-### increase($column, $amount = 1)
+### increase($column)
 
-Increase a counter column
+Increase a counter column by 1 (only works with 'referrals' and 'visits')
 
 - **Parameters**
-  - $column `string` - Column name to increase
-  - $amount `int` - Amount to increase by (default: 1)
-- **Returns** `bool`
+  - $column `string` - Column name to increase ('referrals' or 'visits')
+- **Returns** `FluentAffiliate\App\Models\Affiliate`
 
 #### Usage
 
 ```php
 $affiliate->increase('referrals');
-$affiliate->increase('visits', 5);
+$affiliate->increase('visits');
 ```
 
-### decrease($column, $amount = 1)
+### decrease($column)
 
-Decrease a counter column
+Decrease a counter column by 1 (only works with 'referrals' and 'visits')
 
 - **Parameters**
-  - $column `string` - Column name to decrease
-  - $amount `int` - Amount to decrease by (default: 1)
-- **Returns** `bool`
+  - $column `string` - Column name to decrease ('referrals' or 'visits')
+- **Returns** `FluentAffiliate\App\Models\Affiliate`
 
 #### Usage
 
 ```php
 $affiliate->decrease('visits');
-$affiliate->decrease('referrals', 2);
+$affiliate->decrease('referrals');
 ```
 
 ### updateMeta($key, $value)
@@ -298,13 +347,13 @@ Update affiliate meta data
 $affiliate->updateMeta('custom_field', 'custom_value');
 ```
 
-### getMeta($key, $default = null)
+### getMeta($key, $default = '')
 
 Get affiliate meta data
 
 - **Parameters**
   - $key `string` - Meta key
-  - $default `mixed` - Default value if not found
+  - $default `mixed` - Default value if not found (default: '')
 - **Returns** `mixed`
 
 #### Usage
@@ -353,4 +402,19 @@ Check if new referral email notifications are enabled
 
 ```php
 $emailEnabled = $affiliate->isNewRefEmailEnabled();
+```
+
+### getAttachedCoupons($context = 'view')
+
+Get attached coupons for the affiliate
+
+- **Parameters**
+  - $context `string` - Context for the coupons (default: 'view')
+- **Returns** `array`
+
+#### Usage
+
+```php
+$coupons = $affiliate->getAttachedCoupons();
+$coupons = $affiliate->getAttachedCoupons('edit');
 ```

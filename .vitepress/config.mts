@@ -198,8 +198,8 @@ export default defineConfig({
             { text: 'Referral Model', link: '/developers/database/models/referral/' },
             { text: 'Customer Model', link: '/developers/database/models/customer/' },
             { text: 'Visit Model', link: '/developers/database/models/visit/' },
-            { text: 'Transaction Model', link: '/developers/database/models/transaction/' },
             { text: 'Payout Model', link: '/developers/database/models/payout/' },
+            { text: 'Transaction Model', link: '/developers/database/models/transaction/' },
             { text: 'AffiliateGroup Model', link: '/developers/database/models/affiliate-group/' },
             { text: 'Meta Model', link: '/developers/database/models/meta/' }
           ]
