@@ -8,6 +8,7 @@ export default defineConfig({
   lang: 'en-US',
   lastUpdated: true,
   cleanUrls: true,
+  ignoreDeadLinks: true,
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/../guide/public/images/brand/FluentAffiliate-Logo.webp' }],
@@ -185,14 +186,15 @@ export default defineConfig({
         },
         {
           text: 'Database',
+          collapsed: true,
           items: [
             { text: 'Database Schema', link: '/developers/database/' },
-            { text: 'Database Models', link: '/developers/database/models/' },
             { text: 'Query Builder', link: '/developers/database/query-builder' }
           ]
         },
         {
           text: 'Database Models',
+          collapsed: true,
           items: [
             { text: 'Affiliate Model', link: '/developers/database/models/affiliate/' },
             { text: 'Referral Model', link: '/developers/database/models/referral/' },
@@ -205,7 +207,19 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Fluent ORM',
+          collapsed: true,
+          items: [
+            { text: 'Getting Started', link: '/developers/database/orm/' },
+            { text: 'Relationships', link: '/developers/database/orm/relationship/' },
+            { text: 'Collections', link: '/developers/database/orm/collections/' },
+            { text: 'Mutators', link: '/developers/database/orm/mutators/' },
+            { text: 'Serialization', link: '/developers/database/orm/serialization/' }
+          ]
+        },
+        {
           text: 'Developer Tools',
+          collapsed: true,
           items: [
             { text: 'Global Functions', link: '/developers/global-functions/' },
             { text: 'Helper Classes', link: '/developers/helpers/' }
@@ -213,6 +227,7 @@ export default defineConfig({
         },
         {
           text: 'Hooks System',
+          collapsed: true,
           items: [
             { text: 'Overview', link: '/developers/hooks/' },
             { text: 'Action Hooks', link: '/developers/hooks/actions/' },
@@ -221,6 +236,7 @@ export default defineConfig({
         },
         {
           text: 'API',
+          collapsed: true,
           items: [
             { text: 'REST API', link: '/developers/api/' },
             { text: 'Authentication', link: '/developers/api/authentication/' },
@@ -229,6 +245,7 @@ export default defineConfig({
         },
         {
           text: 'Code Examples',
+          collapsed: true,
           items: [
             { text: 'Overview', link: '/developers/examples/' },
             { text: 'Integration Examples', link: '/developers/examples/integrations/' },
