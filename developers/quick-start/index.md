@@ -3,16 +3,21 @@
 <hr/>
 <Badge type="tip" vertical="top" text="FluentAffiliate Core" /> <Badge type="warning" vertical="top" text="Beginner" />
 
-This guide will help you get started with FluentAffiliate development, from setting up your environment to implementing your first hooks.
+This hands-on guide will walk you through setting up your development environment and implementing your first custom functionality.
+
+> [!NOTE]
+> Before starting, make sure you've read the [Overview & Guide](/developers/) to understand FluentAffiliate's architecture and concepts.
 
 ## Prerequisites
 
 Before you begin, ensure you have:
 
-- **WordPress 5.0+** with FluentAffiliate installed
+- **WordPress 5.0+** with admin access
+- **FluentAffiliate plugin** installed and activated
 - **PHP 7.4+** (PHP 8.0+ recommended)
 - **Basic PHP knowledge** and familiarity with WordPress hooks
 - **Code editor** (VS Code, PhpStorm, etc.)
+- **Local development environment** (Local by Flywheel, XAMPP, etc.)
 
 ## Development Environment Setup
 

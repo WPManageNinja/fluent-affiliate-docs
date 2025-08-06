@@ -4,143 +4,177 @@ layout: home
 hero:
   name: "FluentAffiliate"
   text: "Developer Documentation"
-  tagline: "Build powerful affiliate marketing solutions with comprehensive developer tools, hooks, and APIs"
+  tagline: "Build powerful affiliate marketing solutions with WordPress"
   image:
     src: /developers/public/developer-docs-hero-image.png
     alt: FluentAffiliate Developer Documentation
   actions:
     - theme: brand
       text: Get Started
-      link: /developers/quick-start
+      link: /developers/quick-start/
     - theme: alt
-      text: Explore Hooks
+      text: View Hooks
       link: /developers/hooks/
-
-features:
-  - icon: 🎣
-    title: Hooks System
-    details: 53+ action and filter hooks for complete customization of affiliate workflows, referral tracking, and payout processing
-    link: /developers/hooks/
-    linkText: Explore Hooks →
-  
-  - icon: ⚡
-    title: Action Hooks
-    details: 28 action hooks across 8 modules for affiliate lifecycle, referrals, transactions, and integrations
-    link: /developers/hooks/actions/
-    linkText: View Actions →
-  
-  - icon: 🔧
-    title: Filter Hooks
-    details: 25+ filter hooks for customizing configuration, portal UI, authentication, and tracking behavior
-    link: /developers/hooks/filters/
-    linkText: View Filters →
-  
-  - icon: 📚
-    title: API Reference
-    details: RESTful API documentation for external integrations and custom applications
-    link: /developers/api/
-    linkText: Coming Soon
-  
-  - icon: 🛠️
-    title: SDK & Tools
-    details: PHP SDK, testing utilities, and development tools for FluentAffiliate integration
-    link: /developers/sdk/
-    linkText: Coming Soon
-  
-  - icon: 💡
-    title: Code Examples
-    details: Real-world implementation examples, integration patterns, and best practices
-    link: /developers/examples/
-    linkText: Coming Soon
 ---
 
-## Quick Overview
+<div class="feature-cards">
 
-FluentAffiliate provides a comprehensive developer ecosystem for building custom affiliate marketing solutions. Whether you're extending functionality, integrating with external systems, or building custom workflows, our developer tools have you covered.
+<div class="feature-card">
+  <div class="card-left">
+    <div class="card-icon">🏗️</div>
+    <h3>Architecture</h3>
+    <p>Understand FluentAffiliate's database structure, models, ORM features, and core development concepts for building robust affiliate solutions.</p>
+  </div>
+  <div class="card-right">
+    <a href="/developers/database/">Database Schema</a>
+    <a href="/developers/database/models/">Database Models</a>
+    <a href="/developers/database/orm/">Fluent ORM</a>
+    <a href="/developers/database/query-builder/">Query Builder</a>
+  </div>
+</div>
 
-### 🚀 **What You Can Build**
+<div class="feature-card">
+  <div class="card-left">
+    <div class="card-icon">🪝</div>
+    <h3>Developer Hooks</h3>
+    <p>53+ action and filter hooks across all modules for complete customization of affiliate workflows, referral tracking, and payout processing.</p>
+  </div>
+  <div class="card-right">
+    <a href="/developers/hooks/">Hooks Overview</a>
+    <a href="/developers/hooks/actions/">Action Hooks</a>
+    <a href="/developers/hooks/filters/">Filter Hooks</a>
+    <a href="/developers/global-functions/">Global Functions</a>
+  </div>
+</div>
 
-- **Custom Affiliate Workflows** - Extend affiliate lifecycle with action hooks
-- **External Integrations** - Connect with CRMs, email platforms, and analytics tools  
-- **Custom Portal Features** - Modify the affiliate portal UI and functionality
-- **Payment Integrations** - Build custom payout methods and transaction processing
-- **Analytics & Reporting** - Create custom tracking and reporting solutions
-
-### 📖 **Documentation Sections**
-
-#### [Hooks System](/developers/hooks/)
-Complete documentation for FluentAffiliate's hook system with 53+ hooks across all modules.
-
-- **[Action Hooks](/developers/hooks/actions/)** - Execute code at specific points in FluentAffiliate
-- **[Filter Hooks](/developers/hooks/filters/)** - Modify data and customize behavior
-
-#### API Reference *(Coming Soon)*
-RESTful API documentation for external integrations and headless implementations.
-
-#### SDK Documentation *(Coming Soon)*
-PHP SDK and development tools for streamlined FluentAffiliate integration.
-
-#### Code Examples *(Coming Soon)*
-Real-world examples and implementation patterns for common use cases.
-
----
-
-### 🎯 **Popular Use Cases**
-
-<div class="use-cases">
-
-**E-commerce Integration**
-```php
-// Track WooCommerce orders as referrals
-add_action('fluent_affiliate/referral_created', function($referral) {
-    sync_with_analytics($referral);
-});
-```
-
-**Custom Notifications**
-```php
-// Send Slack notifications for new affiliates
-add_action('fluent_affiliate/affiliate_created', function($affiliate) {
-    send_slack_notification("New affiliate: {$affiliate->name}");
-});
-```
-
-**Portal Customization**
-```php
-// Add custom dashboard widgets
-add_filter('fluent_affiliate/affiliate_widgets', function($widgets) {
-    $widgets['custom_analytics'] = [
-        'title' => 'Custom Analytics',
-        'component' => 'CustomAnalyticsWidget'
-    ];
-    return $widgets;
-});
-```
+<div class="feature-card">
+  <div class="card-left">
+    <div class="card-icon">⚡</div>
+    <h3>API</h3>
+    <p>RESTful API documentation, authentication methods, and integration patterns for external access and custom applications.</p>
+  </div>
+  <div class="card-right">
+    <a href="/developers/api/">REST API</a>
+    <a href="/developers/api/authentication/">Authentication</a>
+    <a href="/developers/api/endpoints/">Endpoints</a>
+    <a href="/developers/examples/integrations/">Integration Examples</a>
+  </div>
+</div>
 
 </div>
 
----
-
-### 🔗 **Quick Links**
-
-- **[Getting Started](/developers/quick-start)** - Set up your development environment
-- **[Hook Reference](/developers/hooks/)** - Complete hooks documentation  
-- **[GitHub Repository](https://github.com/WPManageNinja/fluent-affiliate)** - Source code and issues
-- **[Community Forum](https://fluentaffiliate.com/community)** - Get help and share ideas
-
 <style>
-.use-cases {
-  margin: 2rem 0;
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 3rem 0;
 }
 
-.use-cases h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+.feature-card {
+  display: flex;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.card-left {
+  flex: 1;
+  padding: 2.5rem;
+  background: var(--vp-c-bg-soft);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.card-left h3 {
+  margin: 0 0 1.25rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.card-left p {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.card-right {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--vp-c-bg);
+  justify-content: center;
+}
+
+.card-right a {
   color: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
 }
 
-.use-cases pre {
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+.card-right a:hover {
+  color: var(--vp-c-brand-2);
+  background: var(--vp-c-bg-soft);
+  border-left-color: var(--vp-c-brand-1);
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .card-left, .card-right {
+    flex: none;
+  }
+
+  .card-left {
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .card-right {
+    padding: 2rem;
+  }
+
+  .card-icon {
+    font-size: 2.5rem;
+  }
 }
 </style>
+---
+
+## Getting Started
+
+New to FluentAffiliate development? Start with our comprehensive guide that covers everything from setup to your first custom implementation.
+
+[Quick Start Guide →](/developers/quick-start/)
+
+---
+
+*FluentAffiliate is a self-hosted affiliate marketing plugin for WordPress. Build custom solutions with complete data ownership and unlimited scalability.*

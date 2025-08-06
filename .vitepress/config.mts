@@ -179,9 +179,7 @@ export default defineConfig({
         {
           text: 'Getting Started',
           items: [
-            { text: 'Overview', link: '/developers/' },
-            { text: 'Developer Guide', link: '/developers/getting-started/' },
-            { text: 'Quick Start', link: '/developers/quick-start' }
+            { text: 'Quick Start', link: '/developers/quick-start/' }
           ]
         },
         {
@@ -226,12 +224,35 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Hooks System',
+          text: 'Developer Hooks',
           collapsed: true,
           items: [
             { text: 'Overview', link: '/developers/hooks/' },
-            { text: 'Action Hooks', link: '/developers/hooks/actions/' },
-            { text: 'Filter Hooks', link: '/developers/hooks/filters/' }
+            {
+              text: 'Action Hooks',
+              collapsed: true,
+              items: [
+                { text: 'Affiliate', link: '/developers/hooks/actions/affiliate/' },
+                { text: 'Referrals', link: '/developers/hooks/actions/referrals/' },
+                { text: 'Transactions', link: '/developers/hooks/actions/transactions/' },
+                { text: 'Payouts', link: '/developers/hooks/actions/payouts/' },
+                { text: 'Groups', link: '/developers/hooks/actions/groups/' },
+                { text: 'Integrations', link: '/developers/hooks/actions/integrations/' },
+                { text: 'Authentication', link: '/developers/hooks/actions/auth/' },
+                { text: 'Portal', link: '/developers/hooks/actions/portal/' },
+                { text: 'Admin', link: '/developers/hooks/actions/admin/' }
+              ]
+            },
+            {
+              text: 'Filter Hooks',
+              collapsed: true,
+              items: [
+                { text: 'Configuration', link: '/developers/hooks/filters/configuration/' },
+                { text: 'Portal & UI', link: '/developers/hooks/filters/portal/' },
+                { text: 'Authentication', link: '/developers/hooks/filters/authentication/' },
+                { text: 'Tracking', link: '/developers/hooks/filters/tracking/' }
+              ]
+            }
           ]
         },
         {
@@ -251,31 +272,6 @@ export default defineConfig({
             { text: 'Integration Examples', link: '/developers/examples/integrations/' },
             { text: 'Portal Customization', link: '/developers/examples/portal/' },
             { text: 'Workflow Examples', link: '/developers/examples/workflows/' }
-          ]
-        },
-        {
-          text: 'Action Hooks',
-          collapsed: true,
-          items: [
-            { text: 'Affiliate', link: '/developers/hooks/actions/affiliate/' },
-            { text: 'Referrals', link: '/developers/hooks/actions/referrals/' },
-            { text: 'Transactions', link: '/developers/hooks/actions/transactions/' },
-            { text: 'Payouts', link: '/developers/hooks/actions/payouts/' },
-            { text: 'Groups', link: '/developers/hooks/actions/groups/' },
-            { text: 'Integrations', link: '/developers/hooks/actions/integrations/' },
-            { text: 'Authentication', link: '/developers/hooks/actions/auth/' },
-            { text: 'Portal', link: '/developers/hooks/actions/portal/' },
-            { text: 'Admin', link: '/developers/hooks/actions/admin/' }
-          ]
-        },
-        {
-          text: 'Filter Hooks',
-          collapsed: true,
-          items: [
-            { text: 'Configuration', link: '/developers/hooks/filters/configuration/' },
-            { text: 'Portal & UI', link: '/developers/hooks/filters/portal/' },
-            { text: 'Authentication', link: '/developers/hooks/filters/authentication/' },
-            { text: 'Tracking', link: '/developers/hooks/filters/tracking/' }
           ]
         }
       ]
