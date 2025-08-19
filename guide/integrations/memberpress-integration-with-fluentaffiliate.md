@@ -19,13 +19,13 @@ First, you need to enable the integration to let the two plugins communicate.
 
 Your **MemberPress** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on MemberPress course or membership sales.
 
-In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your course or membership.
+Click on the **Manage** button and you'll find additional settings to customize how affiliate commissions work with your course or membership.
 
 ![Integration Settings](/guide/public/images/integrations/memberpress/integration-setup-options.webp)
 
 ## Configure MemberPress Settings
 
-Click the **Manage** link to open the settings panel. Here, you can set custom commission rates for your memberships that will override your global affiliate settings.
+Click the **Manage** button to open the settings panel. Here, you can set custom commission rates for your memberships that will override your global affiliate settings.
 
 Here are the options you can configure: 
 
