@@ -72,7 +72,8 @@ export default defineConfig({
             { text: 'Dashboard Overview', link: '/guide/admin-portal/admin-dashboard-overview' },
             { text: 'Managing Affiliates', link: '/guide/admin-portal/managing-affiliates' },
             { text: 'Managing Referrals', link: '/guide/admin-portal/managing-referrals' },
-            { text: 'Payout Management', link: '/guide/admin-portal/payout-management' }
+            { text: 'Payout Management', link: '/guide/admin-portal/payout-management' },
+            { text: 'Managing Visits', link: '/guide/admin-portal/managing-visits' }
           ]
         },
         {
