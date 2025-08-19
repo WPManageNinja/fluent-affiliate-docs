@@ -57,7 +57,7 @@ After that, click on the **+Add New Group** button. You will find options to cho
 
 ## Generate an Affiliate Link
 
-Once you've finished setting up your **Easy Digital Downloads** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
+Once you've finished setting up your **Woocommerce** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
 
 Whenever a customer makes a purchase through this link, the affiliate will earn a commission based on the rates you’ve set up.
 
