@@ -1,6 +1,6 @@
 # Easy Digital Downloads Integration with FluentAffiliate
 
-Easy Digital Downloads (EDD) is a e-commerce plugin for WordPress, specifically designed to make selling digital products simple and efficient. By pairing EDD with FluentAffiliate, you can create a powerful affiliate program to promote your digital downloads, from eBooks to software, and manage your affiliate commissions effortlessly.
+Easy Digital Downloads (EDD) is a e-commerce plugin for WordPress, specifically designed to make selling digital products simple and efficient. By pairing EDD with FluentAffiliate, you can create a powerful affiliate program to promote your digital downloads, like eBooks & softwares, and manage your affiliate commissions effortlessly.
 
 This guide will walk you through how to connect Easy Digital Downloads with FluentAffiliate step by step.
 
