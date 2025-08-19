@@ -104,15 +104,7 @@ This will embed the form on your website, making it visible and ready for users 
 
 ## Generate an Affiliate Link
 
-Once your form is live, your affiliates can start promoting it.
-
-1. Affiliates should log in to their **Affiliate** area and go to the Affiliate **Links** section. 
-2. There, you can **paste** the URL of the page where you embedded the form. 
-3. Click on the **Generate** button and FluentAffiliate will generate a unique **affiliate link** for you.
-
-Once your link is ready, **copy** the affiliate link and share it wherever you like on social media, emails, blogs, or directly with your audience.
-
-![Copy Affiliate Link](/guide//public/images/integrations/fluentforms/copy-affiliate-link.webp)
+Once your form is live, your affiliates can start promoting it. To learn more about [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this documentation.
 
 If someone clicks the link, you will get the affiliate commission.
 

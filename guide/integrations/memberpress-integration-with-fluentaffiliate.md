@@ -5,6 +5,8 @@ MemberPress is one of the most popular and powerful membership plugins for WordP
 This guide will walk you through the simple steps to integrate MemberPress with FluentAffiliate.
 
 > [!NOTE]
+> MemberPress is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 >To get started, you must first install and activate the MemberPress plugin on your WordPress website.
 
 ## Enable MemberPress in FluentAffiliate
@@ -53,13 +55,7 @@ Next, configure the rate:
 
 ## Generate an Affiliate Link
 
-Now that your integration is configured, your affiliates can start generating their promotional links.
-1. Affiliates should log in to their **Affiliate** area provided by FluentAffiliate. 
-2. In the **Links** section, you need to paste the **URL** of the course or membership page you want to promote.
-3. Click on the **Generate** button and FluentAffiliate will generate a unique affiliate **Link** for you. 
-4. Once your link is ready, **copy** the affiliate link and share it wherever you like on social media, emails, blogs, or directly with your audience.
-
-![Copy Affiliate Link](/guide/public/images/integrations/memberpress/affiliate-link.webp)
+Now that the integration is set up, your affiliates can start promoting your Course or Membreships pages. To do this, they need to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links) from their affiliate dashboard.
 
 If someone purchases the Course using your affiliate link, you'll earn a commission based on the settings you've configured.
 

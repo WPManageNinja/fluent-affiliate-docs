@@ -3,6 +3,8 @@
 Want to grow your online course sales through affiliate marketing? With FluentAffiliate, you can now easily integrate with LifterLMS and start tracking affiliate referrals for your courses. This guide will show you how to set it up in just a few clicks!
 
 >[!Note]
+> Lifterlms is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 > Make sure both the LifterLMS and FluentAffiliate plugins are installed and activated on your site before you begin.
 
 ## Enable the LifterLMS Integration
@@ -44,17 +46,9 @@ Next, configure the rate itself:
 
 ### Generate an Affiliate Link
 
-With the integration configured, your affiliates can start promoting your courses.
-
-1. Affiliates must log in to their **Affiliate Area** on your website.
-
-2. In the **Links** section, you will **paste** the URL of the LifterLMS course page they want to promote.
-
-3. Click on the **Generate** button and FluentAffiliate will instantly generate a unique affiliate link for you to copy and share.
+Now that the integration is set up, your affiliates can start promoting your Courses. To do this, they need to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links) from their affiliate dashboard.
 
 When a student clicks the link and enrolls in the course, the affiliate earns a commission based on the rates you've set!
-
-![Copy Affiliate Link](/guide/public/images/integrations/lifterlms/affiliate-link-generation.webp)
 
 ### Troubleshooting Tips
 

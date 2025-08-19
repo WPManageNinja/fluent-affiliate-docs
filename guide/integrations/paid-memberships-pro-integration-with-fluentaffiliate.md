@@ -5,6 +5,8 @@ Paid Memberships Pro is a powerful membership plugin for WordPress, designed to 
 In this guide, we'll walk you through how to connect Paid Memberships Pro with FluentAffiliate step by step.
 
 > [!NOTE]
+> Paid Membership Pro is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+> 
 > To get started, you first need to install and activate both the Paid Memberships Pro and FluentAffiliate plugins on your WordPress website.
 
 ## Enable Paid Memberships Pro in FluentAffiliate
@@ -47,13 +49,7 @@ Once **Custom Affiliate Rate** is enabled, you can define specific commission st
 
 ## Generate an Affiliate Link
 
-After you've completed configuring the Paid Memberships Pro affiliate settings, the next step is for your affiliates to log in to their **Affiliate Area** provided by FluentAffiliate.
-
-1.  In the **Affiliate Links** section, they will paste the URL of the membership page they want to promote.
-2.  Next, click on the **Generate** button and FluentAffiliate will generate a unique **Affiliate link** for them.
-3.  Once the link is ready, they can **copy** the affiliate link and share it wherever they like—on social media, emails, blogs, or directly with their audience.
-
-![Copy Affiliate Link](/guide/public/images/integrations/paid-memberships-pro/copy-affiliate-link.webp)
+After you've completed configuring the Paid Memberships Pro affiliate settings, the next step is for your affiliates to log in to their **Affiliate Area** provided by FluentAffiliate. To learn more about [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
 
 
 If someone purchases a membership using the affiliate link, the affiliate will earn a commission based on the settings you've configured.

@@ -4,6 +4,8 @@ Integrating GiveWP with the FluentAffiliate plugin helps you to manage affiliate
 In this guide, we’ll walk you through the steps to connect GiveWP with FluentAffiliate and set up affiliate commission for your campaign.
 
 >[!Note]
+> GiveWP is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 > To get started, you must first install and activate the GiveWP plugin on your WordPress website.
 
 ## Enable GiveWP in FluentAffiliate
@@ -46,10 +48,7 @@ Once all your custom rates are added, click the **Save Settings** button to appl
 
 ### Generate an Affiliate Link
 After you’ve completed configuring the GiveWP settings, the next step is to log in to your **Affiliate Area** provided by FluentAffiliate.
-
-1.  In the **Affiliate Links** section, paste the **URL** of the campaign, membership, or course page you want to promote.
-2.  Next, click on the **Generate** button and FluentAffiliate will generate a **unique affiliate link** for you.
-3.  Once your link is ready, **copy** the affiliate link and share it wherever you like on social media, emails, blogs, or directly with your audience.
+To learn more about how can generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
 
 If someone purchases the campaign or courses using your affiliate link, you’ll earn a **commission** based on the settings you’ve configured.
 

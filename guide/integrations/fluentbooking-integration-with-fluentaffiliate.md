@@ -64,17 +64,7 @@ You can set up affiliate commissions for specific events you've created in Fluen
 
 ## Generate an Affiliate Link
 
-After you've configured the settings, your affiliates can start promoting your booking pages.
-
-1. Affiliates must log in to their **Affiliate Area**.
-
-2. In the **Affiliate Links** section, they will paste the URL of the booking page they wish to promote.
-
-3. Next, click on the **Generate** button and FluentAffiliate will generate a unique affiliate link for them.
-
-4. Once the link is ready, they can **copy** it and share it on social media, in emails, on their blog, or directly with their audience.
-
-![Copy Affiliate Link](/guide/public/images/integrations/fluentbooking/copy-affiliate-link.webp)
+After you've configured the settings, your affiliates can start promoting your booking pages. To learn more about how can generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
 
 If someone clicks on your link, they’ll be directed to the event booking page, just like shown in the screenshot.
 

@@ -5,6 +5,8 @@ Easy Digital Downloads (EDD) is a e-commerce plugin for WordPress, specifically 
 This guide will walk you through how to connect Easy Digital Downloads with FluentAffiliate step by step.
 
 > [!NOTE]
+> Easy Digital Downloads is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 > Before you begin, please ensure that both the Easy Digital Downloads and FluentAffiliate plugins are installed and activated on your WordPress site.
 
 ## Enable the EDD Integration
@@ -32,39 +34,28 @@ Here are the options you can configure:
 
 * **Enable custom rate for specific product or categories:** Check this box to set special commission rates for certain digital products or categories, which will override your global default rate.
 
-After that, click on the **+Add New Group** button.
+After that, click on the **+Add New Group** button. You will find options to choose how you want to apply this custom rate. You can set it for specific individual products or for entire product categories.
 
-![EDD Settings](/guide/public/images/integrations/edd/edd-settings-configuration.webp)
-
-## Custom Affiliate Rate Configuration
-
-This feature gives you the flexibility to offer different commission rates for different products. For example, you could offer a higher commission on a new product to encourage affiliates to promote it.
-
-After checking the "**Enable custom rate**" box, a new section will appear.
+>[!Note]
+> This feature gives you the flexibility to offer different commission rates for different products. For example, you could offer a higher commission on a new product as an incentive for affiliates to promote it more heavily.
 
 * **Select Products:** In the Select field, begin typing the name of the digital product you want to set a custom rate for and choose it from the list.
 
 * **Select Rate:** Enter the new commission value (e.g., 25 for 25% or $25). Next, use the dropdown menu to choose if the rate is a Percentage (%) of the sale or a Fixed dollar amount.
 
-* **Add More Rates:** To set another custom rate for a different product, click the **+Add New Group** button. This will add a new row for you to configure another rule. You can also remove a rule at any time by clicking the red delete icon.
-
 * **Save Settings:** Once you have configured all your custom rates, click the **Save Settings** button to make them live.
+
+You can select multiple custom rate types for products or categories by clicking the **+ Add New Group** button.
+
 
 Also, you can delete the affiliate rates by clicking the *delete* icon in the top right corner.
 
-![EDD Settings](/guide/public/images/integrations/edd/custom-affiliate-rates.webp)
+![EDD Settings](/guide/public/images/integrations/edd/custom-affiliate-rates.gif)
 
 ## Generate an Affiliate Link
 
-Once you've finished setting up your **Easy Digital Downloads** product settings, it's time to create your **affiliate link**.
+Once you've finished setting up your **Easy Digital Downloads** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
 
-1. Log in to the **Affiliate** area provided by FluentAffiliate and go to the affiliate **Links** section. 
-2. **Paste** the URL of the product page you want to promote and click the **Generate** button.
-3. FluentAffiliate will create a unique **Affiliate Link**. **Copy** this link and share it on social media, blogs, emails, or directly with your audience.
-
-Now, when someone makes a purchase using this link, you'll earn a commission based on your *settings*.
-
-![Copy Affiliate Link](/guide/public/images/integrations/edd/copy-affiliate-link.webp)
 
 ### Troubleshooting Common Issues
 

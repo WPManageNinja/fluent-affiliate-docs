@@ -44,15 +44,9 @@ If you enabled custom rates, you can configure them easily:
 
 ## Generate an Affiliate Link
 
-After you've set everything up, your affiliates can start promoting your forms.
-
-1.  Affiliates need to log in to their **Affiliate Area**.
-2.  In the **Affiliate Links** section, they will paste the URL of the page where your Paymattic form is located.
-3.  Click the **Generate** button, and it will generate a unique affiliate link.
+After you've set everything up, your affiliates can start promoting your forms. To learn more about how can generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
 
 Your affiliate can now **copy** this link and share it on their blog, social media, or with their audience. When a user clicks this link and submits the form, the affiliate will earn a commission!
-
-![Copy Affiliate Link](/guide/public/images/integrations/paymattic/copy-affiliate-link.webp)
 
 ## Troubleshooting Common Issues
 

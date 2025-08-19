@@ -7,6 +7,8 @@ If you use the Voxel theme and want to boost your sales with an affiliate progra
 This guide will walk you through the step-by-step process of connecting the Voxel theme with FluentAffiliate.
 
 > [!NOTE]
+> Voxel is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 > To get started, please make sure you have the Voxel theme and the FluentAffiliate plugin installed and activated on your WordPress website.
 
 ## Enable the Voxel Integration
@@ -44,15 +46,10 @@ Once you enable custom rates, you can define specific commission rules for indiv
 
 ## Generate an Affiliate Link
 
-Now that the integration is set up, your affiliates can start promoting your Voxel products. To do this, they need to generate a unique referral link from their affiliate dashboard.
+Now that the integration is set up, your affiliates can start promoting your Voxel products. To do this, they need to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links) from their affiliate dashboard. 
 
-1.  First, you must log in to your **Affiliate Area**.
-2.  In the **Affiliate Links** section, you will paste the URL of the Voxel product page you want to promote.
-3.  Click the **Generate** button, and FluentAffiliate will instantly generate a unique affiliate link.
 
 You can copy this link and share it on their social media, blog, emails, or with their audience. When someone clicks on the link and purchases the product, the affiliate will earn a commission based on the rates you’ve configured.
-
-![Copy Affiliate Link](/guide/public/images/integrations/voxel/copy-affiliate-link.webp)
 
 ## Troubleshooting Common Issues
 

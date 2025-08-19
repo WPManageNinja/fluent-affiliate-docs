@@ -5,6 +5,8 @@ WooCommerce is one of the most popular e-commerce plugins for WordPress, helping
 This guide will walk you through every step of integrating WooCommerce with FluentAffiliate.
 
 > [!NOTE]
+> WooCommerce is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>              
 > To get started, you first need to have the WooCommerce plugin installed and activated on your WordPress website.
 
 ## Enable the WooCommerce Integration
@@ -31,13 +33,12 @@ Here are the available options:
 
 * **Enable custom rate for specific product or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
 
-After that, click on the **+Add New Group** button.
+After that, click on the **+Add New Group** button. You will find options to choose how you want to apply this custom rate. You can set it for specific individual products or for entire product categories.
 
 ![Integration Settings](/guide/public/images/integrations/woocommerce/configure-woocommerce-settings.webp)
 
-### Custom Affiliate Rate Configuration
-
-After enabling custom rates, you can create specific commission rules for your products. This gives you the flexibility to offer higher commissions on certain items to encourage sales.
+>[!Note]
+> This feature gives you the flexibility to offer different commission rates for different products. For example, you could offer a higher commission on a new product as an incentive for affiliates to promote it more heavily.
 
 1.  First, you must decide if the custom rate will apply to products or categories.
     * **By Specific Products:** Choose this to set a custom commission for one or more individual products.
@@ -56,13 +57,7 @@ After enabling custom rates, you can create specific commission rules for your p
 
 ## Generate an Affiliate Link
 
-Once you've finished setting up your WooCommerce product settings, it's time to create your **affiliate link**.
-
-1. Log in to the **Affiliate** area provided by FluentAffiliate and go to the affiliate **Links** section. 
-2. Paste the URL of the product page you want to promote and click the **Generate** button.
-3. FluentAffiliate will create a unique **affiliate link**. **Copy** this link and share it on social media, blogs, emails, or directly with your audience.
-
-![Copy Affiliate Link](/guide/public/images/integrations/woocommerce/copy-affiliate-link.webp)
+Once you've finished setting up your **Easy Digital Downloads** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
 
 Whenever a customer makes a purchase through this link, the affiliate will earn a commission based on the rates you’ve set up.
 

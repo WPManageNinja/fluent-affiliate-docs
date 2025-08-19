@@ -5,6 +5,8 @@ SureCart is a modern e-commerce platform for WordPress, built to make selling pr
 This guide will walk you through the simple steps to connect SureCart with FluentAffiliate.
 
 >[!NOTE]
+> Surecart is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 > To get started, you first need to install and activate the SureCart plugin on your WordPress website.
 
 ## Enable SureCart in FluentAffiliate
@@ -22,13 +24,7 @@ That's it! Unlike some other integrations, there are no extra settings to config
 
 ## Generate an Affiliate Link
 
-Now that the integration is active, your affiliates can begin creating promotional links for your SureCart products.
-1. Log in to the **Affiliate** area and go to the affiliate **Links** section.
-2. **Paste** the URL of the SureCart product page you want to promote. 
-3. Click the **Generate** button, and FluentAffiliate will create a unique **Affiliate Link**. 
-4. **Copy** the link and share it on social media, in emails, on your blog, or directly with your audience. 
-
-![Affiliate Link](/guide/public/images/integrations/surecart/affiliate-link-generation.webp)
+Once you've finished setting up your **Surecart** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
 
 When a customer clicks the link and completes a purchase, a commission will be automatically tracked and awarded to the affiliate based on your global commission settings.
 

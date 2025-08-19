@@ -64,6 +64,7 @@ export default defineConfig({
             { text: 'What is FluentAffiliate?', link: '/guide/getting-started/what-is-fluentaffiliate' },
             { text: 'Installation & Activation', link: '/guide/getting-started/installation-activation-licensing' },
             { text: 'Onboarding & Setup', link: '/guide/getting-started/onboarding-setup' },
+            { text: 'Fluent Affiliate Glossary', link: '/guide/getting-started/fluent-affiliate-glossary' }
           ]
         },
         {
