@@ -40,4 +40,4 @@ Here's a quick peek at the flow:
 5. When someone clicks & buys, the affiliate earns commission which you can track in the [referrals dashboard](/guide/admin-portal/managing-referrals)
 6. You review and send [payouts](/guide/admin-portal/payout-management) — all from your dashboard
 
-It's simple, scalable, and built to grow with your business. Want to see all the features in detail? Check out our [key features overview](/guide/getting-started/key-features-overview).
+It's simple, scalable, and built to grow with your business. Want to see all the features in detail? Check out our [FluentAffiliate glossary](/guide/getting-started/fluent-affiliate-glossary).
