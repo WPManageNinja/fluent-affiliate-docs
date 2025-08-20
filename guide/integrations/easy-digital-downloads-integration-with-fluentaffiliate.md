@@ -28,7 +28,23 @@ In the **Manage** section, you'll find additional settings to customize how affi
 In the management panel, you can customize exactly how your affiliate program will work with EDD.
 Here are the options you can configure:
 
-* **Enable Branded Coupon Codes for affiliates:** Activate this to allow your affiliates to promote your products using unique discount codes. This is a great way to provide extra value and track sales.
+* **Enable Branded Coupon Codes for affiliates:** When you enable this feature, you can offer branded coupon codes to your affiliates. This allows them to promote products with unique discount codes, giving them another powerful marketing opportunity.
+
+![Branded Coupon Code](/guide/public/images/integrations/edd/branded-coupon-code.webp)
+
+For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
+
+1. From your WordPress dashboard, navigate to **Downloads** > **Discounts**.
+
+2. You can either create a new discount or edit an existing one.
+
+3. On the discount editor page, scroll down to find the **FluentAffiliate Coupon** section.
+
+4. Click on the dropdown field and select the **affiliate's** name from the list.
+
+5. **Save** the discount. Now, when this discount code is used for a purchase, the selected affiliate will automatically be credited with the referral.
+
+![Branded Coupon Code](/guide/public/images/integrations/edd/fluentaffilaie-coupon.webp)
 
 * **Disable Referrals on Upgrades:** If you sell products with multiple tiers or upgrades, you can check this box to prevent commissions from being generated on upgrade purchases. This ensures affiliates are only rewarded for the initial sale.
 

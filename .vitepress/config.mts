@@ -98,6 +98,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'WooCommerce', link: '/guide/integrations/woocommerce-integration-with-fluentaffiliate' },
+                { text: 'FluentCart', link: '/guide/integrations/fluentcart-integration-with-fluentaffiliate' },
                 { text: 'Easy Digital Downloads', link: '/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate' },
                 { text: 'SureCart', link: '/guide/integrations/surecart-integration-with-fluentaffiliate' },
                 { text: 'Voxel', link: '/guide/integrations/voxel-integration-with-fluentaffiliate' }
