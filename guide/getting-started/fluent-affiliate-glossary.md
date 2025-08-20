@@ -19,6 +19,11 @@ A feature that allows you to organize affiliates into different tiers, each with
 ### Affiliate Management
 The section in the admin dashboard where you can get an overview of all your affiliates, manage their status (e.g., Active, Pending, Inactive), and manually add new ones.
 
+## B
+
+### Branded Coupon Code
+A unique discount code that is assigned directly to a specific affiliate. When a customer uses this code at checkout, the sale is automatically credited to the assigned affiliate, providing an alternative tracking method to the standard referral link. This feature is managed within the coupon editor of an integrated plugin (such as WooCommerce or FluentCart).
+
 ## C
 
 ### Commission

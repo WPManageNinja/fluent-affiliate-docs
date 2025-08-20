@@ -31,6 +31,20 @@ Here are the available options:
 * **Enable Affiliate Integration for Woocommerce:** This checkbox acts as the master switch for the integration. Ensure it is checked.
 * **Enable Branded Coupon Codes for affiliates:** When you enable this, you can offer branded coupon codes to your affiliates. This allows them to promote products with unique discount codes, giving them another powerful marketing tool. You can manage these codes in the **Discount Codes** editor in WooCommerce.
 
+For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
+
+ 1. From your WordPress dashboard, navigate to **Marketing** > **Coupon Data**.
+
+ 2. You can either create a new coupon or edit an existing one.
+
+ 3. On the coupon editor page, scroll down to find the **FluentAffiliate Coupon** section.
+
+ 4. Click on the dropdown field and select the **affiliate's** name from the list.
+
+ 5. **Save** the coupon. Now, when this coupon is used for a purchase, the selected affiliate will automatically be credited with the referral.
+
+![Branded Coupon Code](/guide/public/images/integrations/woocommerce/woocommerce-fluentaffiliate-coupon.webp)
+
 * **Enable custom rate for specific product or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
 
 After that, click on the **+Add New Group** button. You will find options to choose how you want to apply this custom rate. You can set it for specific individual products or for entire product categories.

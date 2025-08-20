@@ -34,15 +34,15 @@ Here are the options you can configure:
 
 For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
 
-1. From your WordPress dashboard, navigate to **Downloads** > **Discounts**.
+ 1. From your WordPress dashboard, navigate to **Downloads** > **Discounts**.
 
-2. You can either create a new discount or edit an existing one.
+ 2. You can either create a new discount or edit an existing one.
 
-3. On the discount editor page, scroll down to find the **FluentAffiliate Coupon** section.
+ 3. On the discount editor page, scroll down to find the **FluentAffiliate Coupon** section.
 
-4. Click on the dropdown field and select the **affiliate's** name from the list.
+ 4. Click on the dropdown field and select the **affiliate's** name from the list.
 
-5. **Save** the discount. Now, when this discount code is used for a purchase, the selected affiliate will automatically be credited with the referral.
+ 5. **Save** the discount. Now, when this discount code is used for a purchase, the selected affiliate will automatically be credited with the referral.
 
 ![Branded Coupon Code](/guide/public/images/integrations/edd/fluentaffilaie-coupon.webp)
 
