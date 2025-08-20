@@ -43,7 +43,7 @@ Click on the **+Add New Group** button to get started.
 2. **Select Rate:** Set the commission rate for the selected event. Enter a numerical value to set the commission amount.
  * **Rate Type Selector:** Click the dropdown menu to choose between a **Percentage (%)** of the sale or a **Fixed** amount.
 
-3. **Add More Rates:** You can click the **+Add New Group** button again to create more custom commission rules for other booking events. To remove a rule, click the **delete** icon on the right.
+3. **Add More Rates:** You can click the **+Add New Group** button again to create more custom commission rules for any other booking events. To remove a rule, click the **delete** icon on the right.
 
 After configuring your custom rates, click the **Save Settings** button.
 
