@@ -76,6 +76,12 @@ Now, you need to tell FluentAffiliate which form field corresponds to which piec
 
 * **Integration Name:** Give your feed a recognizable name.
 
+* **User Type:** Decide what kind of account is created when the form is submitted. You can choose from two options in the dropdown menu:
+
+    * **Create New WordPress User + Affiliate:** Select this option to allow new visitors to register as affiliates. When they submit the form, it will easily create a WordPress user account and an affiliate account for them.
+
+    * **Create Affiliate for Existing User (must be logged in):** Choose this option for existing members of your site who want to become affiliates. The user must be logged into their WordPress account to use the form. Upon submission, an affiliate profile will be created and linked to their existing user account.
+
 * **Map Fields:** For each Affiliate Field (like Email Address, Full Name, Password), select the corresponding field from your form in the dropdown on the right.
 
 * **Auto Approve Affiliate:** Choose whether to use the global setting, automatically approve the affiliate, or keep their application pending for you to review manually.
