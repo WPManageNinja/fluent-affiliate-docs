@@ -39,10 +39,10 @@ For example, this is perfect if you want to give a special coupon code to a soci
 4.  Click on the **Select Affiliate** field and begin typing the affiliate's name. Select their name from the list when it appears.
 5.  **Save** the coupon. Now, when this coupon is used, the selected affiliate will be credited with the referral.
 
-![Select Affiliate](/guide/public/images/integrations/fluentcart/select-affiliate-from-fluentcart.webp)
-
  > [!Note] 
  > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
+ 
+![Select Affiliate](/guide/public/images/integrations/fluentcart/select-affiliate-from-fluentcart.webp)
 
 * **Disable Referrals on Upgrades:** Check this box to ensure that no referrals will be added on purchased upgrades. This gives you more control over commission payouts for existing customers who upgrade their plan.
 * **Enable custom rate for specific products or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
@@ -50,20 +50,17 @@ For example, this is perfect if you want to give a special coupon code to a soci
     > [!NOTE]
     > This feature gives you the flexibility to offer different commission rates for different products. For example, you could offer a higher commission on a new product as an incentive for affiliates to promote it more heavily.
 
-    First, you must decide if the custom rate will apply to products or categories by clicking either **By Specific Products** or **By Specific Categories**.
+* **Select Products:** In the `Select` field, start typing the name of the product or category and choose it from the list.
 
-![Enable Custom Rate](/guide/public/images/integrations/fluentcart/enable-custom-rate.webp)
-
-Once you make a selection, click the **+Add New Group** button to create a new rule. New fields will appear:
-
-* **Select Products/Categories:** In the `Select` field, start typing the name of the product or category and choose it from the list.
 * **Select Rate:** Enter the commission value in the `Enter Rate` field. Then, choose whether the commission is a **Percentage (%)** or a **Fixed** amount from the dropdown menu.
 
-You can add more custom rates for different products or categories by clicking the **+Add New Group** button again. You can also remove any rate rule by clicking the red delete icon.
+* **Save Settings:** Once you have configured all your custom rates, click the Save Settings button to make them live.
+
+You can add more custom rates for different products or categories by clicking the **+Add New Group** button again. You can also remove any rate rule by clicking the red `delete` icon.
+
 
 ![Add New Group](/guide/public/images/integrations/fluentcart/specific-product-or-categories.webp)
 
-When you are finished, click the **Save Settings** button to apply all your changes.
 
 ### Generate an Affiliate Link
 

@@ -46,7 +46,11 @@ For example, this is perfect if you want to give a special coupon code to a soci
 
  5. **Save** the coupon. Now, when this coupon is used for a purchase, the selected affiliate will automatically be credited with the referral.
 
+  > [!Note] 
+ > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
+
 ![Branded Coupon Code](/guide/public/images/integrations/woocommerce/woocommerce-fluentaffiliate-coupon.webp)
+
 
 * **Enable custom rate for specific product or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
 

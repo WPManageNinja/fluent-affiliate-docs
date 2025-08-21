@@ -44,7 +44,11 @@ For example, this is perfect if you want to give a special coupon code to a soci
 
  5. **Save** the discount. Now, when this discount code is used for a purchase, the selected affiliate will automatically be credited with the referral.
 
+ > [!Note] 
+ > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
+
 ![Branded Coupon Code](/guide/public/images/integrations/edd/fluentaffilaie-coupon.webp)
+
 
 * **Disable Referrals on Upgrades:** If you sell products with multiple tiers or upgrades, you can check this box to prevent commissions from being generated on upgrade purchases. This ensures affiliates are only rewarded for the initial sale.
 
@@ -62,7 +66,6 @@ After that, click on the **+Add New Group** button. You will find options to cho
 * **Save Settings:** Once you have configured all your custom rates, click the **Save Settings** button to make them live.
 
 You can select multiple custom rate types for products or categories by clicking the **+ Add New Group** button.
-
 
 Also, you can delete the affiliate rates by clicking the *delete* icon in the top right corner.
 
