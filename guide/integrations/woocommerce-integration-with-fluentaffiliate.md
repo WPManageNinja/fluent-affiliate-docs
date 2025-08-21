@@ -13,9 +13,10 @@ This guide will walk you through every step of integrating WooCommerce with Flue
 
 The first step is to activate the WooCommerce module within your FluentAffiliate settings. Once  Woocommerce is running on your site, you can connect it to FluentAffiliate.
 
-Go to your **FluentAffiliate Dashboard** and click on the **Settings** tab in the top menu.
-From the menu on the left, select **Integration Settings**.
-You will see a list of available integrations. Find **WooCommerce** and click the **toggle** button next to it to turn it on.
+1. Go to your **FluentAffiliate Dashboard** and click on the **Settings** tab in the top menu.
+2. From the menu on the left, select **Integration Settings**.
+3. You will see a list of available integrations. Find **WooCommerce** and click the **toggle** button next to it to turn it on.
+
 Your WooCommerce integration is now active, allowing affiliates to earn referral commissions on your products.
 
 Once the toggle is active, a **Manage** link will appear. Click this link to configure your WooCommerce-specific affiliate settings.
