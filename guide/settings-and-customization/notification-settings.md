@@ -18,7 +18,7 @@ The main screen displays a list of all available automated emails. The notificat
 
 For each notification, you can see its **Title**, the intended **Receiver** (either "Site Admin" or "Affiliate"), and an **Enable** toggle to quickly activate or deactivate it.
 
-To modify a specific email, click the pencil icon on the right.
+To modify a specific email, click the **pencil icon** on the right.
 
 
 ![Notification](/guide/public/images/settings-and-customization/email/notification-settings/notification-settings-1.webp)
