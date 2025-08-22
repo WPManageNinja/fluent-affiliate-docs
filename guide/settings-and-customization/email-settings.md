@@ -22,7 +22,7 @@ These settings control the default identity for all outgoing emails to ensure pr
 Customize the look and feel of your emails with a logo and a custom footer.
 
 * **Email Header Logo:** Upload an image to be displayed in the email header.
-* **Email Footer:** Customize the email footer text to include your brand or additional information using the rich text editor. To create a dynamic footer, you can use shortcodes like `{{site_name}}`. You can also disable the "powered by FluentAffiliate" text from the footer.
+* **Email Footer:** Customize the email footer text to include your brand or additional information using the rich text editor. To create a dynamic footer, you can use shortcodes like <code>&#123;&#123;site_name&#125;&#125;</code>. You can also disable the "powered by FluentAffiliate" text from the footer.
 
 ![Email Customization](/guide/public/images/settings-and-customization/email/email-footer.webp)
 
