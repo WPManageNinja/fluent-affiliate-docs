@@ -36,7 +36,7 @@ Below the main stats, the Growth Overview graph gives you a visual representatio
 
 The sidebar on the right gives you a real-time snapshot of recent activity.
 
-* **Recent Referrals:** This list shows the most recent sales made through your affiliate links.  You can quickly see the product, the commission amount, the affiliate responsible, and the referral's status (e.g., Unpaid, Pending, or Paid). For detailed referral tracking and management, visit the [Managing Referrals](/guide/admin-portal/managing-referrals) section
+* **Recent Referrals:** This list shows the most recent sales made through your affiliate links.  You can quickly see the product, the commission amount, the affiliate responsible, and the referral's status (e.g., Unpaid, Pending, or Paid). For detailed referral tracking and management, visit the [Managing Referrals](/guide/admin-portal/managing-referrals) section.
 
 * **Top Affiliates:** This is your affiliate leaderboard. It highlights your top-performing affiliates, showing their total number of referrals and their total earnings, making it easy to see who your most valuable partners are. You can click on any affiliate to view their detailed [profile](/guide/miscellaneous/affiliate-profile).
 
