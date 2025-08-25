@@ -10,7 +10,7 @@ Let's say you're selling online courses, products, or services. Now imagine if y
 
 Here's the magic it brings:
 
-* **Launch your own affiliate program** in minutes — no 3rd-party platform needed
+* **Launch your own affiliate program** in minutes no 3rd-party platform needed
 * Let users [sign up as affiliates](/guide/affiliate-portal/how-to-register-as-an-affiliate) and track their performance
 * Generate [unique referral links](/guide/affiliate-portal/generating-affiliate-links) for affiliates automatically
 * Track every [referral, click, and commission](/guide/admin-portal/managing-referrals) with precision
