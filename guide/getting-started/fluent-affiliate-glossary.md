@@ -23,7 +23,7 @@ The section in the admin dashboard where you can get an overview of all your aff
 
 ### Branded Coupon Code
 
-A unique discount code that is assigned directly to a specific affiliate. When a customer uses this code at checkout, the sale is automatically credited to the assigned affiliate, providing an alternative tracking method to the standard referral link. This feature is managed within the coupon editor of an integrated plugin (such as WooCommerce or FluentCart).
+A feature that allows tracking affiliate commissions through unique discount codes instead of traditional referral links. It integrates with e-commerce plugins (like WooCommerce or EDD), allowing an administrator to create a standard coupon and assign it to a specific affiliate using a dedicated field provided by Fluent Affiliate. When a customer uses the code, they receive a discount, and the assigned affiliate is automatically credited with a commission for the sale.
 
 ## C
 
