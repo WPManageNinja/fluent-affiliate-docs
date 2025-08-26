@@ -34,7 +34,7 @@ No matter what you're selling, if you want to grow your business with the help o
 Here's a quick peek at the flow:
 
 1. **You install Fluent Affiliate** - Follow our [installation guide](/guide/getting-started/installation-activation-licensing)
-2. You set your [commission rules](/guide/settings-and-customization/referral-settings), terms, and branding in the [general settings](/guide/settings-and-customization/general-settings)
+2. You set your [commission rules](/guide/settings-and-customization/referral-settings), terms, and branding in the general settings.
 3. Affiliates [sign up via a public registration page](/guide/affiliate-portal/how-to-register-as-an-affiliate)
 4. They get a [unique referral link](/guide/affiliate-portal/generating-affiliate-links) to share
 5. When someone clicks & buys, the affiliate earns commission which you can track in the [referrals dashboard](/guide/admin-portal/managing-referrals)

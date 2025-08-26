@@ -43,7 +43,7 @@ Each integration works seamlessly with FluentAffiliate, allowing you to:
 ## Setting Up Integrations
 
 To enable any integration:
-1. Navigate to [General Settings](/guide/settings-and-customization/general-settings) in your FluentAffiliate dashboard
+1. Navigate to **Settings** in your FluentAffiliate dashboard
 2. Click on **Integration Settings**
 3. Find the integration you want to enable
 4. Toggle it on and configure any specific settings
