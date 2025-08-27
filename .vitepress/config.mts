@@ -51,7 +51,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },
-      { text: 'Dev Docs', link: '/' },
       { text: 'Website', link: 'https://fluentaffiliate.com/' },
     ],
     outline: [2, 3],

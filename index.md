@@ -16,9 +16,6 @@ hero:
     - theme: brand
       text: Get Started
       link: /guide/getting-started/what-is-fluentaffiliate
-    - theme: alt
-      text: Developer Docs
-      link: https://github.com/fluentcrm/fluent-affiliate
 
 ---
 
