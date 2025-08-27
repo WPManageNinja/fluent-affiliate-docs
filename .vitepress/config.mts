@@ -185,10 +185,6 @@ export default defineConfig({
       copyright: 'Copyright © 2025-present FluentAffiliate'
     },
 
-    search: {
-      provider: 'local'
-    },
-
     editLink: {
       pattern: 'https://github.com/fluentcrm/fluent-affiliate/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
