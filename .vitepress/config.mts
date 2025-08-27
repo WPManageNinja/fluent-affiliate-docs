@@ -180,18 +180,11 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/fluentcrm/fluent-affiliate' }
-    ],
 
     footer: {
       message: 'Released under the GPL License.',
       copyright: 'Copyright © 2025-present FluentAffiliate'
     },
 
-    editLink: {
-      pattern: 'https://github.com/fluentcrm/fluent-affiliate/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
-    }
   }
 })
