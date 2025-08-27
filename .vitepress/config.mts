@@ -10,7 +10,7 @@ export default defineConfig({
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/../guide/public/images/brand/FluentAffiliate-Logo.webp' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/brand/FluentAffiliate-Logo.webp' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
@@ -20,6 +20,10 @@ export default defineConfig({
     config: (md) => {
       md.use(zoomablePlugin)
     }
+  },
+
+  vite: {
+    publicDir: 'guide/public',
   },
 
   themeConfig: {
@@ -44,8 +48,8 @@ export default defineConfig({
       }
     },
     logo: {
-      dark: '/../guide/public/images/brand/main_logo_inverted.png',
-      light: '/../guide/public/images/brand/main_logo.png',
+      dark: '/images/brand/main_logo_inverted.png',
+      light: '/images/brand/main_logo.png',
     },
   
     nav: [

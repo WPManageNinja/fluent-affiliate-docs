@@ -15,7 +15,7 @@ First, you need to activate the LifterLMS module within FluentAffiliate to allow
 2.  Then, click on **Integration Settings** from the left sidebar.
 3.  Find **LifterLMS** in the list and click the **toggle** button to switch it on. A **Manage** link will appear.
 
-![Integration Settings](/guide/public/images/integrations/lifterlms/integration-setup-options.webp)
+![Integration Settings](/images/integrations/lifterlms/integration-setup-options.webp)
 
 ### Configure LifterLMS Settings
 
@@ -24,7 +24,7 @@ Click the **Manage** link to open the settings panel. Here, you can set custom c
 * **Enable Affiliate Integration for LifterLMS:** You must check this box to activate commission tracking for all your LifterLMS courses.
 * **Enable custom rate for specific courses or Course Categories:** Check this box if you want to offer different commission rates for different courses. This is perfect for running special promotions or offering a higher incentive for your signature courses.
 
-![LifterLMS Settings](/guide/public/images/integrations/lifterlms/lifterlms-settings-configuration.webp)
+![LifterLMS Settings](/images/integrations/lifterlms/lifterlms-settings-configuration.webp)
 
 ### Custom Affiliate Rate Configuration
 
@@ -42,7 +42,7 @@ Next, configure the rate itself:
 
 4. **Save Settings:** After configuring your custom rates, click the **Save Settings** button to make them live.
 
-![Custom Affiliate Rate Configuration](/guide/public/images/integrations/lifterlms/configure-custom-affiliate-rate.webp)
+![Custom Affiliate Rate Configuration](/images/integrations/lifterlms/configure-custom-affiliate-rate.webp)
 
 ### Generate an Affiliate Link
 

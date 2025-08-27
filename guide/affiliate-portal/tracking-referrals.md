@@ -15,7 +15,7 @@ Here is a breakdown of the information in each column:
 * **Status:** This tells you the current payment status of your commission. It will show as Paid for commissions you have received, and Unpaid for commissions that are approved but have not yet been sent. 
 * **Description:** This provides details about the product that was purchased.
 
-![Referrals User Portal](/guide/public/images/affiliate-portal/referrals/referrals-list-view.webp)
+![Referrals User Portal](/images/affiliate-portal/referrals/referrals-list-view.webp)
 
 So, now you can easily track your successful promotions and see which products are generating the most income for you.
 

@@ -19,7 +19,7 @@ Your **LearnDash** integration with **FluentAffiliate** is now active, allowing 
 
 That’s all there is to it! The integration is now active. Once the toggle is on, FluentAffiliate will automatically be ready to track referrals for your LearnDash course sales.
 
-![Integration Settings](/guide/public/images/integrations/learndash/integration-setup-options.webp)
+![Integration Settings](/images/integrations/learndash/integration-setup-options.webp)
 
 ## Generate an Affiliate Link
 
@@ -30,7 +30,7 @@ With the integration enabled, your affiliates can immediately start creating pro
 3. Click the **Generate** button and FluentAffiliate will generate a unique **affiliate link** for you. 
 4. You can then **copy** the link and share it on social media, in emails, on their blog, or directly with your audience.
 
-![Copy Affiliate Link](/guide/public/images/integrations/learndash/copy-affiliate-link.webp)
+![Copy Affiliate Link](/images/integrations/learndash/copy-affiliate-link.webp)
 
 When a student enrolls in a course using this link, the referring affiliate will earn a commission based on your global affiliate settings.
 

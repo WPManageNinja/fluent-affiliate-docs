@@ -20,7 +20,7 @@ Once you have both plugins activated, follow these steps to connect GiveWP with 
 
 In the **Manage** section, you’ll find additional settings to customize how affiliate commissions work with your GiveWP donation campaign, memberships, and courses.
 
-![Integration Settings](/guide/public/images/integrations/givewp/integration-setup-options.webp)
+![Integration Settings](/images/integrations/givewp/integration-setup-options.webp)
 
 ### Configure GiveWP Settings
 
@@ -44,7 +44,7 @@ Click on the **+Add New Group** button to create your first custom rate.
 
 Once all your custom rates are added, click the **Save Settings** button to apply them.
 
-![GiveWP Settings](/guide/public/images/integrations/givewp/givewp-settings-configuration.webp)
+![GiveWP Settings](/images/integrations/givewp/givewp-settings-configuration.webp)
 
 ### Generate an Affiliate Link
 After you’ve completed configuring the GiveWP settings, the next step is to log in to your **Affiliate Area** provided by FluentAffiliate.
@@ -52,7 +52,7 @@ To learn more about how can generate your [affiliate link](/guide/affiliate-port
 
 If someone purchases the campaign or courses using your affiliate link, you’ll earn a **commission** based on the settings you’ve configured.
 
-![Copy Affiliate Link](/guide/public/images/integrations/givewp/affiliate-link-generation.webp)
+![Copy Affiliate Link](/images/integrations/givewp/affiliate-link-generation.webp)
 
 
 And that’s it! This is the easy process to integrate GiveWP with FluentAffiliate and start earning commissions.

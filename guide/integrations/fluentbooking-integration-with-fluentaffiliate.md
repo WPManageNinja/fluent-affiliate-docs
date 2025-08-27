@@ -23,7 +23,7 @@ Once both plugins are active, the first step is to enable the integration from y
 
 6. Your **FluentBooking** integration with **FluentAffiliate** is now active. To customize how commissions work, click the **Manage** button.
 
-![Integration Settings](/guide/public/images/integrations/fluentbooking/integration-setup-options.webp)
+![Integration Settings](/images/integrations/fluentbooking/integration-setup-options.webp)
 
 ## Configure FluentBooking Settings
 
@@ -47,7 +47,7 @@ Click on the **+Add New Group** button to get started.
 
 After configuring your custom rates, click the **Save Settings** button.
 
-![FluentBooking Settings](/guide/public/images/integrations/fluentbooking/booking-settings-configuration.webp)
+![FluentBooking Settings](/images/integrations/fluentbooking/booking-settings-configuration.webp)
 
 ## Set up an Affiliate for Specific Events
 
@@ -60,7 +60,7 @@ You can set up affiliate commissions for specific events you've created in Fluen
 >[!Note]
 > Make sure the event you choose has a **payment** option **enabled**. Without it, affiliate commissions won’t work for that booking.
 
-![Set up Affiliate](/guide/public/images/integrations/fluentbooking/set-up-affiliate.webp)
+![Set up Affiliate](/images/integrations/fluentbooking/set-up-affiliate.webp)
 
 ## Generate an Affiliate Link
 
@@ -68,13 +68,13 @@ After you've configured the settings, your affiliates can start promoting your b
 
 If someone clicks on your link, they’ll be directed to the event booking page, just like shown in the screenshot.
 
-![Booking Page Setup](/guide/public/images/integrations/fluentbooking/booking-page-setup.webp)
+![Booking Page Setup](/images/integrations/fluentbooking/booking-page-setup.webp)
 
 ## Track Referrals
 
 When a user books the event through your affiliate link, your Referral commission will be tracked and added automatically.
 
-![Referral Overview](/guide/public/images/integrations/fluentbooking/referral-overview.webp)
+![Referral Overview](/images/integrations/fluentbooking/referral-overview.webp)
 
 ### Troubleshooting Common Issues
 

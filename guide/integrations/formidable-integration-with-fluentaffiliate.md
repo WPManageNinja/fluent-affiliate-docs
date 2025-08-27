@@ -17,7 +17,7 @@ Your **Formidable** integration with **FluentAffiliate** is now active, allowing
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Formidable Settings](/guide/public/images/integrations/formidable/formidable-integration-setup.webp)
+![Formidable Settings](/images/integrations/formidable/formidable-integration-setup.webp)
 
 ## Configure the Specific Form 
 
@@ -26,7 +26,7 @@ To configure a specific form with FluentAffiliate, you need to create a form in 
 1. Once your form is ready, embed it on the desired page or post and save the form.
 2. Next, **copy** the URL of the page or post where you have embedded the form.  This **URL** will be used by your affiliates to generate their unique links.
 
-![Formidable Form](/guide/public/images/integrations/formidable/configure-the-specific-form.webp)
+![Formidable Form](/images/integrations/formidable/configure-the-specific-form.webp)
 
 ## Generate an Affiliate Link
 
@@ -34,7 +34,7 @@ After you've completed configuring the Formidable affiliate settings, the next s
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link Generation](/guide/public/images/integrations/formidable/affiliate-link-generation.webp)
+![Affiliate Link Generation](/images/integrations/formidable/affiliate-link-generation.webp)
 
 ### Troubleshooting Common Issues
 

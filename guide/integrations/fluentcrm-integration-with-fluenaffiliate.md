@@ -18,7 +18,7 @@ Your **FluentCRM** integration with **FluentAffiliate** is now active, allowing 
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](/guide/public/images/integrations/fluentcrm/fluentcrm-integration-settings.webp)
+![Integration Settings](/images/integrations/fluentcrm/fluentcrm-integration-settings.webp)
 
 ## Configure FluentCRM Settings
 
@@ -28,7 +28,7 @@ After enabling the integration, a pop-up will appear where you can configure the
 2. In the box that appears, search for and select the specific contact list where you want your new affiliates to be added. 
 3. After selecting the options, simply click the **Save Settings** button to save your settings.
 
-![FluentCRM Settings](/guide/public/images/integrations/fluentcrm/fluentcrm-settings-configuration.webp)
+![FluentCRM Settings](/images/integrations/fluentcrm/fluentcrm-settings-configuration.webp)
 
 ## Set Up Automation
 
@@ -40,13 +40,13 @@ To get all the **Triggers**, go to the **Automations** section from the FluentCR
 
 To learn the detailed process of creating a new automation funnel, read this [Documentation](https://fluentcrm.com/docs/introduction-to-fluentcrm-automation/).
 
-![New Automation](/guide/public/images/integrations/fluentcrm/automation-setup.webp)
+![New Automation](/images/integrations/fluentcrm/automation-setup.webp)
 
 Now, a pop-up page will appear with all the **Popular pre-built funnel templates** for creating automation, where the full funnel diagram will be ready automatically. 
 
 If you want to create your automation funnel from scratch, simply click on the **Create from Scratch** tab (e.g., here, I have created a new automation from scratch).
 
-![Pre-built Templates](/guide/public/images/integrations/fluentcrm/prebuilt-templates.webp)
+![Pre-built Templates](/images/integrations/fluentcrm/prebuilt-templates.webp)
 
 ## Triggers for FluentAffiliate
 
@@ -61,7 +61,7 @@ Now, choose your desired trigger. Here, you can give a **Title** to your Automat
 * **New Payout Created:** If you select this trigger, this will start when a new payout is created in FluentAffiliate.
 Create targeted campaigns for your affiliates.
 
-![FluentAffiliate Trigger](/guide/public/images/integrations/fluentcrm/fluentaffiliate-trigger.webp)
+![FluentAffiliate Trigger](/images/integrations/fluentcrm/fluentaffiliate-trigger.webp)
 
 ## Run Email Campaigns
 
@@ -71,7 +71,7 @@ First, go to **All Campaigns** under the Emails section from the FluentCRM navba
 
 To learn the detailed process of creating a new Email Campaign, read this [Documentation](https://fluentcrm.com/docs/setting-up-campaign/#create-a-new-campaign).
 
-![Advanced Filters](/guide/public/images/integrations/fluentcrm/create-campaigns.webp)
+![Advanced Filters](/images/integrations/fluentcrm/create-campaigns.webp)
 
 ## By Advanced Filter
 
@@ -84,7 +84,7 @@ Now, click on the **+Add** button to start the filtering, where you will get man
 
 You can add more filters by clicking the **+Add** button, add filters against the existing filter by clicking the **+ OR** button, and delete any existing filter by clicking the **Trash** Icon.
 
-![Advanced Filters](/guide/public/images/integrations/fluentcrm/advanced-filter-settings.webp)
+![Advanced Filters](/images/integrations/fluentcrm/advanced-filter-settings.webp)
 
 ### Contact Management
 
@@ -92,7 +92,7 @@ If you want to filter out your FluentAffiliate contacts, go to the FluentCRM **C
 
 Next, click the **+Add** icon and select the FluentAffiliate option. Here you will find a filter condition. After that, set the condition filter and click the **Filter** button.
 
-![Contact Filtering](/guide/public/images/integrations/fluentcrm/contact-filtering-options.webp)
+![Contact Filtering](/images/integrations/fluentcrm/contact-filtering-options.webp)
 
 ### Troubleshooting Common Issues
 

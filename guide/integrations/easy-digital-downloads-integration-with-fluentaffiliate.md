@@ -21,7 +21,7 @@ Your **Easy Digital Downloads** integration is now active, allowing affiliates t
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your products.
 
-![Integration Settings](/guide/public/images/integrations/edd/integration-setup-options.webp)
+![Integration Settings](/images/integrations/edd/integration-setup-options.webp)
 
 ## Configure EDD Settings
 
@@ -30,7 +30,7 @@ Here are the options you can configure:
 
 * **Enable Branded Coupon Codes for affiliates:** When you enable this feature, you can offer branded coupon codes to your affiliates. This allows them to promote products with unique discount codes, giving them another powerful marketing opportunity.
 
-![Branded Coupon Code](/guide/public/images/integrations/edd/branded-coupon-code.webp)
+![Branded Coupon Code](/images/integrations/edd/branded-coupon-code.webp)
 
 For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
 
@@ -47,7 +47,7 @@ For example, this is perfect if you want to give a special coupon code to a soci
  > [!Note] 
  > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
 
-![Branded Coupon Code](/guide/public/images/integrations/edd/fluentaffilaie-coupon.webp)
+![Branded Coupon Code](/images/integrations/edd/fluentaffilaie-coupon.webp)
 
 
 * **Disable Referrals on Upgrades:** If you sell products with multiple tiers or upgrades, you can check this box to prevent commissions from being generated on upgrade purchases. This ensures affiliates are only rewarded for the initial sale.
@@ -69,7 +69,7 @@ You can select multiple custom rate types for products or categories by clicking
 
 Also, you can delete the affiliate rates by clicking the *delete* icon in the top right corner.
 
-![EDD Settings](/guide/public/images/integrations/edd/custom-affiliate-rates.gif)
+![EDD Settings](/images/integrations/edd/custom-affiliate-rates.gif)
 
 ## Generate an Affiliate Link
 

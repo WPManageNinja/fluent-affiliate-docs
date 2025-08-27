@@ -6,7 +6,7 @@ The Migrator Settings in FluentAffiliate allow you to easily import data from ot
 
 To access the Migrator Settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Migrator Settings**.
 
-![Migrator Settings Overview](/guide/public/images/settings-and-customization/migrator/migrator-settings-overview.webp)
+![Migrator Settings Overview](/images/settings-and-customization/migrator/migrator-settings-overview.webp)
 
 ### Migrating from AffiliateWP
 
@@ -22,7 +22,7 @@ This section also includes a **Wipe Data** tool to clean up your FluentAffiliate
 
 > **Warning:** Data cleanup is irreversible. Always make sure to back up your data before proceeding.
 
-![Wipe Data Confirmation](/guide/public/images/settings-and-customization/migrator/wipe-data-confirmation.gif)
+![Wipe Data Confirmation](/images/settings-and-customization/migrator/wipe-data-confirmation.gif)
 
 ### Troubleshooting
 

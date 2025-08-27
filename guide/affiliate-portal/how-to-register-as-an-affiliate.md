@@ -14,7 +14,7 @@ Click the **Register Now** button to start the sign-up process.
 >Only the site admin can decide where the **Affiliate Page** appears on the site. To learn how to set this up, check out this [article](/guide/settings-and-customization/referral-settings.md).
 
 
-![Affiliate Registration Page](/guide/public/images/affiliate-portal/registration/registration-page.webp)
+![Affiliate Registration Page](/images/affiliate-portal/registration/registration-page.webp)
 
 ### Step 2: Fill Out the Registration Form
 
@@ -46,7 +46,7 @@ To complete the process, the user must:
 2. Click the **Register** button to submit their application for review.
 
 
-![Registration Form](/guide/public/images/affiliate-portal/registration/registration-form.webp)
+![Registration Form](/images/affiliate-portal/registration/registration-form.webp)
 
 ### Step 3: Welcome to the Affiliate Dashboard
 
@@ -64,7 +64,7 @@ This dashboard is their central hub to:
 
 To learn more about the Affiliate Dashboard, check out this [article](/guide/affiliate-portal/affiliate-dashboard-overview.md).
 
-![Affiliate Dashboard](/guide/public/images/affiliate-portal/registration/registration-success.webp)
+![Affiliate Dashboard](/images/affiliate-portal/registration/registration-success.webp)
 
 And that's it! In just a few simple steps, a new user can join the affiliate program and get everything they need to start promoting and earning.
 

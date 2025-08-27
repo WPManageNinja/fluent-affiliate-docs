@@ -33,7 +33,7 @@ The main table lists every referral with all the important details, giving you a
 * **Type:** The source of the commission, such as a product sale or a form submission. 
 * **Date:** The exact date the referral was created. 
 
-![Referral Dashboard Overview](/guide/public/images/admin-portal/managing-referrals/referrals-list-overview.webp)
+![Referral Dashboard Overview](/images/admin-portal/managing-referrals/referrals-list-overview.webp)
 
 ### Managing Individual Referrals
 At the end of each referral's row is a three-dot menu that contains key actions:
@@ -49,7 +49,7 @@ At the end of each referral's row is a three-dot menu that contains key actions:
 
 * **Sort**: Sort your referrals by Amount, ID, or Reference in ascending or descending order. Don't forget to hit **Apply** after sorting.
 
-![Affiliate Search and Sort Tools](/guide/public/images/admin-portal/managing-referrals/search-and-sort-tools.webp)
+![Affiliate Search and Sort Tools](/images/admin-portal/managing-referrals/search-and-sort-tools.webp)
 
 ### Add a New Referral
 
@@ -57,7 +57,7 @@ Want to manually add an referral to your site?
 
 First, click the **New Referral** button. 
 
-![Add New Referral Button](/guide/public/images/admin-portal/managing-referrals/add-new-referral-button.webp)
+![Add New Referral Button](/images/admin-portal/managing-referrals/add-new-referral-button.webp)
 
 After clicking the button, a form will slide in from the right side of your screen. Here, you'll need to fill in the details for the new referral.
 
@@ -73,6 +73,6 @@ Once you have filled in all the necessary details, click the **Create Manual Ref
 
 The new referral will be instantly created and will appear in your main referrals list, assigned to the affiliate you selected.
 
-![Create Manual Referral](/guide/public/images/admin-portal/managing-referrals/create-manual-referral.webp)
+![Create Manual Referral](/images/admin-portal/managing-referrals/create-manual-referral.webp)
 
 That's it! Your new referral will now appear in the list.

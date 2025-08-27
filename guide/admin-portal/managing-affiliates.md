@@ -34,7 +34,7 @@ This is the heart of the page, where every affiliate is listed with their key pe
 * **Registered at:** The date they joined your affiliate program. 
 * **Status:** Their current account status (e.g., Active, Pending, Inactive).
 
-![Affiliate Management Dashboard](/guide/public/images/admin-portal/managing-affiliates/affiliate-list-overview.webp)
+![Affiliate Management Dashboard](/images/admin-portal/managing-affiliates/affiliate-list-overview.webp)
 
 ### Managing Individual Affiliates
 
@@ -51,7 +51,7 @@ To the top-right of the table, you'll find icons to help you organize your view:
 * **Column Selector:** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display.
 * **Sort Options:** Sort affiliates by **ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Registration Date**. You can also choose between ascending or descending order, then click **Apply** to update.
 
-![Affiliate Search and Sort Tools](/guide/public/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)
+![Affiliate Search and Sort Tools](/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)
 
 ### Pagination Buttons  
 If you have a large number of affiliates, the controls at the bottom of the page help you navigate your list easily. You can set the number of **affiliates to show per page** and use the **arrow** buttons to move between pages. 
@@ -62,7 +62,7 @@ Want to manually add an affiliate to your site? Here's how:
 
 Click the **New Affiliate** button. A form will slide in from the right side of your screen.
 
-![Add New Affiliate Button](/guide/public/images/admin-portal/managing-affiliates/add-new-affiliate-button.webp)
+![Add New Affiliate Button](/images/admin-portal/managing-affiliates/add-new-affiliate-button.webp)
 
 Fill in the following fields:
 
@@ -74,6 +74,6 @@ Fill in the following fields:
 
 Hit the **Create Affiliate** button to create a new affiliate. 
 
-![Add Affiliate Form](/guide/public/images/admin-portal/managing-affiliates/add-affiliate-form.webp)
+![Add Affiliate Form](/images/admin-portal/managing-affiliates/add-affiliate-form.webp)
 
 That's it! Your new affiliate will now appear in the list.

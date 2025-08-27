@@ -16,7 +16,7 @@ This is the main section for creating a referral link to a specific page on the 
 
 Your new, unique referral link will instantly appear below in the **Generated Affiliate Link** area. Click the **Copy** button to copy it to your clipboard.
 
-![Generated Referral Link](/guide/public/images/affiliate-portal/generating-links/generated-affiliate-link.webp)
+![Generated Referral Link](/images/affiliate-portal/generating-links/generated-affiliate-link.webp)
 
 ### Step 2: Your Affiliate Link
 

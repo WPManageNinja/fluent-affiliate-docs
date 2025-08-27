@@ -20,7 +20,7 @@ First, you’ll need to enable the integration from your FluentAffiliate dashboa
 3.  From the left sidebar, select the **Integration Settings** option.
 4.  Inside the Integration Settings, you will see a list of available integrations. Find **Voxel** in this list and click the toggle button next to it to enable the integration. Once enabled, the toggle will turn blue, and a **Manage** link will appear.
 
-![Integration Settings](/guide/public/images/integrations/voxel/integration-setup-options.webp)
+![Integration Settings](/images/integrations/voxel/integration-setup-options.webp)
 
 ## Configure Voxel Settings
 
@@ -31,7 +31,7 @@ A settings panel will appear with the following options:
 * **Enable Affiliate Integration for Voxel:** This checkbox acts as the master switch for the integration. Ensure it is checked.
 * **Enable custom rate for specific products:** Check this box if you want to set a specific commission rate for certain Voxel products, overriding the global commission settings.
 
-![Voxel Settings](/guide/public/images/integrations/voxel/voxel-settings-configuration.webp)
+![Voxel Settings](/images/integrations/voxel/voxel-settings-configuration.webp)
 
 ### Custom Affiliate Rate Configuration
 
@@ -42,7 +42,7 @@ Once you enable custom rates, you can define specific commission rules for indiv
 3.  **Add More Rates:** Click the **+Add New Rate** button to add another custom rate for a different product. You can repeat this process to configure as many product-specific rates as you need.
 4.  **Save Settings:** Once you’re done, click the **Save Settings** button to apply your changes.
 
-![Voxel Settings](/guide/public/images/integrations/voxel/custom-affiliate-rates.webp)
+![Voxel Settings](/images/integrations/voxel/custom-affiliate-rates.webp)
 
 ## Generate an Affiliate Link
 

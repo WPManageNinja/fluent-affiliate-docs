@@ -23,7 +23,7 @@ This section at the top of your dashboard displays four key metrics to give you 
 * **Total Referrals:** The total number of successful sales you have generated. 
 * **Conversion Rate:** The percentage of clicks on your links that have turned into successful sales.
 
-![Affiliate Dashboard Overview](/guide/public/images/affiliate-portal/dashboard/affiliate-dashboard-overview.webp)
+![Affiliate Dashboard Overview](/images/affiliate-portal/dashboard/affiliate-dashboard-overview.webp)
 
 ### Your Affiliate Link
 

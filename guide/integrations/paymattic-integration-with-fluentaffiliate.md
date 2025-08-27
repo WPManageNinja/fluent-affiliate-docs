@@ -20,7 +20,7 @@ Your **Paymattic** integration with **FluentAffiliate** is now active, allowing 
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your courses.
 
-![Integration Settings](/guide/public/images/integrations/paymattic/integration-setup-options.webp)
+![Integration Settings](/images/integrations/paymattic/integration-setup-options.webp)
 
 ## Configure Paymattic Settings
 
@@ -31,7 +31,7 @@ Here’s a breakdown of the settings you'll see:
 * **Enable Affiliate Integration for Paymattic:** This is the main switch for the integration. It must be checked for the integration to work.
 * **Enable custom rate for specific forms:** Check this box if you want to set different commission rates for different Paymattic forms. This is perfect if you want to offer a higher commission on a specific product or service form. This setting will override the default commission rate you have set globally.
 
-![Paymattic Settings](/guide/public/images/integrations/paymattic/paymattic-settings-configuration.webp)
+![Paymattic Settings](/images/integrations/paymattic/paymattic-settings-configuration.webp)
 
 ### Setting a Custom Rate
 

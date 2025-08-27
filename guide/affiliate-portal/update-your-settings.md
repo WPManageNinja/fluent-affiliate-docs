@@ -14,5 +14,5 @@ On this page, you will find the following options:
 
 After making any changes, be sure to click the **Save Settings** button to apply your updates.
 
-![User Portal Settings](/guide/public/images/affiliate-portal/profile-settings/profile-settings-page.webp)
+![User Portal Settings](/images/affiliate-portal/profile-settings/profile-settings-page.webp)
 

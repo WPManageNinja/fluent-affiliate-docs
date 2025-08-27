@@ -40,7 +40,7 @@ The sidebar on the right gives you a real-time snapshot of recent activity.
 
 * **Top Affiliates:** This is your affiliate leaderboard. It highlights your top-performing affiliates, showing their total number of referrals and their total earnings, making it easy to see who your most valuable partners are. You can click on any affiliate to view their detailed [profile](/guide/miscellaneous/affiliate-profile).
 
-![Admin Dashboard Overview in FluentAffiliate](/guide/public/images/admin-portal/dashboard/admin-dashboard-overview.webp)
+![Admin Dashboard Overview in FluentAffiliate](/images/admin-portal/dashboard/admin-dashboard-overview.webp)
 
 That's a quick overview of your Admin Dashboard in FluentAffiliate. 
 

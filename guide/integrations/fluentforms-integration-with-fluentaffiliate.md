@@ -19,7 +19,7 @@ Your **FluentForms** integration with **FluentAffiliate** is now active, allowin
 
 In the **Manage** section, you'll find additional settings to customize how the integration works.
 
-![Integration Settings](/guide/public/images/integrations/fluentforms/fluentforms-integration-setup.webp)
+![Integration Settings](/images/integrations/fluentforms/fluentforms-integration-setup.webp)
 
 ## Set Custom Commission Rates for Your Forms
 
@@ -35,7 +35,7 @@ Check the box for **Enable custom rate for specific forms**. This will reveal th
 
 **Save Settings:** Once you're done, click the **Save Settings** button.
 
-![FluentForms Settings](/guide/public/images/integrations/fluentforms/custom-rate-setup.webp)
+![FluentForms Settings](/images/integrations/fluentforms/custom-rate-setup.webp)
 
 ## Creating a Custom Affiliate Registration Form 
 
@@ -55,7 +55,7 @@ In FluentForms, create a new form with all the fields you need for registration,
 
 * Website URL (Optional)
 
-![Configure Forms](/guide/public/images/integrations/fluentforms/edit-form.webp)
+![Configure Forms](/images/integrations/fluentforms/edit-form.webp)
 
 ### Step 2: Configure the Integration Feed
 
@@ -68,7 +68,7 @@ Next, you need to connect this specific form to ***FluentAffiliate's** registrat
 3. Click the **Add New Integration** button and choose **Fluent Affiliate Registration Integration** from the dropdown list.
 
 
-![Settings & Integrations](/guide/public/images/integrations/fluentforms/fluentaffiliate-integrations.webp)
+![Settings & Integrations](/images/integrations/fluentforms/fluentaffiliate-integrations.webp)
 
 ### Step 3: Map Your Form Fields
 
@@ -96,7 +96,7 @@ After saving, a success message will appear confirming that the feed has been cr
 
 Now, you can easily **edit**, **delete**, or **disable** this feed at any time from the form's integration settings. 
 
-![Integrations Feed](/guide/public/images/integrations/fluentforms/form-integration-feed.webp)
+![Integrations Feed](/images/integrations/fluentforms/form-integration-feed.webp)
 
 ### Embed your Form
 
@@ -106,7 +106,7 @@ To display the form on a specific page or post, simply **copy** the **Shortcode*
 
 This will embed the form on your website, making it visible and ready for users to interact with.
 
-![Embedded Form](/guide/public/images/integrations/fluentforms/embedded-form-settings.webp)
+![Embedded Form](/images/integrations/fluentforms/embedded-form-settings.webp)
 
 ## Generate an Affiliate Link
 

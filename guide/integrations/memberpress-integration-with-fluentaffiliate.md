@@ -21,7 +21,7 @@ Your **MemberPress** integration with **FluentAffiliate** is now active, allowin
 
 Click on the **Manage** button and you'll find additional settings to customize how affiliate commissions work with your course or membership.
 
-![Integration Settings](/guide/public/images/integrations/memberpress/integration-setup-options.webp)
+![Integration Settings](/images/integrations/memberpress/integration-setup-options.webp)
 
 ## Configure MemberPress Settings
 
@@ -33,7 +33,7 @@ Here are the options you can configure:
 
 * **Enable custom rate for specific membership or categories:** Check this box if you want to offer special commission rates for different membership levels or categories. For example, you could offer a higher commission for your premium membership plan to incentivize affiliates to promote it more.
 
-![MemberPress Settings](/guide/public/images/integrations/memberpress/memberpress-settings-configuration.webp)
+![MemberPress Settings](/images/integrations/memberpress/memberpress-settings-configuration.webp)
 
 ## Custom Affiliate Rate Configuration
 
@@ -51,7 +51,7 @@ Next, configure the rate:
 
 4. **Save Settings:** Once you have finished setting up your custom rates, click the **Save Settings** button to apply the changes.
 
-![Custom Affiliate Rate](/guide/public/images/integrations/memberpress/custom-affiliate-rate-configure.webp)
+![Custom Affiliate Rate](/images/integrations/memberpress/custom-affiliate-rate-configure.webp)
 
 ## Generate an Affiliate Link
 

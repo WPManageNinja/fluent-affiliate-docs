@@ -23,7 +23,7 @@ Your Paid Memberships Pro integration is now active, allowing affiliates to earn
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work.
 
-![Integration Settings](/guide/public/images/integrations/paid-memberships-pro/integration-setup-options.webp)
+![Integration Settings](/images/integrations/paid-memberships-pro/integration-setup-options.webp)
 
 ## Configure Paid Memberships Pro Settings
 
@@ -32,7 +32,7 @@ After clicking the **Manage** button, a pop-up will appear where you'll find imp
 * **Enable Affiliate Integration for Paid Memberships Pro:** If this option is enabled (checked), affiliates will be able to earn commissions on sales from your Paid Memberships Pro levels.
 * **Enable custom rate for specific membership or categories:** Use this setting to override the default affiliate commission rate. Checking this box allows you to configure specific, custom rates for your affiliates based on different membership levels.
 
-![Paid Memberships Pro Settings](/guide/public/images/integrations/paid-memberships-pro/paid-memberships-pro-settings-configuration.webp)
+![Paid Memberships Pro Settings](/images/integrations/paid-memberships-pro/paid-memberships-pro-settings-configuration.webp)
 
 ### Custom Affiliate Rate Configuration
 

@@ -14,7 +14,7 @@ These settings define the structure of your affiliate links and the default comm
 * **Default Referral Format:** Choose the default format for how referral links will be generated. The image shows "Affiliate ID" as the selected option.
 * **Rate:** Set the standard commission rate for referrals, which can be a percentage or a fixed amount. The example value is 20 percent.
 
-![Referral Settings](/guide/public/images/settings-and-customization/referral/referral-settings-overview.webp)
+![Referral Settings](/images/settings-and-customization/referral/referral-settings-overview.webp)
 
 ### Financial Formatting
 
@@ -31,7 +31,7 @@ Define the logic for how affiliates are credited for referrals and how long they
 * **Credit:** Determine which affiliate receives credit for a referral. You can credit the **First Affiliate** or the **Last Affiliate**.
 * **Cookie Duration:** Set the duration of the cookie used to track referrals, specified in days. The example shows a duration of 30 days.
 
-![Recurring Settings](/guide/public/images/settings-and-customization/referral/recurring-commission-settings.webp)
+![Recurring Settings](/images/settings-and-customization/referral/recurring-commission-settings.webp)
 
 
 ### Page, Cost, & Subscription Settings
@@ -45,7 +45,7 @@ This section allows you to configure page assignments, cost exclusions, and rule
 * **Disable Self Referral:** Enable this to prevent affiliates from earning commissions on their own purchases.
 * **Affiliate Commission on Subscription Renewal (Coming soon):** This is an upcoming feature that will enable you to credit the main affiliate on subscription renewals.
 
-![Cost and Tax Settings](/guide/public/images/settings-and-customization/referral/cost-tax-settings.webp)
+![Cost and Tax Settings](/images/settings-and-customization/referral/cost-tax-settings.webp)
 
 After configuring all your settings, click the **Save Settings** button to apply the changes.
 

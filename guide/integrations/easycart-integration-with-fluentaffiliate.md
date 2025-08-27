@@ -17,7 +17,7 @@ Your **EasyCart** integration with **FluentAffiliate** is now active, allowing a
 
 In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your EasyCart products.
 
-![Integration Settings](/guide/public/images/integrations/easycart/easycart-setup-options.webp)
+![Integration Settings](/images/integrations/easycart/easycart-setup-options.webp)
 
 ## Configure the EasyCart Settings in FluentAffiliate
 
@@ -29,7 +29,7 @@ A pop-up will appear where you'll find **two** important **settings** to manage 
 
 Once you've selected the settings, click the **Update** button to save your changes.
 
-![Configure EasyCart Settings](/guide/public/images/integrations/easycart/easycart-settings-configuration.webp)
+![Configure EasyCart Settings](/images/integrations/easycart/easycart-settings-configuration.webp)
 
 ## Generate an Affiliate Link
 
@@ -37,11 +37,11 @@ After you've finished configuring the EasyCart product settings, the next step i
 
 Once your link is ready, **copy** the affiliate link and share it wherever you like — on social media, emails, blogs, or directly with your audience.
 
-![Affiliate Link](/guide/public/images/integrations/easycart/affiliate-link-generation.webp)
+![Affiliate Link](/images/integrations/easycart/affiliate-link-generation.webp)
 
 If someone purchases the product using your affiliate link, you'll earn a **commission** based on the settings you've configured.
 
-![Referral](/guide/public/images/integrations/easycart/referral-overview.webp)
+![Referral](/images/integrations/easycart/referral-overview.webp)
 
 ### Troubleshooting Common Issues
 

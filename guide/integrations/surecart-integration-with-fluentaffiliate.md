@@ -20,7 +20,7 @@ Activating the connection between SureCart and FluentAffiliate is as simple as f
 
 That's it! Unlike some other integrations, there are no extra settings to configure. Once the toggle is active, your SureCart store is connected to **FluentAffiliate**, and it's ready to start tracking affiliate referrals.
 
-![Integration Settings](/guide/public/images/integrations/surecart/integration-setup-options.webp)
+![Integration Settings](/images/integrations/surecart/integration-setup-options.webp)
 
 ## Generate an Affiliate Link
 
@@ -28,7 +28,7 @@ Once you've finished setting up your **Surecart** product settings, it's time to
 
 When a customer clicks the link and completes a purchase, a commission will be automatically tracked and awarded to the affiliate based on your global commission settings.
 
-![Referral](/guide/public/images/integrations/surecart/referral-overview.webp)
+![Referral](/images/integrations/surecart/referral-overview.webp)
 
 And that's it! This is how easily you can connect SureCart with FluentAffiliate and start earning commissions by promoting SureCart products.
 

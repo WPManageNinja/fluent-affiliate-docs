@@ -12,6 +12,6 @@ This table provides a clean, simple log of the unique clicks your affiliate link
 * **URL:** The specific affiliate link that was clicked.
 * **Refer:** This shows where the click came from. 
 
-![Visits User Portal](/guide/public/images/affiliate-portal/visits/visits-tracking-overview.webp)
+![Visits User Portal](/images/affiliate-portal/visits/visits-tracking-overview.webp)
 
 This section gives affiliates a complete overview of their link activity and helps them understand which channels or content are performing best.

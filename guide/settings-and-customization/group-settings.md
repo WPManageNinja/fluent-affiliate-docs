@@ -14,7 +14,7 @@ FluentAffiliate lets you create affiliate groups with different commission rates
 
 To access the Affiliate Group settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Affiliate Groups**.
 
-![Group Settings](/guide/public/images/settings-and-customization/group/group-settings-overview.webp)
+![Group Settings](/images/settings-and-customization/group/group-settings-overview.webp)
 
 
 ### Creating a New Affiliate Group
@@ -33,13 +33,13 @@ From the Affiliate Groups page, click the **Add New Group** button. You will nee
 
 Once you have filled in the details, click the **Create** button to save the group.
 
-![Group Creation](/guide/public/images/settings-and-customization/group/create-new-group.webp)
+![Group Creation](/images/settings-and-customization/group/create-new-group.webp)
 
 ### Managing Existing Groups
 
 After creating a group, it will appear in a list in the Affiliate Groups section. To manage an existing group, find it in the list, click the three-dot menu, and choose to either **Edit** the group settings or **Delete** the group.
 
-![Group Management](/guide/public/images/settings-and-customization/group/group-management.webp)
+![Group Management](/images/settings-and-customization/group/group-management.webp)
 
 ### Assigning a Group to an Affiliate
 

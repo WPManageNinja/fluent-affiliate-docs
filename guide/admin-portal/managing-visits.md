@@ -10,7 +10,7 @@ To access this section, navigate from your WordPress dashboard to **FluentAffili
 
 The main Visits page is composed of powerful filtering tools and a detailed data table to give you a complete picture of your affiliate traffic.
 
-![Visit Dashboard](/guide/public/images/admin-portal/visits/visits-dashboard.png)
+![Visit Dashboard](/images/admin-portal/visits/visits-dashboard.png)
 
 #### Filtering Your Traffic Data
 

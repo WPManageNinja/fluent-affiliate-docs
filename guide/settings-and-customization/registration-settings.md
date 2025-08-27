@@ -18,7 +18,7 @@ At the top of the page, you will find the two primary settings that control your
     * **When Enabled (Manual Approval):** If you check this box, you have full control over who joins your program. New applicants will have their status set to "pending." You will then need to navigate to their individual affiliate profile to manually review their application and approve them. This is the recommended setting if you want to screen your affiliates before they can start promoting your site.
     * **When Disabled (Automatic Approval):** If you leave this box unchecked, the approval process is hands-off. Any user who successfully completes the registration form will instantly become an active affiliate and can begin generating referral links immediately.
 
-![Registration Settings](/guide/public/images/settings-and-customization/registration-settings/registration-settings.webp)
+![Registration Settings](/images/settings-and-customization/registration-settings/registration-settings.webp)
 
 ### Managing Registration Fields
 

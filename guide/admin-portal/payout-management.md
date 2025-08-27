@@ -10,7 +10,7 @@ Navigate to the **Payout** tab from the FluentAffiliate menu to view your list o
 
 To create a new payout, simply click the **Pay Affiliate** button.
 
-![Payout Dashboard](/guide/public/images/admin-portal/payout-management/payout-dashboard-overview.webp)
+![Payout Dashboard](/images/admin-portal/payout-management/payout-dashboard-overview.webp)
 
 You'll now land on the payout creation page. This page only appears if there are unpaid affiliates available for payment.
 
@@ -28,21 +28,21 @@ Here's what to fill out:
 
 Once everything is filled out, click the **Next (Review Payout)** button to proceed.
 
-![Payout Creation Form](/guide/public/images/admin-portal/payout-management/create-new-payout.webp)
+![Payout Creation Form](/images/admin-portal/payout-management/create-new-payout.webp)
 
 Now, on the Payout dashboard, you'll see your newly created payout listed.
 
-![Payout List](/guide/public/images/admin-portal/payout-management/payout-list-view.webp)
+![Payout List](/images/admin-portal/payout-management/payout-list-view.webp)
 
 Now, click on the **Payout Name** to view its payment details. Here, you can see the total amount paid to your affiliates, along with which affiliates received commissions, the dates, and other important info.
 
 The right sidebar will show you additional payout details.
 
-![Payout Details](/guide/public/images/admin-portal/payout-management/payout-details-view.webp)
+![Payout Details](/images/admin-portal/payout-management/payout-details-view.webp)
 
 In the Transactions tab, you can generate a report for your transactions. Simply click the **Export** button to download a CSV file with your payout details.
 
-![Transaction Export](/guide/public/images/admin-portal/payout-management/export-transaction-button.webp)
+![Transaction Export](/images/admin-portal/payout-management/export-transaction-button.webp)
 
 The **CSV** file will include the following details:
 
@@ -53,4 +53,4 @@ The **CSV** file will include the following details:
 * amount
 * currency
 
-![CSV Export Example](/guide/public/images/admin-portal/payout-management/csv-export-example.webp)
+![CSV Export Example](/images/admin-portal/payout-management/csv-export-example.webp)

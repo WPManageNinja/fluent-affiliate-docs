@@ -21,7 +21,7 @@ Your WooCommerce integration is now active, allowing affiliates to earn referral
 
 Once the toggle is active, a **Manage** link will appear. Click this link to configure your WooCommerce-specific affiliate settings.
 
-![Integration Settings](/guide/public/images/integrations/woocommerce/integration-setup-options.webp)
+![Integration Settings](/images/integrations/woocommerce/integration-setup-options.webp)
 
 ## Configure WooCommerce Settings
 
@@ -32,7 +32,7 @@ Here are the available options:
 * **Enable Affiliate Integration for Woocommerce:** This checkbox acts as the master switch for the integration. Ensure it is checked.
 * **Enable Branded Coupon Codes for affiliates:** When you enable this, you can offer branded coupon codes to your affiliates. This allows them to promote products with unique discount codes, giving them another powerful marketing tool. You can manage these codes in the **Discount Codes** editor in WooCommerce.
 
-![Branded Coupon Code](/guide/public/images/integrations/woocommerce/enable-branded-coupon-code.webp)
+![Branded Coupon Code](/images/integrations/woocommerce/enable-branded-coupon-code.webp)
 
 For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
 
@@ -49,14 +49,14 @@ For example, this is perfect if you want to give a special coupon code to a soci
   > [!Note] 
  > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
 
-![Branded Coupon Code](/guide/public/images/integrations/woocommerce/woocommerce-fluentaffiliate-coupon.webp)
+![Branded Coupon Code](/images/integrations/woocommerce/woocommerce-fluentaffiliate-coupon.webp)
 
 
 * **Enable custom rate for specific product or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
 
 After that, click on the **+Add New Group** button. You will find options to choose how you want to apply this custom rate. You can set it for specific individual products or for entire product categories.
 
-![Integration Settings](/guide/public/images/integrations/woocommerce/configure-woocommerce-settings.webp)
+![Integration Settings](/images/integrations/woocommerce/configure-woocommerce-settings.webp)
 
 >[!Note]
 > This feature gives you the flexibility to offer different commission rates for different products. For example, you could offer a higher commission on a new product as an incentive for affiliates to promote it more heavily.
@@ -69,7 +69,7 @@ After that, click on the **+Add New Group** button. You will find options to cho
 
 You can select multiple custom rate types for products or categories by clicking the **+ Add New Group** button. Also, you can delete the affiliate rates by clicking the delete icon in the top right corner.
 
-![Integration Settings](/guide/public/images/integrations/woocommerce/select-product-rate.webp)
+![Integration Settings](/images/integrations/woocommerce/select-product-rate.webp)
 
 ## Generate an Affiliate Link
 
