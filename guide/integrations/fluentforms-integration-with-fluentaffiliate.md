@@ -114,7 +114,7 @@ Once your form is live, your affiliates can start promoting it. To learn more ab
 
 If someone clicks the link, you will get the affiliate commission.
 
-![Referral](/guide//public/images/integrations/fluentforms/referral.webp)
+![Referral](/images/integrations/fluentforms/referral.webp)
 
 
 ### Troubleshooting Common Issues
