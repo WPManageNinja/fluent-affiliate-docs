@@ -8,9 +8,10 @@ export default defineConfig({
   lang: 'en-US',
   lastUpdated: true,
   cleanUrls: true,
+  
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/images/brand/FluentAffiliate-Logo.webp' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
