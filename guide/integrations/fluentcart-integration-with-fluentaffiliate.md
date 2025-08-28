@@ -18,7 +18,7 @@ First, you’ll need to activate the FluentCart module inside FluentAffiliate.
 
 Once the integration is active, a **Manage** link will appear. Click this link to configure your FluentCart-specific affiliate settings.
 
-![Integration Settings](/images/integrations/fluentcart/Integration-Settings-FluentAffiliate.webp)
+![Integration Settings](/images/integrations/fluentCart/Integration-Settings-FluentAffiliate.webp)
 
 ### Configure FluentCart Settings
 
@@ -29,7 +29,7 @@ Here are the available options:
 * **Enable Affiliate Integration for FluentCart:** This checkbox acts as the master switch for the integration. Ensure it is checked.
 * **Enable Branded Coupon Codes for Affiliates:** When you enable this feature, you can offer branded coupon codes to your affiliates. This allows them to promote products with unique discount codes, giving them another powerful marketing opportunity. 
 
-![Branded Coupon Code](/images/integrations/fluentcart/branded-coupon-code.webp)
+![Branded Coupon Code](/images/integrations/fluentCart/branded-coupon-code.webp)
 
 For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
 
@@ -42,7 +42,7 @@ For example, this is perfect if you want to give a special coupon code to a soci
  > [!Note] 
  > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
  
-![Select Affiliate](/images/integrations/fluentcart/select-affiliate-from-fluentcart.webp)
+![Select Affiliate](/images/integrations/fluentCart/select-affiliate-from-fluentcart.webp)
 
 * **Disable Referrals on Upgrades:** Check this box to ensure that no referrals will be added on purchased upgrades. This gives you more control over commission payouts for existing customers who upgrade their plan.
 * **Enable custom rate for specific products or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
@@ -59,7 +59,7 @@ For example, this is perfect if you want to give a special coupon code to a soci
 You can add more custom rates for different products or categories by clicking the **+Add New Group** button again. You can also remove any rate rule by clicking the red `delete` icon.
 
 
-![Add New Group](/images/integrations/fluentcart/specific-product-or-categories.webp)
+![Add New Group](/images/integrations/fluentCart/specific-product-or-categories.webp)
 
 
 ### Generate an Affiliate Link
