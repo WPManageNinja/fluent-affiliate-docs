@@ -66,11 +66,11 @@ Click the **New Affiliate** button. A form will slide in from the right side of 
 
 Fill in the following fields:
 
-* **Select User** – Select the user you want to turn into an affiliate.
-* **Rate Type** – Choose how they'll earn (fixed or percentage).
-* **Status** – Set the affiliate status (approved, pending, or rejected).
-* **Payment Email** – Enter their PayPal or preferred payment email. 
-* **Note** – (Optional) Add any notes for internal use.
+* **Select User:** Select the user you want to turn into an affiliate.
+* **Rate Type:** Choose how they'll earn (fixed or percentage).
+* **Status:** Set the affiliate status (approved, pending, or rejected).
+* **Payment Email:** Enter their PayPal or preferred payment email. 
+* **Note:** (Optional) Add any notes for internal use.
 
 Hit the **Create Affiliate** button to create a new affiliate. 
 
