@@ -11,7 +11,7 @@ export default defineConfig({
   
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/images/favicon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/brand/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]

@@ -10,3 +10,4 @@ fluentaffiliate.WordPress.2025-06-23.xml
 
 # DO NOT ignore the images folder!
 # (No line like /guide/public/images)
+/.vitepress/dist
