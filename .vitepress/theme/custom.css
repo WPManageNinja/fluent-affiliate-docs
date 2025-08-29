@@ -38,3 +38,7 @@
   background-color: #2C6AE2;
   border-color: #2C6AE2;
 }
+
+.vp-doc .image-wrapper:nth-child(n+2) {
+  display: none;
+}
