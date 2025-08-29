@@ -1,0 +1,40 @@
+/* Override VitePress CSS custom property for hero name color */
+:root {
+  --vp-home-hero-name-color: #2C6AE2;
+}
+
+/* Custom hero title color - Light mode */
+.VPHome .VPHero .name,
+.VPHome .VPHero h1.name,
+.VPHero .name {
+  color: #2C6AE2 !important;
+}
+
+/* Custom hero title color - Dark mode */
+.dark .VPHome .VPHero .name,
+.dark .VPHome .VPHero h1.name,
+.dark .VPHero .name {
+  color: #2C6AE2 !important;
+}
+
+/* Custom hero button color */
+.VPHome .VPHero .actions .VPButton.brand {
+  background-color: #2C6AE2;
+  border-color: #2C6AE2;
+}
+
+.VPHome .VPHero .actions .VPButton.brand:hover {
+  background-color: #2C6AE2;
+  border-color: #2C6AE2;
+}
+
+/* Custom hero button color - Dark mode */
+.dark .VPHome .VPHero .actions .VPButton.brand {
+  background-color: #2C6AE2;
+  border-color: #2C6AE2;
+}
+
+.dark .VPHome .VPHero .actions .VPButton.brand:hover {
+  background-color: #2C6AE2;
+  border-color: #2C6AE2;
+}
