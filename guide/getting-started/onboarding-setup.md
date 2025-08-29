@@ -48,4 +48,3 @@ When you're ready, click the **Finish** button to save your settings and complet
 
 That's it, you're all set with the onboarding setup for Fluent Affiliate! 
 
-
