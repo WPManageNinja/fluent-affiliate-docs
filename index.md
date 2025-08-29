@@ -68,7 +68,7 @@ hero:
     <div class="feature-content">
       <h3>Settings</h3>
       <p>Configure your affiliate program</p>
-      <a href="/guide/settings-and-customization/general-settings" class="feature-link">Configure →</a>
+      <a href="/guide/settings-and-customization/referral-settings" class="feature-link">Configure →</a>
     </div>
   </div>
 
