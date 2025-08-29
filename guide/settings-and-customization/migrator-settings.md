@@ -10,6 +10,26 @@ To access the Migrator Settings, navigate from your WordPress dashboard to **Flu
 
 ### Migrating from AffiliateWP
 
+#### Migration Using WP CLI (Recommended)
+
+We recommend to use WordPress CLI to migrate from AffiliateWP for better performance.
+
+**To start the migration just run the following wp cli command on your site:**
+
+```bash
+wp fluent_affiliate migrate_from_affiliatewp
+```
+
+Please note, this CLI migration will remove all the existing data from FluentAffiliate before starting the migration.
+
+This command will migrate all of your AffiliateWP data including affiliates, referrals, payouts, and visits to FluentAffiliate.
+
+<hr />
+
+
+#### Migration Using Web UI
+
+
 When performing a data migration from **AffiliateWP**, you will need to follow the on-screen prompts. The general process is to:
 
 1.  Select the specific data you want to migrate (such as affiliates, referrals, payouts, etc.).
