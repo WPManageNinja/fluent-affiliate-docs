@@ -43,4 +43,4 @@ The permissions you assign below directly control which menu items and data a ma
 * **Read Access to All Visits:** Allows the manager to view the affiliate link click/visit logs.
 * **Read Access to All Payouts:** Allows the manager to view payout histories.
 * **Read & Write Access to All Payouts:** Allows the manager to view, generate, and manage payouts.
-* **Manage All Data and Settings:** Grants comprehensive access to all of the above, including FluentAffiliate's global settings.
+* **Manage All Data and Settings:** Grants comprehensive access to all of the above, including FluentAffiliate's global settings. 
