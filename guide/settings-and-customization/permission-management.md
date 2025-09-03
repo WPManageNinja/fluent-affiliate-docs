@@ -4,13 +4,11 @@ Permission Management allows you to securely delegate the administration of your
 
 Once a manager is assigned permissions, their view of the FluentAffiliate dashboard will be tailored specifically to what they are allowed to access; **they will only see the menus and data corresponding to their granted permissions**.
 
-### Accessing Permission Management
+## Accessing Permission Management
 
 To access this feature, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Permission Management**.
 
 ![Permission Management](/images/settings-and-customization/permission-management/permission-management-1.webp)
-
-### Adding a New Manager
 
 When you first visit the page, you will see a prompt to add your first manager.
 
@@ -32,7 +30,7 @@ To modify a manager’s access, use the icons on the right:
 
 ![Permission Management](/images/settings-and-customization/permission-management/permission-management-3.webp)
 
-### Understanding the Available Permissions
+#### Understanding the Available Permissions
 
 The permissions you assign below directly control which menu items and data a manager can see and interact with inside the FluentAffiliate dashboard.
 
