@@ -8,7 +8,7 @@ Once a manager is assigned permissions, their view of the FluentAffiliate dashbo
 
 To access this feature, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Permission Management**.
 
-[!Permission Management](/images/settings-and-customization/permission-management/permission-management-1.webp)
+![Permission Management](/images/settings-and-customization/permission-management/permission-management-1.webp)
 
 ### Adding a New Manager
 
@@ -19,7 +19,7 @@ When you first visit the page, you will see a prompt to add your first manager.
 3.  **Assign Permissions:** Below the user selection, you will see a list of available permissions. Check the boxes for the specific capabilities you want to grant to this manager. You can assign a combination of read-only and full-access permissions.
 4.  Once you have configured their access, click the **“Add Manager”** button at the bottom of the sidebar to save. A success message will confirm that the manager has been added.
 
-[!Permission Management](/images/settings-and-customization/permission-management/permission-management-2.webp)
+![Permission Management](/images/settings-and-customization/permission-management/permission-management-2.webp)
 
 ### Managing Existing Managers
 
@@ -30,7 +30,7 @@ To modify a manager’s access, use the icons on the right:
 * **Edit Manager (Pencil Icon):** Click this to re-open the sidebar for that specific manager. You can then add or remove permissions by checking or unchecking the boxes and saving your changes.
 * **Delete Manager (Trash Can Icon):** Click this to remove the user’s manager role. This will revoke all their FluentAffiliate permissions but **will not** delete their WordPress user account.
 
-[!Permission Management](/images/settings-and-customization/permission-management/permission-management-3.webp)
+![Permission Management](/images/settings-and-customization/permission-management/permission-management-3.webp)
 
 ### Understanding the Available Permissions
 
