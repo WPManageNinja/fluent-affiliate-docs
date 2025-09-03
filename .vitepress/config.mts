@@ -156,6 +156,7 @@ export default defineConfig({
               ]
             },
             { text: 'Registration Settings', link: '/guide/settings-and-customization/registration-settings' },
+            { text: 'Permission Management', link: '/guide/settings-and-customization/permission-management' },
             { text: 'Migrator Settings', link: '/guide/settings-and-customization/migrator-settings' },
             { text: 'Multi-Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
           ]
