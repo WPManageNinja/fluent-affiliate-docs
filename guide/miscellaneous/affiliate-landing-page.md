@@ -44,4 +44,3 @@ Setting up a custom landing page is a straightforward process:
 * Each custom landing page can only be assigned to **one affiliate**.
 * The `ref` attribute in the shortcode can accept either the affiliate's numeric **ID** or their WordPress **username** (if enabled in settings).
 * You can create an **unlimited number of landing pages** for as many different affiliates as you wish.
-* This feature is especially valuable for your top-performing affiliates, providing them with a powerful and professional promotional tool.
