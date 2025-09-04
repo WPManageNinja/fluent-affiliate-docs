@@ -164,7 +164,8 @@ export default defineConfig({
         {
           text: 'Miscellaneous',
           items: [
-            { text: 'Affiliate Profile', link: '/guide/miscellaneous/affiliate-profile' }
+            { text: 'Affiliate Profile', link: '/guide/miscellaneous/affiliate-profile' },
+            { text: 'Affiliate Landing Page', link: '/guide/miscellaneous/affiliate-landing-page' }
           ]
         },
         {

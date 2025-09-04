@@ -11,7 +11,7 @@ To access this section, navigate from your WordPress dashboard to **FluentAffili
 These settings define the structure of your affiliate links and the default commission rates.
 
 * **Referral Variable:** Define the variable used in referral links. The example shown is `ref`.
-* **Default Referral Format:** Choose the default format for how referral links will be generated. The image shows "Affiliate ID" as the selected option.
+* **Default Referral Format:** Choose the default format for how referral links will be generated. Here you will get two options for default referral format "Affiliate ID" and "WordPress Username".
 * **Rate:** Set the standard commission rate for referrals, which can be a percentage or a fixed amount. The example value is 20 percent.
 
 ![Referral Settings](/images/settings-and-customization/referral/referral-settings-overview.webp)
