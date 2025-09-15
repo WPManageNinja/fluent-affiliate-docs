@@ -1,18 +1,33 @@
 # Multi-Domain Management
 
-FluentAffiliate offers a powerful **Multi-Domain Management** feature that lets you track affiliate referral visits from multiple websites. While the initial affiliate link click is recorded from your child sites, the final purchase must be completed on your main site to generate a conversion and commission.
+The **Multi-Domain Management** feature is designed to track affiliate referrals that originate from different websites that you own.
 
-For example, imagine you have two sites:
+The core principle is straightforward: An affiliate can link to any of your connected "Child Sites" (like a blog), but the final transaction **must** occur on your "Main Site" (your primary store) for a commission to be generated. The system seamlessly tracks the user's journey between these sites.
 
-* **siteX.com** (your main e-commerce site with FluentAffiliate)
+### How This Works in Practice
 
-* **siteY.com** (your blog where affiliates promote links)
+Let's use two websites for a clear example:
 
-An affiliate can share a link that points to a blog post on siteY.com. When a customer clicks that link, Multi-Domain Management tracks the visit. If that customer then clicks through to your main site (siteX.com) and makes a purchase, the conversion will be correctly attributed to the affiliate. The key is that all sales must be finalized on the main site.
+* **`siteX.com` (Your Main Site):** This is your primary online store where products are sold and payments are processed. The full FluentAffiliate plugin is installed here.
+* **`siteY.com` (Your Child Site):** This is a content blog you own, used to review products or attract new visitors.
+
+Here is the step-by-step customer journey:
+
+1.  An affiliate shares their unique link, which points to a helpful article on your blog, `siteY.com`.
+2.  A customer clicks this affiliate link and lands on `siteY.com`. At this moment, the system identifies the **visitor** and links them to that specific affiliate.
+3.  The customer reads the article and clicks a link that takes them to the product page on your main store, `siteX.com`.
+4.  The customer successfully completes their purchase on `siteX.com`.
+
+Because the final sale happened on the Main Site (`siteX.com`), FluentAffiliate correctly attributes the commission to the affiliate who sent the initial click to the Child Site (`siteY.com`).
 
 ### How It Works
 
-The entire system is built on a "hub and spoke" model. Your **Main Site** (where the full FluentAffiliate plugin is installed) acts as the central hub. Your other websites, or Child Sites, act as spokes that direct traffic to the hub. The system tracks referral visits from the child sites, but all purchases must be processed on the main site to be logged as a successful affiliate conversion. To connect these spokes to the hub, you will use a simple, free helper plugin called the [**FluentConnect Addon**](https://github.com/WPManageNinja/fluent-affiliate-connector) Addon on each child site.
+This system operates on a "hub and spoke" model to ensure all data is managed from one central place.
+
+* **The Main Site (The Hub):** This is the website with the full FluentAffiliate plugin installed. It functions as the central command center, managing all affiliates, tracking sales data, and handling commission payouts. All purchases must be finalized here.
+* **Child Sites (The Spokes):** These are your secondary websites. They do not need the full plugin. Instead, they use a simple, free helper plugin called the [**FluentConnect Addon**](https://github.com/WPManageNinja/fluent-affiliate-connector).
+
+The sole purpose of the **FluentConnect Addon** on a child site is to inform the main site whenever a visitor arrives through an affiliate link. This allows the main site to be aware of the referral and credit the correct affiliate if that visitor later makes a purchase on the main site.
 
 ### Step 1: Enable Multi-Domain on Your Main Site
 
