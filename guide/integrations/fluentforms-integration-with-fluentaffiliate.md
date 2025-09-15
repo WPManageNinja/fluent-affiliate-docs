@@ -5,7 +5,7 @@ FluentForms is a powerful, lightweight, and user-friendly form builder for WordP
 This guide will show you how to set up both, starting with the simple way to track commissions.
 
 >[!Note]
-> Make sure both plugin FluentForms and FluentAffiliate are installed and activated on your website.
+> Before you begin, ensure that you have both the FluentForms and FluentAffiliate plugins installed and activated on your website. 
 
 ## Enable FluentForms in FluentAffiliate
 
@@ -21,17 +21,24 @@ In the **Manage** section, you'll find additional settings to customize how the 
 
 ![Integration Settings](/images/integrations/fluentforms/fluentforms-integration-setup.webp)
 
+## Configure FluentForms Settings
+
+After clicking the **Manage** button, you can configure how affiliate commissions are handled for your payment forms.
+
+* **Enable Affiliate Integration for FluentForms:** You must check this box to activate commission tracking for all your FluentForms payment forms.
+* **Enable custom rate for specific forms:** Check this box if you want to override the default commission rate and set special rates for your payment forms.
+
+
 ## Set Custom Commission Rates for Your Forms
 
-Click the **Manage** link to tell FluentAffiliate how much to pay for referrals from specific forms. This is where you set the commission that overrides your global rate.
+Once Enable custom rate is checked, you can define specific commission structures for individual payment forms. This is perfect for rewarding affiliates differently for various campaigns.
+Click on the **+Add New Group** button to create your first custom rate.
 
-Check the box for **Enable custom rate for specific forms**. This will reveal the configuration options.
-
-* **Select Forms:** Click inside the "Select" box and choose the payment form you want to set a commission for.
-
-* **Select Rate:** Enter the commission amount and choose whether it's a Percentage (%) of the payment or a Fixed amount.
-
-* **Add More Rates:** To set up commissions for another form, click the +Add New Group button. This will add a new row where you can select another form and set its rate.
+* **Select Forms:** This option allows you to apply the custom rate to a specific payment form. Enter a keyword in the text field to search for and select the form to which this custom rate will apply.
+* **Select Rate:** Set the commission rate for the selected form. Enter a numerical value into the field to set the commission amount.
+* **Rate Type Selector:** Click the dropdown menu to choose the type of commission:
+  * **Percentage:** The affiliate will receive a percentage of the payment amount.
+  * **Fixed:** The affiliate will receive a fixed amount as commission, regardless of the payment amount.
 
 **Save Settings:** Once you're done, click the **Save Settings** button.
 
@@ -39,27 +46,15 @@ Check the box for **Enable custom rate for specific forms**. This will reveal th
 
 ## Creating a Custom Affiliate Registration Form 
 
-You can also use FluentForms to create a beautiful, custom registration form for users who want to become your affiliates.
+If you want to pay affiliates a commission when someone submits a specific form (such as a paid payment form), you need to set it up within that form's settings.
 
-### Step 1: Create Your Registration Form
-
-In FluentForms, create a new form with all the fields you need for registration, such as:
-
-* Name Fields
-
-* Email
-
-* Password
-
-* Payment Email 
-
-* Website URL (Optional)
+First, create your form using FluentForms if you haven't already. Go to the **Edit** screen for the form you want to connect.
 
 ![Configure Forms](/images/integrations/fluentforms/edit-form.webp)
 
-### Step 2: Configure the Integration Feed
+### Configure the Integration Feed
 
-Next, you need to connect this specific form to ***FluentAffiliate's** registration system.
+Next, you need to connect this specific form to **FluentAffiliate's** registration system.
 
 1. Go into the settings for your registration form and click on **Settings & Integrations**.
 
@@ -70,7 +65,7 @@ Next, you need to connect this specific form to ***FluentAffiliate's** registrat
 
 ![Settings & Integrations](/images/integrations/fluentforms/fluentaffiliate-integrations.webp)
 
-### Step 3: Map Your Form Fields
+### Map Your Form Fields
 
 Now, you need to tell FluentAffiliate which form field corresponds to which piece of affiliate data.
 
