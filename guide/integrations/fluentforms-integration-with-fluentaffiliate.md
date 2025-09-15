@@ -103,15 +103,6 @@ This will embed the form on your website, making it visible and ready for users 
 
 ![Embedded Form](/images/integrations/fluentforms/embedded-form-settings.webp)
 
-## Generate an Affiliate Link
-
-Once your form is live, your affiliates can start promoting it. To learn more about [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this documentation.
-
-If someone clicks the link, you will get the affiliate commission.
-
-![Referral](/images/integrations/fluentforms/referral.webp)
-
-
 ### Troubleshooting Common Issues
 
 Here are solutions to common issues you might encounter:
