@@ -44,6 +44,20 @@ Click on the **+Add New Group** button to create your first custom rate.
 
 ![FluentForms Settings](/images/integrations/fluentforms/custom-rate-setup.webp)
 
+## Tracking Affiliate Commission 
+
+Now, you need to display the form on a specific page or post. Go to the **FluentForms dashboard** and copy the **Shortcode** from your selected payment form. Then, paste this shortcode into the content area of your desired **Page** or **Post**.
+This will embed the form on your website, making it visible and ready for users to interact with.
+
+![FluentForms Payment Form](/images/integrations/fluentforms/payment-form.webp)
+
+Now, copy the **Page** or **Post** URL and paste it into the input field under the [Generate Affiliate Link](/guide/affiliate-portal/generating-affiliate-links) " section after logging into your **Affiliate Area**. Next, click the **Generate** button. Simply click the **Copy** button to grab it quickly and start sharing.
+
+![FluentForms Affiliate Area](/images/integrations/fluentforms/affiliate-area.webp)
+
+After the user submission this form using this affiliate link, you will get commissions. Below is a screenshot given-
+![FluentForms Referral](/images/integrations/fluentforms/referral.webp)
+
 ## Creating a Custom Affiliate Registration Form 
 
 If you want to pay affiliates a commission when someone submits a specific form (such as a paid payment form), you need to set it up within that form's settings.
