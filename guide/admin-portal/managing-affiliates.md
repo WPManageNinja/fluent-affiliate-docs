@@ -25,6 +25,7 @@ Just below the page title, you'll see filter tabs that let you quickly segment y
 ### Affiliates Details Table
 This is the heart of the page, where every affiliate is listed with their key performance details. This gives you a clear and immediate picture of how each partner is doing. The columns include:
 
+* **ID:** A unique number assigned to each affiliate for easy identification.
 * **Affiliate:** The name and email address of the affiliate. 
 * **Rate:** Their specific commission rate. 
 * **Total Earnings:** The total commissions they have ever earned. 
@@ -47,14 +48,14 @@ At the end of each affiliate's row, you'll see a three-dot menu. Clicking this o
 
 To the top-right of the table, you'll find icons to help you organize your view:
 
-* **Search Bar:** Quickly locate affiliates by typing their name or email address.
+* **Search Bar:** Quickly find a specific affiliate by typing their name, email address, or Affiliate ID.
 * **Column Selector:** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display.
 * **Sort Options:** Sort affiliates by **ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Registration Date**. You can also choose between ascending or descending order, then click **Apply** to update.
 
 ![Affiliate Search and Sort Tools](/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)
 
 ### Pagination Buttons  
-If you have a large number of affiliates, the controls at the bottom of the page help you navigate your list easily. You can set the number of **affiliates to show per page** and use the **arrow** buttons to move between pages. 
+If you have a large number of affiliates, the controls at the bottom of the page help you navigate your list easily. You can set the number of **affiliates to show per page** and use the **arrow** buttons to move between pages. You can also type a page number directly into the box and hit Enter to jump straight to that page.
 
 ### Add a New Affiliate
 
