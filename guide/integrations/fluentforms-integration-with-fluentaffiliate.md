@@ -83,29 +83,51 @@ Next, you need to connect this specific form to **FluentAffiliate's** registrati
 
 Now, you need to tell FluentAffiliate which form field corresponds to which piece of affiliate data.
 
-* **Integration Name:** Give your feed a recognizable name.
+**Integration Name:** Give your feed a recognizable name.
 
-* **User Type:** Decide what kind of account is created when the form is submitted. You can choose from two options in the dropdown menu:
+**User Type:** Decide what kind of account is created when the form is submitted. You can choose from two options in the dropdown menu:
 
-    * **Create New WordPress User + Affiliate:** Select this option to allow new visitors to register as affiliates. When they submit the form, it will easily create a WordPress user account and an affiliate account for them.
+1. **Create New WordPress User + Affiliate:** Select this option to allow new visitors to register as affiliates. When they submit the form, it will easily create a WordPress user account and an affiliate account for them.
 
-    * **Create Affiliate for Existing User (must be logged in):** Choose this option for existing members of your site who want to become affiliates. The user must be logged into their WordPress account to use the form. Upon submission, an affiliate profile will be created and linked to their existing user account.
+#### Map Fields (for Creating a New User + Affiliate)
 
-* **Map Fields:** For each Affiliate Field (like Email Address, Full Name, Password), select the corresponding field from your form in the dropdown on the right.
+This section connects the fields from your Fluent Form to the new user and affiliate profiles that will be created upon submission.
 
-* **Auto Approve Affiliate:** Choose whether to use the global setting, automatically approve the affiliate, or keep their application pending for you to review manually.
+* **Email Address:** This is the primary email for the new WordPress user account. Map this to the main email field on your form.
+* **Full Name:** This will be the user's display name on your site. Connect this to the name field from your form.
+* **Username:** This is the username the person will use to log in. Map this to the field where you ask the user to provide a username.
+* **Password:** This sets the password for the new user's account. You must map this to a "Password" field on your form.
+* **Payment Email:** This is the email address where the affiliate will receive payment notifications, such as those from PayPal. It can be the same as their main email address or a different one.
+* **Promotion Note:** If your form has a field where you ask how the person plans to promote your products, you can map that text area here.
+* **Website URL:** If you ask for the affiliate's website or blog URL, connect that field here.
 
-* **Conditional Logic:** You can enable this to process the registration feed only when certain conditions are met.  For example, you could set a condition to only register a user as an affiliate if they select a "Yes, I agree to the terms" checkbox on your form.
+![Integrations Feed](/images/integrations/fluentforms/form-integration-feed.webp)
 
-* **Status:** Ensure the Enable this Integration checkbox is checked to make the feed active.  You can uncheck this at any time to temporarily disable new affiliate registrations through this form without deleting your settings.
+2. **Create Affiliate for Existing User (must be logged in):** Choose this option for existing members of your site who want to become affiliates. The user must be logged into their WordPress account to use the form. Upon submission, an affiliate profile will be created and linked to their existing user account.
 
-* Click **Save Feed** when you are done.
+#### Map Fields (for Creating an Affiliate for an existing user who must be logged in)
+
+After selecting the user type, you need to tell **FluentAffiliate** which fields on your form correspond to the affiliate's information. Since you are adding affiliate access to an existing user, their name is already in the system. You just need to map the new information.
+
+* **Payment Email:** This is the most important field, as it's the email address where the affiliate will receive their payout notifications and payments (e.g., via PayPal). Click the dropdown on the right and select the "Email" field from your form.
+* **Promotion Note:** If you have a field in your form where you ask potential affiliates how they plan to promote your products, you can connect it here. This is optional.
+* **Website URL:** If you've asked for the affiliate's website or blog address, you can map that form field here. This is also optional.
+
+![Integrations Feed](/images/integrations/fluentforms/form-integration-feed1.webp)
+
+**Auto Approve Affiliate:** Choose whether to use the global setting, automatically approve the affiliate, or keep their application pending for you to review manually.
+
+**Conditional Logic:** You can enable this to process the registration feed only when certain conditions are met.  For example, you could set a condition to only register a user as an affiliate if they select a "Yes, I agree to the terms" checkbox on your form.
+
+**Status:** Ensure the Enable this Integration checkbox is checked to make the feed active.  You can uncheck this at any time to temporarily disable new affiliate registrations through this form without deleting your settings.
+
+Click **Save Feed** when you are done.
 
 After saving, a success message will appear confirming that the feed has been created.
 
 Now, you can easily **edit**, **delete**, or **disable** this feed at any time from the form's integration settings. 
 
-![Integrations Feed](/images/integrations/fluentforms/form-integration-feed.webp)
+
 
 ### Embed your Form
 
