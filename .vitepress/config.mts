@@ -166,7 +166,7 @@ export default defineConfig({
           items: [
             { text: 'Affiliate Profile', link: '/guide/miscellaneous/affiliate-profile' },
             { text: 'Affiliate Landing Page', link: '/guide/miscellaneous/affiliate-landing-page' },
-            { text: 'Non-Integrated Referrals', link: '/guide/miscellaneous/non-integrated-referrals' }
+            { text: 'Non-Integrated Referrals', link: '/guide/miscellaneous/non-integrated-referrals' },
             { text: 'Affiliate Creatives', link: '/guide/miscellaneous/affiliate-creatives' }
           ]
         },
