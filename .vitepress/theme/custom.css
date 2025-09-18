@@ -1,9 +1,4 @@
-/* Hide site title completely */
-.VPNavBarTitle,
-.VPNavBarTitle .title,
-.VPNavBarTitle .text,
-.VPNavBarTitle .logo,
-.VPNavBarTitle .site-name {
+header .title span{
   display: none !important;
 }
 
