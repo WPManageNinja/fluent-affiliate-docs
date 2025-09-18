@@ -5,6 +5,21 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 
 # Changelogs
 
+#### 1.1.0 – Sep 16, 2025
+
+* Introduced Affiliate Creative Module
+* Added: Affiliate ID in Affiliates Listing
+* Added: Affiliate ID Support in Affiliate Searching
+* Added: Pagination Jump-to-Page Option
+* Added: Missing Translation Strings
+* Improved: Affiliate and Referral Linking
+* Improved: Menu Capability for Permission Management
+* Fixed: Money Formatting Issue in Email Notifications
+* Fixed: Registration Fields Not Updating Issue
+* Fixed: Standard Commission Amount Incorrectly Applied as Percentage
+* Fixed: Affiliate Registration Issue with Fluentform
+* Fixed: Commission Rate Not Allowing Zero
+
 #### 1.0.2 – Sep 03, 2025
 
 * Introduced Permission Management

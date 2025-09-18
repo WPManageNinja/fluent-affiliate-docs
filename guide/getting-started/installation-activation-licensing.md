@@ -7,7 +7,7 @@ description: Step-by-step guide to install, activate, and license FluentAffiliat
 
 Installing and activating FluentAffiliate is a quick and easy process. This guide will walk you through the steps to install, upgrade, and activate your FluentAffiliate license so you can start managing your affiliate program right away.
 
-### Step 1. Install FluentAffiliate (Free Version)
+## Step 1. Install FluentAffiliate (Free Version)
 
 This is the standard method for installing the core FluentAffiliate plugin, which is free and available from the WordPress Plugin Directory. After downloading the plugin, follow the steps below:
 
@@ -18,7 +18,7 @@ This is the standard method for installing the core FluentAffiliate plugin, whic
 5. Once installed, click "**Activate**". You can now use the **FluentAffiliate** plugin.
 
 
-### Step 2. Installing FluentAffiliate Pro (Requires Base Plugin)
+## Step 2. Installing FluentAffiliate Pro (Requires Base Plugin)
 
 If you have purchased FluentAffiliate Pro for advanced features, you will need to upload and activate them. Ensure the Free Base Plugin (from step 1) is already installed and active before proceeding with Pro Addons.
 
@@ -31,7 +31,7 @@ If you have purchased FluentAffiliate Pro for advanced features, you will need t
 7. Once the installation is complete, click "**Activate Plugin**".
 
 
-### Step 3. Activating Your FluentAffiliate Pro License
+## Step 3. Activating Your FluentAffiliate Pro License
 
 After installing the Pro, you will need to activate your license key. This is essential to receive automatic updates, bug fixes, new features, and access to our support for your Pro Addons.
 

@@ -9,7 +9,7 @@ Becoming an affiliate on your site using **Fluent Affiliate** is easy. Whether s
 
 Let's walk through how a user can register and get started as an affiliate.
 
-### Step 1: Access the Affiliate Dashboard
+## Step 1: Access the Affiliate Dashboard
 
 When a user visits your site's **Affiliate Page** usually linked in the menu or footer, they'll see a simple, user friendly interface. From here, they can log in to their affiliate dashboard or click the **Register** button to sign up and become an affiliate.
 
@@ -21,7 +21,7 @@ Click the **Register Now** button to start the sign-up process.
 
 ![Affiliate Registration Page](/images/affiliate-portal/registration/registration-page.webp)
 
-### Step 2: Fill Out the Registration Form
+## Step 2: Fill Out the Registration Form
 
 After clicking **Register Now**, users will land on the Affiliate Registration page. Here, they'll be asked to provide the necessary details to create their affiliate account. It is divided into clear sections for ease of use.
 
@@ -53,7 +53,7 @@ To complete the process, the user must:
 
 ![Registration Form](/images/affiliate-portal/registration/registration-form.webp)
 
-### Step 3: Welcome to the Affiliate Dashboard
+## Step 3: Welcome to the Affiliate Dashboard
 
 After the user submits the form and their application is approved by the **site admin**, they can log in. Upon logging in, they will be directed to their personal **Affiliate Dashboard**.
 

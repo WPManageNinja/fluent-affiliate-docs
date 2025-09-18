@@ -1,3 +1,8 @@
+---
+title: Paid Memberships Pro Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with Paid Memberships Pro. Set up affiliate commissions for membership sales and track affiliate performance in your membership site.
+---
+
 # Paid Memberships Pro Integration with FluentAffiliate
 
 Paid Memberships Pro is a powerful membership plugin for WordPress, designed to help you create and manage your membership site with ease. By integrating it with FluentAffiliate, you can seamlessly manage affiliate commissions for your membership sales, track referrals, and grow your affiliate program.

@@ -1,3 +1,8 @@
+---
+title: LifterLMS Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with LifterLMS. Set up affiliate commissions for course sales and track affiliate performance in your LifterLMS learning management system.
+---
+
 # LifterLMS Integration with FluentAffiliate
 
 Want to grow your online course sales through affiliate marketing? With FluentAffiliate, you can now easily integrate with LifterLMS and start tracking affiliate referrals for your courses. This guide will show you how to set it up in just a few clicks!

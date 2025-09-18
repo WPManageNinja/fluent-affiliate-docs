@@ -1,3 +1,8 @@
+---
+title: FluentCart Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with FluentCart. Set up affiliate commissions for FluentCart product sales and track affiliate performance in your online store.
+---
+
 # FluentCart Integration with FluentAffiliate
 
 FluentCart is a modern, lightweight e-commerce plugin for WordPress, designed to help you build and manage a high-performance online store. When you connect FluentCart with FluentAffiliate, you can launch a complete affiliate program to increase sales, track affiliate commissions, and handle payouts easily.
@@ -7,7 +12,7 @@ This guide will walk you through each step of integrating FluentCart with Fluent
 > [!Note]
 > To get started, you must have the FluentCart plugin installed and activated on your WordPress website.
 
-### Enable the FluentCart Integration
+## Enable the FluentCart Integration
 
 First, you’ll need to activate the FluentCart module inside FluentAffiliate.
 

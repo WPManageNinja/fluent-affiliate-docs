@@ -9,7 +9,7 @@ The **Multi-Domain Management** feature is designed to track affiliate referrals
 
 The core principle is straightforward: An affiliate can link to any of your connected "Child Sites" (like a blog), but the final transaction **must** occur on your "Main Site" (your primary store) for a commission to be generated. The system seamlessly tracks the user's journey between these sites.
 
-### How This Works in Practice
+## How This Works in Practice
 
 Let's use two websites for a clear example:
 

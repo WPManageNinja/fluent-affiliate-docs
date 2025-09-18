@@ -30,7 +30,7 @@ hero:
   <div class="feature-item">
     <div class="feature-icon">🚀</div>
     <div class="feature-content">
-      <h3>Getting Started</h3>
+      <h2>Getting Started</h2>
       <p>Learn the basics and set up your affiliate program</p>
       <a href="/guide/getting-started/what-is-fluentaffiliate" class="feature-link">Get Started →</a>
     </div>
@@ -39,7 +39,7 @@ hero:
   <div class="feature-item">
     <div class="feature-icon">⚙️</div>
     <div class="feature-content">
-      <h3>Admin Guide</h3>
+      <h2>Admin Guide</h2>
       <p>Manage affiliates, referrals, and payouts</p>
       <a href="/guide/admin-portal/admin-dashboard-overview" class="feature-link">Learn More →</a>
     </div>
@@ -48,7 +48,7 @@ hero:
   <div class="feature-item">
     <div class="feature-icon">💼</div>
     <div class="feature-content">
-      <h3>Affiliate Guide</h3>
+      <h2>Affiliate Guide</h2>
       <p>Everything affiliates need to know</p>
       <a href="/guide/affiliate-portal/how-to-register-as-an-affiliate" class="feature-link">Start Earning →</a>
     </div>
@@ -57,7 +57,7 @@ hero:
   <div class="feature-item">
     <div class="feature-icon">🔌</div>
     <div class="feature-content">
-      <h3>Integrations</h3>
+      <h2>Integrations</h2>
       <p>Connect with your favorite plugins</p>
       <a href="/guide/integrations/integrations" class="feature-link">Explore →</a>
     </div>
@@ -66,7 +66,7 @@ hero:
   <div class="feature-item">
     <div class="feature-icon">🎛️</div>
     <div class="feature-content">
-      <h3>Settings</h3>
+      <h2>Settings</h2>
       <p>Configure your affiliate program</p>
       <a href="/guide/settings-and-customization/referral-settings" class="feature-link">Configure →</a>
     </div>
@@ -75,7 +75,7 @@ hero:
   <div class="feature-item">
     <div class="feature-icon">❓</div>
     <div class="feature-content">
-      <h3>Need Help?</h3>
+      <h2>Need Help?</h2>
       <p>Get support and find answers</p>
       <a href="https://wpmanageninja.com/support-tickets/" class="feature-link">Get Support →</a>
     </div>
@@ -108,7 +108,7 @@ hero:
   margin-bottom: 16px;
 }
 
-.feature-content h3 {
+.feature-content h2 {
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 8px;

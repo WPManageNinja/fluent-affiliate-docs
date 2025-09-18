@@ -1,16 +1,21 @@
+---
+title: Affiliate Landing Page with Shortcode
+description: Learn how to create affiliate landing pages using FluentAffiliate shortcodes. Build custom affiliate registration pages, display affiliate information, and create targeted landing pages for your affiliate program.
+---
+
 # Affiliate Landing Page with Shortcode
 
 While standard affiliate links (`yoursite.com/?ref=123`) are effective, you can offer your top affiliates a more professional and branded way to promote your products. FluentAffiliate provides a powerful shortcode that allows you to create dedicated, custom landing pages for each of your affiliates.
 
 This feature lets you transform a standard referral link into a clean, memorable URL (e.g., `yoursite.com/partner/alex`), enhancing trust and boosting conversions while ensuring all referrals are tracked perfectly.
 
-### How It Works
+## How It Works
 
 The magic happens behind the scenes. When a visitor arrives on a page that contains the custom landing page shortcode, FluentAffiliate instantly recognizes the affiliate ID or username specified within it (e.g., `ref="X"`).
 
 It then sets the necessary tracking cookie in the visitor's browser, linking them to that affiliate. Any purchase or conversion made during their session will be automatically credited to that affiliate, just as if they had used a standard referral link.
 
-### Step-by-Step Implementation Guide
+## Step-by-Step Implementation Guide
 
 Setting up a custom landing page is a straightforward process:
 

@@ -7,7 +7,7 @@ description: Learn how to configure email settings in FluentAffiliate. Set up em
 
 The Email Settings section allows you to configure the global settings for all emails sent by FluentAffiliate, including sender details, branding, and admin notifications.
 
-### Accessing Email Settings
+## Accessing Email Settings
 
 To access this section, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Email Settings**.
 

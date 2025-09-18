@@ -9,7 +9,7 @@ Want to earn from promoting products on the site? As an affiliate, you can easil
 
 To get started, log in to your affiliate portal and click on the **Links** tab in the main navigation.
 
-### Step 1: Generate Affiliate Link
+## Step 1: Generate Affiliate Link
 
 This is the main section for creating a referral link to a specific page on the website, like a particular product, service, page, or blog post.
 
@@ -23,7 +23,7 @@ Your new, unique referral link will instantly appear below in the **Generated Af
 
 ![Generated Referral Link](/images/affiliate-portal/generating-links/generated-affiliate-link.webp)
 
-### Step 2: Your Affiliate Link
+## Step 2: Your Affiliate Link
 
 This section at the bottom of the page always displays your main, default affiliate link.  This link typically points to the website's homepage and is perfect for general promotions when you aren't linking to a specific page.
 

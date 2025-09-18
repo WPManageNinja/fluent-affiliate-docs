@@ -7,7 +7,7 @@ description: Learn how to configure notification settings in FluentAffiliate. Se
 
 The Notification Settings section provides granular control over the automated emails sent from FluentAffiliate. Here, you can enable, disable, and fully customize the content of emails for various events that occur within your affiliate program, ensuring both admins and affiliates stay informed.
 
-### Accessing Notification Settings
+## Accessing Notification Settings
 
 To begin managing your email notifications, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Email Notifications → Notification Settings**.
 

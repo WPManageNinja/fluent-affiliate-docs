@@ -1,3 +1,8 @@
+---
+title: Paymattic Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with Paymattic. Set up affiliate commissions for Paymattic form payments and track affiliate performance in your payment forms.
+---
+
 # Paymattic Integration with FluentAffiliate
 
 Paymattic is a fantastic payment and donation form builder for WordPress. By integrating it with FluentAffiliate, you can empower your affiliates to earn commissions on form submissions, turning your payment forms into powerful revenue streams.

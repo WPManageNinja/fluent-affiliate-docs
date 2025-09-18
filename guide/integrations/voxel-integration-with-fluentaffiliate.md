@@ -1,3 +1,8 @@
+---
+title: Voxel Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with Voxel. Set up affiliate commissions for Voxel product sales and track affiliate performance in your online store.
+---
+
 # Voxel Integration with FluentAffiliate
 
 Voxel is a powerful and versatile theme that enables you to build advanced, dynamic websites and directories directly within WordPress. From multi-vendor directories to booking sites, Voxel can turn post type into a product that can be sold or subscribed to.

@@ -1,3 +1,8 @@
+---
+title: Track Referrals without Integration
+description: Learn how to track referrals in FluentAffiliate without plugin integrations. Set up manual referral tracking, add referrals manually, and manage affiliate commissions for non-integrated sales.
+---
+
 # Track Referrals without Integration
 
 While FluentAffiliate offers many direct integrations, you may need to award a commission for a sale made through a system that isn't automatically connected. This guide explains how to track referrals for any plugin or payment gateway that doesn't have a direct integration, ensuring no referral is ever missed.

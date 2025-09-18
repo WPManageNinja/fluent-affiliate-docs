@@ -7,7 +7,7 @@ description: Learn how to configure affiliate registration settings in FluentAff
 
 The Registration Settings section gives you complete control over your affiliate registration form. You can enable or disable registrations, set approval requirements, and customize the form fields to collect the information you need from new affiliates.
 
-### Accessing Registration Settings
+## Accessing Registration Settings
 
 To configure these options, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Registration Settings**.
 

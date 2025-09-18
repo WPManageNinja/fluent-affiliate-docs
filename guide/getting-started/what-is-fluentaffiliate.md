@@ -24,7 +24,7 @@ Here's the magic it brings:
 
 All of this directly from your WordPress dashboard.
 
-### Who Is FluentAffiliate For?
+## Who Is FluentAffiliate For?
 
 FluentAffiliate is perfect for:
 

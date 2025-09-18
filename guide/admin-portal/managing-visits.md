@@ -7,7 +7,7 @@ description: Learn how to track and analyze affiliate visits in FluentAffiliate.
 
 The Visits page is your central hub for monitoring all incoming affiliate traffic in real-time. It provides a granular, click-by-click log of every visitor who arrives on your site via a referral link. By analyzing this data, you can gain critical insights into your affiliates' promotional strategies, understand traffic quality, and pinpoint exactly which campaigns are driving the most engagement.
 
-### Accessing the Visits Page
+## Accessing the Visits Page
 
 To access this section, navigate from your WordPress dashboard to **FluentAffiliate → Visits**.
 
@@ -26,7 +26,7 @@ When you have a lot of traffic, finding the information you need is key. Use the
 * **Not Converted:** This filter shows you all the clicks that did not lead to a sale.
 * **Search:** For more specific queries, you can use the search icon on the right to find visits based on keywords.
 
-#### Understanding the Visits Table
+## Understanding the Visits Table
 
 Each row in the table represents a single click and is organized into columns that provide specific details about the visit.
 

@@ -7,7 +7,7 @@ description: Get fast support for FluentAffiliate. Learn how to contact WPManage
 
 If you have reviewed our documentation and are still encountering a problem with FluentAffiliate, our dedicated support team at WPManageNinja is here to help.
 
-### How to Contact Support
+## How to Contact Support
 
 To ensure you receive the quickest and most effective assistance, please follow these guidelines when contacting us:
 

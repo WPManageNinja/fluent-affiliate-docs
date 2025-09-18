@@ -1,3 +1,8 @@
+---
+title: GiveWP Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with GiveWP. Set up affiliate commissions for donation campaigns and track affiliate performance in your fundraising efforts.
+---
+
 # GiveWP Integration with FluentAffiliate
 
 Integrating GiveWP with the FluentAffiliate plugin helps you to manage affiliates of your donation campaigns, memberships, and course purchases.
