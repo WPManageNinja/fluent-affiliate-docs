@@ -7,19 +7,19 @@ description: Learn how to use the FluentAffiliate migrator tool. Import affiliat
 
 The Migrator Settings in FluentAffiliate allow you to easily import data from other affiliate plugins and perform cleanup tasks. Currently, FluentAffiliate supports migration from **AffiliateWP**. This guide will walk you through the available options.
 
-### Accessing Migrator Settings
+## Accessing Migrator Settings
 
 To access the Migrator Settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Migrator Settings**.
 
 ![Migrator Settings Overview](/images/settings-and-customization/migrator/migrator-settings-overview.webp)
 
-### Migrating from AffiliateWP
+## Migrating from AffiliateWP
 
-#### Migration Using WP CLI (Recommended)
+## Migration Using WP CLI (Recommended)
 
 We recommend to use WordPress CLI to migrate from AffiliateWP for better performance.
 
-**To start the migration just run the following wp cli command on your site:**
+**To start the migration just run the following WP CLI command on your site:**
 
 ```bash
 wp fluent_affiliate migrate_from_affiliatewp
@@ -32,7 +32,7 @@ This command will migrate all of your AffiliateWP data including affiliates, ref
 <hr />
 
 
-#### Migration Using Web UI
+## Migration Using Web UI
 
 
 When performing a data migration from **AffiliateWP**, you will need to follow the on-screen prompts. The general process is to:
