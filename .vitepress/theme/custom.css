@@ -1,3 +1,12 @@
+/* Hide site title completely */
+.VPNavBarTitle,
+.VPNavBarTitle .title,
+.VPNavBarTitle .text,
+.VPNavBarTitle .logo,
+.VPNavBarTitle .site-name {
+  display: none !important;
+}
+
 /* Override VitePress CSS custom property for hero name color */
 :root {
   --vp-home-hero-name-color: #2C6AE2;
