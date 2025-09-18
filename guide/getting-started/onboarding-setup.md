@@ -1,3 +1,8 @@
+---
+title: Onboarding Setup
+description: Complete FluentAffiliate onboarding guide. Learn how to set up your affiliate program, configure plugins, set commission rates, and create your affiliate portal in minutes.
+---
+
 # Onboarding Setup
 
 So, you've just installed FluentAffiliate. Welcome! The first thing you'll see is our quick **Onboarding** setup, designed to guide you through the core settings to get your affiliate program up and running in minutes.

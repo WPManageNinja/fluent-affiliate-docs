@@ -1,3 +1,8 @@
+---
+title: Managing Affiliates
+description: Learn how to manage affiliates in FluentAffiliate. Add new affiliates, edit profiles, track performance, filter by status, and organize your affiliate program effectively.
+---
+
 # Managing Affiliates
 
 In FluentAffiliate, managing your affiliates is easy and organized. The Affiliates page is your central hub to see a complete overview of all your affiliates, check their performance, manage their status, and even add new affiliates manually.

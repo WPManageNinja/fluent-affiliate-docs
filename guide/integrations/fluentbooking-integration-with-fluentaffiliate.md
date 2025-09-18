@@ -1,3 +1,8 @@
+---
+title: FluentBooking Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with FluentBooking. Set up affiliate commissions for booking services and track affiliate performance in your booking system.
+---
+
 # FluentBooking Integration with FluentAffiliate
 
 FluentBooking is a powerful booking and scheduling plugin for WordPress. With FluentAffiliate, you can manage your booking commissions easily.

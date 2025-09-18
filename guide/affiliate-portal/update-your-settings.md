@@ -1,3 +1,8 @@
+---
+title: Update Your Settings
+description: Learn how to update your affiliate profile and notification settings in FluentAffiliate. Manage PayPal email, email notifications, and customize your affiliate account preferences.
+---
+
 # Update Your Settings
 
 The Settings page is where you manage your personal account information, including your payment details and notification preferences. Keeping this information up to date is crucial for receiving your commission payments on time.

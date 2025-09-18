@@ -1,3 +1,8 @@
+---
+title: Affiliate Dashboard Overview
+description: Complete guide to the FluentAffiliate affiliate dashboard. Learn how to track performance, monitor earnings, view referrals, and access all affiliate tools and features.
+---
+
 # Affiliate Dashboard Overview
 
 Welcome to your personal affiliate dashboard! This is your central hub for tracking your performance, generating promotional links, and viewing your earnings. Think of it as your command center for all your affiliate activities.

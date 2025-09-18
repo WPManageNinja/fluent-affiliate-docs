@@ -1,3 +1,8 @@
+---
+title: Changelog
+description: View the complete FluentAffiliate changelog. Track plugin updates, new features, bug fixes, and improvements across all versions of the WordPress affiliate management plugin.
+---
+
 # Changelogs
 
 #### 1.0.2 – Sep 03, 2025

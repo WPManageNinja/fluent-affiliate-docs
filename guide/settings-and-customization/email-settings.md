@@ -1,3 +1,8 @@
+---
+title: Email Settings
+description: Learn how to configure email settings in FluentAffiliate. Set up email notifications, customize email templates, and manage communication with affiliates and admins.
+---
+
 # Email Settings
 
 The Email Settings section allows you to configure the global settings for all emails sent by FluentAffiliate, including sender details, branding, and admin notifications.
@@ -37,13 +42,3 @@ Configure where and how often administrators receive email notifications and per
 ![Admin Notifications](/images/settings-and-customization/email/admin-email.webp)
 
 After adjusting your settings, click the **Save Settings** button to apply the changes.
-
-
-
-
-
-
-
-The customization popup allows you to modify both the subject and content of each email:
-
-

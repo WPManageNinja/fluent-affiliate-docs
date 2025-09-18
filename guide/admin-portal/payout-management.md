@@ -1,3 +1,8 @@
+---
+title: Payout Management
+description: Learn how to manage affiliate payouts in FluentAffiliate. Create payout batches, export transaction reports, track payment history, and process manual payments to your affiliates.
+---
+
 # Payout Management
 
 FluentAffiliate provides a Payout option to manage affiliate payments, but all payments must be made manually. It doesn't send money through any payment gateways. Instead, it records each transaction and generates a detailed report showing who was paid and how much. You can also export this report for your records. 

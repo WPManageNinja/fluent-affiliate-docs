@@ -1,3 +1,8 @@
+---
+title: Generating Affiliate Links
+description: Learn how to generate unique affiliate links in FluentAffiliate. Create promotional links, track performance, and maximize your earning potential with proper link generation techniques.
+---
+
 # Generating Affiliate Links
 
 Want to earn from promoting products on the site? As an affiliate, you can easily create your own unique referral links in just a few simple steps. In this guide, we'll walk you through how to generate and manage affiliate links right from your dashboard.

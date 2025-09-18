@@ -1,3 +1,8 @@
+---
+title: Referral Settings
+description: Learn how to configure referral settings in FluentAffiliate. Set up commission rates, referral tracking, cost and tax settings, and recurring commission options for your affiliate program.
+---
+
 # Referral Settings
 
 The Referral Settings section allows you to configure the core rules and formats for your affiliate program, including how commissions are calculated, links are structured, and tracking is handled.

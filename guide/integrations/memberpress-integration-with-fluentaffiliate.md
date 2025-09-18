@@ -1,3 +1,8 @@
+---
+title: MemberPress Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with MemberPress. Set up affiliate commissions for membership sales, course enrollments, and track affiliate performance in your MemberPress site.
+---
+
 # MemberPress Integration with FluentAffiliate
 
 MemberPress is one of the most popular and powerful membership plugins for WordPress, making it easy to sell access to your content, courses, and digital products. By connecting MemberPress with FluentAffiliate, you can launch a robust affiliate program and empower your members to promote your site while earning commissions.

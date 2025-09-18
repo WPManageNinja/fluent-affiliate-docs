@@ -1,3 +1,8 @@
+---
+title: Registration Settings
+description: Learn how to configure affiliate registration settings in FluentAffiliate. Set up registration requirements, approval processes, and customize the affiliate signup experience.
+---
+
 # Registration Settings
 
 The Registration Settings section gives you complete control over your affiliate registration form. You can enable or disable registrations, set approval requirements, and customize the form fields to collect the information you need from new affiliates.

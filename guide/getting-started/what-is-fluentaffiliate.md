@@ -1,3 +1,8 @@
+---
+title: What is FluentAffiliate?
+description: Learn what FluentAffiliate is and how this WordPress affiliate management plugin helps you create, manage, and grow powerful affiliate programs with zero technical headache.
+---
+
 # What is FluentAffiliate?
 
 Welcome to **FluentAffiliate** your all-in-one solution for building, managing, and growing a powerful affiliate program right inside your WordPress site.

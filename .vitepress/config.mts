@@ -3,18 +3,48 @@ import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: ' ',
-  description: 'Complete documentation for FluentAffiliate WordPress plugin',
+  title: 'FluentAffiliate Documentation - WordPress Affiliate Management Plugin',
+  description: 'Complete documentation for FluentAffiliate WordPress plugin. Learn how to set up, manage, and optimize your affiliate program with step-by-step guides, integrations, and best practices.',
   lang: 'en-US',
   lastUpdated: true,
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://docs.fluentaffiliate.com'
+  },
+  
+  // Google Analytics
+  analytics: {
+    id: 'G-XXXXXXXXXX' // Replace with your actual GA4 ID
+  },
   
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/images/brand/favicon.png' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#2C6AE2' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    
+    // SEO Meta Tags
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['meta', { name: 'author', content: 'FluentAffiliate' }],
+    ['meta', { name: 'keywords', content: 'FluentAffiliate, WordPress, affiliate marketing, affiliate management, WordPress plugin, documentation' }],
+    
+    // Open Graph Meta Tags
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'FluentAffiliate Documentation' }],
+    ['meta', { property: 'og:locale', content: 'en_US' }],
+    ['meta', { property: 'og:image', content: '/images/brand/FluentAffiliate-Plugin-Dashboard.webp' }],
+    ['meta', { property: 'og:image:alt', content: 'FluentAffiliate WordPress Plugin Dashboard' }],
+    
+    // Twitter Card Meta Tags
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@FluentAffiliate' }],
+    ['meta', { name: 'twitter:creator', content: '@FluentAffiliate' }],
+    ['meta', { name: 'twitter:image', content: '/images/brand/FluentAffiliate-Plugin-Dashboard.webp' }],
+    ['meta', { name: 'twitter:image:alt', content: 'FluentAffiliate WordPress Plugin Dashboard' }],
+    
+    // Canonical URL
+    ['link', { rel: 'canonical', href: 'https://docs.fluentaffiliate.com' }]
   ],
   
   markdown: {

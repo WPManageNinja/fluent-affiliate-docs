@@ -1,3 +1,8 @@
+---
+title: Affiliate Profile
+description: Learn about the FluentAffiliate affiliate profile system. Understand how affiliate profiles work, what information is displayed, and how affiliates can manage their profile details.
+---
+
 # Affiliate Profile
 
 FluentAffiliate creates a dedicated profile for each affiliate, allowing you to view and manage their performance, referrals, visits, and payouts all in one place.

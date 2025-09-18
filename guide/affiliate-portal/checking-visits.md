@@ -1,3 +1,8 @@
+---
+title: Checking Visits
+description: Learn how to check and analyze your affiliate link visits in FluentAffiliate. Track click-through rates, monitor traffic sources, and optimize your promotional strategies.
+---
+
 # Checking Visits
 
 The Visits section helps you track all the clicks you receive on your affiliate links. It’s a great way to see if your promotional efforts are successfully driving traffic to the website.

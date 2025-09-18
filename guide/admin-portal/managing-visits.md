@@ -1,3 +1,8 @@
+---
+title: Managing Visits
+description: Learn how to track and analyze affiliate visits in FluentAffiliate. Monitor click-through rates, filter traffic data, analyze conversion patterns, and optimize your affiliate program performance.
+---
+
 # Visits
 
 The Visits page is your central hub for monitoring all incoming affiliate traffic in real-time. It provides a granular, click-by-click log of every visitor who arrives on your site via a referral link. By analyzing this data, you can gain critical insights into your affiliates' promotional strategies, understand traffic quality, and pinpoint exactly which campaigns are driving the most engagement.

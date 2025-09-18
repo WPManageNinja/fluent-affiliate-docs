@@ -1,3 +1,8 @@
+---
+title: Formidable Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with Formidable Forms. Create affiliate registration forms, track form submissions, and manage affiliate signups through Formidable forms.
+---
+
 # Formidable Integration with FluentAffiliate
 
 Formidable is a powerful drag-and-drop form builder for WordPress. It makes creating forms quick and easy. Integrating Formidable with the FluentAffiliate plugin allows you to create affiliate registration forms, track subscriptions, and manage other payments without hassle.

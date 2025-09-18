@@ -1,3 +1,8 @@
+---
+title: Tracking Referrals
+description: Learn how to track referrals and commissions in FluentAffiliate. Monitor successful conversions, view earnings, and analyze your affiliate performance with detailed referral tracking.
+---
+
 # Tracking Referrals
 
 The Referrals page is where you can see a detailed list of every successful sale or conversion you've generated. It’s the perfect place to track exactly how much you've earned from specific promotions. In this guide, we'll walk you through how affiliate users can view and understand their referrals in FluentAffiliate.

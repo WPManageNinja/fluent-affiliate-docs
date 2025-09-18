@@ -1,3 +1,8 @@
+---
+title: EasyCart Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with EasyCart. Set up affiliate commissions for EasyCart product sales and track affiliate performance in your online store.
+---
+
 # EasyCart Integration with FluentAffiliate
 
 EasyCart is a powerful e-commerce store and shopping cart builder plugin for WordPress. With FluentAffiliate, you can easily manage affiliate commissions based on product sales, discounts, renewals, and upgrades.

@@ -1,3 +1,8 @@
+---
+title: SureCart Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with SureCart. Set up affiliate commissions for SureCart product sales and track affiliate performance in your online store.
+---
+
 # SureCart Integration with FluentAffiliate
 
 SureCart is a modern e-commerce platform for WordPress, built to make selling products and services online easy and efficient. If you're using SureCart and want to boost your sales, integrating with FluentAffiliate allows you to launch a powerful affiliate program and effortlessly manage commissions for every referral.

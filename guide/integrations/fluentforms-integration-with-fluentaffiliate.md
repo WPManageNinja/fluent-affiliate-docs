@@ -1,3 +1,8 @@
+---
+title: FluentForms Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with FluentForms. Create affiliate registration forms, track form submissions, and manage affiliate signups through custom forms.
+---
+
 # FluentForms Integration with FluentAffiliate
 
 FluentForms is a powerful, lightweight, and user-friendly form builder for WordPress. When you connect it with FluentAffiliate, you can unlock two powerful capabilities: tracking affiliate commissions on your paid form submissions and creating custom affiliate registration forms.

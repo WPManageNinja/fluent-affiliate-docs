@@ -1,3 +1,8 @@
+---
+title: LearnDash Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with LearnDash. Set up affiliate commissions for course sales and track affiliate performance in your LearnDash learning management system.
+---
+
 # LearnDash Integration with FluentAffiliate
 
 LearnDash is a top-tier Learning Management System (LMS) for WordPress, making it easy to create and sell engaging online courses. To take your course sales to the next level, you can integrate LearnDash with FluentAffiliate to build a powerful affiliate program and reward others for promoting your courses.

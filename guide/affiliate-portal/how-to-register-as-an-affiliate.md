@@ -1,3 +1,8 @@
+---
+title: How to Register as an Affiliate
+description: Step-by-step guide for users to register as affiliates in FluentAffiliate. Learn the registration process, account creation, and how to get started earning commissions.
+---
+
 # How to Register as an Affiliate
 
 Becoming an affiliate on your site using **Fluent Affiliate** is easy. Whether someone is a long time promoter or just starting their journey, the registration process is quick, simple, and designed for ease.

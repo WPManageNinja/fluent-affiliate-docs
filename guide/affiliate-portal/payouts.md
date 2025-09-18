@@ -1,3 +1,8 @@
+---
+title: Payouts
+description: Learn how to track and manage your affiliate payouts in FluentAffiliate. View payment history, check payout status, and understand your earnings and commission payments.
+---
+
 # Payouts
 
 In FluentAffiliate, users can easily track their payouts right from the Affiliate Dashboard. To check the payout details, user need to login to their Affiliate account and go to the **Payout** tab from the top menu.

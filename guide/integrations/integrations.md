@@ -1,3 +1,8 @@
+---
+title: Integrations
+description: Complete guide to FluentAffiliate integrations. Learn how to connect with WooCommerce, MemberPress, LearnDash, FluentForms, and other popular WordPress plugins for seamless affiliate management.
+---
+
 # Integrations
 
 FluentAffiliate seamlessly integrates with many popular WordPress plugins to help you manage affiliate marketing across your entire digital business. Whether you're selling products, courses, or services, our integrations make it easy to track and reward affiliate referrals.

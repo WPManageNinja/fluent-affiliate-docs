@@ -1,3 +1,8 @@
+---
+title: Affiliate Creatives
+description: Learn how to create and manage affiliate creatives in FluentAffiliate. Set up banners, promotional materials, and marketing assets for your affiliates to use in their campaigns.
+---
+
 # Affiliate Creatives
 
 The **Affiliate Creatives** feature is like a toolbox where you can store all the promotional items you want to give to your affiliates. Instead of sending things like banners, ads, or links to each person one by one, you just add them to this single spot.

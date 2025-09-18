@@ -1,3 +1,8 @@
+---
+title: Fluent Affiliate Glossary
+description: Complete glossary of FluentAffiliate terms and definitions. Learn affiliate marketing terminology, commission types, tracking methods, and plugin-specific features.
+---
+
 # Fluent Affiliate Glossary
 
 This glossary defines common terms used throughout the FluentAffiliate documentation to help you understand key features and concepts.

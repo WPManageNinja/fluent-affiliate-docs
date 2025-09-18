@@ -1,3 +1,8 @@
+---
+title: FluentCRM Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with FluentCRM. Automate affiliate management, track customer journeys, and sync affiliate data with your CRM system.
+---
+
 # FluentCRM Integration with FluentAffiliate
 
 FluentCRM is a powerful email marketing automation plugin for WordPress. With FluentAffiliate, you can manage your email marketing campaigns and affiliate commissions seamlessly.

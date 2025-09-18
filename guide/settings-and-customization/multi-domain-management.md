@@ -1,3 +1,8 @@
+---
+title: Multi-Domain Management
+description: Learn how to manage multiple domains with FluentAffiliate. Set up cross-domain affiliate tracking, connect multiple sites, and manage affiliate programs across different domains.
+---
+
 # Multi-Domain Management
 
 The **Multi-Domain Management** feature is designed to track affiliate referrals that originate from different websites that you own.

@@ -1,3 +1,8 @@
+---
+title: How to Get Support
+description: Get fast support for FluentAffiliate. Learn how to contact WPManageNinja, submit tickets, and resolve affiliate plugin issues quickly and easily.
+---
+
 # How to Get Support
 
 If you have reviewed our documentation and are still encountering a problem with FluentAffiliate, our dedicated support team at WPManageNinja is here to help.

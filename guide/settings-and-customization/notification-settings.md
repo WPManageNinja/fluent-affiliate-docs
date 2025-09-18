@@ -1,3 +1,8 @@
+---
+title: Notification Settings
+description: Learn how to configure notification settings in FluentAffiliate. Set up email notifications for affiliates and admins, customize notification triggers, and manage communication preferences.
+---
+
 # Notification Settings
 
 The Notification Settings section provides granular control over the automated emails sent from FluentAffiliate. Here, you can enable, disable, and fully customize the content of emails for various events that occur within your affiliate program, ensuring both admins and affiliates stay informed.

@@ -1,3 +1,8 @@
+---
+title: Admin Dashboard Overview
+description: Complete guide to FluentAffiliate admin dashboard. Learn how to monitor affiliate performance, track referrals, manage payouts, and analyze key metrics from your WordPress admin panel.
+---
+
 # Admin Dashboard Overview
 
 FluentAffiliate makes it easy to manage all your affiliate activity right from your WordPress dashboard. As the admin, you'll get a clear and simple view of how your affiliate program is performing in your FluentAffiliate Admin dashboard.

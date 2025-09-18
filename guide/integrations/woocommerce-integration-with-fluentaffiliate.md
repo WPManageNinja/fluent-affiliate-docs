@@ -1,3 +1,8 @@
+---
+title: WooCommerce Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with WooCommerce. Set up affiliate commissions for product sales, configure commission rates, and track affiliate performance in your WooCommerce store.
+---
+
 # WooCommerce Integration with FluentAffiliate
 
 WooCommerce is one of the most popular e-commerce plugins for WordPress, helping you build and manage a powerful online store. When you connect WooCommerce with FluentAffiliate, you can launch a full-featured affiliate program to boost your sales, track commissions, and manage affiliate payments with ease.

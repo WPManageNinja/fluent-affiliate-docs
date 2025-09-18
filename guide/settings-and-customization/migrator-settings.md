@@ -1,3 +1,8 @@
+---
+title: Migrator Settings
+description: Learn how to use the FluentAffiliate migrator tool. Import affiliate data from other platforms, migrate existing affiliate programs, and transfer affiliate information seamlessly.
+---
+
 # Migrator Settings
 
 The Migrator Settings in FluentAffiliate allow you to easily import data from other affiliate plugins and perform cleanup tasks. Currently, FluentAffiliate supports migration from **AffiliateWP**. This guide will walk you through the available options.

@@ -1,3 +1,8 @@
+---
+title: Installation, Activation & Licensing
+description: Step-by-step guide to install, activate, and license FluentAffiliate WordPress plugin. Learn how to download, upload, and configure your affiliate management system.
+---
+
 # Installation, Activation & Licensing
 
 Installing and activating FluentAffiliate is a quick and easy process. This guide will walk you through the steps to install, upgrade, and activate your FluentAffiliate license so you can start managing your affiliate program right away.

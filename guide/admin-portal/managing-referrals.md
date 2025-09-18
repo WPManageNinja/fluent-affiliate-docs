@@ -1,3 +1,8 @@
+---
+title: Managing Referrals
+description: Complete guide to managing referrals in FluentAffiliate. Learn how to track, filter, approve, and manage affiliate referrals with detailed analytics and commission tracking.
+---
+
 # Managing Referrals
 
 FluentAffiliate gives you a clear and powerful dashboard to manage and track every affiliate referral. This is where you can see all successful conversions, review their status, and take action when needed.

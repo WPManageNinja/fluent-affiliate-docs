@@ -1,3 +1,8 @@
+---
+title: Permission Management
+description: Learn how to manage permissions in FluentAffiliate. Set up user roles, control access to affiliate features, and configure permission levels for different user types.
+---
+
 # Permission Management
 
 Permission Management allows you to securely delegate the administration of your affiliate program to other team members without giving them full WordPress admin privileges. By default, only site administrators have complete control over FluentAffiliate. With this feature, you can appoint specific users as "Managers" and grant them granular access to view or manage different parts of your affiliate system.
