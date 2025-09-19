@@ -10,9 +10,7 @@ FluentAffiliate lets you create affiliate groups with different commission rates
 When creating a new affiliate or editing an existing one:
 1. Look for the **Affiliate Type** field in their profile
 2. Select the desired group from the dropdown
-3. The selected group's commission rate will automatically apply to that affiliate
-
-mmission structures.
+3. The selected group's commission rate will automatically apply to that affiliate commission structures.
 
 ## Accessing Affiliate Group Settings
 
