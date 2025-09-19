@@ -12,7 +12,7 @@ When creating a new affiliate or editing an existing one:
 
 FluentAffiliate lets you create affiliate groups with different commission rates. You can easily assign a group to any affiliate to apply the group's rate settings. This feature helps you manage different tiers of affiliates with varying commission structures.
 
-### Accessing Affiliate Group Settings
+## Accessing Affiliate Group Settings
 
 To access the Affiliate Group settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Affiliate Groups**.
 
