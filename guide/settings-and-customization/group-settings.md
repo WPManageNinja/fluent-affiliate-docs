@@ -5,12 +5,14 @@ description: Learn how to create and manage affiliate groups in FluentAffiliate.
 
 # Group Settings
 
+FluentAffiliate lets you create affiliate groups with different commission rates. You can easily assign a group to any affiliate to apply the group's rate settings. This feature helps you manage different tiers of affiliates with varying co
+
 When creating a new affiliate or editing an existing one:
 1. Look for the **Affiliate Type** field in their profile
 2. Select the desired group from the dropdown
 3. The selected group's commission rate will automatically apply to that affiliate
 
-FluentAffiliate lets you create affiliate groups with different commission rates. You can easily assign a group to any affiliate to apply the group's rate settings. This feature helps you manage different tiers of affiliates with varying commission structures.
+mmission structures.
 
 ## Accessing Affiliate Group Settings
 
