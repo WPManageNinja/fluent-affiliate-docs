@@ -14,7 +14,7 @@ export default defineConfig({
   
   // Google Analytics
   analytics: {
-    id: 'G-XXXXXXXXXX' // Replace with your actual GA4 ID
+    id: 'G-LP3H0X2CB8' // Replace with your actual GA4 ID
   },
   
 
