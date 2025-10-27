@@ -10,7 +10,7 @@ MemberPress is one of the most popular and powerful membership plugins for WordP
 This guide will walk you through the simple steps to integrate MemberPress with FluentAffiliate.
 
 > [!NOTE]
-> MemberPress is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+> MemberPress integration is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
 >
 >To get started, you must first install and activate the MemberPress plugin on your WordPress website.
 
