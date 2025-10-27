@@ -39,7 +39,7 @@ First, choose the custom rate type:
 
 Next, configure the rate:
 
-1.  **Select Courses/Categories:** In the selection box, start typing the name of the course or category you want to set a custom rate for, and choose it from the list.
+1.  **Select Courses/Categories:** In the selection box, start typing the name of the course or category you want to set a custom rate for, and choose it from the list
 2.  **Select Rate:** Enter the commission value you want to set (e.g., 30).
 3.  **Select Rate Type:** Use the dropdown menu to select whether the rate is a **Percentage (%)** of the sale or a **Fixed** amount.
 4.  **Add More Rules:** To create another custom rate for a different course or category, click the **+ Add New Group** button. This will add a new row for you to configure.
