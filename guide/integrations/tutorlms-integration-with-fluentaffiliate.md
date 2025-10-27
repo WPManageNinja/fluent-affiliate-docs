@@ -17,7 +17,7 @@ First, you need to enable the integration module to connect the two plugins.
 3.  To activate the module, click the **toggle switch** next to TutorLMS.
 4.  Once enabled, click the **Manage** button to configure the integration.
 
-![Enable TutorLMS Integration](/guide/public/images/integrations/tutorlms/tutorlms-integration-fluentaffiliate-1.webp)
+![Enable TutorLMS Integration](/images/integrations/tutorlms/tutorlms-integration-fluentaffiliate-1.webp)
 
 ## Configure TutorLMS Settings
 
@@ -45,6 +45,6 @@ Next, configure the rate:
 4.  **Add More Rules:** To create another custom rate for a different course or category, click the **+ Add New Group** button. This will add a new row for you to configure.
 5.  **Save Settings:** Once you have finished setting up all your custom rates, click the **Save Settings** button to apply your changes. A "Success" message will confirm your settings have been saved.
 
-![Set Custom Affiliate Rates for TutorLMS](/guide/public/images/integrations/tutorlms/tutorlms-integration-fluentaffiliate-2.webp)
+![Set Custom Affiliate Rates for TutorLMS](/images/integrations/tutorlms/tutorlms-integration-fluentaffiliate-2.webp)
 
 That's it! Your affiliates can now generate their unique affiliate links from their dashboard and start promoting your TutorLMS courses. When a sale is made through their link, they will earn a commission based on the global or custom rates you have configured.
