@@ -8,7 +8,7 @@ description: Learn how to integrate FluentAffiliate with LifterLMS. Set up affil
 Want to grow your online course sales through affiliate marketing? With FluentAffiliate, you can now easily integrate with LifterLMS and start tracking affiliate referrals for your courses. This guide will show you how to set it up in just a few clicks!
 
 >[!Note]
-> Lifterlms is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+> Lifterlms integration is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
 >
 > Make sure both the LifterLMS and FluentAffiliate plugins are installed and activated on your site before you begin.
 

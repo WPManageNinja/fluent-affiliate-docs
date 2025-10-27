@@ -10,7 +10,7 @@ Paid Memberships Pro is a powerful membership plugin for WordPress, designed to 
 In this guide, we'll walk you through how to connect Paid Memberships Pro with FluentAffiliate step by step.
 
 > [!NOTE]
-> Paid Membership Pro is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+> Paid Membership Pro integration is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
 > 
 > To get started, you first need to install and activate both the Paid Memberships Pro and FluentAffiliate plugins on your WordPress website.
 
