@@ -5,6 +5,16 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 
 # Changelogs
 
+#### 1.2.0 – Oct 28, 2025
+
+* Added: Integration with TutorLMS
+* Added: ProfilePress Pro Integration!
+* Added: RTL (Right-to-Left) Compatibility
+* Introduce: Solid Affiliate Migration
+* Introduce: Affiliate Manager Migration
+* Fixed: Payment Email Validation
+* Improved: UI-UX
+
 #### 1.1.0 – Sep 16, 2025
 
 * Introduced Affiliate Creative Module
