@@ -145,6 +145,7 @@ export default defineConfig({
               items: [
                 { text: 'TutorLMS', link: '/guide/integrations/tutorlms-integration-with-fluentaffiliate' },
                 { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
+                { text: 'ProfilePress', link: '/guide/integrations/profilepress-integration-with-fluentaffiliate' },
                 { text: 'LifterLMS', link: '/guide/integrations/lifterlms-integration-with-fluentaffiliate' },
                 { text: 'Paid Membership Pro', link: '/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate' }
               ]
