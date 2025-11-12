@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -47,12 +46,6 @@ export default defineConfig({
     ['link', { rel: 'canonical', href: 'https://docs.fluentaffiliate.com' }]
   ],
   
-  markdown: {
-    config: (md) => {
-      md.use(zoomablePlugin)
-    }
-  },
-
   vite: {
     publicDir: 'guide/public',
   },
