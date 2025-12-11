@@ -27,7 +27,7 @@ The process is simple and runs in the background:
 To set this up, simply place the following shortcode on the page that users are redirected to after a successful payment:
 
 ```
-[affiliate_conversion_script]
+[fluent_aff_conversion_script]
 ```
 ### Customizing with Optional Parameters
 
@@ -44,13 +44,14 @@ For more detailed and accurate tracking, you can enhance the shortcode with opti
 **Example shortcode with parameters:**
 
 ```
-[affiliate_conversion_script
-amount="99.50"
-reference="TXN-54321"
-description="Annual Plan Subscription"
-status="unpaid"
-type="sale"
-]
+[fluent_aff_conversion_script 
+amount="10.00" 
+description="Product Purchase" 
+provider="custom_provider" 
+provider_id="123" 
+provider_sub_id="456" 
+status="unpaid/pending" 
+type="sale"]
 ```
 
 Whether you use the automated shortcode for unsupported platforms or add a referral manually for special cases, FluentAffiliate provides the flexibility to ensure every affiliate is rewarded accurately for their efforts.
