@@ -212,8 +212,7 @@ export default defineConfig({
 
 
     footer: {
-      message: 'Released under the GPL License.',
-      copyright: 'Copyright © 2025-present FluentAffiliate'
+      copyright: 'Copyright © 2026 FluentAffiliate'
     },
 
   }
