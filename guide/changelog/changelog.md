@@ -5,6 +5,17 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 
 # Changelogs
 
+#### 1.3.0 – Feb 03, 2026
+
+* Added: Bank Details Payout Method
+* Added: Decimal Number Support in Manual Referral
+* Introduced: Affiliate Commission on Subscription
+* Introduced: Dynamic Affiliate QR Code
+* Fixed: Login Option Showing for Logged-in User
+* Fixed: Issue with Tutor LMS Integration
+* Fixed: Affiliate Manager Migration Issue
+* Fixed: Data Unserialization Issue
+
 #### 1.2.0 – Oct 28, 2025
 
 * Added: Integration with TutorLMS
