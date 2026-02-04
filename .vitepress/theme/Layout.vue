@@ -7,7 +7,7 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <template #doc-footer-before>>
+    <template #doc-footer-before>
       <Feedback />
     </template>
   </Layout>
