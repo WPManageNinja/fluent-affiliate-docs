@@ -59,7 +59,7 @@ This section allows you to configure page assignments, cost exclusions, and rule
 This feature allows you to reward affiliates for recurring subscription payments. 
 
 >[!Note]
->To use this feature, you need [FluentAffiliate Pro](/https://fluentaffiliate.com/discount-deal/). It is available for [FluentCart](/https://fluentcart.com/pricing/) users.
+>To use this feature, you need [FluentAffiliate Pro](https://fluentaffiliate.com/discount-deal/). It is available for [FluentCart](https://fluentcart.com/pricing/) users.
 
  * **Enable Option:** Check the box to award affiliate commissions for subscription renewals.
  * **Renewal Rate:** Set the specific commission rate (Flat or Percentage) for these recurring referrals.
