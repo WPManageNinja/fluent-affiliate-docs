@@ -28,6 +28,9 @@ Configure how monetary values and numbers are displayed across the plugin.
 * **Currency:** Select the primary currency for your store's transactions and affiliate payouts. "United States Dollar" is the example shown.
 * **Number Format:** Choose the character style for separating thousands in numerical values. Options include US Style (1,000,00.00) and EU Style (1.000,00,00).
 * **Currency Symbol Position:** Choose whether the currency symbol appears Before ($10) or After (10$) the amount.
+* **Payout Method:** This setting allows you to choose how your affiliates will receive their earnings. You can select your preferred method from the dropdown menu:
+   * **PayPal:** A common method for sending automated or manual payments via email.
+   * **Bank Transfer:** If you select this option, affiliates will provide their bank details for payouts instead of an email address.
 
 ### Tracking & Credit Rules
 
@@ -48,9 +51,22 @@ This section allows you to configure page assignments, cost exclusions, and rule
 * **Exclude Shipping:** Enable this option to exclude shipping costs from the calculation of referral commissions.
 * **Exclude Tax:** Enable this to exclude tax amounts from the calculation of referral commissions.
 * **Disable Self Referral:** Enable this to prevent affiliates from earning commissions on their own purchases.
-* **Affiliate Commission on Subscription Renewal (Coming soon):** This is an upcoming feature that will enable you to credit the main affiliate on subscription renewals.
 
-![Cost and Tax Settings](/images/settings-and-customization/referral/cost-tax-settings.webp)
+![Cost and Tax Settings](/images/settings-and-customization/referral/recurring-commission-settings.webp)
+
+#### Affiliate Commission on Subscription Renewal
+
+This feature allows you to reward affiliates for recurring subscription payments. 
+
+>[!Note]
+>To use this feature, you need [FluentAffiliate Pro](/https://fluentaffiliate.com/discount-deal/). It is available for [FluentCart](/https://fluentcart.com/pricing/) users.
+
+ * **Enable Option:** Check the box to award affiliate commissions for subscription renewals.
+ * **Renewal Rate:** Set the specific commission rate (Flat or Percentage) for these recurring referrals.
+ * **Maximum Renewal Referrals:** Set the maximum number of times an affiliate can earn from a single subscription. Enter 0 for unlimited renewal commissions.
+
 
 After configuring all your settings, click the **Save Settings** button to apply the changes.
+
+![Subscription Renewal](/images/settings-and-customization/referral/comission-Renewal.webp)
 

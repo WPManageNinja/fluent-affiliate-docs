@@ -68,7 +68,7 @@ After clicking the button, a form will slide in from the right side of your scre
 
 * **Select Affiliate:** Start typing the name of the affiliate you want to credit and select them from the list. This is the most important field.
 * **Type:** Choose the type of referral from the dropdown menu (e.g., Sale, Opt-in).
-* **Amount:** Enter the exact commission amount the affiliate will earn for this referral.
+* **Amount:** Enter the exact commission amount the affiliate will earn for this referral in the designated numerical field. The currency for this amount is displayed next to the input box.
 * **Status:** Set the initial status of the referral. You can choose from Unpaid, Paid, Pending, or Rejected.
 * **Description:** Add a short note or description for your own records, explaining why this referral was added manually (e.g., "Manual entry for phone order #5512").
 * **Source (Optional):** You can enter a source slug here to provide extra context about where the referral came from (e.g., manual_sale).
