@@ -182,7 +182,15 @@ export default defineConfig({
             },
             { text: 'Registration Settings', link: '/guide/settings-and-customization/registration-settings' },
             { text: 'Permission Management', link: '/guide/settings-and-customization/permission-management' },
-            { text: 'Migrator Settings', link: '/guide/settings-and-customization/migrator-settings' },
+            {
+              text: 'Migration Settings',
+              collapsed: true,
+              items: [
+                { text: 'AffiliateWP Migration', link: '/guide/settings-and-customization/affiliatewp-migration' },
+                { text: 'Affiliate Manager Migration', link: '/guide/settings-and-customization/affiliate-manager-migration' },
+                { text: 'Solid Affiliate Migration', link: '/guide/settings-and-customization/solid-affiliate-migration' },
+              ]
+            },
             { text: 'Multi-Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
           ]
         },
