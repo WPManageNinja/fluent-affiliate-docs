@@ -1,6 +1,6 @@
 ---
 title: Integrations
-description: Complete guide to FluentAffiliate integrations. Learn how to connect with WooCommerce, MemberPress, LearnDash, FluentForms, and other popular WordPress plugins for seamless affiliate management.
+description: Complete guide to FluentAffiliate integrations. Learn how to connect with FluentCart, WooCommerce, MemberPress, TutorLMS, FluentCRM, FluentForms, and other popular WordPress plugins for seamless affiliate management.
 ---
 
 # Integrations
@@ -14,21 +14,27 @@ FluentAffiliate offers plug-and-play integration with the following platforms:
 ### E-Commerce
 Running an online store? FluentAffiliate integrates perfectly with popular e-commerce platforms:
 
-* **[WooCommerce Integration](/guide/integrations/woocommerce-integration-with-fluentaffiliate)** - Track affiliate referrals for your WooCommerce store purchases. Perfect for physical and digital products alike.
+* **[FluentCart](/guide/integrations/fluentcart-integration-with-fluentaffiliate)** - Launch a complete affiliate program for your FluentCart store with product-level and category-level commission rates, branded coupons, and subscription renewal tracking.
+* **[WooCommerce](/guide/integrations/woocommerce-integration-with-fluentaffiliate)** - Track affiliate referrals for your WooCommerce store purchases. Perfect for physical and digital products alike.
 * **[Easy Digital Downloads](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate)** - Monitor affiliate sales for your digital products with detailed commission tracking.
 * **[SureCart](/guide/integrations/surecart-integration-with-fluentaffiliate)** - Handle affiliate marketing for your SureCart store with automated commission calculations.
+* **[Voxel](/guide/integrations/voxel-integration-with-fluentaffiliate)** - Track affiliate referrals for Voxel-powered directories, multi-vendor marketplaces, and booking sites.
+* **[EasyCart](/guide/integrations/easycart-integration-with-fluentaffiliate)** - Manage affiliate commissions for EasyCart product sales, discounts, renewals, and upgrades.
 
-### Learning Management Systems (LMS)
-Selling courses or memberships? Our LMS integrations have you covered:
+### Learning Management Systems (LMS) & Membership
+Selling courses or memberships? Our LMS and membership integrations have you covered:
 
-* **[LifterLMS](/guide/integrations/lifterlms-integration-with-fluentaffiliate)** - Track affiliate referrals for course sales with customizable commission structures.
+* **[TutorLMS](/guide/integrations/tutorlms-integration-with-fluentaffiliate)** - Set custom commission rates for specific courses or entire course categories with flexible affiliate rewards.
 * **[MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate)** - Monitor affiliate commissions for membership signups and recurring payments.
+* **[ProfilePress](/guide/integrations/profilepress-integration-with-fluentaffiliate)** - Reward affiliates for promoting your membership plans, digital downloads, and paid content.
+* **[LifterLMS](/guide/integrations/lifterlms-integration-with-fluentaffiliate)** - Track affiliate referrals for course sales with customizable commission structures.
 * **[Paid Memberships Pro](/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate)** - Monitor affiliate commissions for membership signups.
 
 ### Forms 
 Need to track form submissions or manage your affiliate relationships?
 
 * **[Fluent Forms](/guide/integrations/fluentforms-integration-with-fluentaffiliate)** - Generate commissions from form submissions and track conversion rates.
+* **[Formidable](/guide/integrations/formidable-integration-with-fluentaffiliate)** - Create affiliate registration forms, track subscriptions, and manage payments through Formidable forms.
 
 ### Payment
 Need to track donation or payment? Our Payment integrations have you covered:
@@ -37,7 +43,12 @@ Need to track donation or payment? Our Payment integrations have you covered:
 * **[Paymattic](/guide/integrations/paymattic-integration-with-fluentaffiliate)** - Track affiliate commissions for payments and donations made through Paymattic forms.
 
 ### Booking and Appointments
+
 * **[Fluent Booking](/guide/integrations/fluentbooking-integration-with-fluentaffiliate)** - Track affiliate referrals for booking services and appointments.
+
+### CRM
+
+* **[FluentCRM](/guide/integrations/fluentcrm-integration-with-fluenaffiliate)** - Automate affiliate management with email marketing campaigns, sync affiliate data, and track customer journeys through your CRM.
 
 Each integration works seamlessly with FluentAffiliate, allowing you to:
 * Track referrals automatically through our [referral tracking system](/guide/admin-portal/managing-referrals)
