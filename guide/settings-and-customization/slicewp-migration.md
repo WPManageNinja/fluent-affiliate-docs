@@ -6,6 +6,8 @@ The Migrator Settings in FluentAffiliate allow you to seamlessly import your ent
 
 To access the Migrator Settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Migrator Settings**.
 
+![Migrator Settings Overview](/images/settings-and-customization/slicewp/migrator-settings-1.webp)
+
 ## Migrating from SliceWP
 
 ### Migration Using WP CLI (Recommended)
@@ -30,17 +32,18 @@ On the Migrator Settings page, you will see a dropdown menu under "Please select
 Click the **Migrate** button to begin. A pop-up will appear displaying an overview of the data available for migration, including:
 * Total Affiliates
 * Total Referrals
-* Total Commissions
+* Total Payouts
 * Total Visits
-* Total Affiliate Groups
-* Total Creatives
+* Total Customers
 
 You also have the option to check **Reset Current Migration** if you need to restart a previous attempt. Click **Confirm** to proceed.
+
+![SliceWP migration data overview](/images/settings-and-customization/slicewp/migrator-settings-2.webp)
 
 **Step 3: Confirm and Monitor**
 A final confirmation box will appear, warning you that this action cannot be undone. Click **Yes, Migrate**.
 
-* **Monitor Progress:** A progress window will show the status of each data type (Affiliates, Referrals, Commissions, Visits, Affiliate Groups, and Creatives) as they are moved to FluentAffiliate.
+* **Monitor Progress:** A progress window will show the status of each data type (Affiliates, Referrals, Payout, Visits, and Customers) as they are moved to FluentAffiliate.
 * **Completion:** Once finished, a "Migration Completed" message will display a summary of the total metrics migrated. Click **Close** to return to the dashboard.
 
 ## Data Cleanup
