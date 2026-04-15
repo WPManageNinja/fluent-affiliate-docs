@@ -59,11 +59,13 @@ This section allows you to configure page assignments, cost exclusions, and rule
 This feature allows you to reward affiliates for recurring subscription payments. 
 
 >[!Note]
->To use this feature, you need [FluentAffiliate Pro](https://fluentaffiliate.com/discount-deal/). It is available for [FluentCart](https://fluentcart.com/pricing/) users.
+>To use this feature, you need [FluentAffiliate Pro](https://fluentaffiliate.com/discount-deal/).
 
  * **Enable Option:** Check the box to award affiliate commissions for subscription renewals.
  * **Renewal Rate:** Set the specific commission rate (Flat or Percentage) for these recurring referrals.
  * **Maximum Renewal Referrals:** Set the maximum number of times an affiliate can earn from a single subscription. Enter 0 for unlimited renewal commissions.
+ 
+ Once activated, you’ll find this feature available in WooCommerce and FluentCart integration settings.
 
 
 After configuring all your settings, click the **Save Settings** button to apply the changes.
