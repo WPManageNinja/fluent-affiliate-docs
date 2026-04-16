@@ -210,7 +210,7 @@ export default defineConfig({
             { text: 'Affiliate Landing Page', link: '/guide/miscellaneous/affiliate-landing-page' },
             { text: 'Social Share for Affiliates', link: '/guide/miscellaneous/social-share' },
             { text: 'Non-Integrated Referrals', link: '/guide/miscellaneous/non-integrated-referrals' },
-            { text: 'Affiliate Creatives', link: '/guide/miscellaneous/affiliate-creatives' }
+            { text: 'Promo Materials', link: '/guide/miscellaneous/promo-materials' }
           ]
         },
         {
