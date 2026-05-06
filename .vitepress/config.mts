@@ -11,13 +11,11 @@ export default defineConfig({
     hostname: 'https://docs.fluentaffiliate.com'
   },
   
-  // Google Analytics
-  analytics: {
-    id: 'G-LP3H0X2CB8' // Replace with your actual GA4 ID
-  },
-  
-
   head: [
+    // Google Analytics GA4
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LP3H0X2CB8' }],
+    ['script', {}, "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LP3H0X2CB8');"],
+
     ['link', { rel: 'icon', type: 'image/png', href: '/images/brand/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#2C6AE2' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],

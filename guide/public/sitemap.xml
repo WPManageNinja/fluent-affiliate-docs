@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+>
+
+  <!-- ================================================ -->
+  <!-- Homepage                                         -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Getting Started                                  -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/getting-started/what-is-fluentaffiliate</loc>
+    <lastmod>2025-10-29T03:32:09.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/getting-started/installation-activation-licensing</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/getting-started/onboarding-setup</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/getting-started/fluent-affiliate-glossary</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Admin Portal                                     -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/admin-portal/admin-dashboard-overview</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/admin-portal/managing-affiliates</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/admin-portal/managing-referrals</loc>
+    <lastmod>2026-02-04T12:00:05.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/admin-portal/payout-management</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/admin-portal/managing-visits</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Affiliate Portal                                 -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/how-to-register-as-an-affiliate</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/affiliate-dashboard-overview</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/generating-affiliate-links</loc>
+    <lastmod>2026-04-15T07:24:17.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/checking-visits</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/tracking-referrals</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/payouts</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/affiliate-portal/update-your-settings</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Integrations                                     -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/integrations</loc>
+    <lastmod>2026-03-10T05:20:06.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- E-Commerce -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/fluentcart-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/woocommerce-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/surecart-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/voxel-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/easycart-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- LMS & Membership -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/tutorlms-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-10-27T11:52:29.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/memberpress-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-10-27T11:59:44.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/profilepress-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-10-28T14:46:49.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/lifterlms-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-10-27T11:37:51.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-10-27T11:37:51.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Forms -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/fluentforms-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-19T09:48:13.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/formidable-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Payment -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/givewp-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/paymattic-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Booking -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/fluentbooking-integration-with-fluentaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- CRM -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/integrations/fluentcrm-integration-with-fluenaffiliate</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Settings & Customization                         -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/referral-settings</loc>
+    <lastmod>2026-04-15T04:53:57.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/group-settings</loc>
+    <lastmod>2025-09-19T07:43:06.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/email-settings</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/notification-settings</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/registration-settings</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/permission-management</loc>
+    <lastmod>2025-09-18T08:39:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/affiliatewp-migration</loc>
+    <lastmod>2026-02-05T09:59:35.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/affiliate-manager-migration</loc>
+    <lastmod>2026-02-05T09:59:35.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/solid-affiliate-migration</loc>
+    <lastmod>2026-02-05T09:59:35.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/slicewp-migration</loc>
+    <lastmod>2026-04-15T06:03:34.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/settings-and-customization/multi-domain-management</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Miscellaneous                                    -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/miscellaneous/affiliate-profile</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/miscellaneous/affiliate-landing-page</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/miscellaneous/social-share</loc>
+    <lastmod>2026-04-15T06:52:01.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/miscellaneous/non-integrated-referrals</loc>
+    <lastmod>2025-12-11T10:41:39.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/miscellaneous/promo-materials</loc>
+    <lastmod>2026-04-16T06:44:22.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Troubleshooting & Support                        -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/troubleshooting-and-support/how-to-get-support</loc>
+    <lastmod>2025-09-18T10:31:28.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ================================================ -->
+  <!-- Changelog                                        -->
+  <!-- ================================================ -->
+  <url>
+    <loc>https://docs.fluentaffiliate.com/guide/changelog/changelog</loc>
+    <lastmod>2026-04-14T04:23:43.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
