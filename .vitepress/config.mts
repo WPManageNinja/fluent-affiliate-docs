@@ -196,6 +196,7 @@ export default defineConfig({
                 { text: 'Affiliate Manager Migration', link: '/guide/settings-and-customization/affiliate-manager-migration' },
                 { text: 'Solid Affiliate Migration', link: '/guide/settings-and-customization/solid-affiliate-migration' },
                 { text: 'SliceWP Migration', link: '/guide/settings-and-customization/slicewp-migration' },
+                { text: 'Ultimate Affiliate Migration', link: '/guide/settings-and-customization/ultimate-affiliate-migration' },
               ]
             },
             { text: 'Multi-Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
