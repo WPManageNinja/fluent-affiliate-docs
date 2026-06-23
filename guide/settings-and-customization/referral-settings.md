@@ -59,7 +59,7 @@ This section allows you to configure page assignments, cost exclusions, and rule
 This feature allows you to reward affiliates for recurring subscription payments. 
 
 >[!Note]
->To use this feature, you need [FluentAffiliate Pro](https://fluentaffiliate.com/discount-deal/).
+>To use this feature, you need [FluentAffiliate Pro](https://fluentaffiliate.com/pricing/).
 
  * **Enable Option:** Check the box to award affiliate commissions for subscription renewals.
  * **Renewal Rate:** Set the specific commission rate (Flat or Percentage) for these recurring referrals.
@@ -68,7 +68,19 @@ This feature allows you to reward affiliates for recurring subscription payments
  Once activated, you’ll find this feature available in WooCommerce and FluentCart integration settings.
 
 
-After configuring all your settings, click the **Save Settings** button to apply the changes.
-
 ![Subscription Renewal](/images/settings-and-customization/referral/comission-Renewal.webp)
 
+### Lifetime Commissions
+
+The **Lifetime Commissions** feature allows affiliates to continue earning commissions from customers they originally referred. Once a customer is linked to an affiliate, that affiliate will receive commissions on future purchases made by the customer, even if they return and purchase directly without using a referral link.
+
+>[!Note]
+> You must have [FluentAffiliate Pro](https://fluentaffiliate.com/pricing/) installed and activated to use this feature.
+
+ * **Enable Lifetime Commissions:** **Turn** on this option to enable lifetime commissions across your affiliate program. The customer's first purchase will follow your standard commission rules, while future direct purchases will use the lifetime commission settings.
+ * **Lifetime Rate:** Set a dedicated lifetime commission rate (either a fixed amount or a percentage) applied to future direct purchases.
+ * **Expiration:** Specify how long the affiliate-customer relationship remains active after the initial referral. Enter the number of days the tracking should remain valid. Leave the field empty or set it to **0** to keep the relationship active indefinitely.
+
+After configuring all your choices, click the **Save Settings** button at the bottom of the screen to apply your changes.
+
+![Lifetime Commission](/images/settings-and-customization/referral/lifetime-commission-7.webp)
