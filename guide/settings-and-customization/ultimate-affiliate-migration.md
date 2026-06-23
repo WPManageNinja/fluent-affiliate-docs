@@ -29,7 +29,7 @@ wp fluent_affiliate migrate_from_ultimate_affiliate
 ```
 
 > [!NOTE]
-> Running this **CLI** migration will automatically remove all existing data from FluentAffiliate before the import begins. This command will seamlessly migrate all of your Ultimate Affiliate data — including affiliates, referrals, payouts, and visits — straight into FluentAffiliate.
+> Running this **CLI** migration will automatically remove all existing data from FluentAffiliate before the import begins. This command will seamlessly migrate all of your Ultimate Affiliate data including affiliates, referrals, payouts, and visits straight into FluentAffiliate.
 
 ## Method 2: Migration Using the Web UI
 
