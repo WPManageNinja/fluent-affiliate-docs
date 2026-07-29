@@ -7,6 +7,10 @@ description: Learn how to generate unique affiliate links in FluentAffiliate. Cr
 
 As an affiliate, you can create and share referral links in just a few clicks from your portal. You can also use a QR code version of your link for faster sharing on mobile, printed materials, or offline campaigns.
 
+See the whole process step by step in this video:
+
+<iframe class="video-embed" src="https://www.youtube.com/embed/rpXrrR6ytgY" title="How to Create Referral Links in WordPress with FluentAffiliate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Generate a Link for Any Page
 
 Use this option when you want to promote a specific page, product, service, or blog post.
