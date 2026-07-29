@@ -9,6 +9,10 @@ FluentAffiliate makes it easy to manage all your affiliate activity right from y
 
 From this dashboard, you'll see key stats like [payouts](/guide/admin-portal/payout-management), earnings, [referrals](/guide/admin-portal/managing-referrals), visits, and more, all in one place. It helps you stay on top of what your [affiliates](/guide/admin-portal/managing-affiliates) are doing and how they're performing.
 
+Take a guided tour of the dashboard in this video:
+
+<iframe class="video-embed" src="https://www.youtube.com/embed/eUr1z_YkNLw" title="FluentAffiliate Dashboard Tour: Unlock Secrets YOU Need to Grow Your Affiliate Program" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## What You'll See on the Dashboard
 
 Let's take a look at the different sections of the dashboard and what they tell you.

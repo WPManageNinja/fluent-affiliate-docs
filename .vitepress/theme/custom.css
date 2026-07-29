@@ -46,3 +46,14 @@ header .title span{
 .vp-doc .image-wrapper:nth-child(n+2) {
   display: none;
 }
+
+/* Embedded videos - sized to match doc images (full content width, 16:9) */
+.vp-doc .video-embed {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 16px auto;
+  border: 0;
+  border-radius: 8px;
+}
