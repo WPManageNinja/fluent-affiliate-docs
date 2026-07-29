@@ -9,6 +9,10 @@ Welcome to **FluentAffiliate** your all-in-one solution for building, managing, 
 
 Whether you're a solo creator, eCommerce store owner, or a membership site admin, FluentAffiliate gives you the tools to turn your customers and followers into revenue-driving affiliates, with **zero technical headache**. Ready to get started? Check out our [installation and activation guide](/guide/getting-started/installation-activation-licensing).
 
+Here's a quick introduction to FluentAffiliate and what it can do for you:
+
+<iframe class="video-embed" src="https://www.youtube.com/embed/0NdhRo6EBbs" title="Introducing FluentAffiliate: The Ultimate WordPress Affiliate Management Plugin YOU Need" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Why Use FluentAffiliate?
 
 Let's say you're selling online courses, products, or services. Now imagine if your happy customers and content creators could share your brand and **earn commissions** when someone buys through their links. That's affiliate marketing and FluentAffiliate makes it beautifully simple.

@@ -14,6 +14,10 @@ This guide will walk you through every step of integrating WooCommerce with Flue
 >              
 > To get started, you first need to have the WooCommerce plugin installed and activated on your WordPress website.
 
+Follow along with the full integration walkthrough:
+
+<iframe class="video-embed" src="https://www.youtube.com/embed/4NhKb2wU1Sw" title="How to Integrate FluentAffiliate with WooCommerce in WordPress" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Enable the WooCommerce Integration
 
 The first step is to activate the WooCommerce module within your FluentAffiliate settings. Once  Woocommerce is running on your site, you can connect it to FluentAffiliate.
