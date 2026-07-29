@@ -69,6 +69,8 @@ To the top-right of the table, you'll find icons to help you organize your view:
 
 Want to manually add an affiliate to your site? Here's how:
 
+<iframe class="video-embed" src="https://www.youtube.com/embed/oPcPsNmM4Lg" title="How to Add Affiliates in WordPress | FluentAffiliate's Secret to Grow Affiliate Network" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Click the **+ New Affiliate** button. A form will slide in from the right side of your screen.
 
 ![Add New Affiliate Button](/images/admin-portal/managing-affiliates/add-new-affiliate-button.webp)

@@ -9,6 +9,10 @@ FluentAffiliate provides a Payout option to manage affiliate payments, but all p
 
 To pay an affiliate, you can use the PayPal email listed in their profile. In this guide, we'll walk you through the steps to complete manual payouts.
 
+Watch the payout process in action:
+
+<iframe class="video-embed" src="https://www.youtube.com/embed/KYeamXNWn7U" title="How to Pay Your Affiliates in WordPress | FluentAffiliate Payout Management" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Payout 
 
 Navigate to the **Payout** tab from the FluentAffiliate menu to view your list of previous payouts or to create new payouts. You'll also find filter and search options to help you quickly locate specific records.
