@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'FluentAffiliate Documentation',
   description: 'Complete documentation for FluentAffiliate WordPress plugin. Learn how to set up, manage, and optimize your affiliate program with step-by-step guides, integrations, and best practices.',
   lang: 'en-US',
-  lastUpdated: true,
+  lastUpdated: false,
   cleanUrls: true,
   sitemap: {
     hostname: 'https://docs.fluentaffiliate.com'
