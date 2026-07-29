@@ -9,6 +9,10 @@ The **Promo Materials** feature is like a toolbox where you can store all the pr
 
 When your affiliates log in, they can find these ready-made items. They just need to copy a text link, an image, or a QR code to share with their audience. We automatically include their special tracking link, so you'll always know they get credit for any sales they send your way.
 
+Watch how to add and customize affiliate creatives:
+
+<iframe class="video-embed" src="https://www.youtube.com/embed/LhsMVp8HniY" title="How to Use Affiliate Creatives for Consistent Affiliate Marketing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Accessing Promo Materials
 
 You can find this new feature right in your FluentAffiliate settings.
