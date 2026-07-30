@@ -13,7 +13,7 @@ FluentAffiliate includes a built-in migration option for Affiliate Manager. This
 
 To access the Migrator Settings, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Migrator Settings**.
 
-![Migrator Settings Overview](/guide/public/images/settings-and-customization/affiliate-manager/access-migration-settings-1.webp)
+![Migrator Settings Overview](/images/settings-and-customization/affiliate-manager/access-migration-settings-1.webp)
 
 ## Migrating from Affiliate Manager
 
@@ -71,7 +71,7 @@ If you need to start fresh or resolve conflicts before migrating, you can use th
 >[!WARNING]
 >Data cleanup is irreversible. Always make sure to back up your database before proceeding with a wipe.
 
-![Wipe Data Confirmation](/guide/public/images/settings-and-customization/affiliate-manager/affiliate-manager.gif)
+![Wipe Data Confirmation](/images/settings-and-customization/affiliate-manager/affiliate-manager.gif)
 
 ### Troubleshooting
 
