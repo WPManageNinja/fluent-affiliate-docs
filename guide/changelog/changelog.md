@@ -3,101 +3,196 @@ title: Changelog
 description: View the complete FluentAffiliate changelog. Track plugin updates, new features, bug fixes, and improvements across all versions of the WordPress affiliate management plugin.
 ---
 
-# Changelogs
+# Changelog
+Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentAffiliate.
 
-#### 1.5.0 – Jun 22, 2026
+## FluentAffiliate v1.5.0
+*Released on Jun 22, 2026*
 
-* Introduced: Lifetime Commissions
-* Added: Ultimate Affiliate Data Migration
-* Improved: Migration Performance and Memory Use on Large Datasets
-* Improved: Affiliate Portal Sidebar and Body Equal Height
-* Security: Hardened Input Sanitization and v-html XSS Sinks in Admin and Portal
-* Security: Fixed CSRF on Manual Update-Check Trigger
-* Fixed: Doubled FluentCart Commission on Setup Fee
-* Fixed: Self-Referral Not Blocked When Disabled
-* Fixed: Duplicate Customers and Payouts on Migration Re-Run
-* Fixed: Earnings Recount and Payout Totals During Migration
-* Fixed: Null Check After Referral Recording in Integrations
-* Fixed: Dark Mode Background Leaking to All Admin Pages
-* Fixed: FluentCRM Manage Button URL in Features & Addons
+::::: code-group
 
-#### 1.4.0 – Apr 10, 2026
+```markdown [✨ Newly Added]
+• Adds Lifetime Commissions
+• Adds Ultimate Affiliate Data Migration
+```
 
-* Introduced: SliceWP Migration
-* Introduced: Commission on WooCommerce Subscription Renewal
-* Added: Subscription Renewal Commission Rates Per Product/Category
-* Added: CSV Export for Affiliates, Referrals, and Visits
-* Added: Social Media Share for Affiliates in the Affiliate Portal
-* Added: QR Code Settings for Affiliate Portal
-* Added: Recommended Plugins and Add-ons Section
-* Improved: Creatives Now Included in Data Migration
-* Fixed: Visits Filter Not Working
-* Fixed: Payout Currency Symbol Display
-* Fixed: FluentBooking Product Selector Issue
-* Fixed: ProfilePress Integration Issue
-* Fixed: EDD Coupon Affiliate Lookup Issue
-* Fixed: PMPro Integration Ignoring Disabled Connector State
-* Fixed: Renewal Rate Not Accepting Decimal Values
-* Fixed: WooCommerce Renewal Commission Note
-* Fixed: Affiliate Commission on Conversion Script
-* Fixed: Individual Integration Settings Issue
-* Fixed: Network Activation Skipping Pro Migrations on Multisite Child Sites
-* Fixed: Infinite Loop in Username Generation
-* Security: Hardened Nonce Verification on AJAX Actions
+```markdown [🐞 Bug fixes]
+• Fixes CSRF on Manual Update-Check Trigger
+• Fixes Doubled FluentCart Commission on Setup Fee
+• Fixes Self-Referral Not Blocked When Disabled
+• Fixes Duplicate Customers and Payouts on Migration Re-Run
+• Fixes Earnings Recount and Payout Totals During Migration
+• Fixes Null Check After Referral Recording in Integrations
+• Fixes Dark Mode Background Leaking to All Admin Pages
+• Fixes FluentCRM Manage Button URL in Features & Addons
+```
 
-#### 1.3.0 – Feb 03, 2026
+```markdown [🚀 Improvements]
+• Improves Migration Performance and Memory Use on Large Datasets
+• Improves Affiliate Portal Sidebar and Body Equal Height
+• Improves Security with Hardened Input Sanitization and v-html XSS Sinks in Admin and Portal
+```
 
-* Added: Bank Details Payout Method
-* Added: Decimal Number Support in Manual Referral
-* Introduced: Affiliate Commission on Subscription
-* Introduced: Dynamic Affiliate QR Code
-* Fixed: Login Option Showing for Logged-in User
-* Fixed: Issue with Tutor LMS Integration
-* Fixed: Affiliate Manager Migration Issue
-* Fixed: Data Unserialization Issue
+:::::
 
-#### 1.2.0 – Oct 28, 2025
+## FluentAffiliate v1.4.0
+*Released on Apr 10, 2026*
 
-* Added: Integration with TutorLMS
-* Added: ProfilePress Pro Integration!
-* Added: RTL (Right-to-Left) Compatibility
-* Introduce: Solid Affiliate Migration
-* Introduce: Affiliate Manager Migration
-* Fixed: Payment Email Validation
-* Improved: UI-UX
+::::: code-group
 
-#### 1.1.0 – Sep 16, 2025
+```markdown [✨ Newly Added]
+• Adds SliceWP Migration
+• Adds Commission on WooCommerce Subscription Renewal
+• Adds Subscription Renewal Commission Rates Per Product/Category
+• Adds CSV Export for Affiliates, Referrals, and Visits
+• Adds Social Media Share for Affiliates in the Affiliate Portal
+• Adds QR Code Settings for Affiliate Portal
+• Adds Recommended Plugins and Add-ons Section
+```
 
-* Introduced Affiliate Creative Module
-* Added: Affiliate ID in Affiliates Listing
-* Added: Affiliate ID Support in Affiliate Searching
-* Added: Pagination Jump-to-Page Option
-* Added: Missing Translation Strings
-* Improved: Affiliate and Referral Linking
-* Improved: Menu Capability for Permission Management
-* Fixed: Money Formatting Issue in Email Notifications
-* Fixed: Registration Fields Not Updating Issue
-* Fixed: Standard Commission Amount Incorrectly Applied as Percentage
-* Fixed: Affiliate Registration Issue with Fluentform
-* Fixed: Commission Rate Not Allowing Zero
+```markdown [🐞 Bug fixes]
+• Fixes Visits Filter Not Working
+• Fixes Payout Currency Symbol Display
+• Fixes FluentBooking Product Selector Issue
+• Fixes ProfilePress Integration Issue
+• Fixes EDD Coupon Affiliate Lookup Issue
+• Fixes PMPro Integration Ignoring Disabled Connector State
+• Fixes Renewal Rate Not Accepting Decimal Values
+• Fixes WooCommerce Renewal Commission Note
+• Fixes Affiliate Commission on Conversion Script
+• Fixes Individual Integration Settings Issue
+• Fixes Network Activation Skipping Pro Migrations on Multisite Child Sites
+• Fixes Infinite Loop in Username Generation
+```
 
-#### 1.0.2 – Sep 03, 2025
+```markdown [🚀 Improvements]
+• Improves Creatives Now Included in Data Migration
+• Improves Security with Hardened Nonce Verification on AJAX Actions
+```
 
-* Introduced Permission Management
-* Deed Integration with FluentCRM!
-* Added Custom Html Block Support in Customer Portal
-* Added Missing Translation String
-* Fixed: Email Content Update Issue
-* Fixed: Referral Settings Issue with Multisite
-* Fixed: Website Link is Not Showing in Email Notification
+:::::
 
-#### 1.0.1 – Aug 28, 2025
+## FluentAffiliate v1.3.0
+*Released on Feb 03, 2026*
 
-* Added Multi-site supports
-* Added WP CLI Support to migrate from AffiliateWP
-* Registration form bug fixes
-* Fixed minor bugs and improved performance
+::::: code-group
 
-#### 1.0.0 – Aug 26, 2025
+```markdown [✨ Newly Added]
+• Adds Bank Details Payout Method
+• Adds Decimal Number Support in Manual Referral
+• Adds Affiliate Commission on Subscription
+• Adds Dynamic Affiliate QR Code
+```
 
-* Initial release
+```markdown [🐞 Bug fixes]
+• Fixes Login Option Showing for Logged-in User
+• Fixes Issue with Tutor LMS Integration
+• Fixes Affiliate Manager Migration Issue
+• Fixes Data Unserialization Issue
+```
+
+:::::
+
+## FluentAffiliate v1.2.0
+*Released on Oct 28, 2025*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Integration with TutorLMS
+• Adds ProfilePress Pro Integration
+• Adds RTL (Right-to-Left) Compatibility
+• Adds Solid Affiliate Migration
+• Adds Affiliate Manager Migration
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Payment Email Validation
+```
+
+```markdown [🚀 Improvements]
+• Improves UI-UX
+```
+
+:::::
+
+## FluentAffiliate v1.1.0
+*Released on Sep 16, 2025*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Affiliate Creative Module
+• Adds Affiliate ID in Affiliates Listing
+• Adds Affiliate ID Support in Affiliate Searching
+• Adds Pagination Jump-to-Page Option
+• Adds Missing Translation Strings
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Money Formatting Issue in Email Notifications
+• Fixes Registration Fields Not Updating Issue
+• Fixes Standard Commission Amount Incorrectly Applied as Percentage
+• Fixes Affiliate Registration Issue with Fluentform
+• Fixes Commission Rate Not Allowing Zero
+```
+
+```markdown [🚀 Improvements]
+• Improves Affiliate and Referral Linking
+• Improves Menu Capability for Permission Management
+```
+
+:::::
+
+## FluentAffiliate v1.0.2
+*Released on Sep 03, 2025*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Permission Management
+• Adds Integration with FluentCRM
+• Adds Custom Html Block Support in Customer Portal
+• Adds Missing Translation String
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Email Content Update Issue
+• Fixes Referral Settings Issue with Multisite
+• Fixes Website Link is Not Showing in Email Notification
+```
+
+:::::
+
+## FluentAffiliate v1.0.1
+*Released on Aug 28, 2025*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Multi-site Support
+• Adds WP CLI Support to Migrate from AffiliateWP
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Registration Form Bugs
+• Fixes Minor Bugs
+```
+
+```markdown [🚀 Improvements]
+• Improves Overall Performance
+```
+
+:::::
+
+## FluentAffiliate v1.0.0
+*Released on Aug 26, 2025*
+
+::::: code-group
+
+```markdown [🎉 Initial Release]
+• Hello World!
+• The first release of FluentAffiliate is here!
+```
+
+:::::

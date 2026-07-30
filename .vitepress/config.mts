@@ -85,6 +85,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guide/getting-started/what-is-fluentaffiliate' },
       { text: 'Website', link: 'https://fluentaffiliate.com/' },
+      { text: 'Changelog', link: '/guide/changelog/changelog' }
     ],
     outline: [2, 3],
 
