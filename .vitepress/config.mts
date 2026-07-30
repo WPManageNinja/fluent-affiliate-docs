@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -46,6 +47,12 @@ export default defineConfig({
   
   vite: {
     publicDir: 'guide/public',
+  },
+
+  markdown: {
+    config: (md) => {
+      md.use(zoomablePlugin)
+    }
   },
 
   themeConfig: {
