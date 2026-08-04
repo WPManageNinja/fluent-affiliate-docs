@@ -6,6 +6,50 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 # Changelog
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentAffiliate.
 
+## FluentAffiliate v1.6.0
+*Released on Aug 03, 2026*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Captcha Protection on Affiliate Registration
+• Adds Custom Affiliate Registration Fields
+• Adds Admin Menu Title Filter Hook
+• Adds Manage CRM Tags and Lists From Affiliate Profile
+• Adds Creatives Migration from Solid Affiliate
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Manual Referral Amounts Losing a Cent
+• Fixes Cart Manual Order Credited to the Admin's Cookie Affiliate
+• Fixes Group Commission Rate Disagreement Between Checkout and Admin
+• Fixes Payout Transactions Hardcoded to USD
+• Fixes Referrals Stranded in Processing Status
+• Fixes Per Transaction Referral Count Counting the Whole Payout
+• Fixes Division by Zero on Zero Total Refund
+• Fixes Tracker Dropping the Referrer on Every Visit
+• Fixes Referral Links Breaking When the Link Format Changed
+• Fixes Checkout Fatal Error When an Affiliate's User Was Deleted
+• Fixes Affiliate List Filters Lost to Sanitization
+• Fixes Group Options Endpoint Unreachable for Managers
+• Fixes Custom Notification Email Subjects Being Ignored
+• Fixes Manual Referral Firing the Unpaid Hook for Every Status
+• Fixes Solid Affiliate Group, Rate Type, and Product Migration
+```
+
+```markdown [🚀 Improvements]
+• Improves Dark Mode Palette, Contrast, and Admin Styles
+• Improves Referral and Payout Transaction Table Indexes
+• Improves Bounded Payout Export and Reconciliation Query Budgets
+• Improves Batched Lookups and Failure Handling in Data Migration
+• Improves Output Escaping and Input Sanitization Compliance
+• Improves Security by Gating Report Endpoints Behind Permission Checks
+• Improves Security by Validating Proxy-Supplied IP Headers
+• Improves Security by Escaping Redirect URL in Auth Success Markup
+```
+
+:::::
+
 ## FluentAffiliate v1.5.0
 *Released on Jun 22, 2026*
 
