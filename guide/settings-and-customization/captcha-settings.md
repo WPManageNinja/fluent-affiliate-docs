@@ -18,7 +18,7 @@ Setting up your captcha only takes a few minutes. Here is a breakdown of exactly
 
 * **Enable captcha on registration:** Check this box to turn on the security challenge for your sign-up form.
 * **reCAPTCHA Version:** Choose the type of challenge you want your users to experience. You can pick the **v2 Checkbox** (the classic "I'm not a robot" box) or **v3** (which works invisibly in the background based on a score).
-* **Site Key & Secret Key:** Paste your specific Google reCAPTCHA keys into these two fields. If you do not have these keys yet, you can easily generate them from the Google reCAPTCHA admin console by visiting [google.com/recaptcha/admin](https://google.com/recaptcha/admin).
+* **Site Key & Secret Key:** Paste your specific Google reCAPTCHA keys into these two fields. If you do not have these keys yet, you can easily generate them from the Google reCAPTCHA admin console by visiting [google.com/recaptcha/admin](https://google.com/recaptcha/admin). See the [Google reCAPTCHA Integration](/guide/integrations/google-recaptcha-integration-with-fluentaffiliate) guide for step-by-step instructions.
 * **Validate Keys:** Click this handy button to double-check that the Site Key and Secret Key you just entered are correct and working properly.
 * **Failure Message:** Type in the text you want users to see if they fail the security check. By default, it will say "Security check failed. Please try again.".
 

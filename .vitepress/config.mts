@@ -178,6 +178,13 @@ export default defineConfig({
               items: [
                 { text: 'FluentCRM', link: '/guide/integrations/fluentcrm-integration-with-fluenaffiliate' }
               ]
+            },
+            {
+              text: 'Security & Spam Protection',
+              collapsed: true,
+              items: [
+                { text: 'Google reCAPTCHA', link: '/guide/integrations/google-recaptcha-integration-with-fluentaffiliate' }
+              ]
             }
           ]
         },
