@@ -198,7 +198,8 @@ export default defineConfig({
               text: 'Registration Settings',
               collapsed: true,
               items: [
-                { text: 'Registration Fields', link: '/guide/settings-and-customization/registration-settings' }
+                { text: 'Registration Fields', link: '/guide/settings-and-customization/registration-settings' },
+                { text: 'Captcha', link: '/guide/settings-and-customization/captcha-settings' }
               ]
             },
             { text: 'Permission Management', link: '/guide/settings-and-customization/permission-management' },
