@@ -5,9 +5,11 @@ description: Learn how to migrate from Solid Affiliate to FluentAffiliate. Impor
 
 # Solid Affiliate Migration
 
-The Solid Affiliate Migration tool in FluentAffiliate helps you move your existing affiliate data from Solid Affiliate into FluentAffiliate. It also allows you to clean up old or unnecessary data during the process.
+The **Solid Affiliate Migration** feature in FluentAffiliate helps you migrate your existing affiliate data from **Solid Affiliate** to **FluentAffiliate**. If needed, you can also remove your existing FluentAffiliate data before starting a new migration to avoid conflicts.
 
-FluentAffiliate includes a built-in migration option for Solid Affiliate. This guide will walk you through the available options and the migration process.
+The migration supports **affiliates, referrals, customers, payouts, visits, affiliate groups, commission rate types**, and **referral product names**. If you're using **FluentAffiliate Pro**, your **marketing creatives** are migrated as well, allowing your affiliates to continue using their existing promotional materials after the migration.
+
+This guide walks you through the available migration options and shows you how to migrate your Solid Affiliate data using either the **Web UI** or **WP-CLI**.
 
 ## Accessing Migrator Settings
 

@@ -180,7 +180,7 @@ export default defineConfig({
               ]
             },
             {
-              text: 'Security & Spam Protection',
+              text: 'Security & Spam',
               collapsed: true,
               items: [
                 { text: 'Google reCAPTCHA', link: '/guide/integrations/google-recaptcha-integration-with-fluentaffiliate' }
