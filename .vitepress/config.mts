@@ -194,7 +194,13 @@ export default defineConfig({
                  {text: 'Notificationn Settings', link: '/guide/settings-and-customization/notification-settings' }
               ]
             },
-            { text: 'Registration Settings', link: '/guide/settings-and-customization/registration-settings' },
+            {
+              text: 'Registration Settings',
+              collapsed: true,
+              items: [
+                { text: 'Registration Fields', link: '/guide/settings-and-customization/registration-settings' }
+              ]
+            },
             { text: 'Permission Management', link: '/guide/settings-and-customization/permission-management' },
             {
               text: 'Migration Settings',
