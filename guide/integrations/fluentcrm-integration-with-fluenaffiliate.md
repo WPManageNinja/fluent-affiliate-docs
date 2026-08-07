@@ -99,6 +99,22 @@ Next, click the **+Add** icon and select the FluentAffiliate option. Here you wi
 
 ![Contact Filtering](/images/integrations/fluentcrm/contact-filtering-options.webp)
 
+## Interactive CRM Profile
+
+You can add or remove a contact’s tags and lists directly from the affiliate profile, without having to open FluentCRM in another tab!
+
+When viewing an individual affiliate's profile (under **FluentAffiliate → Affiliates**), you will see the **CRM Profile** section. From here you can:
+
+ * **View Contact Status:** See if the affiliate is subscribed to your CRM.
+ * **View Stats:** Quickly check their email performance, including Emails sent, Opens, and Clicks.
+ * **Manage Lists:** Click the **+ Add** button under "**Lists**" to assign the affiliate to a new CRM list, or click the "x" next to an existing list to remove them from it.
+ * **Manage Tags:** Click the **+ Add** button under "**Tags**" to apply new tags, or click the "x" to remove existing tags.
+
+> [!Note]
+> Only users who already have the appropriate permissions to read and manage **FluentCRM** contacts will be able to see and make these changes.
+
+![Contact View](/images/integrations/fluentcrm/crm-contact-view.webp)
+
 ### Troubleshooting Common Issues
 
 Here are solutions to common issues you might encounter:
