@@ -9,10 +9,14 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 ## FluentAffiliate v1.6.01
 *Released on Aug 10, 2026*
 
-- Improved: reCAPTCHA Keys Validated Automatically on Save
-- Fixed: Affiliate Registration and Login Forms in Production Builds
-- Fixed: Affiliate Portal Not Loading With Cookie Consent Blockers
+::::: code-group
 
+```markdown [🐞 Bug fixes]
+• Fixes Affiliate Registration and Login Forms
+• Fixes Affiliate Portal Not Loading With Cookie Consent Blockers
+```
+
+:::::
 
 ## FluentAffiliate v1.6.0
 *Released on Aug 03, 2026*
