@@ -59,7 +59,7 @@ A type of commission where an affiliate earns a fixed amount for each referral, 
 ## I
 
 ### Integrations
-The ability for FluentAffiliate to connect and work seamlessly with other popular WordPress plugins. This allows you to track affiliate commissions from e-commerce stores (like WooCommerce), course platforms (like LearnDash), and form builders (like FluentForms).
+The ability for FluentAffiliate to connect and work seamlessly with other popular WordPress plugins. This allows you to track affiliate commissions from e-commerce stores (like WooCommerce), course platforms (like LifterLMS), and form builders (like FluentForms).
 
 ## L
 
