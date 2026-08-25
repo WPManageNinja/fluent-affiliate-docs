@@ -6,6 +6,25 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 # Changelog
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentAffiliate.
 
+## FluentAffiliate v1.6.5
+*Released on Aug 20, 2026*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Filters for Signup Roles and Reserved Field Names
+```
+
+```markdown [🚀 Improvements]
+• Improves License Management with Plan, Expiry and Renewal Alerts
+• Improves Custom Conversion Referrals to Await Admin Approval
+• Improves Visit Deduplication and Per-IP Flood Limits
+• Improves Licensing Engine With Signed Update Package Verification
+• Improves Security by Hardening Permissions, Registration, Tracking and Output Escaping
+```
+
+:::::
+
 ## FluentAffiliate v1.6.01
 *Released on Aug 10, 2026*
 
