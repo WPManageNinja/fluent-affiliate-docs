@@ -72,6 +72,8 @@ Here is how to build your custom fields:
 
 Whatever an affiliate submits through these custom fields will show up right on their profile in your admin dashboard, inside the **Affiliate Info** panel. This means all their answers live right next to the person they belong to!
 
-> For Developers: New filters allow an add-on to validate submitted values, enrich the admin detail view, and extend the portal settings form. This means custom fields can be wired directly into your own custom workflow!
+> [!Note]
+> **For Developers:** New filters allow an add-on to validate submitted values, enrich the admin detail view, and extend the portal settings form. This means custom fields can be wired directly into your own custom workflow! 
+> Additional filters are also available to control which user roles are allowed to **sign up as an affiliate** and to **reserve specific field names** so they can't be reused or overridden by a custom field.
 
 After making any customizations, remember to click the **Save Settings** button at the bottom of the main page to apply all your changes.
