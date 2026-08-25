@@ -22,6 +22,9 @@ The process is simple and runs in the background:
 3. After payment, they are redirected to your success page.
 4. A special shortcode on that page automatically tells FluentAffiliate to find the correct affiliate and create a referral for them.
 
+> [!Note]
+> Referrals created through this shortcode now go into **Pending** status by default and await your approval before they're eligible for payout, unless you explicitly set a different `status` parameter. This keeps commissions from non-integrated sources subject to the same review as your other referrals.
+
 ### Implementation
 
 To set this up, simply place the following shortcode on the page that users are redirected to after a successful payment:
@@ -38,7 +41,7 @@ For more detailed and accurate tracking, you can enhance the shortcode with opti
 | `amount` | Sets the exact purchase amount that the commission will be calculated on. | `amount="99.50"` |
 | `reference` | Adds a unique Order ID or Transaction ID to the referral log. | `reference="ORD-1001"` |
 | `description` | A short note about the referral for your records. | `description="Custom Checkout"` |
-| `status` | Sets the initial status of the referral. Options are `pending`, `unpaid`, `paid`, `rejected`. | `status="pending"` |
+| `status` | Sets the initial status of the referral. Options are `pending`, `unpaid`, `paid`, `rejected`. If omitted, the referral now defaults to **pending** and waits for admin approval before it's paid out. | `status="pending"` |
 | `type` | Defines the type of conversion. Options include `sale`, `lead`, `signup`. | `type="sale"` |
 
 **Example shortcode with parameters:**
