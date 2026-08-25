@@ -26,6 +26,9 @@ When you have a lot of traffic, finding the information you need is key. Use the
 * **Not Converted:** This filter shows you all the clicks that did not lead to a sale.
 * **Search:** For more specific queries, you can use the search icon on the right to find visits based on keywords.
 
+> [!Note]
+> To keep your traffic data clean, FluentAffiliate automatically deduplicates repeat visits from the same referral link and applies a per-IP flood limit, so rapid, repeated clicks from a single visitor (such as page reloads or bot activity) aren't logged as multiple separate visits.
+
 ## Understanding the Visits Table
 
 Each row in the table represents a single click and is organized into columns that provide specific details about the visit.
