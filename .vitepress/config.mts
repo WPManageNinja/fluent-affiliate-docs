@@ -1,5 +1,45 @@
 import { defineConfig } from 'vitepress'
+import { existsSync } from 'node:fs'
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { zoomablePlugin } from './theme/markdown-plugin-zoomable'
+
+// Production origin, shared by the sitemap, canonical tags and social cards.
+const SITE_ORIGIN = 'https://docs.fluentaffiliate.com'
+
+/**
+ * Per-page link-preview cards.
+ *
+ * `scripts/generate-featured-images.mjs` renders a branded 1200x630 PNG carrying each
+ * page's own title into `guide/public/images/featured/<section>--<slug>.png`. That folder
+ * is the configured publicDir, so the card is served at `/images/featured/<name>`.
+ *
+ * NAMING RULE — duplicated (not imported) from that script's buildNameParts(); keep the
+ * two in sync if it ever changes. There are no `rewrites` in this repo, so `relativePath`
+ * arrives here as the real source path `guide/<section>/<slug>.md`, and the card folds
+ * that into `<section>--<slug>.png`. The home page (`index.md`) uses `index.png`.
+ *
+ * Anything without a generated card falls back to `default.png`, which the generator also
+ * emits — so a shared link is never left with no preview at all.
+ */
+const FEATURED_DIR = join(
+  dirname(fileURLToPath(import.meta.url)),
+  '..',
+  'guide',
+  'public',
+  'images',
+  'featured'
+)
+
+function featuredImageFor(relativePath: string): string {
+  const parts = relativePath.replace(/\.md$/, '').split('/')
+  const name = parts[0] === 'guide' && parts.length > 2
+    ? `${parts[1]}--${parts[parts.length - 1]}.png`
+    : `${parts[parts.length - 1]}.png`
+
+  const file = existsSync(join(FEATURED_DIR, name)) ? name : 'default.png'
+  return `${SITE_ORIGIN}/images/featured/${file}`
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,7 +49,7 @@ export default defineConfig({
   lastUpdated: false,
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://docs.fluentaffiliate.com'
+    hostname: SITE_ORIGIN
   },
   
   head: [
@@ -27,23 +67,52 @@ export default defineConfig({
     ['meta', { name: 'author', content: 'FluentAffiliate' }],
     ['meta', { name: 'keywords', content: 'FluentAffiliate, WordPress, affiliate marketing, affiliate management, WordPress plugin, documentation' }],
     
-    // Open Graph Meta Tags
+    // Open Graph / Twitter values that never vary per page. The per-page ones —
+    // og:title, og:description, og:url, og:image and the canonical — are built in
+    // `transformHead` below. Do NOT add og:image or the canonical back here:
+    // scrapers take the first tag they find, so a static one would shadow every
+    // per-page card, and a static canonical would point every page at the homepage.
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'FluentAffiliate Documentation' }],
     ['meta', { property: 'og:locale', content: 'en_US' }],
-    ['meta', { property: 'og:image', content: '/images/brand/FluentAffiliate-Plugin-Dashboard.webp' }],
-    ['meta', { property: 'og:image:alt', content: 'FluentAffiliate WordPress Plugin Dashboard' }],
-    
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+
     // Twitter Card Meta Tags
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:site', content: '@FluentAffiliate' }],
-    ['meta', { name: 'twitter:creator', content: '@FluentAffiliate' }],
-    ['meta', { name: 'twitter:image', content: '/images/brand/FluentAffiliate-Plugin-Dashboard.webp' }],
-    ['meta', { name: 'twitter:image:alt', content: 'FluentAffiliate WordPress Plugin Dashboard' }],
-    
-    // Canonical URL
-    ['link', { rel: 'canonical', href: 'https://docs.fluentaffiliate.com' }]
+    ['meta', { name: 'twitter:creator', content: '@FluentAffiliate' }]
   ],
+
+  /**
+   * VitePress emits none of these on its own: a canonical URL, or the Open Graph /
+   * Twitter values that differ per page. Without them every page shared a single
+   * site-wide preview, and every page claimed the homepage as its canonical.
+   */
+  transformHead({ pageData, title, description }) {
+    // The 404 page is reachable at every bad URL, so it must not claim a canonical
+    // of its own or be shared as a card.
+    if (pageData.relativePath === '404.md') return []
+
+    const path = pageData.relativePath.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '')
+    const url = `${SITE_ORIGIN}/${path}`
+    const image = featuredImageFor(pageData.relativePath)
+
+    return [
+      ['link', { rel: 'canonical', href: url }],
+
+      ['meta', { property: 'og:title', content: title }],
+      ['meta', { property: 'og:description', content: description }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:image', content: image }],
+      ['meta', { property: 'og:image:alt', content: title }],
+
+      ['meta', { name: 'twitter:title', content: title }],
+      ['meta', { name: 'twitter:description', content: description }],
+      ['meta', { name: 'twitter:image', content: image }],
+      ['meta', { name: 'twitter:image:alt', content: title }]
+    ]
+  },
   
   vite: {
     publicDir: 'guide/public',
