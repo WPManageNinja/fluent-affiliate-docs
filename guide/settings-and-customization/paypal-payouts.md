@@ -21,6 +21,14 @@ Before connecting PayPal, make sure you have the following ready:
 * **PayPal REST API App:** You create this app in the PayPal Developer Dashboard. It gives you the **Client ID** and **Secret** that FluentAffiliate needs to send payments.
 * **Supported Currency:** Your store currency must be supported by PayPal Payouts. Supported currencies are AUD, BRL, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, ILS, JPY, MXN, MYR, NOK, NZD, PHP, PLN, SEK, SGD, THB, TWD, and USD.
 
+## Accessing PayPal Payouts Settings
+
+To find these settings, go to your WordPress dashboard. From the FluentAffiliate menu, click on **Settings**, and select **PayPal Payouts** from the left sidebar.
+
+On this page, you'll also find a quick **PayPal Developer Dashboard** link, so you can jump straight to your PayPal app to copy the keys.
+
+![PayPal Payouts Settings](/images/settings-and-customization/paypal-payouts/paypal-payouts-settings.webp)
+
 ## Getting Your PayPal API Keys
 
 Getting your API keys only takes a few minutes. Follow these steps:
@@ -40,13 +48,6 @@ We recommend starting with the **Sandbox** keys first. Sandbox payouts don't mov
 
 ![PayPal API Credentials](/images/settings-and-customization/paypal-payouts/paypal-api-credentials.webp)
 
-## Accessing PayPal Payouts Settings
-
-To find these settings, go to your WordPress dashboard. From the FluentAffiliate menu, click on **Settings**, and select **PayPal Payouts** from the left sidebar.
-
-On this page, you'll also find a quick **PayPal Developer Dashboard** link, so you can jump straight to your PayPal app to copy the keys.
-
-![PayPal Payouts Settings](/images/settings-and-customization/paypal-payouts/paypal-payouts-settings.webp)
 
 ## How to Configure PayPal Payouts
 
