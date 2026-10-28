@@ -262,6 +262,7 @@ export default defineConfig({
           items: [
             { text: 'Referral Settings', link: '/guide/settings-and-customization/referral-settings' },
             { text: 'Group Settings', link: '/guide/settings-and-customization/group-settings' },
+            { text: 'PayPal Payouts', link: '/guide/settings-and-customization/paypal-payouts' },
             { 
               text: 'Email Settings',
               collapsed: true,
