@@ -6,6 +6,46 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 # Changelog
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentAffiliate.
 
+## FluentAffiliate v1.7.0
+*Released on Oct 28, 2026*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Adds Send Affiliate Payouts Through PayPal
+• Adds Commission Holding Period
+• Adds PayPal Payouts File Export for Manual Payouts
+• Adds Option to Ignore the Holding Period on a Payout
+• Adds Creatives Migration from Affiliate Manager
+```
+
+```markdown [🚀 Improvements]
+• Improves WPFluent Framework to 2.16.0
+• Improves Security by Hardening Permissions, Registration, Integration Feeds, CSV Exports and Output Escaping
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Wrong Commission on Zero-Decimal Currencies in FluentCart and FluentBooking
+• Fixes FluentCart Tax-Inclusive Commission Including VAT
+• Fixes Flat Commission Paid on Free Orders
+• Fixes Default Commission Rate Decimals and Rounding
+• Fixes Paymattic Coupon and FluentForms Pending Payment Commissions
+• Fixes Referral Attribution With Inactive Affiliates and Numeric Usernames
+• Fixes Self-Referral Check on Lifetime Commissions
+• Fixes Lifetime Commissions on WooCommerce Orders and Coupon Sales
+• Fixes Lost Visit and Referral Counts Under Load
+• Fixes Payout Accuracy for Inactive Affiliates, Deductions and Deleted Records
+• Fixes Migration Accuracy for AffiliateWP, Affiliate Manager and Solid Affiliate
+• Fixes Failed Payouts From Migrations Stuck in Processing
+• Fixes FluentCRM Automation Actions and Smart Codes
+• Fixes Signup Altering Passwords and Accepting Taken Usernames
+• Fixes Scheduled Jobs Not Rescheduling or Failing Without Pro
+• Fixes Dates Ignoring the Site Date Format and Week Start
+• Fixes Export Amounts Dropping Trailing Zeros
+```
+
+:::::
+
 ## FluentAffiliate v1.6.5
 *Released on Aug 20, 2026*
 
