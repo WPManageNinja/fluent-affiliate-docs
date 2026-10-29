@@ -5,7 +5,8 @@ description: Learn how to set up PayPal Payouts in FluentAffiliate Pro. Connect 
 
 # PayPal Payouts
 
-Is paying every affiliate one by one taking up too much of your time? As your affiliate program grows, sending manual payments to each partner quickly becomes a hassle. With PayPal Payouts, FluentAffiliate lets you send all the payments of a payout to your affiliates' PayPal emails in one step, and it updates the status of each payment for you.
+
+Is paying every affiliate one by one taking up too much of your time? As your affiliate program grows, sending manual payments to each partner quickly becomes a hassle. With PayPal Payouts, FluentAffiliate allows you to send all the payments of a payout to your affiliates' PayPal emails in one step, and it updates the status of each payment for you.
 
 In this guide, we'll walk you through connecting your PayPal account with FluentAffiliate.
 
@@ -29,33 +30,62 @@ On this page, you'll also find a quick **PayPal Developer Dashboard** link, so y
 
 ![PayPal Payouts Settings](/images/settings-and-customization/paypal-payouts/paypal-payouts-settings.webp)
 
-## Getting Your PayPal API Keys
+## Generate Your PayPal API Credentials
 
-Getting your API keys only takes a few minutes. Follow these steps:
+You can create the required API credentials through the PayPal Developer Dashboard.
 
-1. Log in to the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/) with your PayPal Business account.
-2. Go to **Apps & Credentials**.
-3. Choose **Sandbox** to get test keys, or **Live** to get the keys that send real money.
-4. Click the **Create App** button, give your app a name, and create it.
+#### Step 1: Sign in to PayPal Developer
+
+Open the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/) and sign in with the PayPal Business account you want to use for payouts.
+
+#### Step 2: Open Apps & Credentials
+
+Navigate to Apps & Credentials and choose the appropriate environment:
+
+ * **Sandbox:** Use this environment for testing without sending real payments.
+ * **Live:** Use this environment when you are ready to process real payouts.
+
+We recommend starting with Sandbox so you can test your configuration before handling actual affiliate payments.
+
+#### Step 3: Create a REST API app
+
+- Select the option to create a new app.
+- Enter a recognizable application name.
+- Complete the required setup.
+- Create the application.
 
 ![Create App](/images/settings-and-customization/paypal-payouts/create-app-1.webp)
 
+#### Step 4: Copy your credentials
 
-5. Open the app, and under **API credentials**, click the copy icon next to the **Client ID** and the **Secret key** to copy them.
-6. In the app settings, make sure the **Payouts** feature is checked.
+After creating the application, locate the API credentials displayed on its details page.
 
-We recommend starting with the **Sandbox** keys first. Sandbox payouts don't move any real money, so you can safely test everything before going live.
+Copy the following values:
+
+- **Client ID**
+
+- **Secret key**
+
+Store these credentials securely. Never publish your Secret in frontend code, public repositories, screenshots, or other publicly accessible locations.
+
+#### Step 5: Enable Payouts
+
+Open your application's settings and verify that the Payouts feature is enabled, where applicable. If your account requires additional permissions or activation, complete those steps before testing the integration.
+
+>[!Note]
+> Sandbox and Live credentials are different. Use credentials that match the environment you have selected in FluentAffiliate.
+
 
 ![PayPal API Credentials](/images/settings-and-customization/paypal-payouts/paypal-api-credentials.webp)
 
 
-## How to Configure PayPal Payouts
+## Configure PayPal Payouts
 
-The settings page has two tabs: **Test credentials** and **Live credentials**. Open the tab for the mode you want to use and fill out the following:
+Return to your WordPress dashboard and open **FluentAffiliate → Settings → PayPal Payouts**. Complete the following fields.
 
 * **Client ID:** In the **Test Client ID** or **Live Client ID** field, paste the Client ID you copied from your PayPal app.
 * **Secret:** In the **Test Secret** or **Live Secret** field, paste the Secret from your PayPal app. FluentAffiliate keeps the Secret encrypted and does not show it again. If you want to change it later, simply enter a new Secret.
-* **Webhook URL:** This is the URL where PayPal sends the payout results. You don't need to copy it anywhere, as FluentAffiliate registers it at PayPal automatically when you save the credentials.
+* **Webhook URL:** This is the URL where PayPal sends the payout results. You don't need to copy it anywhere, as FluentAffiliate registers it at PayPal automatically when you save the credentials. The **Copy** button is only for reference, for example, if you want to check the URL in your PayPal dashboard.
 * **Test connection:** Click this button to make sure FluentAffiliate can reach PayPal with your keys. If everything is correct, you'll see a **Connected to PayPal** message.
 
 Keep in mind that payouts use the credentials of the tab that is open when you save. So, if you save while the **Live credentials** tab is open, your payouts will move real money.
@@ -67,16 +97,26 @@ Once you have entered your keys, click the **Save Settings** button to apply you
 
 ### Webhook Status
 
-After saving, you'll see the webhook status on the settings page:
+When you save your PayPal keys, FluentAffiliate registers the webhook at PayPal for you and saves the webhook ID that PayPal sends back. After saving, you'll see the webhook status on the settings page:
 
 * **Webhook registered at PayPal:** Everything is set. PayPal will send each payment result to your site within seconds.
 * **Webhook not registered:** Your payouts will still work, but the payment status updates through the hourly check instead. Click the **Register webhook again** button to try again.
 
-If you are using a local or staging site, PayPal usually can't reach it. That's okay! FluentAffiliate checks PayPal every hour for recent payouts and once a day for older ones, so your payment statuses stay up to date.
+::: warning
+Please don't add the webhook by hand in your PayPal dashboard. FluentAffiliate checks every PayPal event against the webhook ID it saved. A webhook you create yourself has a different ID, so FluentAffiliate will reject its events, and you'll end up with duplicate webhooks in your PayPal app.
+:::
 
-### Removing the Keys
+To receive webhooks, your site must be reachable from the public internet over **HTTPS**. If you are using a local or staging site, PayPal usually can't reach it. That's okay! FluentAffiliate checks PayPal every hour for recent payouts and once a day for older ones, so your payment statuses stay up to date.
 
-If you want to disconnect PayPal, click the **Remove keys** button. This removes both the Sandbox and Live keys along with the webhooks. You won't be able to send PayPal payouts until you add the keys again.
+### Remove PayPal API Credentials
+
+If you need to disconnect PayPal, click the **Remove keys** button in the PayPal Payouts settings.
+
+Removing the keys disconnects the stored API credentials and removes the associated integration configuration, including the **Sandbox** and **Live** keys and webhook setup.
+
+After removing the credentials, you will need to configure the integration again before using PayPal Payouts.
+
+Before disconnecting PayPal, review any pending payouts and confirm that you no longer need the existing connection.
 
 ## Selecting PayPal as the Payout Method
 
