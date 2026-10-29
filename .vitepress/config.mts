@@ -11,12 +11,13 @@ const SITE_ORIGIN = 'https://docs.fluentaffiliate.com'
  * Per-page link-preview cards.
  *
  * `scripts/generate-featured-images.mjs` renders a branded 1200x630 PNG carrying each
- * page's own title into `guide/public/images/featured/<section>--<slug>.png`. That folder
+ * page's own title into `docs/public/images/featured/<section>--<slug>.png`. That folder
  * is the configured publicDir, so the card is served at `/images/featured/<name>`.
  *
  * NAMING RULE — duplicated (not imported) from that script's buildNameParts(); keep the
- * two in sync if it ever changes. There are no `rewrites` in this repo, so `relativePath`
- * arrives here as the real source path `guide/<section>/<slug>.md`, and the card folds
+ * two in sync if it ever changes. The source folder is `docs/` but `rewrites` serves it at
+ * `/guide/...`, so `relativePath` arrives here as the rewritten path
+ * `guide/<section>/<slug>.md` (`filePath` is the real `docs/...` path), and the card folds
  * that into `<section>--<slug>.png`. The home page (`index.md`) uses `index.png`.
  *
  * Anything without a generated card falls back to `default.png`, which the generator also
@@ -25,7 +26,7 @@ const SITE_ORIGIN = 'https://docs.fluentaffiliate.com'
 const FEATURED_DIR = join(
   dirname(fileURLToPath(import.meta.url)),
   '..',
-  'guide',
+  'docs',
   'public',
   'images',
   'featured'
@@ -43,6 +44,10 @@ function featuredImageFor(relativePath: string): string {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // Source folder is `docs/`; keep serving it at `/guide/...` so no public URL changes.
+  rewrites: {
+    'docs/:rest*': 'guide/:rest*'
+  },
   title: 'FluentAffiliate Documentation',
   description: 'Complete documentation for FluentAffiliate WordPress plugin. Learn how to set up, manage, and optimize your affiliate program with step-by-step guides, integrations, and best practices.',
   lang: 'en-US',
@@ -115,7 +120,7 @@ export default defineConfig({
   },
   
   vite: {
-    publicDir: 'guide/public',
+    publicDir: 'docs/public',
   },
 
   markdown: {

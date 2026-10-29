@@ -1,7 +1,7 @@
 /.vitepress/cache
 *.py
 *.sh
-guide/.DS_Store
+docs/.DS_Store
 */.DS_Store
 /node_modules
 fluentaffiliate.WordPress.2025-06-23.xml
@@ -9,5 +9,5 @@ fluentaffiliate.WordPress.2025-06-23.xml
 /.idea
 
 # DO NOT ignore the images folder!
-# (No line like /guide/public/images)
+# (No line like /docs/public/images)
 /.vitepress/dist
