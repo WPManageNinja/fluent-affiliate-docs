@@ -42,6 +42,17 @@ Define the logic for how affiliates are credited for referrals and how long they
 
 * **Credit:** Determine which affiliate receives credit for a referral. You can credit the **First Affiliate** or the **Last Affiliate**.
 * **Cookie Duration:** Set the duration of the cookie used to track referrals, specified in days. The example shows a duration of 30 days.
+* **Holding Period:** Set how many days a new referral must wait before it can be paid. You can enter any value from 0 to 365 days. Set it to **0** if you want to pay new referrals right away.
+
+#### How the Holding Period Works
+
+A holding period gives you time to catch refunds and cancelled orders before you pay a commission. For example, if your store allows refunds within 30 days, you can set the holding period to 30 days.
+
+Here's what happens when a holding period is set:
+
+* A new unpaid referral stays on hold until the holding period ends. You'll see an **On hold until** date under its status on the Referrals page, and the affiliate sees the same date in their affiliate portal.
+* When you create a payout, the referrals that are still on hold are left out. The review page tells you how many referrals are on hold and their total amount. Don't worry, they stay unpaid, so a later payout can pay them.
+* If you need to pay the referrals that are on hold, check the **Ignore the holding period** option when you create the payout. To learn more, check out the [Payout Management](/guide/admin-portal/payout-management) guide.
 
 ![Recurring Settings](/images/settings-and-customization/referral/recurring-commission-settings.webp)
 
