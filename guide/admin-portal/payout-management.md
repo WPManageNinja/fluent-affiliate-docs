@@ -33,11 +33,15 @@ Here's what to fill out:
 
 * **Start Date - End Date**: Choose the date range for which you want to process payouts. For example, select last month's range to pay commissions from that period.
 
+* **Holding Period**: This option only appears if you have set a [holding period](/guide/settings-and-customization/referral-settings#how-the-holding-period-works) in the Referral Settings. By default, referrals that are newer than the holding period are left out of the payout. Check the **Ignore the holding period** box if you want to pay them as well.
+
 * **Minimum Payout Amount**: Set a minimum amount that affiliates must reach to be eligible for payout.
 
 * **Payout Method**: Choose how you want to pay this payout. Select **Manual** to pay the affiliates yourself, or **PayPal Payouts** to send the money through PayPal. The PayPal Payouts option only appears once you have [set up PayPal Payouts](/guide/settings-and-customization/paypal-payouts).
 
 Once everything is filled out, click the **Next (Review Payout)** button to proceed.
+
+If some referrals are still in the holding period, the review page will show you how many of them are left out of this payout and their total amount.
 
 ![Payout Creation Form](/images/admin-portal/payout-management/create-new-payout.webp)
 
@@ -47,11 +51,14 @@ Now, on the Payout dashboard, you'll see your newly created payout listed.
 
 Now, click on the **Payout Name** to view its payment details. Here, you can see the total amount paid to your affiliates, along with which affiliates received commissions, the dates, and other important info.
 
-The right sidebar will show you additional payout details.
+The right sidebar will show you additional payout details. If you checked the **Ignore the holding period** option when creating the payout, you'll also see **Holding Period: Ignored** here.
 
 ![Payout Details](/images/admin-portal/payout-management/payout-details-view.webp)
 
-In the Transactions tab, you can generate a report for your transactions. Simply click the **Export** button to download a CSV file with your payout details.
+In the Transactions tab, you can generate a report for your transactions. Simply click the **Export** button and choose the file you need:
+
+* **CSV file:** Downloads all the columns of the transactions in the current view.
+* **PayPal Payouts file:** Downloads the processing transactions in a file that is ready to upload at PayPal.
 
 ![Transaction Export](/images/admin-portal/payout-management/export-transaction-button.webp)
 
@@ -65,6 +72,23 @@ The **CSV** file will include the following details:
 * currency
 
 ![CSV Export Example](/images/admin-portal/payout-management/csv-export-example.webp)
+
+### Export a PayPal Payouts File
+
+Do you pay your affiliates manually through PayPal? Instead of sending each payment one by one, you can export a PayPal Payouts file and upload it to your PayPal Business account to pay all of them at once.
+
+To do this, click the **Export** button in the Transactions tab and select **PayPal Payouts file**. FluentAffiliate will download a CSV file in PayPal's Payouts upload format. Each row has the affiliate's payment email, the amount, and the currency, without a header row.
+
+![Export PayPal Payouts File](/images/admin-portal/payout-management/paypal-payouts-file-export.webp)
+
+Here are a few things to keep in mind:
+
+* **Processing transactions only:** The file only includes the transactions that are still processing, so affiliates you have already paid won't be paid again.
+* **Valid payment email:** Any affiliate without a valid payment email is left out of the file. You'll see a notice with their names, so you can pay them another way or ask them to update their email.
+* **5,000 rows limit:** PayPal accepts up to 5,000 payments in one file. If your payout has more transactions, the file includes the first 5,000.
+* **Manual payouts only:** You can't export a PayPal Payouts file for a payout sent through [PayPal Payouts](#pay-affiliates-with-paypal-payouts), because PayPal is already sending that money.
+
+After uploading the file at PayPal and sending the payments, come back to the payout and click the **Mark all as Paid** button to record the payments as paid.
 
 ## Pay Affiliates with PayPal Payouts
 
@@ -88,7 +112,7 @@ No money is sent at this step. Click the **Create Payout** button to create the 
 
 ### Sending the Payout to PayPal
 
-After creating the payout, you'll land on the payout page. Here, each payment shows the **Ready To Send** status. Simply click the **Send via PayPal** button at the top.
+After creating the payout, you'll land on the payout page. Here, each payment shows the **Ready to send** status. Simply click the **Send via PayPal** button at the top.
 
 ![Ready to Send](/images/admin-portal/payout-management/paypal-ready-to-send.webp)
 
