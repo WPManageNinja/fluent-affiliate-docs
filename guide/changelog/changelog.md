@@ -20,7 +20,7 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 ```
 
 ```markdown [🚀 Improvements]
-• Improves WPFluent Framework to 2.16.0
+• Updates WPFluent Framework to 2.16.0
 • Improves Security by Hardening Permissions, Registration, Integration Feeds, CSV Exports and Output Escaping
 ```
 
