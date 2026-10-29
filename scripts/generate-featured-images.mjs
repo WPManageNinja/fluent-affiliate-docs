@@ -4,15 +4,15 @@
  * shared on Slack / X / Facebook / LinkedIn previews with that page's own title
  * instead of one generic dashboard screenshot for the whole site.
  *
- * Sources: `index.md` (home) and `guide/**\/*.md` (excluding `guide/public/`).
- * Output:  guide/public/images/featured/<section>--<page-slug>.png
- *          (`guide/public` is the configured publicDir, so these are served at
+ * Sources: `index.md` (home) and `docs/**\/*.md` (excluding `docs/public/`).
+ * Output:  docs/public/images/featured/<section>--<page-slug>.png
+ *          (`docs/public` is the configured publicDir, so these are served at
  *          `/images/featured/<section>--<page-slug>.png`.)
  *
- * NAMING RULE — this repo has no `rewrites`, so a page's URL keeps its folders
- * (`guide/<section>/<slug>.md` is served at `/guide/<section>/<slug>`). The card
- * name folds that same path into one filename:
- *   <section>--<page-slug>.png, where section = the folder under guide/ and
+ * NAMING RULE — the source folder is `docs/`, but `rewrites` in the VitePress config
+ * serves it at `/guide/...` (`docs/<section>/<slug>.md` -> `/guide/<section>/<slug>`).
+ * The card name folds the section and slug into one filename:
+ *   <section>--<page-slug>.png, where section = the folder under docs/ and
  *   page-slug = the md filename without its extension. The home page uses
  *   index.png.
  * Page slugs happen to be unique across sections today, but nothing enforces
@@ -33,7 +33,7 @@ import sharp from 'sharp'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const REPO_ROOT = join(__dirname, '..')
-const GUIDE_DIR = join(REPO_ROOT, 'guide')
+const GUIDE_DIR = join(REPO_ROOT, 'docs')
 const GUIDE_PUBLIC_DIR = join(GUIDE_DIR, 'public')
 const OUTPUT_DIR = join(GUIDE_PUBLIC_DIR, 'images', 'featured')
 const HOME_PATH = join(REPO_ROOT, 'index.md')
@@ -83,7 +83,7 @@ function walk(dir, files = []) {
 // -------------------------------------------------------------------------
 
 /**
- * relPath: path relative to guide/, forward slashes,
+ * relPath: path relative to docs/, forward slashes,
  *          e.g. "admin-portal/managing-affiliates.md"
  * Returns { section, slug }.
  */
@@ -91,8 +91,8 @@ function buildNameParts(relPath) {
   const parts = relPath.split('/')
   if (parts.length < 2) {
     throw new Error(
-      `Invalid path: guide/${relPath} must live inside a section folder ` +
-        `(guide/<section>/<slug>.md), never directly under guide/.`
+      `Invalid path: docs/${relPath} must live inside a section folder ` +
+        `(docs/<section>/<slug>.md), never directly under docs/.`
     )
   }
   return {
@@ -299,7 +299,7 @@ async function main() {
     console.log(
       `\n${orphans.length} card(s) no longer match a page — delete them if the page is gone:`
     )
-    orphans.forEach((name) => console.log(`  guide/public/images/featured/${name}`))
+    orphans.forEach((name) => console.log(`  docs/public/images/featured/${name}`))
   }
 }
 
