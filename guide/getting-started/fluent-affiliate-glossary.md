@@ -56,6 +56,11 @@ A settings area where the site administrator can customize the email notificatio
 ### Flat Rate
 A type of commission where an affiliate earns a fixed amount for each referral, no matter the total purchase price. For example, you can set a flat commission of $10 for every sale.
 
+## H
+
+### Holding Period
+The number of days a new referral must wait before it can be paid. It gives you time to catch refunds and cancelled orders before paying a commission. This is configured in the Referral Settings.
+
 ## I
 
 ### Integrations

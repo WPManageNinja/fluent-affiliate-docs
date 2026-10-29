@@ -34,7 +34,7 @@ The main table lists every referral with all the important details, giving you a
 * **Amount:** The commission amount earned from that specific referral. 
 * **Description:** Details about the product or service that was purchased. 
 * **Reference:** A source or order ID linked to the referral. 
-* **Status:** The current status of the referral **Paid**, **Pending**, **Unpaid**, or **Rejected**. 
+* **Status:** The current status of the referral **Paid**, **Pending**, **Unpaid**, or **Rejected**. If you have set a [holding period](/guide/settings-and-customization/referral-settings#how-the-holding-period-works), an unpaid referral that is still on hold also shows an **On hold until** date. It can't be added to a payout before this date. 
 * **Type:** The source of the commission, such as a product sale or a form submission. 
 * **Date:** The exact date the referral was created. 
 

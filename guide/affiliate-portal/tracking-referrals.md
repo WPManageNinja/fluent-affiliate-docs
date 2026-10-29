@@ -17,7 +17,7 @@ Here is a breakdown of the information in each column:
 
 * **Date:** This shows the exact date and time the referral was recorded.
 * **Amount:** This displays the commission you earned for that specific sale.
-* **Status:** This tells you the current payment status of your commission. It will show as Paid for commissions you have received, and Unpaid for commissions that are approved but have not yet been sent. 
+* **Status:** This tells you the current payment status of your commission. It will show as Paid for commissions you have received, and Unpaid for commissions that are approved but have not yet been sent. Some unpaid commissions may also show an **On hold until** date. This means the site waits a set number of days before paying new commissions, and your commission can be paid after this date. 
 * **Description:** This provides details about the product that was purchased.
 
 ![Referrals User Portal](/images/affiliate-portal/referrals/referrals-list-view.webp)

@@ -7,6 +7,8 @@ description: Learn how to migrate from Affiliate Manager to FluentAffiliate. Imp
 
 The Affiliate Manager Migration tool in FluentAffiliate helps you move your existing affiliate data from **Affiliate Manager** into **FluentAffiliate**. It also allows you to clean up old or unnecessary data during the process.
 
+The migration supports **affiliates, referrals, customers, payouts**, and **visits**. If you're using **FluentAffiliate Pro**, your **creatives** are migrated as well, so your affiliates can keep using their existing promotional materials after the migration. Deleted creatives are not migrated.
+
 FluentAffiliate includes a built-in migration option for Affiliate Manager. This guide will walk you through the available options and the migration process.
 
 ## Accessing Migrator Settings
@@ -49,6 +51,7 @@ Click the **Migrate** button to begin. A pop-up will appear displaying an overvi
 - Total Payouts
 - Total Visits
 - Total Customers
+- Total Creatives (FluentAffiliate Pro)
 
 You also have the option to check **Reset Current Migration** if you need to restart a previous attempt. Click **Confirm** to proceed.
 
@@ -56,7 +59,7 @@ You also have the option to check **Reset Current Migration** if you need to res
 
 A final confirmation box will appear, warning you that this action cannot be undone. Click **Yes, Migrate**.
 
-- **Monitor Progress:** A progress window will show the status of each data type (Affiliates, Referrals, Customers, Payouts, and Visits) as they are moved to FluentAffiliate.
+- **Monitor Progress:** A progress window will show the status of each data type (Affiliates, Referrals, Customers, Payouts, Visits, and Creatives) as they are moved to FluentAffiliate.
 - **Completion:** Once finished, a "**Migration Completed**" message will display a summary of the total metrics migrated. Click **Close** to return to the dashboard.
 
 ### Data Cleanup
