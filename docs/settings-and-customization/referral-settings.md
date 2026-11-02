@@ -33,7 +33,7 @@ Configure how monetary values and numbers are displayed across the plugin.
 * **Number Format:** Choose the character style for separating thousands in numerical values. Options include US Style (1,000,00.00) and EU Style (1.000,00,00).
 * **Currency Symbol Position:** Choose whether the currency symbol appears Before ($10) or After (10$) the amount.
 * **Payout Method:** This setting allows you to choose how your affiliates will receive their earnings. You can select your preferred method from the dropdown menu:
-   * **PayPal:** A common method for sending automated or manual payments via email.
+   * **PayPal:** A common method for sending automated or manual payments via email. Select this option if you want to send payouts through **PayPal Payouts**. To set it up, check out the [PayPal Payouts](/guide/settings-and-customization/paypal-payouts) guide.
    * **Bank Transfer:** If you select this option, affiliates will provide their bank details for payouts instead of an email address.
 
 ### Tracking & Credit Rules
