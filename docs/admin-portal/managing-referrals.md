@@ -40,6 +40,10 @@ The main table lists every referral with all the important details, giving you a
 
 ![Referral Dashboard Overview](/images/admin-portal/managing-referrals/referrals-list-overview.webp)
 
+To see all the details of a referral, click its **ID**. If the referral is still on hold, the details page also shows the **On Hold Until** date.
+
+![View Referral On Hold](/images/admin-portal/managing-referrals/view-referral-on-hold.webp)
+
 ### Managing Individual Referrals
 At the end of each referral's row is a three-dot menu that contains key actions:
 

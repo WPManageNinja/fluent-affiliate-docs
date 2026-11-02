@@ -14,7 +14,7 @@ This section shows the list of all payouts that have been made to your account. 
 * **Date** – When the payout was processed.
 * **Amount** – The total amount you received in that payout.
 * **Status** – Whether the payout is Paid, Unpaid, or Pending.
-* **Descrption** – This provides details about the payouts.
+* **Description** – This provides details about the payouts.
 
 ![Payout Affiliate User Portal](/images/affiliate-portal/payouts/payout-history-view.webp)
 
