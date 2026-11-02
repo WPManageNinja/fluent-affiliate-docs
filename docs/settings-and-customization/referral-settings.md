@@ -44,6 +44,8 @@ Define the logic for how affiliates are credited for referrals and how long they
 * **Cookie Duration:** Set the duration of the cookie used to track referrals, specified in days. The example shows a duration of 30 days.
 * **Holding Period:** Set how many days a new referral must wait before it can be paid. You can enter any value from 0 to 365 days. Set it to **0** if you want to pay new referrals right away.
 
+![Payout Method and Holding Period](/images/settings-and-customization/referral/holding-period-payout-method.webp)
+
 #### How the Holding Period Works
 
 A holding period gives you time to catch refunds and cancelled orders before you pay a commission. For example, if your store allows refunds within 30 days, you can set the holding period to 30 days.
