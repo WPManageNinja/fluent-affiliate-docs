@@ -121,7 +121,10 @@ function stripMarkdown(text) {
 function extractTitle(mdPath, fallbackSlug) {
   const content = readFileSync(mdPath, 'utf8')
 
-  for (const line of content.split(/\r?\n/)) {
+  // Skip YAML frontmatter so a `# comment` in it is not mistaken for an H1.
+  const body = content.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '')
+
+  for (const line of body.split(/\r?\n/)) {
     const match = line.trim().match(/^#\s+(.+)$/)
     if (match) return stripMarkdown(match[1])
   }

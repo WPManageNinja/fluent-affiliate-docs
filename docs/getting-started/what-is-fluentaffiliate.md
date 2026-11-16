@@ -32,7 +32,7 @@ All of this directly from your WordPress dashboard.
 
 FluentAffiliate is perfect for:
 
-* Store owners using [WooCommerce](/guide/integrations/woocommerce-integration-with-fluentaffiliate), [Easy Digital Downloads](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate), [SureCart](/guide/integrations/surecart-integration-with-fluentaffiliate), or similar platforms
+* Store owners using [FluentCart](/guide/integrations/fluentcart-integration-with-fluentaffiliate), [WooCommerce](/guide/integrations/woocommerce-integration-with-fluentaffiliate), [Easy Digital Downloads](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate), [SureCart](/guide/integrations/surecart-integration-with-fluentaffiliate), or similar platforms
 * Online course creators using [MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate), and more
 * Anyone who wants to boost sales through referral marketing
 
