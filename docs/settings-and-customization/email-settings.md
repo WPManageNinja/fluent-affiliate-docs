@@ -9,7 +9,7 @@ The Email Settings section allows you to configure the global settings for all e
 
 ## Accessing Email Settings
 
-To access this section, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Email Settings**.
+To access this section, navigate from your WordPress dashboard to **FluentAffiliate → Settings → Email Notifications → Mail Settings**.
 
 ### Default Sender Settings
 
@@ -27,7 +27,7 @@ These settings control the default identity for all outgoing emails to ensure pr
 Customize the look and feel of your emails with a logo and a custom footer.
 
 * **Email Header Logo:** Upload an image to be displayed in the email header.
-* **Email Footer:** Customize the email footer text to include your brand or additional information using the rich text editor. To create a dynamic footer, you can use shortcodes like <code>&#123;&#123;site_name&#125;&#125;</code>. You can also disable the "powered by FluentAffiliate" text from the footer.
+* **Email Footer:** Customize the email footer text to include your brand or additional information using the rich text editor. You can also disable the "powered by FluentAffiliate" text from the footer.
 
 ![Email Customization](/images/settings-and-customization/email/email-footer.webp)
 
@@ -37,7 +37,7 @@ Customize the look and feel of your emails with a logo and a custom footer.
 Configure where and how often administrators receive email notifications and performance summaries.
 
 * **Admin Email Address:** Set the address where FluentAffiliate will send admin notifications. You can use commas to list multiple email addresses.
-* **Performance Summary Email Digest:** Select how often you want to receive the performance summary email. The option shown is "Daily".
+* **Performance Summary Email Digest:** Select how often you want to receive the performance summary email. You can choose **Daily**, a specific weekday (**Every Monday** through **Every Sunday**), or **Never (Disable Email Digest)**.
 
 ![Admin Notifications](/images/settings-and-customization/email/admin-email.webp)
 

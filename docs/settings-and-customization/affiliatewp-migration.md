@@ -5,7 +5,7 @@ description: Learn how to migrate from AffiliateWP to FluentAffiliate. Import af
 
 # AffiliateWP Migration
 
-The AffiliateWP Migration Settings in FluentAffiliate allow you to easily import data from other affiliate plugins and perform cleanup tasks. Currently, FluentAffiliate supports migration from **AffiliateWP**. This guide will walk you through the available options.
+The AffiliateWP Migration Settings in FluentAffiliate allow you to easily import data from other affiliate plugins and perform cleanup tasks. FluentAffiliate supports migration from several affiliate plugins, and this guide covers **AffiliateWP**. This guide will walk you through the available options.
 
 ## Accessing Migrator Settings
 
@@ -33,7 +33,7 @@ wp fluent_affiliate migrate_from_affiliatewp
 
 ## Migration Using Web UI
 
-FluentAffiliate provides a streamlined Web UI to move your data from Affiliate Manager with just a few clicks.
+FluentAffiliate provides a streamlined Web UI to move your data from AffiliateWP with just a few clicks.
 
 #### Step 1: Select Migration Source
 
@@ -49,6 +49,8 @@ Click the **Migrate** button to begin. A pop-up will appear displaying an overvi
   - Total Visits
   - Total Customers
 
+  AffiliateWP has no affiliate groups or creatives, so those totals are not migrated.
+
 You also have the option to check **Reset Current Migration** if you need to restart a previous attempt. Click **Confirm** to proceed.
 
 #### Step 3: Confirm and Monitor
@@ -59,7 +61,7 @@ A final confirmation box will appear, warning you that this action cannot be und
 
 ### Data Cleanup
 
-This section also includes a **Wipe Data** tool to clean up your FluentAffiliate data. To use it, select the data you wish to remove, confirm your choice, and wait for the process to finish.
+This section also includes a **Wipe Existing Data** tool to clean up your FluentAffiliate data. To use it, select the data you wish to remove, confirm your choice, and wait for the process to finish.
 
 > **Warning:** Data cleanup is irreversible. Always make sure to back up your data before proceeding.
 
