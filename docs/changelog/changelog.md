@@ -6,6 +6,35 @@ description: View the complete FluentAffiliate changelog. Track plugin updates, 
 # Changelog
 Stay updated with the latest improvements, new features, bug fixes, and performance enhancements in FluentAffiliate.
 
+## FluentAffiliate v1.8.0
+*Released on Nov 20, 2026*
+
+::::: code-group
+
+```markdown [✨ Newly Added]
+• Introduces MCP Server for AI Agents
+• Adds One-Click FluentHub Install for the MCP Server (Pro)
+• Adds Custom Commission Rates for SureCart (Pro)
+• Adds Sort Affiliates by Name
+• Adds System Theme Option to Follow the Device Light or Dark Mode
+```
+
+```markdown [🚀 Improvements]
+• Improves Security by Hardening Admin Requests, Imports, FluentCRM Steps and Payment Retries
+```
+
+```markdown [🐞 Bug fixes]
+• Fixes Percentage Commissions Saved With More Than Two Decimals
+• Fixes Referrals Lost When a Declined Payment Is Retried
+• Fixes SureCart Commission Including Tax on Tax-Inclusive Prices (Pro)
+• Fixes Pending MemberPress Subscription Referrals (Pro)
+• Fixes Visit Tracking for IPv6 Visitors Behind Cloudflare
+• Fixes Affiliate Login With Security Plugin Challenges
+• Fixes Portal Login Redirect on Plain Permalinks
+```
+
+:::::
+
 ## FluentAffiliate v1.7.0
 *Released on Oct 28, 2026*
 
