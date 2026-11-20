@@ -268,6 +268,7 @@ export default defineConfig({
             { text: 'Referral Settings', link: '/guide/settings-and-customization/referral-settings' },
             { text: 'Affiliate Groups', link: '/guide/settings-and-customization/group-settings' },
             { text: 'PayPal Payouts', link: '/guide/settings-and-customization/paypal-payouts' },
+            { text: 'MCP for AI Agents', link: '/guide/settings-and-customization/mcp-for-ai-agents' },
             { 
               text: 'Email Notifications',
               collapsed: true,
