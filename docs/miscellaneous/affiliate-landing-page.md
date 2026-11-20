@@ -5,15 +5,19 @@ description: Learn how to create affiliate landing pages using FluentAffiliate s
 
 # Affiliate Landing Page with Shortcode
 
-While standard affiliate links (`yoursite.com/?ref=123`) are effective, you can offer your top affiliates a more professional and branded way to promote your products. FluentAffiliate provides a powerful shortcode that allows you to create dedicated, custom landing pages for each of your affiliates.
+While standard affiliate links (`yoursite.com/?ref=123`) are effective, you can offer your top affiliates a more professional and branded way to promote your products. FluentAffiliate Pro provides a powerful shortcode that allows you to create dedicated, custom landing pages for each of your affiliates.
 
 This feature lets you transform a standard referral link into a clean, memorable URL (e.g., `yoursite.com/partner/alex`), enhancing trust and boosting conversions while ensuring all referrals are tracked perfectly.
+
+::: info
+The custom landing page shortcode requires **FluentAffiliate Pro**.
+:::
 
 ## How It Works
 
 The magic happens behind the scenes. When a visitor arrives on a page that contains the custom landing page shortcode, FluentAffiliate instantly recognizes the affiliate ID or username specified within it (e.g., `ref="X"`).
 
-It then sets the necessary tracking cookie in the visitor's browser, linking them to that affiliate. Any purchase or conversion made during their session will be automatically credited to that affiliate, just as if they had used a standard referral link.
+If that affiliate is **active**, FluentAffiliate's tracker then records the referral in the visitor's browser, linking them to that affiliate. If the affiliate is not active, nothing is tracked. Any purchase or conversion made during their session will be automatically credited to that affiliate, just as if they had used a standard referral link.
 
 ## Step-by-Step Implementation Guide
 
@@ -31,7 +35,7 @@ Setting up a custom landing page is a straightforward process:
         ```
         [fluent_aff_custom_landing ref="2"]
         ```
-    * **By Username (Optional):** You can also use the affiliate's WordPress username. This will only work if you have set the [**Default Referral Format**](/guide/settings-and-customization/referral-settings.md) to "WordPress username" in FluentAffiliate's main settings. If John Doe's username is `johndoe`, the shortcode would be:
+    * **By Username (Optional):** You can also use the affiliate's WordPress username. This will only work if you have set the [**Default Referral Format**](/guide/settings-and-customization/referral-settings) to "WordPress username" in FluentAffiliate's main settings. If John Doe's username is `johndoe`, the shortcode would be:
         ```
         [fluent_aff_custom_landing ref="johndoe"]
         ```

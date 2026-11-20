@@ -15,7 +15,11 @@ Watch how to add and customize affiliate creatives:
 
 ## Accessing Promo Materials
 
-You can find this new feature right in your FluentAffiliate settings.
+You can find this feature right in your FluentAffiliate settings.
+
+::: info
+Promo Materials requires **FluentAffiliate Pro**.
+:::
 
 1.  Go to your WordPress dashboard.
 2.  Navigate to **FluentAffiliate → Settings**.
@@ -27,13 +31,13 @@ Here, you'll see a dashboard where all your created assets will be listed.
 
 ## Creating a New Promo Material
 
-To get started, simply click the **+ New Promo Material** button. A form will slide in from the right where you can set up your new promotional material.
+To get started, simply click the **New Promo Material** button. A form titled **Add Promo Material** will slide in from the right where you can set up your new promotional material.
 
 Here’s a breakdown of the fields:
 
 * **Name**: Give your creative a clear, recognizable name (e.g., "Summer Sale - Text Link" or "Ebook Launch QR Code").
 * **Description**: Add a short description to let your affiliates know what this creative is for.
-* **Type**: Choose the kind of creative you want to make. You can select from the dropdown options like Image, Text, or QR Code.
+* **Type**: Choose the kind of creative you want to make. You can select from the dropdown options in this order: Image, QR Code, or Text. The fields below the dropdown change with the type you pick.
 
 ### Image Type
 
@@ -50,9 +54,13 @@ Under **Type**, select **Text** from the dropdown menu. A new **Text** field wil
 
 ![Text Type](/images/miscellaneous/promo-materials/text-type-3.webp)
 
+### URL
+
+**URL**: Enter the destination link. This is the webpage where customers will land after clicking or scanning the creative.
+
 ### QR Code Type
 
-From the **Type** dropdown menu, select **QR Code**. As soon as you do, a QR code will be instantly generated for you.
+From the **Type** dropdown menu, select **QR Code**. After you enter the **URL**, a QR code is generated for you (**Generated QR Code**).
 
 Next, you can customize its appearance to match your brand:
 
@@ -63,11 +71,10 @@ Next, you can customize its appearance to match your brand:
 
 ---
 
-* **URL**: Enter the destination link. This is the webpage where customers will land after clicking or scanning the creative.
 * **Privacy**: This is a key setting that controls who can see and use this creative. You have two options:
     * **Public**: The promo will be available to all of your affiliates.
     * **Private**: The promo will only be visible to specific affiliates or to affiliates within a selected group. When you choose ‘**Private**,’ new fields will appear where you can **select the group** or **individual affiliates** you want to share it with.
-* **Status**: Set the creative to **Active** to make it available, or **Inactive** to hide it. 
+* **Status**: Set the creative to **Active** to make it available, **Inactive** to hide it, or **Scheduled** to show it only between two dates. 
 * **Schedule Your Promo Materials**: Do you have a special promotion that runs for a limited time, such as a holiday sale or a product launch? You can schedule your promos to become active and inactive on specific dates automatically. This helps ensure your affiliates are only promoting offers that are currently available. To set a schedule for a promo, follow these simple steps:
 
   * **Set the Status:** First, find the **Status** dropdown menu and select the **Scheduled** option.
@@ -98,11 +105,11 @@ As an affiliate, you have access to ready-to-use materials prepared by the site 
 
 ![Viewing Creatives](/images/miscellaneous/promo-materials/view-creatives-7.webp)
 
-**For Image Materials::**
+**For Image Materials:**
 
 When you click on an image, you'll be taken to a new page showing a full preview.
 
-  * **HTML Code:** Below the preview, you will find a box labeled **HTML Code**. This code includes both the image and your unique affiliate tracking link. Click the **Copy** button and paste this code directly into your website or blog. When a visitor clicks this image on your site, you get affiliate for the sale!
+  * **HTML Code:** Below the preview, you will find a box labeled **HTML Code**. This code includes both the image and your unique affiliate tracking link. Click the **Copy** button and paste this code directly into your website or blog. When a visitor clicks this image on your site, you get affiliate credit for the sale!
   * **Download Image:** You can also click the **Download Image** button to save the image to your computer.
 
 * **For QR Code Materials:**

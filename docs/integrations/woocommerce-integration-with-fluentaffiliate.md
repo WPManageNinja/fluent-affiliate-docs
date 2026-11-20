@@ -20,7 +20,7 @@ Follow along with the full integration walkthrough:
 
 ## Enable the WooCommerce Integration
 
-The first step is to activate the WooCommerce module within your FluentAffiliate settings. Once  Woocommerce is running on your site, you can connect it to FluentAffiliate.
+The first step is to activate the WooCommerce module within your FluentAffiliate settings. Once WooCommerce is running on your site, you can connect it to FluentAffiliate.
 
 1. Go to your **FluentAffiliate Dashboard** and click on the **Settings** tab in the top menu.
 2. From the menu on the left, select **Integration Settings**.
@@ -38,18 +38,19 @@ In the management panel, you can fine-tune how commissions work for your WooComm
 
 Here are the available options:
 
-* **Enable Affiliate Integration for Woocommerce:** This checkbox acts as the master switch for the integration. Ensure it is checked.
+* **Enable Affiliate Integration for WooCommerce:** This checkbox acts as the master switch for the integration. Ensure it is checked.
+* **Add Affiliate Dashboard in WooCommerce Account Menu:** Check this box to show the affiliate dashboard as a menu item in the customer's WooCommerce **My Account** area.
 * **Enable Branded Coupon Codes for affiliates:** When you enable this, you can offer branded coupon codes to your affiliates. This allows them to promote products with unique discount codes, giving them another powerful marketing tool. You can manage these codes in the **Discount Codes** editor in WooCommerce.
 
 ![Branded Coupon Code](/images/integrations/woocommerce/enable-branded-coupon-code.webp)
 
-For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
+For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates. To assign a coupon to a specific affiliate, follow these steps:
 
- 1. From your WordPress dashboard, navigate to **Marketing** > **Coupon Data**.
+ 1. From your WordPress dashboard, navigate to **Marketing** > **Coupons**.
 
  2. You can either create a new coupon or edit an existing one.
 
- 3. On the coupon editor page, scroll down to find the **FluentAffiliate Coupon** section.
+ 3. On the coupon editor page, scroll down to the **Coupon data** box and find the **FluentAffiliate Coupon** section.
 
  4. Click on the dropdown field and select the **affiliate's** name from the list.
 
@@ -63,7 +64,7 @@ For example, this is perfect if you want to give a special coupon code to a soci
 
 * **Enable custom rate for specific product or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
 
-After that, click on the **+Add New Group** button. You will find options to choose how you want to apply this custom rate. You can set it for specific individual products or for entire product categories.
+After that, click on the **+ Add New Group** button. You will find two tabs to choose how you want to apply this custom rate: **By Specific Products** or **By Specific Categories**.
 
 ![Integration Settings](/images/integrations/woocommerce/configure-woocommerce-settings.webp)
 
@@ -80,9 +81,11 @@ You can select multiple custom rate types for products or categories by clicking
 
 ![Integration Settings](/images/integrations/woocommerce/select-product-rate.webp)
 
+* **Enable Referrals on Subscription Renewals:** Check this box to also award commissions on subscription renewal payments. This requires the WooCommerce Subscriptions plugin, FluentAffiliate Pro, and the **Enable Option** under Affiliate Commission on Subscription Renewal in Referral Settings; otherwise this checkbox is hidden. Once enabled, you can also turn on a separate custom rate for specific products or categories on renewals. To learn how renewal rates work globally, see [Referral Settings](/guide/settings-and-customization/referral-settings).
+
 ## Generate an Affiliate Link
 
-Once you've finished setting up your **Woocommerce** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
+Once you've finished setting up your **WooCommerce** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
 
 Whenever a customer makes a purchase through this link, the affiliate will earn a commission based on the rates you’ve set up.
 

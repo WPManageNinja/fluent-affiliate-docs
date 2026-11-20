@@ -44,7 +44,7 @@ Once you enable custom rates, you can define specific commission rules for indiv
 
 1.  **Voxel products:** In the **Select** field, start typing the name of a Voxel product. Choose the product you want to set a custom rate for from the list.
 2.  **Select Rate:** Enter the commission value in the box (e.g., enter 15 for a 15% or $15 commission). Then, select the **Rate Type** from the dropdown menu, choosing either a **Percentage (%)** or a **Fixed** amount.
-3.  **Add More Rates:** Click the **+Add New Rate** button to add another custom rate for a different product. You can repeat this process to configure as many product-specific rates as you need.
+3.  **Add More Rates:** Click the **+ Add New Group** button to add another custom rate for a different product. You can repeat this process to configure as many product-specific rates as you need.
 4.  **Save Settings:** Once you’re done, click the **Save Settings** button to apply your changes.
 
 ![Voxel Settings](/images/integrations/voxel/custom-affiliate-rates.webp)

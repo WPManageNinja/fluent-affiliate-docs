@@ -7,8 +7,7 @@ description: Learn how to track referrals in FluentAffiliate without plugin inte
 
 While FluentAffiliate offers many direct integrations, you may need to award a commission for a sale made through a system that isn't automatically connected. This guide explains how to track referrals for any plugin or payment gateway that doesn't have a direct integration, ensuring no referral is ever missed.
 
-FluentAffiliate provide a powerful method to handle these situations:
-* An automated method using a shortcode for plugins that have a "Thank You" or success page.
+FluentAffiliate Pro provides a shortcode to handle these situations. It works with any plugin that has a "Thank You" or success page.
 
 ## Automated Tracking with the Conversion Shortcode
 
@@ -23,7 +22,7 @@ The process is simple and runs in the background:
 4. A special shortcode on that page automatically tells FluentAffiliate to find the correct affiliate and create a referral for them.
 
 > [!Note]
-> Referrals created through this shortcode now go into **Pending** status by default and await your approval before they're eligible for payout, unless you explicitly set a different `status` parameter. This keeps commissions from non-integrated sources subject to the same review as your other referrals.
+> Referrals created through this shortcode always go into **Pending** status and await your approval before they're eligible for payout, even if you pass a `status` parameter. This keeps commissions from non-integrated sources subject to the same review as your other referrals.
 
 ### Implementation
 
@@ -39,10 +38,12 @@ For more detailed and accurate tracking, you can enhance the shortcode with opti
 | Parameter | Description | Example |
 | :--- | :--- | :--- |
 | `amount` | Sets the exact purchase amount that the commission will be calculated on. | `amount="99.50"` |
-| `reference` | Adds a unique Order ID or Transaction ID to the referral log. | `reference="ORD-1001"` |
 | `description` | A short note about the referral for your records. | `description="Custom Checkout"` |
-| `status` | Sets the initial status of the referral. Options are `pending`, `unpaid`, `paid`, `rejected`. If omitted, the referral now defaults to **pending** and waits for admin approval before it's paid out. | `status="pending"` |
-| `type` | Defines the type of conversion. Options include `sale`, `lead`, `signup`. | `type="sale"` |
+| `provider` | Name of the system the sale came from. Defaults to `custom`. | `provider="my_checkout"` |
+| `provider_id` | The order or transaction ID from that system. Repeat referrals for the same provider and ID are blocked. | `provider_id="123"` |
+| `provider_sub_id` | An optional secondary ID, such as a subscription ID. | `provider_sub_id="456"` |
+| `status` | Accepted by the shortcode, but every referral it creates is saved as **Pending** until you approve it. | |
+| `type` | The referral type. Defaults to `sale`. Types used by FluentAffiliate are `sale`, `opt_in`, `lead`, `recurring_sale` and `lifetime_sale`. | `type="sale"` |
 
 **Example shortcode with parameters:**
 
@@ -53,8 +54,13 @@ description="Product Purchase"
 provider="custom_provider" 
 provider_id="123" 
 provider_sub_id="456" 
-status="unpaid/pending" 
 type="sale"]
 ```
 
-Whether you use the automated shortcode for unsupported platforms or add a referral manually for special cases, FluentAffiliate provides the flexibility to ensure every affiliate is rewarded accurately for their efforts.
+### Good to Know
+
+* The `amount` can also be passed in the URL (for example `?amount=10`) if you don't set it in the shortcode. Referrals with a zero or negative amount are skipped.
+* The visitor must have an active affiliate referral cookie, otherwise no referral is created.
+* For special cases you can also [add a referral manually](/guide/admin-portal/managing-referrals).
+
+This shortcode requires **FluentAffiliate Pro**.
