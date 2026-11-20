@@ -7,7 +7,7 @@ description: Complete guide to the FluentAffiliate affiliate dashboard. Learn ho
 
 Welcome to your personal affiliate dashboard! This is your central hub for tracking your performance, generating promotional links, and viewing your earnings. Think of it as your command center for all your affiliate activities.
 
-When you log in to the **Affiliate Portal**, you'll land on this main dashboard page. At the top, you have your main navigation tabs: **Dashboard**, **Links**, **Referrals**, **Payouts**, **Visits**, and **Settings**, which take you to the different parts of your portal.
+When you log in to the **Affiliate Portal**, you'll land on this main dashboard page. At the top, you have your main navigation tabs: **Dashboard**, **Links**, **Promo Materials** (shown once the site has at least one active promo material), **Referrals**, **Payouts**, **Visits**, and **Settings**, which take you to the different parts of your portal.
 
 This guide will walk you through all the features and sections available in your dashboard.
 
@@ -40,11 +40,18 @@ This section is front and center, making it easy to grab your primary affiliate 
 
 * Click the **Generate Link** button if you want to create a link for a specific page on the site. 
 
-### 2. Recent Referrals
+### Your QR Code and Branded Coupon Codes
 
-At the bottom of the page, you’ll see a list of your most recent successful referrals. This table shows the commission Amount, the payment Status (e.g., Paid), the Date of the sale, and a Description of the item purchased. You can click **View All** to go to the main "**Referrals**" tab for a complete history.
+Below your affiliate link you may also see:
 
-### 3. Tips for Using Your Dashboard
+* **QR Code:** A scannable version of your referral link that you can download and share (shown when the site owner has enabled it).
+* **Your Branded Coupon Codes:** Coupon codes assigned to you, if the site has any. Customers who use them are credited to you.
+
+### Recent Referrals
+
+At the bottom of the page, you’ll see a list of your latest 5 referrals. This table shows the commission Amount, the payment Status (e.g., Paid), the Date of the sale, and a Description of the item purchased. You can click **View All** to go to the main "**Referrals**" tab for a complete history.
+
+### Tips for Using Your Dashboard
 
 * **Check Daily:** Monitor your performance metrics daily to see what’s working and track your progress.
 

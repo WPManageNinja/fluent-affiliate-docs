@@ -13,8 +13,8 @@ This section shows the list of all payouts that have been made to your account. 
 
 * **Date** – When the payout was processed.
 * **Amount** – The total amount you received in that payout.
-* **Status** – Whether the payout is Paid, Unpaid, or Pending.
-* **Description** – This provides details about the payouts.
+* **Status** – Whether the payout is **Draft**, **Processing**, **Paid**, or **Rejected**. If the site sends payouts through PayPal, you will also see a "Sent via PayPal" note under the status.
+* **Description** – The title of the payout, or `--` if none was set.
 
 ![Payout Affiliate User Portal](/images/affiliate-portal/payouts/payout-history-view.webp)
 

@@ -15,7 +15,9 @@ This table provides a clean, simple log of the unique clicks your affiliate link
 
 * **Date:** The exact date and time the visitor clicked your link.
 * **URL:** The specific affiliate link that was clicked.
-* **Refer:** This shows where the click came from. 
+* **Refer:** This shows where the click came from. It shows **Direct Traffic** when the visitor had no referrer.
+* **Converted:** Whether the visit led to a referral.
+* **UTM Campaign/Medium/Source:** The UTM parameters found on the link that was clicked, shown together in one column (for example, `campaign / medium / source`). A dash (-) is shown for any that are empty.
 
 ![Visits User Portal](/images/affiliate-portal/visits/visits-tracking-overview.webp)
 

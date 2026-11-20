@@ -3,7 +3,7 @@ title: Managing Visits
 description: Learn how to track and analyze affiliate visits in FluentAffiliate. Monitor click-through rates, filter traffic data, analyze conversion patterns, and optimize your affiliate program performance.
 ---
 
-# Visits
+# Managing Visits
 
 The Visits page is your central hub for monitoring all incoming affiliate traffic in real-time. It provides a granular, click-by-click log of every visitor who arrives on your site via a referral link. By analyzing this data, you can gain critical insights into your affiliates' promotional strategies, understand traffic quality, and pinpoint exactly which campaigns are driving the most engagement.
 
@@ -25,6 +25,7 @@ When you have a lot of traffic, finding the information you need is key. Use the
 * **Converted:** Select this filter to see only the high-value clicks that led to a successful sale or action.
 * **Not Converted:** This filter shows you all the clicks that did not lead to a sale.
 * **Search:** For more specific queries, you can use the search icon on the right to find visits based on keywords.
+* **Export CSV:** Download your visits as a CSV file. The export follows your current search and filter and is limited to the first 5,000 records by default. A warning tells you when the export was cut off.
 
 > [!Note]
 > To keep your traffic data clean, FluentAffiliate automatically deduplicates repeat visits from the same referral link and applies a per-IP flood limit, so rapid, repeated clicks from a single visitor (such as page reloads or bot activity) aren't logged as multiple separate visits.
@@ -33,6 +34,7 @@ When you have a lot of traffic, finding the information you need is key. Use the
 
 Each row in the table represents a single click and is organized into columns that provide specific details about the visit.
 
+* **#:** The unique ID of the visit.
 * **URL:** This shows the exact destination page on your site where the visitor was sent. For example, this could be a specific product page, a blog post, or a dedicated landing page.
 * **Referrer:** This column identifies the source of the click—the specific page where the visitor clicked the affiliate link. This is useful for understanding where your traffic is coming from, for instance, a blog review or a social media post.
 * **Related Referral:** For visits that successfully converted, this column provides a direct link to the corresponding entry in the Referrals log. This allows you to quickly cross-reference a successful click with the commission it generated.

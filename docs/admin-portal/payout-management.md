@@ -17,7 +17,7 @@ Watch the payout process in action:
 
 Navigate to the **Payout** tab from the FluentAffiliate menu to view your list of previous payouts or to create new payouts. You'll also find filter and search options to help you quickly locate specific records.
 
-To create a new payout, simply click the **Pay Affiliate** button.
+To create a new payout, simply click the **Pay Affiliates** button.
 
 ![Payout Dashboard](/images/admin-portal/payout-management/payout-dashboard-overview.webp)
 
@@ -29,6 +29,8 @@ Here's what to fill out:
 
 * **Payout Description**: Enter a short note or description.
 
+* **Payout Method**: Choose how you want to pay this payout. Select **Manual** to pay the affiliates yourself, or **PayPal Payouts** to send the money through PayPal. The PayPal Payouts option only appears once you have [set up PayPal Payouts](/guide/settings-and-customization/paypal-payouts).
+
 * **Affiliates**: Select one or more affiliates to pay. Only affiliates with unpaid earnings will be listed here. If you leave this field blank, payment will be sent to all eligible affiliates.
 
 * **Start Date - End Date**: Choose the date range for which you want to process payouts. For example, select last month's range to pay commissions from that period.
@@ -36,8 +38,6 @@ Here's what to fill out:
 * **Holding Period**: This option only appears if you have set a [holding period](/guide/settings-and-customization/referral-settings#how-the-holding-period-works) in the Referral Settings. By default, referrals that are newer than the holding period are left out of the payout. Check the **Ignore the holding period** box if you want to pay them as well.
 
 * **Minimum Payout Amount**: Set a minimum amount that affiliates must reach to be eligible for payout.
-
-* **Payout Method**: Choose how you want to pay this payout. Select **Manual** to pay the affiliates yourself, or **PayPal Payouts** to send the money through PayPal. The PayPal Payouts option only appears once you have [set up PayPal Payouts](/guide/settings-and-customization/paypal-payouts).
 
 Once everything is filled out, click the **Next (Review Payout)** button to proceed.
 

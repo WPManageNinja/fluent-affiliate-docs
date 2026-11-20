@@ -25,7 +25,7 @@ Your unique referral URL will appear in the **Generated Affiliate Link** area. C
 
 ## Your Default Affiliate Link and QR Code
 
-At the bottom of the **Links** page, you will always see your default referral link and QR code.
+On the **Links** page (and on your **Dashboard**) you will see your default referral link and QR code.
 
 * **Main Referral Link:** Copy your default affiliate URL instantly.
 * **QR Code Sharing:** Share your referral link visually for quick scanning.
