@@ -62,6 +62,9 @@ To the top-right of the table, you'll find icons to help you organize your view:
 * **Search Bar:** Quickly find a specific affiliate by typing their name, email address, payment email, user ID, or Affiliate ID.
 * **Column Selector:** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display. You can toggle **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, and **Register Date**. The ID, Affiliate, Rate, and Status columns are always shown.
 * **Export CSV:** Click the export icon next to the search bar to download your affiliates as a CSV file. The export follows your current search, status filter, and sort order. By default it is limited to the first 5,000 records, and a warning tells you when the export was cut off.
+
+![Export Affiliates as CSV](/images/admin-portal/managing-affiliates/export-affiliates-csv.webp)
+
 * **Sort Options:** Sort affiliates by **Affiliate ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Register Date**. You can also choose between ascending or descending order, then click **Apply** to update.
 
 ![Affiliate Search and Sort Tools](/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)

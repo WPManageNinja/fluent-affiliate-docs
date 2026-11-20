@@ -24,6 +24,8 @@ Setting up your captcha only takes a few minutes. Here is a breakdown of exactly
 * **Site Key & Secret Key:** Each reCAPTCHA version has its own Site Key and Secret Key fields, so paste the keys that match the version you selected. If you do not have these keys yet, you can easily generate them from the Google reCAPTCHA admin console by visiting [google.com/recaptcha/admin](https://google.com/recaptcha/admin). See the [Google reCAPTCHA Integration](/guide/integrations/google-recaptcha-integration-with-fluentaffiliate) guide for step-by-step instructions.
 * **Validate Keys:** Click this handy button to double-check that the Site Key and Secret Key you just entered are correct and working properly.
 * **v3 Score Threshold:** Shown for v3. Requests scoring below this value are blocked. 1.0 means very likely human and 0.0 means very likely a bot. The default is 0.5.
+
+![Captcha v3 Score Threshold](/images/settings-and-customization/registration-settings/captcha-settings/captcha-v3-score-threshold.webp)
 * **Failure Message:** Type in the text you want users to see if they fail the security check. By default, it will say "Security check failed. Please try again.".
 
 ![Captcha Settings](/images/settings-and-customization/registration-settings/captcha-settings/captcha-1.webp)

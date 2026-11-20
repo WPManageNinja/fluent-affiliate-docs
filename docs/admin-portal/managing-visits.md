@@ -27,6 +27,8 @@ When you have a lot of traffic, finding the information you need is key. Use the
 * **Search:** For more specific queries, you can use the search icon on the right to find visits based on keywords.
 * **Export CSV:** Download your visits as a CSV file. The export follows your current search and filter and is limited to the first 5,000 records by default. A warning tells you when the export was cut off.
 
+![Export Visits as CSV](/images/admin-portal/visits/export-visits-csv.webp)
+
 > [!Note]
 > To keep your traffic data clean, FluentAffiliate automatically deduplicates repeat visits from the same referral link and applies a per-IP flood limit, so rapid, repeated clicks from a single visitor (such as page reloads or bot activity) aren't logged as multiple separate visits.
 

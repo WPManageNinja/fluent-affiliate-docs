@@ -67,6 +67,8 @@ Edit and Delete are disabled for a referral that is in a payout currently being 
 
 * **Export CSV**: Download your referrals as a CSV file. The export follows your current search and filters and is limited to the first 5,000 records by default. A warning tells you when the export was cut off.
 
+![Export Referrals as CSV](/images/admin-portal/managing-referrals/export-referrals-csv.webp)
+
 * **Sort**: Sort your referrals by Referral ID, Amount, or Reference in ascending or descending order. Don't forget to hit **Apply** after sorting.
 
 ![Referral Search and Sort Tools](/images/admin-portal/managing-referrals/search-and-sort-tools.webp)
