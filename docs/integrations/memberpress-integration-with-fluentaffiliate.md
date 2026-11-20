@@ -22,9 +22,9 @@ First, you need to enable the integration to let the two plugins communicate.
 2. From the top menu, click on **Settings**, and from the left sidebar, select the **Integration Settings** option.
 3. You will see a list of available integrations. Look for **MemberPress** in this list. To enable the integration, click on the **toggle** button next to MemberPress.
 
-Your **MemberPress** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on MemberPress course or membership sales.
+Your **MemberPress** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on MemberPress membership sales.
 
-Click on the **Manage** button and you'll find additional settings to customize how affiliate commissions work with your course or membership.
+Click on the **Manage** button and you'll find additional settings to customize how affiliate commissions work with your memberships.
 
 ![Integration Settings](/images/integrations/memberpress/integration-setup-options.webp)
 
@@ -34,7 +34,7 @@ Click the **Manage** button to open the settings panel. Here, you can set custom
 
 Here are the options you can configure: 
 
-* **Enable Affiliate Integration for MemberPress:** You must check this box to activate commission tracking for all your MemberPress forms.
+* **Enable Affiliate Integration for MemberPress:** You must check this box to activate commission tracking for all your MemberPress memberships.
 
 * **Enable custom rate for specific membership or categories:** Check this box if you want to offer special commission rates for different membership levels or categories. For example, you could offer a higher commission for your premium membership plan to incentivize affiliates to promote it more.
 
@@ -52,7 +52,7 @@ Next, configure the rate:
 
 2. **Select Rate:** Enter the commission value (e.g., 30 for 30% or $30). Then, use the dropdown menu to select if the rate is a **Percentage (%)** of the sale or a **Fixed** amount.
 
-3. **Add More Rates:** To create another custom rate for a different membership, click the **+Add New Group** button. This will add a new row for you to configure another rule. You can also remove a rule by clicking the red *delete* icon.
+3. **Add More Rates:** To create another custom rate for a different membership, click the **+ Add New Group** button. This will add a new row for you to configure another rule. You can also remove a rule by clicking the red *delete* icon.
 
 4. **Save Settings:** Once you have finished setting up your custom rates, click the **Save Settings** button to apply the changes.
 
@@ -60,9 +60,9 @@ Next, configure the rate:
 
 ## Generate an Affiliate Link
 
-Now that the integration is set up, your affiliates can start promoting your Course or Membreships pages. To do this, they need to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links) from their affiliate dashboard.
+Now that the integration is set up, your affiliates can start promoting your membership pages. To do this, they need to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links) from their affiliate dashboard.
 
-If someone purchases the Course using your affiliate link, you'll earn a commission based on the settings you've configured.
+If someone purchases a membership using your affiliate link, you'll earn a commission based on the settings you've configured.
 
 
 And that's it. This is an easy process to integrate MemberPress with FluentAffiliate.

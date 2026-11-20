@@ -1,6 +1,6 @@
 ---
 title: Integrations
-description: Complete guide to FluentAffiliate integrations. Learn how to connect with FluentCart, WooCommerce, MemberPress, TutorLMS, FluentCRM, FluentForms, and other popular WordPress plugins for seamless affiliate management.
+description: Complete guide to FluentAffiliate integrations. Learn how to connect with FluentCart, WooCommerce, MemberPress, Tutor LMS, FluentCRM, FluentForms, and other popular WordPress plugins for seamless affiliate management.
 ---
 
 # Integrations
@@ -24,20 +24,20 @@ Running an online store? FluentAffiliate integrates perfectly with popular e-com
 ### Learning Management Systems (LMS) & Membership
 Selling courses or memberships? Our LMS and membership integrations have you covered:
 
-* **[TutorLMS](/guide/integrations/tutorlms-integration-with-fluentaffiliate)** - Set custom commission rates for specific courses or entire course categories with flexible affiliate rewards.
-* **[MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate)** - Monitor affiliate commissions for membership signups and recurring payments.
-* **[ProfilePress](/guide/integrations/profilepress-integration-with-fluentaffiliate)** - Reward affiliates for promoting your membership plans, digital downloads, and paid content.
 * **[LifterLMS](/guide/integrations/lifterlms-integration-with-fluentaffiliate)** - Track affiliate referrals for course sales with customizable commission structures.
+* **[Tutor LMS](/guide/integrations/tutorlms-integration-with-fluentaffiliate)** - Set custom commission rates for specific courses or entire course categories with flexible affiliate rewards.
+* **[MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate)** - Monitor affiliate commissions for membership signups and recurring payments.
 * **[Paid Memberships Pro](/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate)** - Monitor affiliate commissions for membership signups.
+* **[ProfilePress](/guide/integrations/profilepress-integration-with-fluentaffiliate)** - Reward affiliates for promoting your ProfilePress membership plans.
 
-### Forms 
-Need to track form submissions or manage your affiliate relationships?
+### Forms
+Need to track form submissions or create affiliate registration forms?
 
 * **[Fluent Forms](/guide/integrations/fluentforms-integration-with-fluentaffiliate)** - Generate commissions from form submissions and track conversion rates.
 * **[Formidable](/guide/integrations/formidable-integration-with-fluentaffiliate)** - Create affiliate registration forms, track subscriptions, and manage payments through Formidable forms.
 
 ### Payment
-Need to track donation or payment? Our Payment integrations have you covered:
+Need to track donations or payments? Our Payment integrations have you covered:
 
 * **[GiveWP](/guide/integrations/givewp-integration-with-fluentaffiliate)** - Allow affiliates to earn commissions by promoting your donation campaigns. 
 * **[Paymattic](/guide/integrations/paymattic-integration-with-fluentaffiliate)** - Track affiliate commissions for payments and donations made through Paymattic forms.
@@ -63,6 +63,9 @@ To enable any integration:
 2. Click on **Integration Settings**
 3. Find the integration you want to enable
 4. Toggle it on and configure any specific settings
+
+> [!NOTE]
+> FluentCart, Fluent Forms, Fluent Booking Pro and Paymattic are available in the free version. WooCommerce, Easy Digital Downloads, SureCart, GiveWP, LifterLMS, Tutor LMS, MemberPress, Paid Memberships Pro, ProfilePress and Voxel require FluentAffiliate Pro.
 
 Each integration can be customized with its own commission rates, rules, and settings. You can also set up [affiliate groups](/guide/settings-and-customization/group-settings) to manage different commission structures for different types of affiliates.
 
