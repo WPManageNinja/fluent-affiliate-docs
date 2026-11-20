@@ -28,7 +28,7 @@ Just below the page title, you'll see filter tabs that let you quickly segment y
 * **Pending:** Shows affiliates who have registered but are awaiting your approval.
 * **Inactive:** Shows affiliates who have been deactivated.
 
-### Affiliates Details Table
+### Affiliate Details Table
 
 This is the heart of the page, where every affiliate is listed with their key performance details. This gives you a clear and immediate picture of how each partner is doing. The columns include:
 
@@ -48,8 +48,8 @@ This is the heart of the page, where every affiliate is listed with their key pe
 
 At the end of each affiliate's row, you'll see a three-dot menu. Clicking this opens a list of actions you can take for that specific affiliate:
 
-* **Edit:** Opens a panel where you can update the affiliate's details, such as their status or commission rate.
-* **Delete:** Permanently removes the affiliate from your program.
+* **Edit:** Opens the same form as **Add New Affiliate**, where you can update the affiliate's details, such as their status or commission rate. Save your changes with the **Update Affiliate** button.
+* **Delete:** Permanently removes the affiliate from your program. You'll need to type **DELETE** to confirm. The affiliate's referrals and visit data are deleted as well, while payout transaction records are kept. An affiliate who has paid referrals or referrals in a payout can't be deleted; deactivate them instead.
 
 ### Pagination Buttons
 
@@ -59,9 +59,10 @@ If you have a large number of affiliates, the controls at the bottom of the page
 
 To the top-right of the table, you'll find icons to help you organize your view:
 
-* **Search Bar:** Quickly find a specific affiliate by typing their name, email address, or Affiliate ID.
-* **Column Selector:** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display.
-* **Sort Options:** Sort affiliates by **ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Registration Date**. You can also choose between ascending or descending order, then click **Apply** to update.
+* **Search Bar:** Quickly find a specific affiliate by typing their name, email address, payment email, user ID, or Affiliate ID.
+* **Column Selector:** Customize your table view using the **Columns** button. Check or uncheck columns based on what info you want to display. You can toggle **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, and **Register Date**. The ID, Affiliate, Rate, and Status columns are always shown.
+* **Export CSV:** Click the export icon next to the search bar to download your affiliates as a CSV file. The export follows your current search, status filter, and sort order. By default it is limited to the first 5,000 records, and a warning tells you when the export was cut off.
+* **Sort Options:** Sort affiliates by **Affiliate ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Register Date**. You can also choose between ascending or descending order, then click **Apply** to update.
 
 ![Affiliate Search and Sort Tools](/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)
 
@@ -78,10 +79,12 @@ Click the **+ New Affiliate** button. A form will slide in from the right side o
 Fill in the following fields:
 
 * **Select User:** Click the field to search and select the existing WordPress user you want to turn into an affiliate.
-* **Rate Type:** Choose how they'll earn (Default, Percentage, Flat Rate, or Group).
+* **Rate type:** Choose how they'll earn (Default, Percentage, Flat Rate, or Group).
+* **Select Group / Commission Rate:** If you chose **Group**, select the [affiliate group](/guide/settings-and-customization/group-settings). Otherwise, unless you chose Default, enter the commission rate.
 * **Status:** Set the initial affiliate status to Active, Pending, or Inactive.
-* **Payment Email:** Enter their PayPal or preferred payment email address.
-* **Additional Note:** (Optional) Add any notes for internal admin use.
+* **Payment email:** Shown when your payout method is PayPal. Enter their PayPal payment email address. This is the email used for [PayPal Payouts](/guide/settings-and-customization/paypal-payouts).
+* **Bank Details:** Shown instead of Payment email when your payout method is Bank Transfer. Enter the affiliate's bank details; this field is required in that case.
+* **Note:** (Optional) Add any notes for internal admin use.
 
 Hit the **Create Affiliate** button at the bottom to save.
 
@@ -89,9 +92,13 @@ Hit the **Create Affiliate** button at the bottom to save.
 
 That's it! Your new affiliate will now appear in your main list.
 
+## Affiliate Profile
+
+Click an affiliate's name to open their profile. The profile has these sub-tabs, in this order: **Overview**, **Referrals**, **Visits**, **Payouts**, and **Customers**. Referrals, Visits, Payouts, and Customers only appear if you have the matching permission. The Overview tab shows the affiliate's all-time stats and an activity overview. If the affiliate isn't active yet, a banner says so and an **Approve Affiliate** button lets you approve them. See the [Affiliate Profile](/guide/miscellaneous/affiliate-profile) guide for more.
+
 ## Tracking Assigned Customers (Customers Tab)
 
-Once you enable the **[Lifetime Commissions](/guide/settings-and-customization/referral-settings#lifetime-commissions)** feature in your global referral settings, a dedicated **Customers** tab becomes available inside every affiliate's profile panel. This sub-tab acts as your clear window to view exactly which buyers are permanently linked to that specific partner.
+The **Customers** sub-tab inside every affiliate's profile shows exactly which buyers are permanently linked to that specific partner. Linking, unlinking, and the status filters need **FluentAffiliate Pro** with the **[Lifetime Commissions](/guide/settings-and-customization/referral-settings#lifetime-commissions)** feature enabled in your global referral settings.
 
 ### Navigating to the Customers Tab
 
@@ -101,10 +108,10 @@ Once you enable the **[Lifetime Commissions](/guide/settings-and-customization/r
 
 ### Sorting and Searching Linked Customers
 
-The Customers table keeps things structured by outlining the buyer's **Name**, **Email**, total **Referrals** generated, the date they **Joined**, and their **Lifetime Expiry** date.
+The Customers table shows a **#** column, the buyer's **Name** and **Email**, total **Referrals** generated, the date they **Joined**, and their **Lifetime Expiry** date (shown as **Never** when no expiry days are set; admins only), followed by the **Unlink** action.
 
-* **Status Filtering:** You can easily segment this list by clicking the filter buttons just above the data table to display **All**, **Active**, or **Expired** relationships.
-* **Quick Search:** Need to find a single person out of a large customer base? Use the search icon to type in a customer's details and find them instantly.
+* **Status Filtering (Pro):** You can easily segment this list by clicking the filter buttons just above the data table to display **All**, **Active**, or **Expired** relationships.
+* **Quick Search:** Need to find a single person out of a large customer base? Use the search box to search by name or email.
 
 ![Customers Tab](/images/admin-portal/managing-affiliates/customer-tab.webp)
 
@@ -113,7 +120,8 @@ The Customers table keeps things structured by outlining the buyer's **Name**, *
 As an admin, you retain full operational control over these long-term customer assignments:
 
 * **Link a New Customer:** To manually connect an existing buyer to this affiliate, click the **Link Customer** button. A modal window will appear allowing you to select a buyer profile from your database and attach them to the affiliate for automated lifetime commission tracking.
-* **Transfer or Unlink a Connection:** If a customer relationship changes or needs adjusting, you can click the **Unlink** button located at the end of that customer's data row.
+* **Transfer a Customer:** If the buyer you select is already linked to another affiliate, a **Transfer Customer** confirmation appears. Confirming it credits future purchases to the new affiliate, while past referrals stay with the original one.
+* **Unlink a Connection:** To remove a relationship, click the **Unlink** button located at the end of that customer's data row.
 
 ![Link Customer](/images/admin-portal/managing-affiliates/link-customer.webp)
 
