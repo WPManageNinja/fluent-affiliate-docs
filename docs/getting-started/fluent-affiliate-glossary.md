@@ -12,7 +12,7 @@ This glossary defines common terms used throughout the FluentAffiliate documenta
 ### Affiliate
 An individual who signs up to promote your products or services. They share a unique link and earn a commission when a customer purchases through that link.
 
-### Affiliate Area/Portal
+### Affiliate Area / Portal
 A dedicated page on your website that serves as the main portal for your affiliates. From here, they can log in to their dashboard to generate referral links, track their visits and payouts, and access important information.
 
 ### Affiliate Dashboard
@@ -26,11 +26,17 @@ The section in the admin dashboard where you can get an overview of all your aff
 
 ## B
 
+### Bank Details
+An optional field on an affiliate's profile and settings where bank account information is stored for manual bank payouts. It replaces the Payment Email field when the payout method is Bank Transfer.
+
 ### Branded Coupon Code
 
-A feature that allows tracking affiliate commissions through unique discount codes instead of traditional referral links. It integrates with e-commerce plugins (like WooCommerce or EDD), allowing an administrator to create a standard coupon and assign it to a specific affiliate using a dedicated field provided by Fluent Affiliate. When a customer uses the code, they receive a discount, and the assigned affiliate is automatically credited with a commission for the sale.
+A feature that allows tracking affiliate commissions through unique discount codes instead of traditional referral links. It integrates with e-commerce plugins (like WooCommerce or EDD), allowing an administrator to create a standard coupon and assign it to a specific affiliate using a dedicated field provided by FluentAffiliate. When a customer uses the code, they receive a discount, and the assigned affiliate is automatically credited with a commission for the sale.
 
 ## C
+
+### Captcha
+A Pro feature that adds Google reCAPTCHA protection to the affiliate registration form. You set it up in **Settings → Registration Settings → Captcha**.
 
 ### Commission
 The payment an affiliate earns for a successful referral. The commission can be set as a Flat fixed amount or a Percentage of the sale price.
@@ -40,6 +46,12 @@ An event that occurs when a visitor clicks an affiliate's link and completes a p
 
 ### Currency
 The type of money (e.g., USD, EUR) in which affiliate commissions will be paid. This is configured in the Referral Settings.
+
+### Creatives
+The images, text snippets, and QR codes you offer to your affiliates for promotion. In the plugin they are called Promo Materials, and they are a Pro feature.
+
+### Customers (Linked)
+Buyers who are permanently linked to an affiliate under Lifetime Commissions. You can see them in the **Customers** tab of an affiliate's profile.
 
 ## D
 
@@ -54,7 +66,7 @@ A settings area where the site administrator can customize the email notificatio
 ## F
 
 ### Flat Rate
-A type of commission where an affiliate earns a fixed amount for each referral, no matter the total purchase price. For example, you can set a flat commission of $10 for every sale.
+A type of commission where an affiliate earns a fixed amount for each referral, no matter the total purchase price. Some screens, such as the onboarding step, call this **Fixed**. For example, you can set a flat commission of $10 for every sale.
 
 ## H
 
@@ -68,6 +80,9 @@ The ability for FluentAffiliate to connect and work seamlessly with other popula
 
 ## L
 
+### Lifetime Commissions
+A Pro feature that lets an affiliate keep earning commissions on every future purchase made by customers they brought in. You turn it on in the Referral Settings.
+
 ### License Key
 A unique code you receive when you purchase FluentAffiliate. Activating your license key in the settings is required to get access to plugin updates and premium support.
 
@@ -77,7 +92,7 @@ A unique code you receive when you purchase FluentAffiliate. Activating your lic
 A feature that allows you to manage data migration and cleanup tasks for your FluentAffiliate data.
 
 ### Multi-Domain Management
-A feature that lets you track affiliate sales, referrals, and commissions across multiple websites from a single, centralized dashboard.
+A Pro feature (the menu item is called **Domain Management**) that lets you track affiliate sales, referrals, and commissions across multiple websites from a single, centralized dashboard.
 
 ## N
 
@@ -87,9 +102,12 @@ An option in the affiliate's settings panel that allows them to enable or disabl
 ## O
 
 ### Onboarding
-A simple, step-by-step setup guide that appears after you first install FluentAffiliate. It helps you configure the most important settings right away, though you can also skip the steps and set them up later.
+A simple, step-by-step setup guide that appears after you first install FluentAffiliate. It helps you configure the most important settings right away, though you can also change everything later in the Settings.
 
 ## P
+
+### Permission Management
+A settings area where you control which WordPress roles can access each part of FluentAffiliate. You can also add managers here.
 
 ### Payment Email (Affiliate)
 A field in the affiliate's settings where they can add or update their PayPal email address to receive their commission payouts.
@@ -112,10 +130,10 @@ A type of commission where an affiliate earns a percentage of the total purchase
 A record that is created every time an affiliate successfully brings in a sale or conversion through their unique affiliate link. You can view and manage all referrals from your admin dashboard.
 
 ### Referral Management
-The section in the admin dashboard that provides tools to manage and track all affiliate referrals. It allows you to filter referrals by status (Unpaid, Paid, Rejected), search for specific ones, and edit or delete them.
+The section in the admin dashboard that provides tools to manage and track all affiliate referrals. It allows you to filter referrals by status (All, Unpaid, Paid, Pending, Rejected), search for specific ones, and edit or delete them.
 
 ### Referral Settings
-The section in the admin dashboard where you can set the global, site-wide rules for how commissions are calculated. This includes the default commission rate, rate type, and currency.
+The section in the admin dashboard where you can set the global, site-wide rules for how commissions are calculated. This includes the default commission rate, rate type, currency, holding period, referral variable, and lifetime commissions.
 
 ### Referral URL Generator
 The tool available in an affiliate's dashboard that allows them to create a unique referral link for any page or product on your site. They paste the desired page URL, and the generator automatically creates their unique affiliate link to copy and share.
@@ -126,12 +144,12 @@ The keyword in your affiliate URLs that is used for tracking. For example, if yo
 ## S
 
 ### Status
-A label that shows the current state of a referral, payout, or affiliate. Common statuses include Paid, Unpaid, Pending, Rejected, and Active.
+A label that shows the current state of a referral, payout, or affiliate. Referrals can be Unpaid, Pending, Paid, Processing (in a payout that is being paid), Rejected, or Cancelled. Affiliates can be Active, Pending, or Inactive. Payouts can be Draft, Processing, Paid, or Rejected, and an individual payment sent through a payment gateway can show Failed.
 
 ## T
 
 ### Terms & Conditions Page
-A dedicated page on your site that outlines the rules of your affiliate program. You can select this page in the General Settings, and affiliates must agree to these terms during registration.
+A dedicated page on your site that outlines the rules of your affiliate program. You can add a terms and conditions checkbox to the registration form from **Settings → Registration Settings → Registration Fields**, so affiliates must agree to these terms during registration.
 
 ## V
 
