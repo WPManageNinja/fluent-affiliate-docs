@@ -216,11 +216,11 @@ export default defineConfig({
               text: 'LMS & Membership',
               collapsed: true,
               items: [
-                { text: 'TutorLMS', link: '/guide/integrations/tutorlms-integration-with-fluentaffiliate' },
-                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
-                { text: 'ProfilePress', link: '/guide/integrations/profilepress-integration-with-fluentaffiliate' },
                 { text: 'LifterLMS', link: '/guide/integrations/lifterlms-integration-with-fluentaffiliate' },
-                { text: 'Paid Membership Pro', link: '/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate' }
+                { text: 'Tutor LMS', link: '/guide/integrations/tutorlms-integration-with-fluentaffiliate' },
+                { text: 'MemberPress', link: '/guide/integrations/memberpress-integration-with-fluentaffiliate' },
+                { text: 'Paid Memberships Pro', link: '/guide/integrations/paid-memberships-pro-integration-with-fluentaffiliate' },
+                { text: 'ProfilePress', link: '/guide/integrations/profilepress-integration-with-fluentaffiliate' }
               ]
             },
             {
@@ -266,14 +266,14 @@ export default defineConfig({
           text: 'Settings & Customization',
           items: [
             { text: 'Referral Settings', link: '/guide/settings-and-customization/referral-settings' },
-            { text: 'Group Settings', link: '/guide/settings-and-customization/group-settings' },
+            { text: 'Affiliate Groups', link: '/guide/settings-and-customization/group-settings' },
             { text: 'PayPal Payouts', link: '/guide/settings-and-customization/paypal-payouts' },
             { 
-              text: 'Email Settings',
+              text: 'Email Notifications',
               collapsed: true,
               items:[
                  {text: 'Mail Settings', link: '/guide/settings-and-customization/email-settings' },
-                 {text: 'Notificationn Settings', link: '/guide/settings-and-customization/notification-settings' }
+                 {text: 'Notification Settings', link: '/guide/settings-and-customization/notification-settings' }
               ]
             },
             {
@@ -286,7 +286,7 @@ export default defineConfig({
             },
             { text: 'Permission Management', link: '/guide/settings-and-customization/permission-management' },
             {
-              text: 'Migration Settings',
+              text: 'Migrator Settings',
               collapsed: true,
               items: [
                 { text: 'AffiliateWP Migration', link: '/guide/settings-and-customization/affiliatewp-migration' },
@@ -296,7 +296,7 @@ export default defineConfig({
                 { text: 'Ultimate Affiliate Migration', link: '/guide/settings-and-customization/ultimate-affiliate-migration' },
               ]
             },
-            { text: 'Multi-Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
+            { text: 'Domain Management', link: '/guide/settings-and-customization/multi-domain-management' }
           ]
         },
         {
