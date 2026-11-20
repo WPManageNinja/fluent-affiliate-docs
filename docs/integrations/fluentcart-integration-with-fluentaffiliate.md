@@ -36,7 +36,7 @@ Here are the available options:
 
 ![Branded Coupon Code](/images/integrations/fluentCart/branded-coupon-code.webp)
 
-For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
+For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates. To assign a coupon to a specific affiliate, follow these steps:
 
 1.  From your WordPress dashboard, navigate to **FluentCart > Coupons**.
 2.  Either click to create a new coupon or edit an existing one.
@@ -49,7 +49,7 @@ For example, this is perfect if you want to give a special coupon code to a soci
  
 ![Select Affiliate](/images/integrations/fluentCart/select-affiliate-from-fluentcart.webp)
 
-* **Disable Referrals on Upgrades:** Check this box to ensure that no referrals will be added on purchased upgrades. This gives you more control over commission payouts for existing customers who upgrade their plan.
+* **Disable Referrals on Upgrades:** Check this box to ensure that no referrals will be added on purchased upgrades. This gives you more control over commission payouts for existing customers who upgrade their plan. This option is enabled by default.
 * **Enable custom rate for specific products or categories:** This is a powerful feature that lets you override your default commission rate. Check this box if you want to set special commission rates for specific products or entire product categories.
 
     > [!NOTE]
@@ -61,10 +61,12 @@ For example, this is perfect if you want to give a special coupon code to a soci
 
 * **Save Settings:** Once you have configured all your custom rates, click the Save Settings button to make them live.
 
-You can add more custom rates for different products or categories by clicking the **+Add New Group** button again. You can also remove any rate rule by clicking the red `delete` icon.
+You can add more custom rates for different products or categories by clicking the **+ Add New Group** button again. You can also remove any rate rule by clicking the red `delete` icon.
 
 
 ![Add New Group](/images/integrations/fluentCart/specific-product-or-categories.webp)
+
+* **Enable Referrals on Subscription Renewals:** Check this box to also award commissions on subscription renewals. This requires FluentAffiliate Pro and the **Enable Option** under Affiliate Commission on Subscription Renewal in Referral Settings; otherwise this checkbox is hidden. Once enabled, you can also set a separate custom rate for specific products or categories on renewals. To learn how renewal rates work globally, see [Referral Settings](/guide/settings-and-customization/referral-settings).
 
 
 ### Generate an Affiliate Link

@@ -1,5 +1,5 @@
 ---
-title: FluentForms Integration with FluentAffiliate
+title: Fluent Forms Integration with FluentAffiliate
 description: Learn how to integrate FluentAffiliate with FluentForms. Create affiliate registration forms, track form submissions, and manage affiliate signups through custom forms.
 ---
 
@@ -56,16 +56,17 @@ This will embed the form on your website, making it visible and ready for users 
 
 ![Fluent Forms Payment Form](/images/integrations/fluentforms/payment-form.webp)
 
-Now, copy the **Page** or **Post** URL and paste it into the input field under the [Generate Affiliate Link](/guide/affiliate-portal/generating-affiliate-links) " section after logging into your **Affiliate Area**. Next, click the **Generate** button. Simply click the **Copy** button to grab it quickly and start sharing.
+Now, copy the **Page** or **Post** URL and paste it into the input field under the [Generate Affiliate Link](/guide/affiliate-portal/generating-affiliate-links) section after logging into your **Affiliate Area**. Next, click the **Generate** button. Simply click the **Copy** button to grab it quickly and start sharing.
 
 ![Fluent Forms Affiliate Area](/images/integrations/fluentforms/affiliate-area.webp)
 
-After the user submission this form using this affiliate link, you will get commissions. Below is a screenshot given-
+After a user submits this form using this affiliate link, you will earn a commission. Here is an example of the resulting referral:
+
 ![Fluent Forms Referral](/images/integrations/fluentforms/referral.webp)
 
 ## Creating a Custom Affiliate Registration Form 
 
-If you want to pay affiliates a commission when someone submits a specific form (such as a paid payment form), you need to set it up within that form's settings.
+If you want visitors to register as affiliates by submitting a form, you need to set up an affiliate feed within that form's settings.
 
 First, create your form using Fluent Forms if you haven't already. Go to the **Edit** screen for the form you want to connect.
 

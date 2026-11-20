@@ -59,12 +59,15 @@ Go to **FluentAffiliate** from the left sidebar, and all the Triggers for Fluent
 
 Now, choose your desired trigger. Here, you can give a **Title** to your Automation in the **Internal Label** field for easy referencing later. But if you leave it blank, the title will be automatically set based on your chosen trigger. All the triggers are:
 
-* **New Affiliate Created:** If you select this trigger, the automation will start when a new affiliate is created in FluentAffiliate.
+* **Affiliate Account Approved:** The automation starts when an affiliate account is approved.
 
-* **New referral created:** If you select this trigger, the automation will start when a new referral is created in FluentAffiliate.
+* **Affiliate Registered as Pending:** The automation starts when a new affiliate registers and is waiting for approval.
 
-* **New Payout Created:** If you select this trigger, this will start when a new payout is created in FluentAffiliate.
-Create targeted campaigns for your affiliates.
+* **Successful Referral Created:** The automation starts when a new referral is created successfully.
+
+* **Affiliate Payout Sent:** The automation starts when a payout transaction is marked as paid.
+
+FluentAffiliate also adds an action, **Create Affiliate Account**, that you can use inside any automation to turn a contact into an affiliate. It lets you choose the **Affiliate Status** and **Rate Type** for the new affiliate.
 
 ![FluentAffiliate Trigger](/images/integrations/fluentcrm/fluentaffiliate-trigger.webp)
 
@@ -83,7 +86,7 @@ To learn the detailed process of creating a new Email Campaign, read this [Docum
 >[!Tip]
 > To use this advanced filter to select the email campaign recipients, you need to have the [FluentCRM Pro Plugin](https://fluentcrm.com/docs/how-to-install-upgrade-and-activate-license/) installed and activated on your WordPress Site.
 
-First, you need to contact FluentAffiliate manually or use automation to run an email campaign with an advanced filter. Select By Advanced Filter option and then choose the custom contact condition.
+First, create a campaign and choose the **By Advanced Filter** option to select your recipients. Then choose the custom contact condition.
 
 Now, click on the **+Add** button to start the filtering, where you will get many options to set the conditions. Here you will find the FluentAffiliate option, and click on it.
 

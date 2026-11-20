@@ -69,7 +69,7 @@ You can set up affiliate commissions for specific events you've created in Fluen
 
 ## Generate an Affiliate Link
 
-After you've configured the settings, your affiliates can start promoting your booking pages. To learn more about how can generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
+After you've configured the settings, your affiliates can start promoting your booking pages. To learn more about how to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
 
 If someone clicks on your link, they’ll be directed to the event booking page, just like shown in the screenshot.
 
