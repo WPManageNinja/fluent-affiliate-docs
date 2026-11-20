@@ -19,6 +19,8 @@ On this page, you will find the following options:
 
 * **Enable Referral Email Notification:** Check this box if you want to receive an email alert every time you generate a successful referral. If you prefer not to receive these notifications, simply uncheck the box.
 
+* **Bank Details:** If the site pays affiliates by **Bank Transfer**, this field replaces the Payment Email. Enter the bank details the site owner asks for.
+
 After making any changes, be sure to click the **Save Settings** button to apply your updates.
 
 ![User Portal Settings](/images/affiliate-portal/profile-settings/profile-settings-page.webp)

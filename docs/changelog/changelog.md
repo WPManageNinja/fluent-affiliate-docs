@@ -12,11 +12,11 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 ::::: code-group
 
 ```markdown [✨ Newly Added]
-• Adds Send Affiliate Payouts Through PayPal
+• Adds Send Affiliate Payouts Through PayPal (Pro)
 • Adds Commission Holding Period
 • Adds PayPal Payouts File Export for Manual Payouts
 • Adds Option to Ignore the Holding Period on a Payout
-• Adds Creatives Migration from Affiliate Manager
+• Adds Creatives Migration from Affiliate Manager (Pro)
 ```
 
 ```markdown [🚀 Improvements]
@@ -31,8 +31,8 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 • Fixes Default Commission Rate Decimals and Rounding
 • Fixes Paymattic Coupon and FluentForms Pending Payment Commissions
 • Fixes Referral Attribution With Inactive Affiliates and Numeric Usernames
-• Fixes Self-Referral Check on Lifetime Commissions
-• Fixes Lifetime Commissions on WooCommerce Orders and Coupon Sales
+• Fixes Self-Referral Check on Lifetime Commissions (Pro)
+• Fixes Lifetime Commissions on WooCommerce Orders and Coupon Sales (Pro)
 • Fixes Lost Visit and Referral Counts Under Load
 • Fixes Payout Accuracy for Inactive Affiliates, Deductions and Deleted Records
 • Fixes Migration Accuracy for AffiliateWP, Affiliate Manager and Solid Affiliate
@@ -69,6 +69,10 @@ Stay updated with the latest improvements, new features, bug fixes, and performa
 *Released on Aug 10, 2026*
 
 ::::: code-group
+
+```markdown [🚀 Improvements]
+• Improves reCAPTCHA Keys Validation to Run Automatically on Save
+```
 
 ```markdown [🐞 Bug fixes]
 • Fixes Affiliate Registration and Login Forms
