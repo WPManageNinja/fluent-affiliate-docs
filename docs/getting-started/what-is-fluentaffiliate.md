@@ -5,7 +5,7 @@ description: Learn what FluentAffiliate is and how this WordPress affiliate mana
 
 # What is FluentAffiliate?
 
-Welcome to **FluentAffiliate** your all-in-one solution for building, managing, and growing a powerful affiliate program right inside your WordPress site.
+Welcome to **FluentAffiliate**, your all-in-one solution for building, managing, and growing a powerful affiliate program right inside your WordPress site.
 
 Whether you're a solo creator, eCommerce store owner, or a membership site admin, FluentAffiliate gives you the tools to turn your customers and followers into revenue-driving affiliates, with **zero technical headache**. Ready to get started? Check out our [installation and activation guide](/guide/getting-started/installation-activation-licensing).
 
@@ -15,11 +15,11 @@ Here's a quick introduction to FluentAffiliate and what it can do for you:
 
 ## Why Use FluentAffiliate?
 
-Let's say you're selling online courses, products, or services. Now imagine if your happy customers and content creators could share your brand and **earn commissions** when someone buys through their links. That's affiliate marketing and FluentAffiliate makes it beautifully simple.
+Let's say you're selling online courses, products, or services. Now imagine if your happy customers and content creators could share your brand and **earn commissions** when someone buys through their links. That's affiliate marketing, and FluentAffiliate makes it beautifully simple.
 
 Here's the magic it brings:
 
-* **Launch your own affiliate program** in minutes no 3rd-party platform needed
+* **Launch your own affiliate program** in minutes, no 3rd-party platform needed
 * Let users [sign up as affiliates](/guide/affiliate-portal/how-to-register-as-an-affiliate) and track their performance
 * Generate [unique referral links](/guide/affiliate-portal/generating-affiliate-links) for affiliates automatically
 * Track every [referral, click, and commission](/guide/admin-portal/managing-referrals) with precision
@@ -33,7 +33,7 @@ All of this directly from your WordPress dashboard.
 FluentAffiliate is perfect for:
 
 * Store owners using [FluentCart](/guide/integrations/fluentcart-integration-with-fluentaffiliate), [WooCommerce](/guide/integrations/woocommerce-integration-with-fluentaffiliate), [Easy Digital Downloads](/guide/integrations/easy-digital-downloads-integration-with-fluentaffiliate), [SureCart](/guide/integrations/surecart-integration-with-fluentaffiliate), or similar platforms
-* Online course creators using [MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate), and more
+* Online course creators and membership sites using [MemberPress](/guide/integrations/memberpress-integration-with-fluentaffiliate), [LifterLMS](/guide/integrations/lifterlms-integration-with-fluentaffiliate), [Tutor LMS](/guide/integrations/tutorlms-integration-with-fluentaffiliate), and more
 * Anyone who wants to boost sales through referral marketing
 
 No matter what you're selling, if you want to grow your business with the help of affiliates, FluentAffiliate has you covered.
@@ -42,11 +42,11 @@ No matter what you're selling, if you want to grow your business with the help o
 
 Here's a quick peek at the flow:
 
-1. **You install Fluent Affiliate** - Follow our [installation guide](/guide/getting-started/installation-activation-licensing)
-2. You set your [commission rules](/guide/settings-and-customization/referral-settings), terms, and branding in the general settings.
+1. **You install FluentAffiliate** — Follow our [installation guide](/guide/getting-started/installation-activation-licensing)
+2. You set your [commission rules](/guide/settings-and-customization/referral-settings), and registration rules in the [Referral Settings](/guide/settings-and-customization/referral-settings) and [Registration Settings](/guide/settings-and-customization/registration-settings).
 3. Affiliates [sign up via a public registration page](/guide/affiliate-portal/how-to-register-as-an-affiliate)
 4. They get a [unique referral link](/guide/affiliate-portal/generating-affiliate-links) to share
 5. When someone clicks & buys, the affiliate earns commission which you can track in the [referrals dashboard](/guide/admin-portal/managing-referrals)
 6. You review and send [payouts](/guide/admin-portal/payout-management) — all from your dashboard
 
-It's simple, scalable, and built to grow with your business. Want to see all the features in detail? Check out our [FluentAffiliate glossary](/guide/getting-started/fluent-affiliate-glossary).
+It's simple, scalable, and built to grow with your business. Not sure what a term means? Check out our [FluentAffiliate glossary](/guide/getting-started/fluent-affiliate-glossary).

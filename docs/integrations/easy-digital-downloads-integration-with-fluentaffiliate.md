@@ -5,7 +5,7 @@ description: Learn how to integrate FluentAffiliate with Easy Digital Downloads 
 
 # Easy Digital Downloads Integration with FluentAffiliate
 
-Easy Digital Downloads (EDD) is a e-commerce plugin for WordPress, specifically designed to make selling digital products simple and efficient. By pairing EDD with FluentAffiliate, you can create a powerful affiliate program to promote your digital downloads, like eBooks & softwares, and manage your affiliate commissions effortlessly.
+Easy Digital Downloads (EDD) is an e-commerce plugin for WordPress, specifically designed to make selling digital products simple and efficient. By pairing EDD with FluentAffiliate, you can create a powerful affiliate program to promote your digital downloads, like eBooks & software, and manage your affiliate commissions effortlessly.
 
 This guide will walk you through how to connect Easy Digital Downloads with FluentAffiliate step by step.
 
@@ -37,7 +37,7 @@ Here are the options you can configure:
 
 ![Branded Coupon Code](/images/integrations/edd/branded-coupon-code.webp)
 
-For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates.To assign a coupon to a specific affiliate, follow these steps:
+For example, this is perfect if you want to give a special coupon code to a social media influencer who is also one of your affiliates. To assign a coupon to a specific affiliate, follow these steps:
 
  1. From your WordPress dashboard, navigate to **Downloads** > **Discounts**.
 
@@ -52,7 +52,7 @@ For example, this is perfect if you want to give a special coupon code to a soci
  > [!Note] 
  > Before you can assign a coupon, the user must already be an approved affiliate in your FluentAffiliate program.
 
-![Branded Coupon Code](/images/integrations/edd/fluentaffilaie-coupon.webp)
+![Assigning an affiliate to an EDD discount](/images/integrations/edd/fluentaffilaie-coupon.webp)
 
 
 * **Disable Referrals on Upgrades:** If you sell products with multiple tiers or upgrades, you can check this box to prevent commissions from being generated on upgrade purchases. This ensures affiliates are only rewarded for the initial sale.

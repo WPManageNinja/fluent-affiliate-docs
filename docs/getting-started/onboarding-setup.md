@@ -7,16 +7,16 @@ description: Complete FluentAffiliate onboarding guide. Learn how to set up your
 
 So, you've just installed FluentAffiliate. Welcome! The first thing you'll see is our quick **Onboarding** setup, designed to guide you through the core settings to get your affiliate program up and running in minutes.
 
-The best part? You're always in control. If you're not ready to configure everything right away, you can skip steps and revisit them later from the main settings panel.
+The best part? You're always in control. Every step saves when you click **Next** or **Finish**, and you can change any of these settings later from the main settings panel.
 
-Let's walk through the new onboarding setup, step by step.
+Let's walk through the onboarding setup, step by step.
 
 
 ## Step 1: Connect Your Plugins
 
 The first step helps FluentAffiliate understand which platforms you use to sell products, courses, or services.
 
-* **Choose your plugin to get started:** In this list, simply check the boxes next to the plugins you have installed and plan to use with your affiliate programs, such as FluentForms, WooCommerce, or LearnDash etc.
+* **Select any integrations you would like to enable for your store:** In this list, simply check the boxes next to the plugins you have installed and plan to use with your affiliate programs, such as FluentForms, WooCommerce, or LearnDash etc.
 
 Click the **Next** button to proceed.
 
@@ -51,5 +51,5 @@ FluentAffiliate will automatically place the `[fluent_affiliate_portal]` shortco
 
 When you're ready, click the **Finish** button to save your settings and complete the setup.
 
-That's it, you're all set with the onboarding setup for Fluent Affiliate! 
+That's it, you're all set with the onboarding setup for FluentAffiliate! 
 
