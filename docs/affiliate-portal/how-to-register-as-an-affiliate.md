@@ -21,6 +21,9 @@ Click the **Register Now** button on the login screen to start the sign-up proce
 
 ![Affiliate Registration Page](/images/affiliate-portal/registration/registration-page.webp)
 
+>[!NOTE]
+>If your site uses a security plugin that shows an extra challenge before login, the affiliate login form sends the user to the standard WordPress login page to complete it, and then returns them to the affiliate portal page they came from. This also works on sites with plain permalinks.
+
 ## Step 2: Fill Out the Registration Form
 
 After clicking **Register Now**, users will land on the Affiliate Registration page. Here, they'll be asked to provide the necessary details to create their affiliate account. It is divided into clear sections for ease of use. The order below is the default one; the site admin can reorder or hide some fields, and with FluentAffiliate Pro can add custom fields and a captcha.

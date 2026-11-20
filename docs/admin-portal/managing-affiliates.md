@@ -65,7 +65,7 @@ To the top-right of the table, you'll find icons to help you organize your view:
 
 ![Export Affiliates as CSV](/images/admin-portal/managing-affiliates/export-affiliates-csv.webp)
 
-* **Sort Options:** Sort affiliates by **Affiliate ID**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Register Date**. You can also choose between ascending or descending order, then click **Apply** to update.
+* **Sort Options:** Sort affiliates by **Affiliate ID**, **Name**, **Total Earnings**, **Unpaid Earnings**, **Referrals**, **Visits**, or **Register Date**. You can also choose between ascending or descending order, then click **Apply** to update. Sorting by **Name** uses the name shown in the list (first and last name, or the display name if none is set), and affiliates without a WordPress user are placed last.
 
 ![Affiliate Search and Sort Tools](/images/admin-portal/managing-affiliates/search-and-sort-tools.webp)
 

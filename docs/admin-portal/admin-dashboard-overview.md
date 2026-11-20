@@ -30,8 +30,14 @@ At the top of the dashboard, you'll find a series of boxes showing your most imp
 * **Pending Affiliates:** The number of new affiliate applications that are awaiting your approval.
 * **Total Order Value by Referrals:** The total revenue amount generated from all affiliate referrals.
 
-### Dark Mode / Light Mode Toggle
-In the top navbar, on every FluentAffiliate admin page, next to the **Settings** button, you'll find the display mode toggle. Simply click the **moon** icon to switch the entire interface to a **dark** theme, which can be easier on the eyes in low-light environments. To switch back, click the **sun** icon that appears in its place.
+### Color Theme (Light, Dark or System)
+In the top navbar, on every FluentAffiliate admin page, next to the **Settings** button, you'll find the **Color theme** button. Click it to open a small menu with three options:
+
+* **Light:** Always use the light theme.
+* **Dark:** Always use the dark theme, which can be easier on the eyes in low-light environments.
+* **System:** Follow your device's light or dark mode setting automatically, so the interface switches along with your computer or phone.
+
+A check mark shows the option that is currently selected. Your choice is remembered in your browser, so the interface opens in your chosen theme without a bright flash on page load.
 
 ### Growth Overview
 
