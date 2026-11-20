@@ -9,7 +9,8 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "featured:generate": "node scripts/generate-featured-images.mjs",
-    "featured:regenerate": "node scripts/generate-featured-images.mjs --force"
+    "featured:regenerate": "node scripts/generate-featured-images.mjs --force",
+    "shots": "node scripts/screenshots/shoot.cjs"
   },
   "keywords": [
     "fluentaffiliate",
@@ -20,6 +21,7 @@
   "author": "WPManageNinja",
   "license": "GPL-3.0",
   "devDependencies": {
+    "playwright-core": "^1.65.1",
     "sharp": "^0.35.4",
     "vitepress": "^1.6.4"
   }

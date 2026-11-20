@@ -11,3 +11,7 @@ fluentaffiliate.WordPress.2025-06-23.xml
 # DO NOT ignore the images folder!
 # (No line like /docs/public/images)
 /.vitepress/dist
+
+# Local-only tooling (not uploaded to git)
+/scripts/screenshots
+/.claude
