@@ -10,7 +10,7 @@ SureCart is a modern e-commerce platform for WordPress, built to make selling pr
 This guide will walk you through the simple steps to connect SureCart with FluentAffiliate.
 
 >[!NOTE]
-> Surecart is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+> SureCart is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
 >
 > To get started, you first need to install and activate the SureCart plugin on your WordPress website.
 
@@ -23,15 +23,24 @@ Activating the connection between SureCart and FluentAffiliate is as simple as f
 3. On the left sidebar, find and click on **Integration Settings**. 
 4. You will see a list of different integration options. Find **SureCart** in this list and click the **toggle** button to enable the integration.
 
-That's it! Unlike some other integrations, there are no extra settings to configure. Once the toggle is active, your SureCart store is connected to **FluentAffiliate**, and it's ready to start tracking affiliate referrals.
+Once the toggle is active, your SureCart store is connected to **FluentAffiliate**, and it's ready to start tracking affiliate referrals. A **Manage** link will appear next to the toggle, where you can fine-tune how commissions work for SureCart.
 
 ![Integration Settings](/images/integrations/surecart/integration-setup-options.webp)
 
+## Configure SureCart Settings
+
+Click **Manage** to see the available options:
+
+* **Enable Affiliate Integration for SureCart:** This checkbox acts as the master switch for the integration. Ensure it is checked.
+* **Enable custom rate for specific products:** Check this box if you want to override your default commission rate for specific SureCart products. Click **+ Add New Group**, select the products, enter the rate in the **Enter Rate** field, and choose whether it is a **Percentage (%)** or **Fixed** amount.
+
+Click **Save Settings** to apply your changes.
+
 ## Generate an Affiliate Link
 
-Once you've finished setting up your **Surecart** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
+Once you've finished setting up your **SureCart** product settings, it's time to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links).
 
-When a customer clicks the link and completes a purchase, a commission will be automatically tracked and awarded to the affiliate based on your global commission settings.
+When a customer clicks the link and completes a purchase, a commission will be automatically tracked and awarded to the affiliate based on your global commission settings, or on the custom rate you set for that product.
 
 ![Referral](/images/integrations/surecart/referral-overview.webp)
 

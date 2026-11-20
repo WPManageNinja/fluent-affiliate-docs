@@ -21,15 +21,15 @@ First, you need to tell FluentAffiliate to connect with Paymattic.
 3.  From the left sidebar, select the **Integration Settings** option.
 4.  You will see a list of available integrations. Find **Paymattic** in the list and click the toggle button to enable it.
 
-Your **Paymattic** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on course sales.
+Your **Paymattic** integration with **FluentAffiliate** is now active, allowing affiliates to earn referral commissions on payments made through your Paymattic forms.
 
-In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your courses.
+In the **Manage** section, you'll find additional settings to customize how affiliate commissions work with your payment forms.
 
 ![Integration Settings](/images/integrations/paymattic/integration-setup-options.webp)
 
 ## Configure Paymattic Settings
 
-Once you enable the integration, a settings pop-up will appear, giving you powerful options to control how commissions are handled for your forms.
+Click the **Manage** link next to the toggle to open the settings pop-up, giving you powerful options to control how commissions are handled for your forms.
 
 Here’s a breakdown of the settings you'll see:
 
@@ -49,7 +49,7 @@ If you enabled custom rates, you can configure them easily:
 
 ## Generate an Affiliate Link
 
-After you've set everything up, your affiliates can start promoting your forms. To learn more about how can generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
+After you've set everything up, your affiliates can start promoting your forms. To learn more about how to generate your [affiliate link](/guide/affiliate-portal/generating-affiliate-links), read this article.
 
 Your affiliate can now **copy** this link and share it on their blog, social media, or with their audience. When a user clicks this link and submits the form, the affiliate will earn a commission!
 

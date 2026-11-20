@@ -1,17 +1,19 @@
+---
+title: ProfilePress Integration with FluentAffiliate
+description: Learn how to integrate FluentAffiliate with ProfilePress. Set up affiliate commissions for membership plan sales and configure custom commission rates.
+---
+
 # ProfilePress Integration with FluentAffiliate
 
 ProfilePress is a modern WordPress plugin for creating user profiles, membership sites, and restricting content. By connecting ProfilePress with FluentAffiliate, you can easily set up an affiliate program to reward users for promoting your membership plans and paid content.
 
 This guide will walk you through the simple steps to integrate ProfilePress with FluentAffiliate.
 
-With this integration, your affiliates can earn commissions when they refer users who purchase:
-* **Membership Plans:** Sell recurring access to exclusive content, forums, or communities.
-* **Digital Downloads:** Offer eBooks, software, or templates.
-* **Online Courses:** Restrict access to your training videos and lessons by membership level.
-* **Private Communities:** Monetize access to member directories.
-* **Recurring Services:** Sell ongoing coaching retainers or maintenance plans.
+With this integration, your affiliates can earn commissions when they refer users who purchase your ProfilePress membership plans.
 
 > [!NOTE]
+> ProfilePress integration is a pro feature of FluentAffiliate. To use it, you need FluentAffiliate Pro.
+>
 > To get started, you must first install and activate the ProfilePress Pro plugin on your WordPress website.
 
 ## Enable ProfilePress in FluentAffiliate
