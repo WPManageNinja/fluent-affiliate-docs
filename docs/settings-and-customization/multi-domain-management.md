@@ -7,13 +7,16 @@ description: Learn how to manage multiple domains with FluentAffiliate. Set up c
 
 The **Multi-Domain Management** feature is designed to track affiliate referrals that originate from different websites that you own.
 
+> [!Note]
+> Multi-Domain Management requires [FluentAffiliate Pro](https://fluentaffiliate.com/pricing/).
+
 The core principle is straightforward: An affiliate can link to any of your connected "Child Sites" (like a blog), but the final transaction **must** occur on your "Main Site" (your primary store) for a commission to be generated. The system seamlessly tracks the user's journey between these sites.
 
 ## How This Works in Practice
 
 Let's use two websites for a clear example:
 
-* **`siteX.com` (Your Main Site):** This is your primary online store where products are sold and payments are processed. The full FluentAffiliate plugin is installed here.
+* **`siteX.com` (Your Main Site):** This is your primary online store where products are sold and payments are processed. The full FluentAffiliate plugin (with FluentAffiliate Pro) is installed here.
 * **`siteY.com` (Your Child Site):** This is a content blog you own, used to review products or attract new visitors.
 
 Here is the step-by-step customer journey:

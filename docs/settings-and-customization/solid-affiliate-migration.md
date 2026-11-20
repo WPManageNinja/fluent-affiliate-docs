@@ -30,7 +30,7 @@ wp fluent_affiliate migrate_from_solid_affiliate
 ```
 
 >[!Note]
->This CLI migration will remove all existing data from FluentAffiliate before starting the migration. This command will migrate all of your Solid Affiliate data, including affiliates, referrals, payouts, and visits, to FluentAffiliate.
+>This CLI migration will remove all existing data from FluentAffiliate before starting the migration. This command will migrate all of your Solid Affiliate data, including affiliates, referrals, payouts, visits, affiliate groups, customers, and creatives, to FluentAffiliate.
 
 <hr />
 
@@ -46,11 +46,13 @@ On the Migrator Settings page, you will see a dropdown menu under "**Please sele
 
 Click the **Migrate** button to begin. A pop-up will appear displaying an overview of the data available for migration, including:
 
+- Total Affiliate Groups
 - Total Affiliates
 - Total Referrals
 - Total Payouts
 - Total Visits
 - Total Customers
+- Total Creatives (FluentAffiliate Pro)
 
 You also have the option to check **Reset Current Migration** if you need to restart a previous attempt. Click **Confirm** to proceed.
 
@@ -58,7 +60,7 @@ You also have the option to check **Reset Current Migration** if you need to res
 
 A final confirmation box will appear, warning you that this action cannot be undone. Click **Yes, Migrate**.
 
-- **Monitor Progress:** A progress window will show the status of each data type (Affiliates, Referrals, Customers, Payouts, and Visits) as they are moved to FluentAffiliate.
+- **Monitor Progress:** A progress window will show the status of each data type (Affiliate Groups, Affiliates, Referrals, Customers, Payouts, Visits, and Creatives) as they are moved to FluentAffiliate.
 - **Completion:** Once finished, a "**Migration Completed**" message will display a summary of the total metrics migrated. Click **Close** to return to the dashboard.
 
 ### Data Cleanup

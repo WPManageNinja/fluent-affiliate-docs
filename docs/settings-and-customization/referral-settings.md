@@ -30,11 +30,11 @@ Watch how to build a commission structure that keeps affiliates motivated:
 Configure how monetary values and numbers are displayed across the plugin.
 
 * **Currency:** Select the primary currency for your store's transactions and affiliate payouts. "United States Dollar" is the example shown.
-* **Number Format:** Choose the character style for separating thousands in numerical values. Options include US Style (1,000,00.00) and EU Style (1.000,00,00).
-* **Currency Symbol Position:** Choose whether the currency symbol appears Before ($10) or After (10$) the amount.
 * **Payout Method:** This setting allows you to choose how your affiliates will receive their earnings. You can select your preferred method from the dropdown menu:
    * **PayPal:** A common method for sending automated or manual payments via email. Select this option if you want to send payouts through **PayPal Payouts**. To set it up, check out the [PayPal Payouts](/guide/settings-and-customization/paypal-payouts) guide.
    * **Bank Transfer:** If you select this option, affiliates will provide their bank details for payouts instead of an email address.
+* **Number Format:** Choose the character style for separating thousands in numerical values. Options include US Style (1,000.00) and EU Style (1.000,00).
+* **Currency Symbol Position:** Choose whether the currency symbol appears Before ($10) or After (10$) the amount.
 
 ### Tracking & Credit Rules
 
@@ -56,9 +56,6 @@ Here's what happens when a holding period is set:
 * When you create a payout, the referrals that are still on hold are left out. The review page tells you how many referrals are on hold and their total amount. Don't worry, they stay unpaid, so a later payout can pay them.
 * If you need to pay the referrals that are on hold, check the **Ignore the holding period** option when you create the payout. To learn more, check out the [Payout Management](/guide/admin-portal/payout-management) guide.
 
-![Recurring Settings](/images/settings-and-customization/referral/recurring-commission-settings.webp)
-
-
 ### Page, Cost, & Subscription Settings
 
 This section allows you to configure page assignments, cost exclusions, and rules for self-referrals and subscriptions.
@@ -68,8 +65,6 @@ This section allows you to configure page assignments, cost exclusions, and rule
 * **Exclude Shipping:** Enable this option to exclude shipping costs from the calculation of referral commissions.
 * **Exclude Tax:** Enable this to exclude tax amounts from the calculation of referral commissions.
 * **Disable Self Referral:** Enable this to prevent affiliates from earning commissions on their own purchases.
-
-![Cost and Tax Settings](/images/settings-and-customization/referral/recurring-commission-settings.webp)
 
 #### Affiliate Commission on Subscription Renewal
 

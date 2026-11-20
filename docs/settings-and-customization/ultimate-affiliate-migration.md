@@ -5,7 +5,7 @@ description: Migrate your affiliate program from Ultimate Affiliate Pro to Fluen
 
 # Ultimate Affiliate Migration
 
-The Migrator Settings in FluentAffiliate allow you to seamlessly import your entire affiliate program from other affiliate plugins without disruption. Currently, FluentAffiliate supports migration from **Ultimate Affiliate Pro**, helping you bring over your existing data so you can upgrade to a modern affiliate management experience without losing your historical records.
+The Migrator Settings in FluentAffiliate allow you to seamlessly import your entire affiliate program from other affiliate plugins without disruption. This guide covers migration from **Ultimate Affiliate Pro**, helping you bring over your existing data so you can upgrade to a modern affiliate management experience without losing your historical records.
 
 This guide will walk you through everything you need to transfer your affiliates, referrals, visits, payouts, customers, creatives, and affiliate groups from Ultimate Affiliate Pro directly into FluentAffiliate — quickly, safely, and without any data loss.
 
@@ -29,7 +29,7 @@ wp fluent_affiliate migrate_from_ultimate_affiliate
 ```
 
 > [!NOTE]
-> Running this **CLI** migration will automatically remove all existing data from FluentAffiliate before the import begins. This command will seamlessly migrate all of your Ultimate Affiliate data including affiliates, referrals, payouts, and visits straight into FluentAffiliate.
+> Running this **CLI** migration will automatically remove all existing data from FluentAffiliate before the import begins. This command will seamlessly migrate all of your Ultimate Affiliate data including affiliates, referrals, payouts, visits, affiliate groups, customers, and creatives straight into FluentAffiliate.
 
 ## Method 2: Migration Using the Web UI
 
@@ -46,7 +46,7 @@ If you prefer a guided, visual approach, you can run the migration directly from
 
 ## Data Cleanup
 
-This section also includes a **Wipe Data** tool to clean up your FluentAffiliate data. To use it, select the data you wish to remove, confirm your choice, and wait for the process to finish.
+This section also includes a **Wipe Existing Data** tool to clean up your FluentAffiliate data. To use it, select the data you wish to remove, confirm your choice, and wait for the process to finish.
 
 
 > [!WARNING]

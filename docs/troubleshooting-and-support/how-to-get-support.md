@@ -28,6 +28,12 @@ To ensure you receive the quickest and most effective assistance, please follow 
     * **Your FluentAffiliate Plugin Version.**
     * **Any Other Plugins Active on Your Site:** List them, especially if they are related to e-commerce, memberships, or forms that you have integrated with FluentAffiliate.
 
+## Other Ways to Get Help
+
+* **Community:** Ask questions and share ideas in the [FluentAffiliate Community](https://community.wpmanageninja.com/portal/space/fluentaffiliate/home).
+* **WordPress.org Support Forum:** If you use the free version, you can also post in the [FluentAffiliate support forum](https://wordpress.org/support/plugin/fluent-affiliate/) on WordPress.org.
+* **Documentation:** Browse this documentation for step-by-step guides.
+
 **Support Hours:** Our support team operates during business hours, typically Monday to Friday. We strive to respond to all inquiries as quickly as possible.
 
 We are committed to helping you succeed with FluentAffiliate!

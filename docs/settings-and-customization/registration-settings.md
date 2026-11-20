@@ -19,7 +19,7 @@ At the top of the page, you will find the two primary settings that control your
     * When this option is **enabled**, the affiliate registration form will be active and accessible, allowing new users to sign up.
     * If you **disable** this option, it will prevent any new users from registering as affiliates.
 
-* **Require admin approval for new affiliates:** This setting gives you direct control over your affiliate vetting and approval workflow.
+* **Require Admin Approval for New Affiliates:** This setting gives you direct control over your affiliate vetting and approval workflow.
     * **When Enabled (Manual Approval):** If you check this box, you have full control over who joins your program. New applicants will have their status set to "pending." You will then need to navigate to their individual affiliate profile to manually review their application and approve them. This is the recommended setting if you want to screen your affiliates before they can start promoting your site.
     * **When Disabled (Automatic Approval):** If you leave this box unchecked, the approval process is hands-off. Any user who successfully completes the registration form will instantly become an active affiliate and can begin generating referral links immediately.
 
@@ -28,6 +28,9 @@ At the top of the page, you will find the two primary settings that control your
 ## Managing Registration Fields
 
 This section allows you to customize the registration form that potential affiliates will fill out. You can enable, disable, and edit the fields as needed.
+
+> [!Note]
+> Without FluentAffiliate Pro, the field toggles are disabled and the save button reads "Save Settings (Pro Required)". Editing, hiding and adding fields requires [FluentAffiliate Pro](https://fluentaffiliate.com/pricing/).
 
 #### Activating or Hiding Fields
 For many fields, such as "How will you promote us?" or "Website URL," you can simply click the toggle switch to activate (show) or hide the field on the registration form.
@@ -40,11 +43,14 @@ For core system fields like "Full name" or "Email Address," you can click the **
 In this pop-up, you can modify the following options:
 * **Label:** Change the display name of the field.
 * **Placeholder:** Set the placeholder text that appears inside the input field.
+* **Help Message:** Add a short hint shown to affiliates under the field.
 * **Required:** Choose whether the field is mandatory for the user to fill out.
 * **Status:** Use this toggle to enable or disable the field on the form.
 
 > [!Note]
 > As noted in the pop-up, some system-defined fields have strict rules and might only allow you to edit their labels or placeholders. Other fields, like the Terms and Conditions agreement, give you a full visual text editor to perfectly format your text.
+
+Each field in the list shows badges such as **Required**, **System**, **Custom**, **Hidden** and **Public Only**, so you can see how it behaves at a glance.
 
 ## Adding Custom Fields (Pro)
 
@@ -69,6 +75,8 @@ Here is how to build your custom fields:
 8. Click the **Save** button.
 
 ![Add Custom Registartion](/images/settings-and-customization/registration-settings/registration-field/add-custom-registartion-field-3.webp)
+
+To remove a custom field, click its **Delete** button and confirm in the **Delete Field** dialog.
 
 Whatever an affiliate submits through these custom fields will show up right on their profile in your admin dashboard, inside the **Affiliate Info** panel. This means all their answers live right next to the person they belong to!
 
